@@ -1,0 +1,255 @@
+{
+  "Active": {
+    "Ticker": "BAC",
+    "Direction": "LONG",
+    "EntryPrice": 59.185,
+    "CurrentPrice": 59.755,
+    "CurrentReturn": 0.96,
+    "OpenedAt": "2026-07-09T15:45:35.6192047Z",
+    "TargetPct": 3.5,
+    "StopPct": 2.0,
+    "MaxDays": 7,
+    "EntryRegime": "BULL_HIGH_VOL",
+    "Thesis": "LONG BAC (FIN) macro=YELLOW regime=BULL_HIGH_VOL score 1.16 from 5 signals",
+    "SourceScanners": [
+      "KESTREL__kestrel",
+      "SCALPER__scalp",
+      "SCALP_V3__scalp_v3",
+      "STOCKS_ONEPERCENT__onepct",
+      "KESTREL__multi_winners"
+    ],
+    "MacroRegimeAtEntry": "YELLOW",
+    "MacroSizeMult": 0.75
+  },
+  "History": [
+    {
+      "Ticker": "GS",
+      "Direction": "LONG",
+      "EntryPrice": 1021.17,
+      "ExitPrice": 1060.54,
+      "FinalReturn": 3.86,
+      "OpenedAt": "2026-07-01T15:38:51.5435602Z",
+      "ClosedAt": "2026-07-09T15:45:35.4536855Z",
+      "EntryRegime": "BULL_HIGH_VOL",
+      "Status": "TARGET",
+      "Thesis": "LONG GS (FIN) macro=YELLOW regime=BULL_HIGH_VOL score 1.39 from 5 signals",
+      "SourceScanners": [
+        "ADAPTIVE__chameleon",
+        "KESTREL__kestrel",
+        "ONEPERCENT_V3_ASCENDENT__onepct_v3",
+        "STC_INVERSE__inverse_stc",
+        "KESTREL__multi_winners"
+      ],
+      "MacroRegimeAtEntry": "YELLOW",
+      "MacroSizeMult": 0.75
+    },
+    {
+      "Ticker": "V",
+      "Direction": "SHORT",
+      "EntryPrice": 343.17,
+      "ExitPrice": 350.235,
+      "FinalReturn": -2.06,
+      "OpenedAt": "2026-06-30T15:36:05.4851229Z",
+      "ClosedAt": "2026-07-01T15:38:51.4297332Z",
+      "EntryRegime": "BULL_HIGH_VOL",
+      "Status": "STOPPED",
+      "Thesis": "SHORT V (FIN) macro=YELLOW regime=BULL_HIGH_VOL score 2.23 from 2 signals",
+      "SourceScanners": [
+        "BESTTAQUAD__ichimoku",
+        "STC__stc"
+      ],
+      "MacroRegimeAtEntry": "YELLOW",
+      "MacroSizeMult": 0.75
+    },
+    {
+      "Ticker": "GOOG",
+      "Direction": "LONG",
+      "EntryPrice": 340.455,
+      "ExitPrice": 353.15,
+      "FinalReturn": 3.73,
+      "OpenedAt": "2026-06-26T15:36:18.9419957Z",
+      "ClosedAt": "2026-06-30T15:36:05.400119Z",
+      "EntryRegime": "BULL_HIGH_VOL",
+      "Status": "TARGET",
+      "Thesis": "LONG GOOG (COMM) macro=GREEN regime=BULL_HIGH_VOL score 5.40 from 3 signals",
+      "SourceScanners": [
+        "ADAPTIVE__chameleon",
+        "HIGHWR__threedown",
+        "STOCKS_NEWSCANNER__altdata"
+      ],
+      "MacroRegimeAtEntry": "GREEN",
+      "MacroSizeMult": 1.0
+    },
+    {
+      "Ticker": "PM",
+      "Direction": "LONG",
+      "EntryPrice": 175.45,
+      "ExitPrice": 181.84,
+      "FinalReturn": 3.64,
+      "OpenedAt": "2026-06-22T15:36:29.2631483Z",
+      "ClosedAt": "2026-06-26T15:36:18.8387037Z",
+      "EntryRegime": "BULL_HIGH_VOL",
+      "Status": "TARGET",
+      "Thesis": "LONG PM (STAPLES) macro=GREEN regime=BULL_HIGH_VOL score 7.80 from 3 signals",
+      "SourceScanners": [
+        "ADAPTIVE__chameleon",
+        "HIGHWR__threedown",
+        "STC_INVERSE__inverse_stc"
+      ],
+      "MacroRegimeAtEntry": "GREEN",
+      "MacroSizeMult": 1.0
+    },
+    {
+      "Ticker": "AAPL",
+      "Direction": "LONG",
+      "EntryPrice": 291.67,
+      "ExitPrice": 300.39,
+      "FinalReturn": 2.99,
+      "OpenedAt": "2026-06-12T15:40:31.7726957Z",
+      "ClosedAt": "2026-06-22T15:36:29.1796595Z",
+      "EntryRegime": "BULL_HIGH_VOL",
+      "Status": "EXPIRED",
+      "Thesis": "LONG AAPL (TECH) macro=GREEN regime=BULL_HIGH_VOL score 4.22 from 9 signals",
+      "SourceScanners": [
+        "ADAPTIVE__chameleon",
+        "HIGHWR__threedown",
+        "KESTREL__kestrel",
+        "SCALPER__scalp",
+        "STC__stc",
+        "STOCKS_ONEPERCENT__onepct",
+        "STOCKS_ONEPERCENT_V2__onepct",
+        "VIPER__ta",
+        "KESTREL__multi_winners"
+      ],
+      "MacroRegimeAtEntry": "GREEN",
+      "MacroSizeMult": 1.0
+    },
+    {
+      "Ticker": "AMD",
+      "Direction": "LONG",
+      "EntryPrice": 458.3,
+      "ExitPrice": 514.23,
+      "FinalReturn": 12.2,
+      "OpenedAt": "2026-06-10T15:42:23.3391559Z",
+      "ClosedAt": "2026-06-12T15:40:31.6205398Z",
+      "EntryRegime": "BULL_HIGH_VOL",
+      "Status": "TARGET",
+      "Thesis": "LONG AMD (TECH) macro=YELLOW regime=BULL_HIGH_VOL score 1.44 from 4 signals",
+      "SourceScanners": [
+        "ADAPTIVE__chameleon",
+        "KESTREL__kestrel",
+        "SCALPER__scalp",
+        "VIPER__ta"
+      ],
+      "MacroRegimeAtEntry": "YELLOW",
+      "MacroSizeMult": 0.75
+    },
+    {
+      "Ticker": "GM",
+      "Direction": "LONG",
+      "EntryPrice": 82.25,
+      "ExitPrice": 79.44,
+      "FinalReturn": -3.42,
+      "OpenedAt": "2026-06-05T15:40:23.8119578Z",
+      "ClosedAt": "2026-06-10T15:42:23.2372513Z",
+      "EntryRegime": "BULL_HIGH_VOL",
+      "Status": "STOPPED",
+      "Thesis": "LONG GM (OTHER) macro=GREEN regime=BULL_HIGH_VOL score 4.66 from 2 signals",
+      "SourceScanners": [
+        "KESTREL__kestrel",
+        "KESTREL__multi_winners"
+      ],
+      "MacroRegimeAtEntry": "GREEN",
+      "MacroSizeMult": 1.0
+    },
+    {
+      "Ticker": "HP",
+      "Direction": "LONG",
+      "EntryPrice": 39.73,
+      "ExitPrice": 38.295,
+      "FinalReturn": -3.61,
+      "OpenedAt": "2026-06-02T15:38:33.2761819Z",
+      "ClosedAt": "2026-06-05T15:40:23.6675935Z",
+      "EntryRegime": "BULL_HIGH_VOL",
+      "Status": "STOPPED",
+      "Thesis": "LONG HP (OTHER) macro=YELLOW regime=BULL_HIGH_VOL score 5.91 from 3 signals",
+      "SourceScanners": [
+        "STOCKS_NEWSCANNER__altdata",
+        "STOCKS_PREVIRAL__previral",
+        "STOCKS_SENTIMENT_V5__sentiment_v5"
+      ],
+      "MacroRegimeAtEntry": "YELLOW",
+      "MacroSizeMult": 0.75
+    },
+    {
+      "Ticker": "AMAT",
+      "Direction": "LONG",
+      "EntryPrice": 456.875,
+      "ExitPrice": 483.42,
+      "FinalReturn": 5.81,
+      "OpenedAt": "2026-06-01T15:40:03.2391305Z",
+      "ClosedAt": "2026-06-02T15:38:33.1472478Z",
+      "EntryRegime": "BULL_HIGH_VOL",
+      "Status": "TARGET",
+      "Thesis": "LONG AMAT (TECH) macro=YELLOW regime=BULL_HIGH_VOL score 5.60 from 2 signals",
+      "SourceScanners": [
+        "ADAPTIVE__chameleon",
+        "KESTREL__kestrel"
+      ],
+      "MacroRegimeAtEntry": "YELLOW",
+      "MacroSizeMult": 0.75
+    },
+    {
+      "Ticker": "MRVL",
+      "Direction": "LONG",
+      "EntryPrice": 197.96,
+      "ExitPrice": 218.18,
+      "FinalReturn": 10.21,
+      "OpenedAt": "2026-05-27T15:36:26.7548858Z",
+      "ClosedAt": "2026-06-01T15:40:03.1276435Z",
+      "EntryRegime": "BULL_HIGH_VOL",
+      "Status": "TARGET",
+      "Thesis": "LONG MRVL (TECH) macro=YELLOW regime=BULL_HIGH_VOL score 3.25 from 2 signals",
+      "SourceScanners": [
+        "KESTREL__kestrel",
+        "STOCKS_NEWSCANNER__altdata"
+      ],
+      "MacroRegimeAtEntry": "YELLOW",
+      "MacroSizeMult": 0.75
+    },
+    {
+      "Ticker": "NVDA",
+      "Direction": "LONG",
+      "EntryPrice": 214.39,
+      "ExitPrice": 209.865,
+      "FinalReturn": -2.11,
+      "OpenedAt": "2026-05-26T15:39:26.7450351Z",
+      "ClosedAt": "2026-05-27T15:36:26.6381066Z",
+      "EntryRegime": "BULL_HIGH_VOL",
+      "Status": "STOPPED",
+      "Thesis": "LONG NVDA (TECH) macro=YELLOW regime=BULL_HIGH_VOL score 3.14 from 5 signals",
+      "SourceScanners": [
+        "HIGHWR__threedown",
+        "KESTREL__kestrel",
+        "ONEPERCENT_V3_ASCENDENT__onepct_v3",
+        "SCALPER__scalp",
+        "VIPER__ta"
+      ],
+      "MacroRegimeAtEntry": "YELLOW",
+      "MacroSizeMult": 0.75
+    }
+  ],
+  "CoolDowns": {
+    "NVDA": "2026-06-01T15:36:26.6384547Z",
+    "MRVL": "2026-06-06T15:40:03.1277558Z",
+    "AMAT": "2026-06-07T15:38:33.147356Z",
+    "HP": "2026-06-10T15:40:23.6677076Z",
+    "GM": "2026-06-15T15:42:23.2373628Z",
+    "AMD": "2026-06-17T15:40:31.6206478Z",
+    "AAPL": "2026-06-27T15:36:29.1798268Z",
+    "PM": "2026-07-01T15:36:18.8388204Z",
+    "GOOG": "2026-07-05T15:36:05.4002239Z",
+    "V": "2026-07-06T15:38:51.4298563Z",
+    "GS": "2026-07-14T15:45:35.4538158Z"
+  }
+}
