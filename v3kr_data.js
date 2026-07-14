@@ -1,22 +1,22 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-07-13T15:42:04Z",
-  "totalClosed": 693,
-  "totalOpen": 19,
+  "generatedAt": "2026-07-14T15:45:54Z",
+  "totalClosed": 698,
+  "totalOpen": 17,
   "winRate": 56.7,
-  "avgReturnPct": 1.96,
-  "avgQqqReturnPct": 0.44,
+  "avgReturnPct": 1.91,
+  "avgQqqReturnPct": 0.42,
   "strategies": [
     {
       "strategy": "Quad Earnings GAP D1",
       "verdict": "KEEP",
-      "closed": 178,
-      "open": 2,
-      "winRate": 54.5,
-      "avgReturnPct": 2.99,
-      "expectancy": 2.99,
-      "returnOnCapital": 35.4,
+      "closed": 180,
+      "open": 0,
+      "winRate": 53.9,
+      "avgReturnPct": 2.74,
+      "expectancy": 2.74,
+      "returnOnCapital": 32.8,
       "avgPeakPct": 0.23,
-      "insight": "SHORT book +4.4% (68t) vs LONG book +2.1% (110t). The LONG side is the drag — trading SHORT-only flips the scanner.",
+      "insight": "SHORT book +4.4% (68t) vs LONG book +1.7% (112t). The LONG side is the drag — trading SHORT-only flips the scanner.",
       "insightKind": "split"
     },
     {
@@ -35,14 +35,14 @@ window.V3KR_DATA = {
     {
       "strategy": "Kestrel",
       "verdict": "KEEP",
-      "closed": 214,
+      "closed": 217,
       "open": 9,
-      "winRate": 60.7,
-      "avgReturnPct": 0.61,
-      "expectancy": 0.61,
-      "returnOnCapital": 9.3,
-      "avgPeakPct": 0.24,
-      "insight": "Genuine positive edge: 61% WR, +0.6% avg, expectancy +0.6% across 214 trades. One of the real ones — watch it hold out-of-sample.",
+      "winRate": 61.3,
+      "avgReturnPct": 0.66,
+      "expectancy": 0.66,
+      "returnOnCapital": 10.3,
+      "avgPeakPct": 0.3,
+      "insight": "Genuine positive edge: 61% WR, +0.7% avg, expectancy +0.7% across 217 trades. One of the real ones — watch it hold out-of-sample.",
       "insightKind": "keep"
     },
     {
@@ -75,10 +75,10 @@ window.V3KR_DATA = {
   "trades": [
     {
       "strategy": "Kestrel",
-      "ticker": "LLY",
+      "ticker": "PLTR",
       "direction": "LONG",
-      "entryPrice": 1187.73,
-      "entryTime": "2026-07-13T15:28:47Z",
+      "entryPrice": 132.26,
+      "entryTime": "2026-07-14T15:31:51Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -87,10 +87,10 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Kestrel",
-      "ticker": "ABBV",
+      "ticker": "MDB",
       "direction": "LONG",
-      "entryPrice": 246.43,
-      "entryTime": "2026-07-13T15:28:47Z",
+      "entryPrice": 344.05,
+      "entryTime": "2026-07-14T15:31:51Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -99,10 +99,10 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Kestrel",
-      "ticker": "MRK",
+      "ticker": "HUBS",
       "direction": "LONG",
-      "entryPrice": 123.53,
-      "entryTime": "2026-07-13T15:28:47Z",
+      "entryPrice": 212.1,
+      "entryTime": "2026-07-14T15:31:51Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -115,11 +115,11 @@ window.V3KR_DATA = {
       "direction": "LONG",
       "entryPrice": 274.42,
       "entryTime": "2026-07-13T15:28:47Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
+      "exitPrice": 280.42,
+      "exitTime": "2026-07-14T15:30:39Z",
+      "open": false,
+      "returnPct": 2.19,
+      "qqqReturnPct": 1.28
     },
     {
       "strategy": "Kestrel",
@@ -127,11 +127,11 @@ window.V3KR_DATA = {
       "direction": "LONG",
       "entryPrice": 141.29,
       "entryTime": "2026-07-13T15:28:47Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
+      "exitPrice": 153.02,
+      "exitTime": "2026-07-14T15:30:39Z",
+      "open": false,
+      "returnPct": 8.31,
+      "qqqReturnPct": 1.28
     },
     {
       "strategy": "Kestrel",
@@ -139,10 +139,70 @@ window.V3KR_DATA = {
       "direction": "LONG",
       "entryPrice": 550.24,
       "entryTime": "2026-07-13T15:28:47Z",
+      "exitPrice": 566.54,
+      "exitTime": "2026-07-14T15:30:39Z",
+      "open": false,
+      "returnPct": 2.96,
+      "qqqReturnPct": 1.28
+    },
+    {
+      "strategy": "Quad Earnings GAP D1",
+      "ticker": "AGEN",
+      "direction": "LONG",
+      "entryPrice": 6.8,
+      "entryTime": "2026-07-13T15:23:35Z",
+      "exitPrice": 5.68,
+      "exitTime": "2026-07-14T15:26:00Z",
+      "open": false,
+      "returnPct": -16.59,
+      "qqqReturnPct": 1.28
+    },
+    {
+      "strategy": "Quad Earnings GAP D1",
+      "ticker": "MIMI",
+      "direction": "LONG",
+      "entryPrice": 3.13,
+      "entryTime": "2026-07-13T15:23:35Z",
+      "exitPrice": 2.43,
+      "exitTime": "2026-07-14T15:26:00Z",
+      "open": false,
+      "returnPct": -22.36,
+      "qqqReturnPct": 1.28
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "LLY",
+      "direction": "LONG",
+      "entryPrice": 1187.73,
+      "entryTime": "2026-07-13T15:28:47Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -2.88,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "ABBV",
+      "direction": "LONG",
+      "entryPrice": 246.43,
+      "entryTime": "2026-07-13T15:28:47Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": -0.45,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "MRK",
+      "direction": "LONG",
+      "entryPrice": 123.53,
+      "entryTime": "2026-07-13T15:28:47Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": -1.86,
       "qqqReturnPct": null
     },
     {
@@ -154,7 +214,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -0.7,
       "qqqReturnPct": null
     },
     {
@@ -166,7 +226,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -1.51,
       "qqqReturnPct": null
     },
     {
@@ -178,7 +238,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 0.23,
       "qqqReturnPct": null
     },
     {
@@ -191,7 +251,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:27:43Z",
       "open": false,
       "returnPct": -0.18,
-      "qqqReturnPct": -1.24
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Kestrel",
@@ -203,7 +263,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:27:42Z",
       "open": false,
       "returnPct": 2.98,
-      "qqqReturnPct": -1.24
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Kestrel",
@@ -215,7 +275,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:27:42Z",
       "open": false,
       "returnPct": 3.07,
-      "qqqReturnPct": -1.24
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Kestrel",
@@ -227,7 +287,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:27:42Z",
       "open": false,
       "returnPct": 2.7,
-      "qqqReturnPct": -1.24
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Kestrel",
@@ -239,7 +299,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:27:42Z",
       "open": false,
       "returnPct": 3.26,
-      "qqqReturnPct": -1.24
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Kestrel",
@@ -251,7 +311,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:27:41Z",
       "open": false,
       "returnPct": 2.31,
-      "qqqReturnPct": -0.93
+      "qqqReturnPct": -1.6
     },
     {
       "strategy": "Kestrel",
@@ -263,7 +323,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:27:41Z",
       "open": false,
       "returnPct": -2.59,
-      "qqqReturnPct": -0.93
+      "qqqReturnPct": -1.6
     },
     {
       "strategy": "Kestrel",
@@ -275,7 +335,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:27:41Z",
       "open": false,
       "returnPct": -0.63,
-      "qqqReturnPct": -0.93
+      "qqqReturnPct": -1.6
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -286,7 +346,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 4.89,
       "qqqReturnPct": null
     },
     {
@@ -298,7 +358,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 1.1,
       "qqqReturnPct": null
     },
     {
@@ -310,7 +370,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 3.11,
       "qqqReturnPct": null
     },
     {
@@ -322,7 +382,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 3.67,
       "qqqReturnPct": null
     },
     {
@@ -334,7 +394,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 2.3,
       "qqqReturnPct": null
     },
     {
@@ -346,7 +406,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 3.67,
       "qqqReturnPct": null
     },
     {
@@ -358,7 +418,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 0.37,
       "qqqReturnPct": null
     },
     {
@@ -370,7 +430,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 0.86,
       "qqqReturnPct": null
     },
     {
@@ -383,7 +443,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:27:40Z",
       "open": false,
       "returnPct": 0.57,
-      "qqqReturnPct": 0.71
+      "qqqReturnPct": 0.04
     },
     {
       "strategy": "Kestrel",
@@ -395,7 +455,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:27:40Z",
       "open": false,
       "returnPct": 6.49,
-      "qqqReturnPct": -0.93
+      "qqqReturnPct": -1.6
     },
     {
       "strategy": "Kestrel",
@@ -407,7 +467,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:27:40Z",
       "open": false,
       "returnPct": -1.93,
-      "qqqReturnPct": -0.93
+      "qqqReturnPct": -1.6
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -419,7 +479,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:26:18Z",
       "open": false,
       "returnPct": -3.79,
-      "qqqReturnPct": -1.24
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -431,7 +491,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:26:17Z",
       "open": false,
       "returnPct": -5.46,
-      "qqqReturnPct": -0.93
+      "qqqReturnPct": -1.6
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -443,7 +503,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:26:17Z",
       "open": false,
       "returnPct": -3.56,
-      "qqqReturnPct": -0.93
+      "qqqReturnPct": -1.6
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -455,7 +515,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:26:17Z",
       "open": false,
       "returnPct": -5.36,
-      "qqqReturnPct": -0.93
+      "qqqReturnPct": -1.6
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -467,7 +527,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:26:17Z",
       "open": false,
       "returnPct": 0.45,
-      "qqqReturnPct": -0.93
+      "qqqReturnPct": -1.6
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -479,7 +539,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:26:16Z",
       "open": false,
       "returnPct": 2.38,
-      "qqqReturnPct": 1.0
+      "qqqReturnPct": 0.33
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -491,7 +551,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:26:16Z",
       "open": false,
       "returnPct": -7.71,
-      "qqqReturnPct": -0.93
+      "qqqReturnPct": -1.6
     },
     {
       "strategy": "Adaptive Chameleon",
@@ -503,31 +563,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:26:16Z",
       "open": false,
       "returnPct": -0.93,
-      "qqqReturnPct": -0.93
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "AGEN",
-      "direction": "LONG",
-      "entryPrice": 6.8,
-      "entryTime": "2026-07-13T15:23:35Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "MIMI",
-      "direction": "LONG",
-      "entryPrice": 3.13,
-      "entryTime": "2026-07-13T15:23:35Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
+      "qqqReturnPct": -1.6
     },
     {
       "strategy": "Quad Earnings GAP D1",
@@ -539,7 +575,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:23:32Z",
       "open": false,
       "returnPct": 2.95,
-      "qqqReturnPct": -1.24
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Quad Earnings GAP D1",
@@ -551,7 +587,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:23:31Z",
       "open": false,
       "returnPct": 3.98,
-      "qqqReturnPct": 0.71
+      "qqqReturnPct": 0.04
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -563,7 +599,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T00:00:00Z",
       "open": false,
       "returnPct": -4.88,
-      "qqqReturnPct": -1.24
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -575,7 +611,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T00:00:00Z",
       "open": false,
       "returnPct": 0.4,
-      "qqqReturnPct": -1.24
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -587,7 +623,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T00:00:00Z",
       "open": false,
       "returnPct": -1.04,
-      "qqqReturnPct": -1.24
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -599,7 +635,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T00:00:00Z",
       "open": false,
       "returnPct": 1.45,
-      "qqqReturnPct": -1.24
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -611,7 +647,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T00:00:00Z",
       "open": false,
       "returnPct": -2.6,
-      "qqqReturnPct": -1.24
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -623,7 +659,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T00:00:00Z",
       "open": false,
       "returnPct": -0.22,
-      "qqqReturnPct": -1.24
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -635,7 +671,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T00:00:00Z",
       "open": false,
       "returnPct": -0.91,
-      "qqqReturnPct": -1.24
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -647,7 +683,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T00:00:00Z",
       "open": false,
       "returnPct": -2.87,
-      "qqqReturnPct": -1.24
+      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Kestrel",
