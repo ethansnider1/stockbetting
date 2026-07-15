@@ -1,10 +1,10 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-07-14T15:45:54Z",
+  "generatedAt": "2026-07-15T15:07:47Z",
   "totalClosed": 698,
   "totalOpen": 17,
   "winRate": 56.7,
   "avgReturnPct": 1.91,
-  "avgQqqReturnPct": 0.42,
+  "avgQqqReturnPct": 0.41,
   "strategies": [
     {
       "strategy": "Quad Earnings GAP D1",
@@ -119,7 +119,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-14T15:30:39Z",
       "open": false,
       "returnPct": 2.19,
-      "qqqReturnPct": 1.28
+      "qqqReturnPct": 0.0
     },
     {
       "strategy": "Kestrel",
@@ -131,7 +131,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-14T15:30:39Z",
       "open": false,
       "returnPct": 8.31,
-      "qqqReturnPct": 1.28
+      "qqqReturnPct": 0.0
     },
     {
       "strategy": "Kestrel",
@@ -143,7 +143,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-14T15:30:39Z",
       "open": false,
       "returnPct": 2.96,
-      "qqqReturnPct": 1.28
+      "qqqReturnPct": 0.0
     },
     {
       "strategy": "Quad Earnings GAP D1",
@@ -155,7 +155,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-14T15:26:00Z",
       "open": false,
       "returnPct": -16.59,
-      "qqqReturnPct": 1.28
+      "qqqReturnPct": 0.0
     },
     {
       "strategy": "Quad Earnings GAP D1",
@@ -167,7 +167,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-14T15:26:00Z",
       "open": false,
       "returnPct": -22.36,
-      "qqqReturnPct": 1.28
+      "qqqReturnPct": 0.0
     },
     {
       "strategy": "Kestrel",
