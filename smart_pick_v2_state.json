@@ -1,27 +1,45 @@
 {
   "Active": {
-    "Ticker": "BAC",
+    "Ticker": "PLTR",
     "Direction": "LONG",
-    "EntryPrice": 59.185,
-    "CurrentPrice": 60.68,
-    "CurrentReturn": 2.53,
-    "OpenedAt": "2026-07-09T15:45:35.6192047Z",
+    "EntryPrice": 133.925,
+    "CurrentPrice": 133.925,
+    "CurrentReturn": 0.0,
+    "OpenedAt": "2026-07-15T15:07:28.3520087Z",
     "TargetPct": 3.5,
     "StopPct": 2.0,
     "MaxDays": 7,
     "EntryRegime": "BULL_HIGH_VOL",
-    "Thesis": "LONG BAC (FIN) macro=YELLOW regime=BULL_HIGH_VOL score 1.16 from 5 signals",
+    "Thesis": "LONG PLTR (TECH) macro=YELLOW regime=BULL_HIGH_VOL score 1.95 from 2 signals",
     "SourceScanners": [
       "KESTREL__kestrel",
-      "SCALPER__scalp",
-      "SCALP_V3__scalp_v3",
-      "STOCKS_ONEPERCENT__onepct",
-      "KESTREL__multi_winners"
+      "SCALPER__scalp"
     ],
     "MacroRegimeAtEntry": "YELLOW",
     "MacroSizeMult": 0.75
   },
   "History": [
+    {
+      "Ticker": "BAC",
+      "Direction": "LONG",
+      "EntryPrice": 59.185,
+      "ExitPrice": 61.815,
+      "FinalReturn": 4.44,
+      "OpenedAt": "2026-07-09T15:45:35.6192047Z",
+      "ClosedAt": "2026-07-15T15:07:28.2391387Z",
+      "EntryRegime": "BULL_HIGH_VOL",
+      "Status": "TARGET",
+      "Thesis": "LONG BAC (FIN) macro=YELLOW regime=BULL_HIGH_VOL score 1.16 from 5 signals",
+      "SourceScanners": [
+        "KESTREL__kestrel",
+        "SCALPER__scalp",
+        "SCALP_V3__scalp_v3",
+        "STOCKS_ONEPERCENT__onepct",
+        "KESTREL__multi_winners"
+      ],
+      "MacroRegimeAtEntry": "YELLOW",
+      "MacroSizeMult": 0.75
+    },
     {
       "Ticker": "GS",
       "Direction": "LONG",
@@ -250,6 +268,7 @@
     "PM": "2026-07-01T15:36:18.8388204Z",
     "GOOG": "2026-07-05T15:36:05.4002239Z",
     "V": "2026-07-06T15:38:51.4298563Z",
-    "GS": "2026-07-14T15:45:35.4538158Z"
+    "GS": "2026-07-14T15:45:35.4538158Z",
+    "BAC": "2026-07-20T15:07:28.2392386Z"
   }
 }
