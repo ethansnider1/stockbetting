@@ -1,0 +1,25 @@
+{
+  "Active": {
+    "Ticker": "KO",
+    "Direction": "LONG",
+    "EntryPrice": 90.37,
+    "CurrentPrice": 90.37,
+    "CurrentReturn": 0.0,
+    "PeakReturn": 0.0,
+    "OpenedAt": "2026-07-29T15:33:40.3879166Z",
+    "TargetPct": 3.5,
+    "StopPct": 2.0,
+    "MaxDays": 7,
+    "EntryRegime": "BULL_HIGH_VOL",
+    "Thesis": "LONG KO (STAPLES) macro=YELLOW regime=BULL_HIGH_VOL score 2.83 from 3 signals",
+    "SourceScanners": [
+      "QUAD__earnings_gap_d1",
+      "STC_INVERSE__inverse_stc",
+      "STOCKS_NEWSCANNER__altdata"
+    ],
+    "MacroRegimeAtEntry": "YELLOW",
+    "MacroSizeMult": 0.75
+  },
+  "History": [],
+  "CoolDowns": {}
+}
