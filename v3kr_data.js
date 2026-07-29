@@ -1,22 +1,22 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-07-28T15:32:12Z",
-  "totalClosed": 970,
-  "totalOpen": 20,
-  "winRate": 57.5,
-  "avgReturnPct": 1.63,
-  "avgQqqReturnPct": 0.28,
+  "generatedAt": "2026-07-29T15:33:57Z",
+  "totalClosed": 980,
+  "totalOpen": 24,
+  "winRate": 57.3,
+  "avgReturnPct": 1.59,
+  "avgQqqReturnPct": 0.25,
   "strategies": [
     {
       "strategy": "Quad Earnings GAP D1",
       "verdict": "KEEP",
-      "closed": 198,
-      "open": 2,
-      "winRate": 53.0,
-      "avgReturnPct": 3.95,
-      "expectancy": 3.95,
-      "returnOnCapital": 52.2,
-      "avgPeakPct": 2.23,
-      "insight": "53% WR, +4.0% avg across 198 trades.",
+      "closed": 199,
+      "open": 3,
+      "winRate": 52.8,
+      "avgReturnPct": 3.89,
+      "expectancy": 3.89,
+      "returnOnCapital": 51.6,
+      "avgPeakPct": 2.22,
+      "insight": "53% WR, +3.9% avg across 199 trades.",
       "insightKind": "plain"
     },
     {
@@ -35,15 +35,15 @@ window.V3KR_DATA = {
     {
       "strategy": "Stocks Onepercent V2",
       "verdict": "KEEP",
-      "closed": 296,
-      "open": 9,
-      "winRate": 60.8,
-      "avgReturnPct": 0.52,
-      "expectancy": 0.52,
-      "returnOnCapital": 10.2,
+      "closed": 297,
+      "open": 12,
+      "winRate": 60.6,
+      "avgReturnPct": 0.49,
+      "expectancy": 0.49,
+      "returnOnCapital": 9.7,
       "avgPeakPct": null,
-      "insight": "Genuine positive edge: 61% WR, +0.5% avg, expectancy +0.5% across 296 trades. One of the real ones — watch it hold out-of-sample.",
-      "insightKind": "keep"
+      "insight": "61% WR, +0.5% avg across 297 trades.",
+      "insightKind": "plain"
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -61,24 +61,24 @@ window.V3KR_DATA = {
     {
       "strategy": "Kestrel",
       "verdict": "KEEP",
-      "closed": 267,
+      "closed": 275,
       "open": 9,
-      "winRate": 58.1,
-      "avgReturnPct": 0.33,
-      "expectancy": 0.33,
-      "returnOnCapital": 6.3,
-      "avgPeakPct": 0.41,
-      "insight": "58% WR, +0.3% avg across 267 trades.",
+      "winRate": 57.8,
+      "avgReturnPct": 0.31,
+      "expectancy": 0.31,
+      "returnOnCapital": 6.1,
+      "avgPeakPct": 0.45,
+      "insight": "58% WR, +0.3% avg across 275 trades.",
       "insightKind": "plain"
     }
   ],
   "trades": [
     {
       "strategy": "Kestrel",
-      "ticker": "XOM",
+      "ticker": "BSX",
       "direction": "LONG",
-      "entryPrice": 154.52,
-      "entryTime": "2026-07-28T15:19:17Z",
+      "entryPrice": 46.44,
+      "entryTime": "2026-07-29T15:20:50Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -87,10 +87,10 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Kestrel",
-      "ticker": "BKR",
+      "ticker": "WFC",
       "direction": "LONG",
-      "entryPrice": 58.62,
-      "entryTime": "2026-07-28T15:19:17Z",
+      "entryPrice": 85.42,
+      "entryTime": "2026-07-29T15:20:50Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -99,10 +99,10 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Kestrel",
-      "ticker": "QCOM",
+      "ticker": "APD",
       "direction": "LONG",
-      "entryPrice": 166.7,
-      "entryTime": "2026-07-28T15:19:17Z",
+      "entryPrice": 292.08,
+      "entryTime": "2026-07-29T15:20:50Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -111,10 +111,22 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Kestrel",
-      "ticker": "NVDA",
+      "ticker": "CSX",
       "direction": "LONG",
-      "entryPrice": 196.93,
-      "entryTime": "2026-07-28T15:19:17Z",
+      "entryPrice": 50.49,
+      "entryTime": "2026-07-29T15:20:50Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "V",
+      "direction": "LONG",
+      "entryPrice": 371.32,
+      "entryTime": "2026-07-29T15:20:50Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -125,32 +137,152 @@ window.V3KR_DATA = {
       "strategy": "Kestrel",
       "ticker": "HON",
       "direction": "LONG",
-      "entryPrice": 244.52,
-      "entryTime": "2026-07-27T15:19:43Z",
-      "exitPrice": 247.23,
-      "exitTime": "2026-07-28T15:18:13Z",
-      "open": false,
-      "returnPct": 1.11,
-      "qqqReturnPct": -0.78
+      "entryPrice": 241.75,
+      "entryTime": "2026-07-29T15:20:50Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
     },
     {
       "strategy": "Kestrel",
-      "ticker": "UNH",
+      "ticker": "EQIX",
       "direction": "LONG",
-      "entryPrice": 417.83,
-      "entryTime": "2026-07-27T15:19:43Z",
-      "exitPrice": 423.22,
-      "exitTime": "2026-07-28T15:18:12Z",
+      "entryPrice": 1004.7,
+      "entryTime": "2026-07-29T15:20:50Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "PCAR",
+      "direction": "LONG",
+      "entryPrice": 135.5,
+      "entryTime": "2026-07-29T15:20:50Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "XOM",
+      "direction": "LONG",
+      "entryPrice": 154.52,
+      "entryTime": "2026-07-28T15:19:17Z",
+      "exitPrice": 158.04,
+      "exitTime": "2026-07-29T15:19:46Z",
       "open": false,
-      "returnPct": 1.29,
-      "qqqReturnPct": -0.78
+      "returnPct": 2.27,
+      "qqqReturnPct": -1.19
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "BKR",
+      "direction": "LONG",
+      "entryPrice": 58.62,
+      "entryTime": "2026-07-28T15:19:17Z",
+      "exitPrice": 59.9,
+      "exitTime": "2026-07-29T15:19:46Z",
+      "open": false,
+      "returnPct": 2.18,
+      "qqqReturnPct": -1.19
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "QCOM",
+      "direction": "LONG",
+      "entryPrice": 166.7,
+      "entryTime": "2026-07-28T15:19:17Z",
+      "exitPrice": 160.17,
+      "exitTime": "2026-07-29T15:19:46Z",
+      "open": false,
+      "returnPct": -3.92,
+      "qqqReturnPct": -1.19
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "JNJ",
+      "direction": "LONG",
+      "entryPrice": 262.98,
+      "entryTime": "2026-07-24T15:23:30Z",
+      "exitPrice": 267.39,
+      "exitTime": "2026-07-29T15:19:45Z",
+      "open": false,
+      "returnPct": 1.68,
+      "qqqReturnPct": -2.45
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "GS",
+      "direction": "LONG",
+      "entryPrice": 1048.33,
+      "entryTime": "2026-07-27T15:19:43Z",
+      "exitPrice": 990.86,
+      "exitTime": "2026-07-29T15:19:45Z",
+      "open": false,
+      "returnPct": -5.48,
+      "qqqReturnPct": -2.15
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "MS",
+      "direction": "LONG",
+      "entryPrice": 213.95,
+      "entryTime": "2026-07-27T15:19:43Z",
+      "exitPrice": 205.31,
+      "exitTime": "2026-07-29T15:19:45Z",
+      "open": false,
+      "returnPct": -4.04,
+      "qqqReturnPct": -2.15
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "CSX",
+      "direction": "LONG",
+      "entryPrice": 51.93,
+      "entryTime": "2026-07-27T15:19:43Z",
+      "exitPrice": 50.54,
+      "exitTime": "2026-07-29T15:19:45Z",
+      "open": false,
+      "returnPct": -2.68,
+      "qqqReturnPct": -2.15
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "SNOW",
+      "direction": "LONG",
+      "entryPrice": 264.31,
+      "entryTime": "2026-07-24T15:23:30Z",
+      "exitPrice": 282.8,
+      "exitTime": "2026-07-29T15:19:44Z",
+      "open": false,
+      "returnPct": 7.0,
+      "qqqReturnPct": -2.45
     },
     {
       "strategy": "Quad Earnings GAP D1",
-      "ticker": "KO",
-      "direction": "LONG",
-      "entryPrice": 89.57,
-      "entryTime": "2026-07-28T15:15:01Z",
+      "ticker": "PSN",
+      "direction": "SHORT",
+      "entryPrice": 38.6,
+      "entryTime": "2026-07-29T15:16:26Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Quad Earnings GAP D1",
+      "ticker": "VRT",
+      "direction": "SHORT",
+      "entryPrice": 234.37,
+      "entryTime": "2026-07-29T15:16:26Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -163,10 +295,118 @@ window.V3KR_DATA = {
       "direction": "SHORT",
       "entryPrice": 117.35,
       "entryTime": "2026-07-28T15:15:01Z",
+      "exitPrice": 126.64,
+      "exitTime": "2026-07-29T15:16:23Z",
+      "open": false,
+      "returnPct": -7.92,
+      "qqqReturnPct": -1.19
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "ETR",
+      "direction": "LONG",
+      "entryPrice": 111.4,
+      "entryTime": "2026-07-29T14:10:45Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
       "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "ADM",
+      "direction": "LONG",
+      "entryPrice": 82.73,
+      "entryTime": "2026-07-29T14:10:45Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "AEP",
+      "direction": "LONG",
+      "entryPrice": 132.34,
+      "entryTime": "2026-07-29T14:10:45Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "CINF",
+      "direction": "LONG",
+      "entryPrice": 179.13,
+      "entryTime": "2026-07-29T14:10:45Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "BG",
+      "direction": "LONG",
+      "entryPrice": 118.06,
+      "entryTime": "2026-07-27T14:10:18Z",
+      "exitPrice": 110.44,
+      "exitTime": "2026-07-29T14:05:34Z",
+      "open": false,
+      "returnPct": -6.45,
+      "qqqReturnPct": -2.15
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "NVDA",
+      "direction": "LONG",
+      "entryPrice": 196.93,
+      "entryTime": "2026-07-28T15:19:17Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": -2.27,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "HON",
+      "direction": "LONG",
+      "entryPrice": 244.52,
+      "entryTime": "2026-07-27T15:19:43Z",
+      "exitPrice": 247.23,
+      "exitTime": "2026-07-28T15:18:13Z",
+      "open": false,
+      "returnPct": 1.11,
+      "qqqReturnPct": -0.97
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "UNH",
+      "direction": "LONG",
+      "entryPrice": 417.83,
+      "entryTime": "2026-07-27T15:19:43Z",
+      "exitPrice": 423.22,
+      "exitTime": "2026-07-28T15:18:12Z",
+      "open": false,
+      "returnPct": 1.29,
+      "qqqReturnPct": -0.97
+    },
+    {
+      "strategy": "Quad Earnings GAP D1",
+      "ticker": "KO",
+      "direction": "LONG",
+      "entryPrice": 89.57,
+      "entryTime": "2026-07-28T15:15:01Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.56,
       "qqqReturnPct": null
     },
     {
@@ -179,7 +419,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-28T15:14:57Z",
       "open": false,
       "returnPct": 2.34,
-      "qqqReturnPct": -2.19
+      "qqqReturnPct": -2.38
     },
     {
       "strategy": "Quad Earnings GAP D1",
@@ -191,7 +431,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-28T15:14:57Z",
       "open": false,
       "returnPct": -5.28,
-      "qqqReturnPct": -0.78
+      "qqqReturnPct": -0.97
     },
     {
       "strategy": "Quad Earnings GAP D1",
@@ -203,7 +443,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-28T15:14:57Z",
       "open": false,
       "returnPct": 343.72,
-      "qqqReturnPct": -0.78
+      "qqqReturnPct": -0.97
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -214,7 +454,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -1.56,
       "qqqReturnPct": null
     },
     {
@@ -226,7 +466,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 2.44,
       "qqqReturnPct": null
     },
     {
@@ -238,7 +478,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 2.01,
       "qqqReturnPct": null
     },
     {
@@ -250,7 +490,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -2.29,
       "qqqReturnPct": null
     },
     {
@@ -263,7 +503,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-28T14:05:19Z",
       "open": false,
       "returnPct": -0.98,
-      "qqqReturnPct": -1.09
+      "qqqReturnPct": -1.28
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -275,43 +515,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-28T14:05:18Z",
       "open": false,
       "returnPct": 4.75,
-      "qqqReturnPct": -1.09
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "GS",
-      "direction": "LONG",
-      "entryPrice": 1048.33,
-      "entryTime": "2026-07-27T15:19:43Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.64,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "MS",
-      "direction": "LONG",
-      "entryPrice": 213.95,
-      "entryTime": "2026-07-27T15:19:43Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.59,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "CSX",
-      "direction": "LONG",
-      "entryPrice": 51.93,
-      "entryTime": "2026-07-27T15:19:43Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -0.43,
-      "qqqReturnPct": null
+      "qqqReturnPct": -1.28
     },
     {
       "strategy": "Kestrel",
@@ -459,18 +663,6 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Stocks Onepercent V2",
-      "ticker": "BG",
-      "direction": "LONG",
-      "entryPrice": 118.06,
-      "entryTime": "2026-07-27T14:10:18Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.8,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Stocks Onepercent V2",
       "ticker": "EXPD",
       "direction": "LONG",
       "entryPrice": 172.39,
@@ -478,7 +670,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.47,
+      "returnPct": -1.76,
       "qqqReturnPct": null
     },
     {
@@ -490,7 +682,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.31,
+      "returnPct": -0.29,
       "qqqReturnPct": null
     },
     {
@@ -502,7 +694,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.4,
+      "returnPct": -4.75,
       "qqqReturnPct": null
     },
     {
@@ -514,7 +706,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.44,
+      "returnPct": -1.08,
       "qqqReturnPct": null
     },
     {
@@ -708,30 +900,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -0.41,
       "qqqReturnPct": -0.31
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "SNOW",
-      "direction": "LONG",
-      "entryPrice": 264.31,
-      "entryTime": "2026-07-24T15:23:30Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 2.71,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "JNJ",
-      "direction": "LONG",
-      "entryPrice": 262.98,
-      "entryTime": "2026-07-24T15:23:30Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 3.27,
-      "qqqReturnPct": null
     },
     {
       "strategy": "Kestrel",
