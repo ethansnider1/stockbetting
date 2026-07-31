@@ -1,25 +1,46 @@
 {
   "Active": {
-    "Ticker": "KO",
-    "Direction": "LONG",
-    "EntryPrice": 90.37,
-    "CurrentPrice": 88.87,
-    "CurrentReturn": -1.66,
+    "Ticker": "RBLX",
+    "Direction": "SHORT",
+    "EntryPrice": 34.01,
+    "CurrentPrice": 34.01,
+    "CurrentReturn": 0.0,
     "PeakReturn": 0.0,
-    "OpenedAt": "2026-07-29T15:33:40.3879166Z",
+    "OpenedAt": "2026-07-31T15:29:10.2567354Z",
     "TargetPct": 3.5,
     "StopPct": 2.0,
     "MaxDays": 7,
     "EntryRegime": "BULL_HIGH_VOL",
-    "Thesis": "LONG KO (STAPLES) macro=YELLOW regime=BULL_HIGH_VOL score 2.83 from 3 signals",
+    "Thesis": "SHORT RBLX (DISC) macro=YELLOW regime=BULL_HIGH_VOL score 2.92 from 2 signals",
     "SourceScanners": [
       "QUAD__earnings_gap_d1",
-      "STC_INVERSE__inverse_stc",
-      "STOCKS_NEWSCANNER__altdata"
+      "SCALPER__scalp"
     ],
     "MacroRegimeAtEntry": "YELLOW",
     "MacroSizeMult": 0.75
   },
-  "History": [],
-  "CoolDowns": {}
+  "History": [
+    {
+      "Ticker": "KO",
+      "Direction": "LONG",
+      "EntryPrice": 90.37,
+      "ExitPrice": 87.86,
+      "FinalReturn": -2.78,
+      "OpenedAt": "2026-07-29T15:33:40.3879166Z",
+      "ClosedAt": "2026-07-30T15:29:28.7214202Z",
+      "EntryRegime": "BULL_HIGH_VOL",
+      "Status": "STOPPED",
+      "Thesis": "LONG KO (STAPLES) macro=YELLOW regime=BULL_HIGH_VOL score 2.83 from 3 signals",
+      "SourceScanners": [
+        "QUAD__earnings_gap_d1",
+        "STC_INVERSE__inverse_stc",
+        "STOCKS_NEWSCANNER__altdata"
+      ],
+      "MacroRegimeAtEntry": "YELLOW",
+      "MacroSizeMult": 0.75
+    }
+  ],
+  "CoolDowns": {
+    "KO": "2026-08-04T15:29:28.7217247Z"
+  }
 }
