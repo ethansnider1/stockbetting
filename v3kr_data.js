@@ -1,24 +1,11 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-07-30T15:29:43Z",
-  "totalClosed": 1348,
-  "totalOpen": 47,
-  "winRate": 56.1,
-  "avgReturnPct": 1.39,
-  "avgQqqReturnPct": 0.18,
+  "generatedAt": "2026-07-31T15:29:25Z",
+  "totalClosed": 1163,
+  "totalOpen": 52,
+  "winRate": 56.7,
+  "avgReturnPct": 0.95,
+  "avgQqqReturnPct": 0.23,
   "strategies": [
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "verdict": "KEEP",
-      "closed": 200,
-      "open": 4,
-      "winRate": 52.5,
-      "avgReturnPct": 3.82,
-      "expectancy": 3.82,
-      "returnOnCapital": 50.9,
-      "avgPeakPct": 2.21,
-      "insight": "53% WR, +3.8% avg across 200 trades.",
-      "insightKind": "plain"
-    },
     {
       "strategy": "Stocks Sentiment V5",
       "verdict": "KEEP",
@@ -35,34 +22,34 @@ window.V3KR_DATA = {
     {
       "strategy": "Stocks Onepercent V2",
       "verdict": "KEEP",
-      "closed": 301,
-      "open": 13,
-      "winRate": 60.1,
-      "avgReturnPct": 0.48,
-      "expectancy": 0.48,
-      "returnOnCapital": 9.7,
+      "closed": 308,
+      "open": 11,
+      "winRate": 59.4,
+      "avgReturnPct": 0.44,
+      "expectancy": 0.44,
+      "returnOnCapital": 9.0,
       "avgPeakPct": null,
-      "insight": "60% WR, +0.5% avg across 301 trades.",
+      "insight": "59% WR, +0.4% avg across 308 trades.",
       "insightKind": "plain"
     },
     {
       "strategy": "Oracle",
       "verdict": "KEEP",
-      "closed": 361,
-      "open": 21,
-      "winRate": 52.9,
-      "avgReturnPct": 0.88,
-      "expectancy": 0.88,
-      "returnOnCapital": 8.2,
+      "closed": 366,
+      "open": 24,
+      "winRate": 53.3,
+      "avgReturnPct": 0.9,
+      "expectancy": 0.9,
+      "returnOnCapital": 8.5,
       "avgPeakPct": null,
-      "insight": "53% WR, +0.9% avg across 361 trades.",
+      "insight": "53% WR, +0.9% avg across 366 trades.",
       "insightKind": "plain"
     },
     {
       "strategy": "Stocks Edge Fridaymon",
       "verdict": "KEEP",
       "closed": 81,
-      "open": 0,
+      "open": 8,
       "winRate": 63.0,
       "avgReturnPct": 1.08,
       "expectancy": 1.08,
@@ -74,24 +61,480 @@ window.V3KR_DATA = {
     {
       "strategy": "Kestrel",
       "verdict": "KEEP",
-      "closed": 277,
+      "closed": 280,
       "open": 9,
-      "winRate": 58.1,
-      "avgReturnPct": 0.34,
-      "expectancy": 0.34,
-      "returnOnCapital": 6.6,
+      "winRate": 58.2,
+      "avgReturnPct": 0.3,
+      "expectancy": 0.3,
+      "returnOnCapital": 6.0,
       "avgPeakPct": 0.47,
-      "insight": "58% WR, +0.3% avg across 277 trades.",
+      "insight": "58% WR, +0.3% avg across 280 trades.",
       "insightKind": "plain"
     }
   ],
   "trades": [
     {
       "strategy": "Kestrel",
+      "ticker": "ABBV",
+      "direction": "LONG",
+      "entryPrice": 253.6,
+      "entryTime": "2026-07-31T15:17:43Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "HUBS",
+      "direction": "LONG",
+      "entryPrice": 231.74,
+      "entryTime": "2026-07-31T15:17:43Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "MCO",
+      "direction": "LONG",
+      "entryPrice": 473.15,
+      "entryTime": "2026-07-31T15:17:43Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
       "ticker": "AAPL",
       "direction": "LONG",
       "entryPrice": 331.68,
       "entryTime": "2026-07-30T15:18:49Z",
+      "exitPrice": 302.94,
+      "exitTime": "2026-07-31T15:16:40Z",
+      "open": false,
+      "returnPct": -8.67,
+      "qqqReturnPct": -0.31
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "HON",
+      "direction": "LONG",
+      "entryPrice": 241.75,
+      "entryTime": "2026-07-29T15:20:50Z",
+      "exitPrice": 242.29,
+      "exitTime": "2026-07-31T15:16:39Z",
+      "open": false,
+      "returnPct": 0.22,
+      "qqqReturnPct": 2.97
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "NVDA",
+      "direction": "LONG",
+      "entryPrice": 196.93,
+      "entryTime": "2026-07-28T15:19:17Z",
+      "exitPrice": 197.12,
+      "exitTime": "2026-07-31T15:16:38Z",
+      "open": false,
+      "returnPct": 0.1,
+      "qqqReturnPct": 0.88
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "TLT",
+      "direction": "LONG",
+      "entryPrice": 82.16,
+      "entryTime": "2026-07-31T15:16:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "XLU",
+      "direction": "LONG",
+      "entryPrice": 44.47,
+      "entryTime": "2026-07-31T15:16:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "SRE",
+      "direction": "LONG",
+      "entryPrice": 89.17,
+      "entryTime": "2026-07-31T15:16:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "NEE",
+      "direction": "LONG",
+      "entryPrice": 87.5,
+      "entryTime": "2026-07-31T15:16:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "AEP",
+      "direction": "LONG",
+      "entryPrice": 128.27,
+      "entryTime": "2026-07-31T15:16:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "XLC",
+      "direction": "LONG",
+      "entryPrice": 107.14,
+      "entryTime": "2026-07-31T15:16:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "NKE",
+      "direction": "LONG",
+      "entryPrice": 41.74,
+      "entryTime": "2026-07-31T15:16:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "DXCM",
+      "direction": "SHORT",
+      "entryPrice": 82.17,
+      "entryTime": "2026-07-31T15:16:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "HOOD",
+      "direction": "LONG",
+      "entryPrice": 90.1,
+      "entryTime": "2026-07-29T15:19:01Z",
+      "exitPrice": 85.17,
+      "exitTime": "2026-07-31T15:14:41Z",
+      "open": false,
+      "returnPct": -5.47,
+      "qqqReturnPct": 2.97
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "ETN",
+      "direction": "LONG",
+      "entryPrice": 364.79,
+      "entryTime": "2026-07-29T15:19:01Z",
+      "exitPrice": 402.57,
+      "exitTime": "2026-07-31T15:14:41Z",
+      "open": false,
+      "returnPct": 10.36,
+      "qqqReturnPct": 2.97
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "CVX",
+      "direction": "SHORT",
+      "entryPrice": 197.36,
+      "entryTime": "2026-07-23T15:22:02Z",
+      "exitPrice": 194.45,
+      "exitTime": "2026-07-31T15:14:39Z",
+      "open": false,
+      "returnPct": 1.47,
+      "qqqReturnPct": -1.52
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "XOM",
+      "direction": "SHORT",
+      "entryPrice": 158.35,
+      "entryTime": "2026-07-23T15:22:02Z",
+      "exitPrice": 153.66,
+      "exitTime": "2026-07-31T15:14:39Z",
+      "open": false,
+      "returnPct": 2.96,
+      "qqqReturnPct": -1.52
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "XLE",
+      "direction": "SHORT",
+      "entryPrice": 60.21,
+      "entryTime": "2026-07-23T15:22:02Z",
+      "exitPrice": 58.95,
+      "exitTime": "2026-07-31T15:14:38Z",
+      "open": false,
+      "returnPct": 2.09,
+      "qqqReturnPct": -1.52
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "AAPL",
+      "direction": "LONG",
+      "entryPrice": 302.05,
+      "entryTime": "2026-07-31T14:10:12Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "BALL",
+      "direction": "LONG",
+      "entryPrice": 64.35,
+      "entryTime": "2026-07-31T14:10:12Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "CTVA",
+      "direction": "LONG",
+      "entryPrice": 80.95,
+      "entryTime": "2026-07-31T14:10:12Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "CVS",
+      "direction": "LONG",
+      "entryPrice": 104.65,
+      "entryTime": "2026-07-31T14:10:12Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "D",
+      "direction": "LONG",
+      "entryPrice": 69.41,
+      "entryTime": "2026-07-31T14:10:12Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "AAPL",
+      "direction": "LONG",
+      "entryPrice": 330.58,
+      "entryTime": "2026-07-30T14:10:26Z",
+      "exitPrice": 302.15,
+      "exitTime": "2026-07-31T14:05:09Z",
+      "open": false,
+      "returnPct": -8.6,
+      "qqqReturnPct": -0.31
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "ABNB",
+      "direction": "LONG",
+      "entryPrice": 150.16,
+      "entryTime": "2026-07-30T14:10:26Z",
+      "exitPrice": 152.18,
+      "exitTime": "2026-07-31T14:05:09Z",
+      "open": false,
+      "returnPct": 1.34,
+      "qqqReturnPct": -0.31
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "AEP",
+      "direction": "LONG",
+      "entryPrice": 132.34,
+      "entryTime": "2026-07-29T14:10:45Z",
+      "exitPrice": 127.48,
+      "exitTime": "2026-07-31T14:05:08Z",
+      "open": false,
+      "returnPct": -3.67,
+      "qqqReturnPct": 2.97
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "PANW",
+      "direction": "LONG",
+      "entryPrice": 309.72,
+      "entryTime": "2026-07-28T14:10:15Z",
+      "exitPrice": 325.72,
+      "exitTime": "2026-07-31T14:05:07Z",
+      "open": false,
+      "returnPct": 5.17,
+      "qqqReturnPct": 0.88
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "HUM",
+      "direction": "LONG",
+      "entryPrice": 379.52,
+      "entryTime": "2026-07-27T14:10:18Z",
+      "exitPrice": 366.0,
+      "exitTime": "2026-07-31T14:05:06Z",
+      "open": false,
+      "returnPct": -3.56,
+      "qqqReturnPct": -0.1
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "KEY",
+      "direction": "LONG",
+      "entryPrice": 22.64,
+      "entryTime": "2026-07-27T14:10:18Z",
+      "exitPrice": 22.62,
+      "exitTime": "2026-07-31T14:05:06Z",
+      "open": false,
+      "returnPct": -0.11,
+      "qqqReturnPct": -0.1
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "FDX",
+      "direction": "LONG",
+      "entryPrice": 312.65,
+      "entryTime": "2026-07-27T14:10:18Z",
+      "exitPrice": 309.36,
+      "exitTime": "2026-07-31T14:05:05Z",
+      "open": false,
+      "returnPct": -1.05,
+      "qqqReturnPct": -0.1
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "RBLX",
+      "direction": "LONG",
+      "entryPrice": 34.34,
+      "entryTime": "2026-07-31T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "COIN",
+      "direction": "LONG",
+      "entryPrice": 139.96,
+      "entryTime": "2026-07-31T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "AAPL",
+      "direction": "LONG",
+      "entryPrice": 302.42,
+      "entryTime": "2026-07-31T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "CLSK",
+      "direction": "LONG",
+      "entryPrice": 13.68,
+      "entryTime": "2026-07-31T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "RIOT",
+      "direction": "LONG",
+      "entryPrice": 20.88,
+      "entryTime": "2026-07-31T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "MARA",
+      "direction": "LONG",
+      "entryPrice": 11.16,
+      "entryTime": "2026-07-31T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "MU",
+      "direction": "LONG",
+      "entryPrice": 840.02,
+      "entryTime": "2026-07-31T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "SOFI",
+      "direction": "LONG",
+      "entryPrice": 15.92,
+      "entryTime": "2026-07-31T00:00:00Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -107,7 +550,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -1.03,
       "qqqReturnPct": null
     },
     {
@@ -120,7 +563,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:17:46Z",
       "open": false,
       "returnPct": 4.93,
-      "qqqReturnPct": 2.51
+      "qqqReturnPct": 3.3
     },
     {
       "strategy": "Kestrel",
@@ -132,7 +575,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:17:45Z",
       "open": false,
       "returnPct": 2.63,
-      "qqqReturnPct": 2.51
+      "qqqReturnPct": 3.3
     },
     {
       "strategy": "Oracle",
@@ -143,7 +586,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 2.01,
       "qqqReturnPct": null
     },
     {
@@ -155,7 +598,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -1.45,
       "qqqReturnPct": null
     },
     {
@@ -167,7 +610,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 4.01,
       "qqqReturnPct": null
     },
     {
@@ -179,7 +622,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 1.81,
       "qqqReturnPct": null
     },
     {
@@ -191,7 +634,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 2.53,
       "qqqReturnPct": null
     },
     {
@@ -203,7 +646,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -2.43,
       "qqqReturnPct": null
     },
     {
@@ -215,7 +658,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 2.16,
       "qqqReturnPct": null
     },
     {
@@ -227,7 +670,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -2.64,
       "qqqReturnPct": null
     },
     {
@@ -239,7 +682,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -1.49,
       "qqqReturnPct": null
     },
     {
@@ -252,7 +695,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:15:47Z",
       "open": false,
       "returnPct": 7.24,
-      "qqqReturnPct": 2.51
+      "qqqReturnPct": 3.3
     },
     {
       "strategy": "Oracle",
@@ -264,7 +707,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:15:47Z",
       "open": false,
       "returnPct": 7.18,
-      "qqqReturnPct": 2.51
+      "qqqReturnPct": 3.3
     },
     {
       "strategy": "Oracle",
@@ -276,7 +719,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:15:46Z",
       "open": false,
       "returnPct": 12.61,
-      "qqqReturnPct": 2.51
+      "qqqReturnPct": 3.3
     },
     {
       "strategy": "Oracle",
@@ -288,7 +731,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:15:46Z",
       "open": false,
       "returnPct": 4.17,
-      "qqqReturnPct": 2.51
+      "qqqReturnPct": 3.3
     },
     {
       "strategy": "Oracle",
@@ -300,7 +743,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:15:45Z",
       "open": false,
       "returnPct": 10.52,
-      "qqqReturnPct": 2.51
+      "qqqReturnPct": 3.3
     },
     {
       "strategy": "Oracle",
@@ -312,7 +755,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:15:45Z",
       "open": false,
       "returnPct": 7.05,
-      "qqqReturnPct": 2.51
+      "qqqReturnPct": 3.3
     },
     {
       "strategy": "Oracle",
@@ -324,7 +767,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:15:44Z",
       "open": false,
       "returnPct": 5.36,
-      "qqqReturnPct": 0.42
+      "qqqReturnPct": 1.19
     },
     {
       "strategy": "Oracle",
@@ -336,7 +779,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:15:44Z",
       "open": false,
       "returnPct": 5.42,
-      "qqqReturnPct": 0.42
+      "qqqReturnPct": 1.19
     },
     {
       "strategy": "Oracle",
@@ -348,7 +791,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:15:43Z",
       "open": false,
       "returnPct": 15.07,
-      "qqqReturnPct": 0.42
+      "qqqReturnPct": 1.19
     },
     {
       "strategy": "Oracle",
@@ -360,7 +803,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:15:43Z",
       "open": false,
       "returnPct": 8.01,
-      "qqqReturnPct": 0.42
+      "qqqReturnPct": 1.19
     },
     {
       "strategy": "Oracle",
@@ -372,7 +815,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:15:42Z",
       "open": false,
       "returnPct": 4.53,
-      "qqqReturnPct": -0.56
+      "qqqReturnPct": 0.21
     },
     {
       "strategy": "Oracle",
@@ -384,7 +827,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:15:42Z",
       "open": false,
       "returnPct": 4.24,
-      "qqqReturnPct": -0.56
+      "qqqReturnPct": 0.21
     },
     {
       "strategy": "Oracle",
@@ -396,7 +839,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:15:41Z",
       "open": false,
       "returnPct": 6.87,
-      "qqqReturnPct": -0.86
+      "qqqReturnPct": -0.1
     },
     {
       "strategy": "Oracle",
@@ -408,67 +851,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:15:40Z",
       "open": false,
       "returnPct": -1.26,
-      "qqqReturnPct": -3.83
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "MSFT",
-      "direction": "LONG",
-      "entryPrice": 444.2,
-      "entryTime": "2026-07-30T15:14:27Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "MO",
-      "direction": "SHORT",
-      "entryPrice": 69.26,
-      "entryTime": "2026-07-30T15:14:27Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "PSN",
-      "direction": "SHORT",
-      "entryPrice": 38.6,
-      "entryTime": "2026-07-29T15:16:26Z",
-      "exitPrice": 42.52,
-      "exitTime": "2026-07-30T15:14:22Z",
-      "open": false,
-      "returnPct": -10.18,
-      "qqqReturnPct": 2.51
-    },
-    {
-      "strategy": "Stocks Onepercent V2",
-      "ticker": "AAPL",
-      "direction": "LONG",
-      "entryPrice": 330.58,
-      "entryTime": "2026-07-30T14:10:26Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Stocks Onepercent V2",
-      "ticker": "ABNB",
-      "direction": "LONG",
-      "entryPrice": 150.16,
-      "entryTime": "2026-07-30T14:10:26Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
+      "qqqReturnPct": -3.09
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -479,7 +862,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 0.31,
       "qqqReturnPct": null
     },
     {
@@ -491,7 +874,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -0.09,
       "qqqReturnPct": null
     },
     {
@@ -503,7 +886,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 0.58,
       "qqqReturnPct": null
     },
     {
@@ -516,7 +899,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T14:05:26Z",
       "open": false,
       "returnPct": -4.01,
-      "qqqReturnPct": 0.42
+      "qqqReturnPct": 1.19
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -528,7 +911,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T14:05:26Z",
       "open": false,
       "returnPct": -4.07,
-      "qqqReturnPct": 2.51
+      "qqqReturnPct": 3.3
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -540,7 +923,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T14:05:25Z",
       "open": false,
       "returnPct": 11.49,
-      "qqqReturnPct": 0.42
+      "qqqReturnPct": 1.19
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -552,7 +935,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T14:05:23Z",
       "open": false,
       "returnPct": -3.69,
-      "qqqReturnPct": -0.56
+      "qqqReturnPct": 0.21
     },
     {
       "strategy": "Kestrel",
@@ -563,7 +946,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -3.28,
+      "returnPct": -3.38,
       "qqqReturnPct": null
     },
     {
@@ -575,7 +958,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.41,
+      "returnPct": 0.81,
       "qqqReturnPct": null
     },
     {
@@ -587,7 +970,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.22,
+      "returnPct": -0.61,
       "qqqReturnPct": null
     },
     {
@@ -599,19 +982,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.69,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "HON",
-      "direction": "LONG",
-      "entryPrice": 241.75,
-      "entryTime": "2026-07-29T15:20:50Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.59,
+      "returnPct": -1.97,
       "qqqReturnPct": null
     },
     {
@@ -623,7 +994,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.76,
+      "returnPct": -2.09,
       "qqqReturnPct": null
     },
     {
@@ -724,30 +1095,6 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Oracle",
-      "ticker": "HOOD",
-      "direction": "LONG",
-      "entryPrice": 90.1,
-      "entryTime": "2026-07-29T15:19:01Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -3.37,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "ETN",
-      "direction": "LONG",
-      "entryPrice": 364.79,
-      "entryTime": "2026-07-29T15:19:01Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 4.66,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
       "ticker": "NXPI",
       "direction": "LONG",
       "entryPrice": 244.87,
@@ -755,7 +1102,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.25,
+      "returnPct": -0.28,
       "qqqReturnPct": null
     },
     {
@@ -903,30 +1250,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -6.66
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "VRT",
-      "direction": "SHORT",
-      "entryPrice": 234.37,
-      "entryTime": "2026-07-29T15:16:26Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 1.56,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "GLW",
-      "direction": "SHORT",
-      "entryPrice": 117.35,
-      "entryTime": "2026-07-28T15:15:01Z",
-      "exitPrice": 126.64,
-      "exitTime": "2026-07-29T15:16:23Z",
-      "open": false,
-      "returnPct": -7.92,
-      "qqqReturnPct": -2.04
-    },
-    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "ETR",
       "direction": "LONG",
@@ -935,19 +1258,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.31,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Stocks Onepercent V2",
-      "ticker": "AEP",
-      "direction": "LONG",
-      "entryPrice": 132.34,
-      "entryTime": "2026-07-29T14:10:45Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -2.26,
+      "returnPct": -2.9,
       "qqqReturnPct": null
     },
     {
@@ -959,7 +1270,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.93,
+      "returnPct": -2.46,
       "qqqReturnPct": null
     },
     {
@@ -973,18 +1284,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -6.45,
       "qqqReturnPct": -2.99
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "NVDA",
-      "direction": "LONG",
-      "entryPrice": 196.93,
-      "entryTime": "2026-07-28T15:19:17Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.43,
-      "qqqReturnPct": null
     },
     {
       "strategy": "Kestrel",
@@ -1019,7 +1318,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.09,
+      "returnPct": 0.98,
       "qqqReturnPct": null
     },
     {
@@ -1031,7 +1330,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 1.87,
+      "returnPct": 2.21,
       "qqqReturnPct": null
     },
     {
@@ -1043,7 +1342,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 1.98,
+      "returnPct": 2.3,
       "qqqReturnPct": null
     },
     {
@@ -1055,7 +1354,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 3.43,
+      "returnPct": 1.89,
       "qqqReturnPct": null
     },
     {
@@ -1191,54 +1490,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.96
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "KO",
-      "direction": "LONG",
-      "entryPrice": 89.57,
-      "entryTime": "2026-07-28T15:15:01Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.72,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "LMT",
-      "direction": "LONG",
-      "entryPrice": 567.83,
-      "entryTime": "2026-07-23T15:19:22Z",
-      "exitPrice": 581.13,
-      "exitTime": "2026-07-28T15:14:57Z",
-      "open": false,
-      "returnPct": 2.34,
-      "qqqReturnPct": -2.38
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "QBTS",
-      "direction": "LONG",
-      "entryPrice": 18.84,
-      "entryTime": "2026-07-27T15:14:42Z",
-      "exitPrice": 17.84,
-      "exitTime": "2026-07-28T15:14:57Z",
-      "open": false,
-      "returnPct": -5.28,
-      "qqqReturnPct": -0.97
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "DFNS",
-      "direction": "LONG",
-      "entryPrice": 7.0,
-      "entryTime": "2026-07-27T15:14:42Z",
-      "exitPrice": 31.06,
-      "exitTime": "2026-07-28T15:14:57Z",
-      "open": false,
-      "returnPct": 343.72,
-      "qqqReturnPct": -0.97
-    },
-    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "BNY",
       "direction": "LONG",
@@ -1247,19 +1498,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.13,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Stocks Onepercent V2",
-      "ticker": "PANW",
-      "direction": "LONG",
-      "entryPrice": 309.72,
-      "entryTime": "2026-07-28T14:10:15Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 2.2,
+      "returnPct": 0.46,
       "qqqReturnPct": null
     },
     {
@@ -1391,7 +1630,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 3.49,
+      "returnPct": 2.09,
       "qqqReturnPct": null
     },
     {
@@ -1609,90 +1848,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 2.26,
       "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "GOOGL",
-      "direction": "SHORT",
-      "entryPrice": 316.11,
-      "entryTime": "2026-07-23T15:19:22Z",
-      "exitPrice": 329.57,
-      "exitTime": "2026-07-27T15:14:40Z",
-      "open": false,
-      "returnPct": -4.26,
-      "qqqReturnPct": -1.42
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "GOOG",
-      "direction": "SHORT",
-      "entryPrice": 315.96,
-      "entryTime": "2026-07-23T15:19:22Z",
-      "exitPrice": 329.46,
-      "exitTime": "2026-07-27T15:14:40Z",
-      "open": false,
-      "returnPct": -4.27,
-      "qqqReturnPct": -1.42
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "RDDT",
-      "direction": "SHORT",
-      "entryPrice": 169.32,
-      "entryTime": "2026-07-22T15:26:03Z",
-      "exitPrice": 180.43,
-      "exitTime": "2026-07-27T15:14:39Z",
-      "open": false,
-      "returnPct": -6.56,
-      "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "TSLA",
-      "direction": "SHORT",
-      "entryPrice": 321.22,
-      "entryTime": "2026-07-23T15:19:22Z",
-      "exitPrice": 309.44,
-      "exitTime": "2026-07-27T15:14:39Z",
-      "open": false,
-      "returnPct": 3.67,
-      "qqqReturnPct": -1.42
-    },
-    {
-      "strategy": "Stocks Onepercent V2",
-      "ticker": "FDX",
-      "direction": "LONG",
-      "entryPrice": 312.65,
-      "entryTime": "2026-07-27T14:10:18Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -2.09,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Stocks Onepercent V2",
-      "ticker": "HUM",
-      "direction": "LONG",
-      "entryPrice": 379.52,
-      "entryTime": "2026-07-27T14:10:18Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -2.81,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Stocks Onepercent V2",
-      "ticker": "KEY",
-      "direction": "LONG",
-      "entryPrice": 22.64,
-      "entryTime": "2026-07-27T14:10:18Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.39,
-      "qqqReturnPct": null
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -1967,7 +2122,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 3.19,
+      "returnPct": 4.84,
       "qqqReturnPct": null
     },
     {
@@ -2041,30 +2196,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.96,
       "qqqReturnPct": -3.08
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "MMM",
-      "direction": "LONG",
-      "entryPrice": 172.93,
-      "entryTime": "2026-07-21T15:19:54Z",
-      "exitPrice": 170.1,
-      "exitTime": "2026-07-24T15:18:16Z",
-      "open": false,
-      "returnPct": -1.63,
-      "qqqReturnPct": -3.49
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "SMCI",
-      "direction": "LONG",
-      "entryPrice": 31.71,
-      "entryTime": "2026-07-22T15:26:03Z",
-      "exitPrice": 29.88,
-      "exitTime": "2026-07-24T15:18:16Z",
-      "open": false,
-      "returnPct": -5.79,
-      "qqqReturnPct": -2.99
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -2197,42 +2328,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -5.32,
       "qqqReturnPct": -2.4
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "XLE",
-      "direction": "SHORT",
-      "entryPrice": 60.21,
-      "entryTime": "2026-07-23T15:22:02Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 3.4,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "CVX",
-      "direction": "SHORT",
-      "entryPrice": 197.36,
-      "entryTime": "2026-07-23T15:22:02Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 3.61,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "XOM",
-      "direction": "SHORT",
-      "entryPrice": 158.35,
-      "entryTime": "2026-07-23T15:22:02Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 2.18,
-      "qqqReturnPct": null
     },
     {
       "strategy": "Oracle",
@@ -2511,54 +2606,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.99
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "IREN",
-      "direction": "LONG",
-      "entryPrice": 39.15,
-      "entryTime": "2026-07-20T15:22:18Z",
-      "exitPrice": 43.01,
-      "exitTime": "2026-07-22T15:25:56Z",
-      "open": false,
-      "returnPct": 9.86,
-      "qqqReturnPct": 1.33
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "VIVK",
-      "direction": "LONG",
-      "entryPrice": 6.55,
-      "entryTime": "2026-07-21T15:19:54Z",
-      "exitPrice": 1.87,
-      "exitTime": "2026-07-22T15:25:56Z",
-      "open": false,
-      "returnPct": -71.45,
-      "qqqReturnPct": -0.51
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "AMC",
-      "direction": "LONG",
-      "entryPrice": 2.29,
-      "entryTime": "2026-07-20T15:22:18Z",
-      "exitPrice": 2.28,
-      "exitTime": "2026-07-22T15:25:55Z",
-      "open": false,
-      "returnPct": -0.0,
-      "qqqReturnPct": 1.33
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "TEM",
-      "direction": "SHORT",
-      "entryPrice": 47.76,
-      "entryTime": "2026-07-20T15:22:18Z",
-      "exitPrice": 47.6,
-      "exitTime": "2026-07-22T15:25:55Z",
-      "open": false,
-      "returnPct": 0.34,
-      "qqqReturnPct": 1.33
-    },
-    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "CNP",
       "direction": "LONG",
@@ -2737,18 +2784,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -0.0,
       "qqqReturnPct": -0.39
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ISRG",
-      "direction": "SHORT",
-      "entryPrice": 352.55,
-      "entryTime": "2026-07-17T15:25:03Z",
-      "exitPrice": 358.09,
-      "exitTime": "2026-07-21T15:19:51Z",
-      "open": false,
-      "returnPct": -1.57,
-      "qqqReturnPct": 1.96
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -2977,42 +3012,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 5.16,
       "qqqReturnPct": -2.2
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ATAI",
-      "direction": "LONG",
-      "entryPrice": 7.13,
-      "entryTime": "2026-07-16T17:28:02Z",
-      "exitPrice": 7.14,
-      "exitTime": "2026-07-20T15:22:11Z",
-      "open": false,
-      "returnPct": 0.22,
-      "qqqReturnPct": -1.4
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "UNH",
-      "direction": "SHORT",
-      "entryPrice": 430.71,
-      "entryTime": "2026-07-16T17:28:02Z",
-      "exitPrice": 420.86,
-      "exitTime": "2026-07-20T15:22:11Z",
-      "open": false,
-      "returnPct": 2.29,
-      "qqqReturnPct": -1.4
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "SDOT",
-      "direction": "LONG",
-      "entryPrice": 22.93,
-      "entryTime": "2026-07-17T15:25:03Z",
-      "exitPrice": 30.99,
-      "exitTime": "2026-07-20T15:22:11Z",
-      "open": false,
-      "returnPct": 35.14,
-      "qqqReturnPct": 0.1
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -3337,18 +3336,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 3.97,
       "qqqReturnPct": -4.16
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ASTS",
-      "direction": "SHORT",
-      "entryPrice": 53.96,
-      "entryTime": "2026-07-16T17:28:02Z",
-      "exitPrice": 57.75,
-      "exitTime": "2026-07-17T15:24:59Z",
-      "open": false,
-      "returnPct": -7.02,
-      "qqqReturnPct": -1.5
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -3879,30 +3866,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.45
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "AGEN",
-      "direction": "LONG",
-      "entryPrice": 6.8,
-      "entryTime": "2026-07-13T15:23:35Z",
-      "exitPrice": 5.68,
-      "exitTime": "2026-07-14T15:26:00Z",
-      "open": false,
-      "returnPct": -16.59,
-      "qqqReturnPct": 1.12
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "MIMI",
-      "direction": "LONG",
-      "entryPrice": 3.13,
-      "entryTime": "2026-07-13T15:23:35Z",
-      "exitPrice": 2.43,
-      "exitTime": "2026-07-14T15:26:00Z",
-      "open": false,
-      "returnPct": -22.36,
-      "qqqReturnPct": 1.12
-    },
-    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "HLT",
       "direction": "LONG",
@@ -4177,30 +4140,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -1.37,
       "qqqReturnPct": -1.53
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "CRCL",
-      "direction": "SHORT",
-      "entryPrice": 66.8,
-      "entryTime": "2026-07-10T15:22:40Z",
-      "exitPrice": 64.83,
-      "exitTime": "2026-07-13T15:23:32Z",
-      "open": false,
-      "returnPct": 2.95,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "BABA",
-      "direction": "LONG",
-      "entryPrice": 108.93,
-      "entryTime": "2026-07-08T15:18:56Z",
-      "exitPrice": 113.27,
-      "exitTime": "2026-07-13T15:23:31Z",
-      "open": false,
-      "returnPct": 3.98,
-      "qqqReturnPct": 0.04
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -4527,18 +4466,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.31
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "MARA",
-      "direction": "LONG",
-      "entryPrice": 13.93,
-      "entryTime": "2026-07-09T15:26:28Z",
-      "exitPrice": 12.64,
-      "exitTime": "2026-07-10T15:22:38Z",
-      "open": false,
-      "returnPct": -9.25,
-      "qqqReturnPct": 0.31
-    },
-    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "AVB",
       "direction": "LONG",
@@ -4839,42 +4766,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.26
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "BATL",
-      "direction": "SHORT",
-      "entryPrice": 1.63,
-      "entryTime": "2026-07-08T15:18:56Z",
-      "exitPrice": 1.42,
-      "exitTime": "2026-07-09T15:26:24Z",
-      "open": false,
-      "returnPct": 13.09,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "PENG",
-      "direction": "LONG",
-      "entryPrice": 74.07,
-      "entryTime": "2026-07-08T15:18:56Z",
-      "exitPrice": 89.47,
-      "exitTime": "2026-07-09T15:26:24Z",
-      "open": false,
-      "returnPct": 20.79,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "VTAK",
-      "direction": "LONG",
-      "entryPrice": 1.33,
-      "entryTime": "2026-07-08T15:18:56Z",
-      "exitPrice": 1.08,
-      "exitTime": "2026-07-09T15:26:24Z",
-      "open": false,
-      "returnPct": -18.11,
-      "qqqReturnPct": 1.66
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "SNOW",
       "direction": "LONG",
@@ -5029,18 +4920,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.82,
       "qqqReturnPct": -3.39
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "SNDK",
-      "direction": "SHORT",
-      "entryPrice": 1553.46,
-      "entryTime": "2026-07-07T15:18:54Z",
-      "exitPrice": 1617.14,
-      "exitTime": "2026-07-08T15:18:53Z",
-      "open": false,
-      "returnPct": -4.1,
-      "qqqReturnPct": 0.28
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -5389,42 +5268,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.35,
       "qqqReturnPct": 2.31
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "IRDM",
-      "direction": "LONG",
-      "entryPrice": 53.12,
-      "entryTime": "2026-06-29T15:18:34Z",
-      "exitPrice": 53.31,
-      "exitTime": "2026-07-06T15:18:35Z",
-      "open": false,
-      "returnPct": 0.35,
-      "qqqReturnPct": -0.17
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "RBLX",
-      "direction": "LONG",
-      "entryPrice": 54.62,
-      "entryTime": "2026-06-29T15:18:34Z",
-      "exitPrice": 58.16,
-      "exitTime": "2026-07-06T15:18:35Z",
-      "open": false,
-      "returnPct": 6.48,
-      "qqqReturnPct": -0.17
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ABVX",
-      "direction": "LONG",
-      "entryPrice": 133.23,
-      "entryTime": "2026-06-30T15:19:29Z",
-      "exitPrice": 147.45,
-      "exitTime": "2026-07-06T15:18:35Z",
-      "open": false,
-      "returnPct": 10.67,
-      "qqqReturnPct": -1.84
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -5847,42 +5690,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.53
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "META",
-      "direction": "LONG",
-      "entryPrice": 624.03,
-      "entryTime": "2026-07-01T15:22:14Z",
-      "exitPrice": 587.49,
-      "exitTime": "2026-07-02T15:21:09Z",
-      "open": false,
-      "returnPct": -5.86,
-      "qqqReturnPct": -1.73
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "BLD",
-      "direction": "SHORT",
-      "entryPrice": 368.99,
-      "entryTime": "2026-06-29T15:18:34Z",
-      "exitPrice": 354.53,
-      "exitTime": "2026-07-02T15:21:08Z",
-      "open": false,
-      "returnPct": 3.92,
-      "qqqReturnPct": -1.59
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "CMCSA",
-      "direction": "SHORT",
-      "entryPrice": 24.88,
-      "entryTime": "2026-06-29T15:18:34Z",
-      "exitPrice": 23.28,
-      "exitTime": "2026-07-02T15:21:08Z",
-      "open": false,
-      "returnPct": 6.45,
-      "qqqReturnPct": -1.59
-    },
-    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "AEE",
       "direction": "LONG",
@@ -6147,18 +5954,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.05
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "SLS",
-      "direction": "LONG",
-      "entryPrice": 14.29,
-      "entryTime": "2026-06-29T15:18:34Z",
-      "exitPrice": 13.34,
-      "exitTime": "2026-07-01T15:22:09Z",
-      "open": false,
-      "returnPct": -6.66,
-      "qqqReturnPct": 0.15
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "INTC",
       "direction": "LONG",
@@ -6399,90 +6194,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.21
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ON",
-      "direction": "SHORT",
-      "entryPrice": 93.12,
-      "entryTime": "2026-06-26T15:19:38Z",
-      "exitPrice": 92.79,
-      "exitTime": "2026-06-30T15:19:24Z",
-      "open": false,
-      "returnPct": 0.35,
-      "qqqReturnPct": 4.23
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "TSEM",
-      "direction": "SHORT",
-      "entryPrice": 242.58,
-      "entryTime": "2026-06-26T15:19:38Z",
-      "exitPrice": 252.46,
-      "exitTime": "2026-06-30T15:19:24Z",
-      "open": false,
-      "returnPct": -4.07,
-      "qqqReturnPct": 4.23
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "VSAT",
-      "direction": "LONG",
-      "entryPrice": 72.57,
-      "entryTime": "2026-06-29T15:18:34Z",
-      "exitPrice": 83.79,
-      "exitTime": "2026-06-30T15:19:24Z",
-      "open": false,
-      "returnPct": 15.47,
-      "qqqReturnPct": 1.7
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "WEN",
-      "direction": "LONG",
-      "entryPrice": 7.85,
-      "entryTime": "2026-06-24T15:19:30Z",
-      "exitPrice": 7.84,
-      "exitTime": "2026-06-30T15:19:23Z",
-      "open": false,
-      "returnPct": -0.22,
-      "qqqReturnPct": 3.63
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "AYI",
-      "direction": "LONG",
-      "entryPrice": 370.27,
-      "entryTime": "2026-06-25T15:17:27Z",
-      "exitPrice": 376.8,
-      "exitTime": "2026-06-30T15:19:23Z",
-      "open": false,
-      "returnPct": 1.76,
-      "qqqReturnPct": 2.79
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "TECH",
-      "direction": "LONG",
-      "entryPrice": 70.54,
-      "entryTime": "2026-06-25T15:17:27Z",
-      "exitPrice": 70.69,
-      "exitTime": "2026-06-30T15:19:23Z",
-      "open": false,
-      "returnPct": 0.21,
-      "qqqReturnPct": 2.79
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "KBH",
-      "direction": "LONG",
-      "entryPrice": 61.84,
-      "entryTime": "2026-06-24T15:19:30Z",
-      "exitPrice": 62.78,
-      "exitTime": "2026-06-30T15:19:22Z",
-      "open": false,
-      "returnPct": 1.51,
-      "qqqReturnPct": 3.63
-    },
-    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "DVN",
       "direction": "LONG",
@@ -6661,102 +6372,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.57,
       "qqqReturnPct": 1.46
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ACAD",
-      "direction": "LONG",
-      "entryPrice": 26.86,
-      "entryTime": "2026-06-26T15:19:38Z",
-      "exitPrice": 25.39,
-      "exitTime": "2026-06-29T15:18:25Z",
-      "open": false,
-      "returnPct": -5.49,
-      "qqqReturnPct": 2.49
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "INTC",
-      "direction": "SHORT",
-      "entryPrice": 128.41,
-      "entryTime": "2026-06-25T15:17:27Z",
-      "exitPrice": 124.84,
-      "exitTime": "2026-06-29T15:18:24Z",
-      "open": false,
-      "returnPct": 2.78,
-      "qqqReturnPct": 1.07
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "BB",
-      "direction": "LONG",
-      "entryPrice": 10.28,
-      "entryTime": "2026-06-25T15:17:27Z",
-      "exitPrice": 11.92,
-      "exitTime": "2026-06-29T15:18:23Z",
-      "open": false,
-      "returnPct": 15.85,
-      "qqqReturnPct": 1.07
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "KYMR",
-      "direction": "LONG",
-      "entryPrice": 119.25,
-      "entryTime": "2026-06-25T15:17:27Z",
-      "exitPrice": 107.82,
-      "exitTime": "2026-06-29T15:18:23Z",
-      "open": false,
-      "returnPct": -9.58,
-      "qqqReturnPct": 1.07
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ORKA",
-      "direction": "LONG",
-      "entryPrice": 84.46,
-      "entryTime": "2026-06-22T15:19:05Z",
-      "exitPrice": 92.41,
-      "exitTime": "2026-06-29T15:18:22Z",
-      "open": false,
-      "returnPct": 9.41,
-      "qqqReturnPct": -1.88
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "APGE",
-      "direction": "LONG",
-      "entryPrice": 132.66,
-      "entryTime": "2026-06-22T15:19:05Z",
-      "exitPrice": 132.73,
-      "exitTime": "2026-06-29T15:18:22Z",
-      "open": false,
-      "returnPct": 0.05,
-      "qqqReturnPct": -1.88
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "CCL",
-      "direction": "LONG",
-      "entryPrice": 28.5,
-      "entryTime": "2026-06-23T15:17:47Z",
-      "exitPrice": 29.19,
-      "exitTime": "2026-06-29T15:18:22Z",
-      "open": false,
-      "returnPct": 2.44,
-      "qqqReturnPct": 1.46
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "BWIN",
-      "direction": "LONG",
-      "entryPrice": 24.66,
-      "entryTime": "2026-06-22T15:19:05Z",
-      "exitPrice": 26.15,
-      "exitTime": "2026-06-29T15:18:21Z",
-      "open": false,
-      "returnPct": 6.04,
-      "qqqReturnPct": -1.88
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -7011,54 +6626,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.6
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "CRDO",
-      "direction": "SHORT",
-      "entryPrice": 266.77,
-      "entryTime": "2026-06-23T15:17:47Z",
-      "exitPrice": 251.06,
-      "exitTime": "2026-06-26T15:19:28Z",
-      "open": false,
-      "returnPct": 5.89,
-      "qqqReturnPct": -1.0
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ILLR",
-      "direction": "LONG",
-      "entryPrice": 3.9,
-      "entryTime": "2026-06-25T15:17:27Z",
-      "exitPrice": 4.33,
-      "exitTime": "2026-06-26T15:19:28Z",
-      "open": false,
-      "returnPct": 10.88,
-      "qqqReturnPct": -1.38
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "AGI",
-      "direction": "SHORT",
-      "entryPrice": 31.0,
-      "entryTime": "2026-06-22T15:19:05Z",
-      "exitPrice": 31.9,
-      "exitTime": "2026-06-26T15:19:27Z",
-      "open": false,
-      "returnPct": -2.89,
-      "qqqReturnPct": -4.26
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "CAMT",
-      "direction": "SHORT",
-      "entryPrice": 172.02,
-      "entryTime": "2026-06-23T15:17:47Z",
-      "exitPrice": 155.4,
-      "exitTime": "2026-06-26T15:19:27Z",
-      "open": false,
-      "returnPct": 9.66,
-      "qqqReturnPct": -1.0
-    },
-    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "CVX",
       "direction": "LONG",
@@ -7239,54 +6806,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.27
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "CBRS",
-      "direction": "SHORT",
-      "entryPrice": 191.67,
-      "entryTime": "2026-06-24T15:19:30Z",
-      "exitPrice": 168.17,
-      "exitTime": "2026-06-25T15:17:17Z",
-      "open": false,
-      "returnPct": 12.26,
-      "qqqReturnPct": 0.81
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "MAAS",
-      "direction": "SHORT",
-      "entryPrice": 18.38,
-      "entryTime": "2026-06-24T15:19:30Z",
-      "exitPrice": 17.18,
-      "exitTime": "2026-06-25T15:17:17Z",
-      "open": false,
-      "returnPct": 6.54,
-      "qqqReturnPct": 0.81
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ZETA",
-      "direction": "LONG",
-      "entryPrice": 19.72,
-      "entryTime": "2026-06-23T15:17:47Z",
-      "exitPrice": 18.01,
-      "exitTime": "2026-06-25T15:17:16Z",
-      "open": false,
-      "returnPct": -8.67,
-      "qqqReturnPct": 0.38
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "RUN",
-      "direction": "LONG",
-      "entryPrice": 16.33,
-      "entryTime": "2026-06-24T15:19:30Z",
-      "exitPrice": 13.59,
-      "exitTime": "2026-06-25T15:17:16Z",
-      "open": false,
-      "returnPct": -16.8,
-      "qqqReturnPct": 0.81
-    },
-    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "TROW",
       "direction": "LONG",
@@ -7453,54 +6972,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 4.37,
       "qqqReturnPct": -1.65
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "FLNC",
-      "direction": "SHORT",
-      "entryPrice": 22.0,
-      "entryTime": "2026-06-23T15:17:47Z",
-      "exitPrice": 20.39,
-      "exitTime": "2026-06-24T15:19:19Z",
-      "open": false,
-      "returnPct": 7.36,
-      "qqqReturnPct": -0.42
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "PRIM",
-      "direction": "LONG",
-      "entryPrice": 79.78,
-      "entryTime": "2026-06-23T15:17:47Z",
-      "exitPrice": 93.0,
-      "exitTime": "2026-06-24T15:19:19Z",
-      "open": false,
-      "returnPct": 16.57,
-      "qqqReturnPct": -0.42
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "INTC",
-      "direction": "LONG",
-      "entryPrice": 131.93,
-      "entryTime": "2026-06-18T15:18:41Z",
-      "exitPrice": 134.6,
-      "exitTime": "2026-06-24T15:19:18Z",
-      "open": false,
-      "returnPct": 2.03,
-      "qqqReturnPct": -4.05
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "QS",
-      "direction": "LONG",
-      "entryPrice": 7.79,
-      "entryTime": "2026-06-18T15:18:41Z",
-      "exitPrice": 7.2,
-      "exitTime": "2026-06-24T15:19:17Z",
-      "open": false,
-      "returnPct": -7.64,
-      "qqqReturnPct": -4.05
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -7695,66 +7166,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.64
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "SMCI",
-      "direction": "LONG",
-      "entryPrice": 35.4,
-      "entryTime": "2026-06-22T15:19:05Z",
-      "exitPrice": 33.58,
-      "exitTime": "2026-06-23T15:17:36Z",
-      "open": false,
-      "returnPct": -5.14,
-      "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "KEEL",
-      "direction": "LONG",
-      "entryPrice": 6.99,
-      "entryTime": "2026-06-22T15:19:05Z",
-      "exitPrice": 6.44,
-      "exitTime": "2026-06-23T15:17:36Z",
-      "open": false,
-      "returnPct": -7.85,
-      "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "SLBT",
-      "direction": "SHORT",
-      "entryPrice": 5.0,
-      "entryTime": "2026-06-22T15:19:05Z",
-      "exitPrice": 3.96,
-      "exitTime": "2026-06-23T15:17:35Z",
-      "open": false,
-      "returnPct": 20.83,
-      "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "UMC",
-      "direction": "LONG",
-      "entryPrice": 27.77,
-      "entryTime": "2026-06-22T15:19:05Z",
-      "exitPrice": 26.12,
-      "exitTime": "2026-06-23T15:17:35Z",
-      "open": false,
-      "returnPct": -5.95,
-      "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "EQPT",
-      "direction": "LONG",
-      "entryPrice": 26.27,
-      "entryTime": "2026-06-18T15:18:41Z",
-      "exitPrice": 23.76,
-      "exitTime": "2026-06-23T15:17:33Z",
-      "open": false,
-      "returnPct": -9.57,
-      "qqqReturnPct": -3.64
-    },
-    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "DGX",
       "direction": "LONG",
@@ -7933,102 +7344,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 4.25,
       "qqqReturnPct": 2.9
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "AAMI",
-      "direction": "SHORT",
-      "entryPrice": 73.07,
-      "entryTime": "2026-06-18T15:18:41Z",
-      "exitPrice": 74.33,
-      "exitTime": "2026-06-22T15:18:55Z",
-      "open": false,
-      "returnPct": -1.72,
-      "qqqReturnPct": -0.36
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "BHVN",
-      "direction": "LONG",
-      "entryPrice": 13.73,
-      "entryTime": "2026-06-17T15:14:58Z",
-      "exitPrice": 15.33,
-      "exitTime": "2026-06-22T15:18:54Z",
-      "open": false,
-      "returnPct": 11.62,
-      "qqqReturnPct": 2.14
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "QURE",
-      "direction": "LONG",
-      "entryPrice": 47.93,
-      "entryTime": "2026-06-17T15:14:58Z",
-      "exitPrice": 46.24,
-      "exitTime": "2026-06-22T15:18:54Z",
-      "open": false,
-      "returnPct": -3.52,
-      "qqqReturnPct": 2.14
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "FOX",
-      "direction": "SHORT",
-      "entryPrice": 49.96,
-      "entryTime": "2026-06-15T15:22:48Z",
-      "exitPrice": 44.87,
-      "exitTime": "2026-06-22T15:18:53Z",
-      "open": false,
-      "returnPct": 10.18,
-      "qqqReturnPct": -0.81
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "XNDU",
-      "direction": "LONG",
-      "entryPrice": 13.12,
-      "entryTime": "2026-06-15T15:22:48Z",
-      "exitPrice": 12.7,
-      "exitTime": "2026-06-22T15:18:53Z",
-      "open": false,
-      "returnPct": -3.2,
-      "qqqReturnPct": -0.81
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "CRWV",
-      "direction": "LONG",
-      "entryPrice": 115.93,
-      "entryTime": "2026-06-16T15:19:55Z",
-      "exitPrice": 108.81,
-      "exitTime": "2026-06-22T15:18:53Z",
-      "open": false,
-      "returnPct": -6.14,
-      "qqqReturnPct": 1.11
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "SPCX",
-      "direction": "SHORT",
-      "entryPrice": 189.73,
-      "entryTime": "2026-06-17T15:14:58Z",
-      "exitPrice": 168.37,
-      "exitTime": "2026-06-22T15:18:53Z",
-      "open": false,
-      "returnPct": 11.26,
-      "qqqReturnPct": 2.14
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "GPGI",
-      "direction": "LONG",
-      "entryPrice": 14.37,
-      "entryTime": "2026-06-15T15:22:48Z",
-      "exitPrice": 14.38,
-      "exitTime": "2026-06-22T15:18:52Z",
-      "open": false,
-      "returnPct": 0.1,
-      "qqqReturnPct": -0.81
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -8415,30 +7730,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 6.77
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "BRAI",
-      "direction": "LONG",
-      "entryPrice": 9.9,
-      "entryTime": "2026-06-17T15:14:58Z",
-      "exitPrice": 8.65,
-      "exitTime": "2026-06-18T15:18:32Z",
-      "open": false,
-      "returnPct": -12.67,
-      "qqqReturnPct": 2.51
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "AXTI",
-      "direction": "SHORT",
-      "entryPrice": 98.2,
-      "entryTime": "2026-06-16T15:19:55Z",
-      "exitPrice": 85.47,
-      "exitTime": "2026-06-18T15:18:30Z",
-      "open": false,
-      "returnPct": 12.96,
-      "qqqReturnPct": 1.47
-    },
-    {
       "strategy": "Stocks Sentiment V5",
       "ticker": "ESG",
       "direction": "LONG",
@@ -8571,42 +7862,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.07
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "HUN",
-      "direction": "SHORT",
-      "entryPrice": 12.72,
-      "entryTime": "2026-06-16T15:19:55Z",
-      "exitPrice": 13.34,
-      "exitTime": "2026-06-17T15:14:48Z",
-      "open": false,
-      "returnPct": -4.83,
-      "qqqReturnPct": -1.01
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "WDC",
-      "direction": "LONG",
-      "entryPrice": 646.08,
-      "entryTime": "2026-06-15T15:22:48Z",
-      "exitPrice": 723.81,
-      "exitTime": "2026-06-17T15:14:47Z",
-      "open": false,
-      "returnPct": 12.03,
-      "qqqReturnPct": -2.89
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "OLN",
-      "direction": "SHORT",
-      "entryPrice": 22.98,
-      "entryTime": "2026-06-16T15:19:55Z",
-      "exitPrice": 24.48,
-      "exitTime": "2026-06-17T15:14:47Z",
-      "open": false,
-      "returnPct": -6.53,
-      "qqqReturnPct": -1.01
-    },
-    {
       "strategy": "Stocks Sentiment V5",
       "ticker": "AR",
       "direction": "LONG",
@@ -8689,54 +7944,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.87,
       "qqqReturnPct": 1.78
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ENTG",
-      "direction": "LONG",
-      "entryPrice": 167.53,
-      "entryTime": "2026-06-15T15:22:48Z",
-      "exitPrice": 155.65,
-      "exitTime": "2026-06-16T15:19:43Z",
-      "open": false,
-      "returnPct": -7.09,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "CASY",
-      "direction": "LONG",
-      "entryPrice": 877.71,
-      "entryTime": "2026-06-10T15:24:52Z",
-      "exitPrice": 870.24,
-      "exitTime": "2026-06-16T15:19:42Z",
-      "open": false,
-      "returnPct": -0.85,
-      "qqqReturnPct": 5.21
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "SPCL",
-      "direction": "LONG",
-      "entryPrice": 51.26,
-      "entryTime": "2026-06-12T15:23:51Z",
-      "exitPrice": 73.32,
-      "exitTime": "2026-06-16T15:19:42Z",
-      "open": false,
-      "returnPct": 43.05,
-      "qqqReturnPct": 1.18
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "NAVN",
-      "direction": "SHORT",
-      "entryPrice": 20.14,
-      "entryTime": "2026-06-12T15:23:51Z",
-      "exitPrice": 19.0,
-      "exitTime": "2026-06-16T15:19:42Z",
-      "open": false,
-      "returnPct": 5.64,
-      "qqqReturnPct": 1.18
     },
     {
       "strategy": "Stocks Sentiment V5",
@@ -9049,54 +8256,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 3.56,
       "qqqReturnPct": 3.9
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "DAN",
-      "direction": "SHORT",
-      "entryPrice": 31.8,
-      "entryTime": "2026-06-11T15:24:37Z",
-      "exitPrice": 30.59,
-      "exitTime": "2026-06-15T15:22:34Z",
-      "open": false,
-      "returnPct": 3.81,
-      "qqqReturnPct": 3.75
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "CUPR",
-      "direction": "LONG",
-      "entryPrice": 5.22,
-      "entryTime": "2026-06-12T15:23:51Z",
-      "exitPrice": 8.05,
-      "exitTime": "2026-06-15T15:22:34Z",
-      "open": false,
-      "returnPct": 54.4,
-      "qqqReturnPct": 3.14
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "SJM",
-      "direction": "LONG",
-      "entryPrice": 114.27,
-      "entryTime": "2026-06-09T15:21:11Z",
-      "exitPrice": 114.8,
-      "exitTime": "2026-06-15T15:22:33Z",
-      "open": false,
-      "returnPct": 0.46,
-      "qqqReturnPct": 5.11
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "NUVL",
-      "direction": "LONG",
-      "entryPrice": 123.14,
-      "entryTime": "2026-06-09T15:21:11Z",
-      "exitPrice": 123.46,
-      "exitTime": "2026-06-15T15:22:33Z",
-      "open": false,
-      "returnPct": 0.26,
-      "qqqReturnPct": 5.11
     },
     {
       "strategy": "Stocks Sentiment V5",
@@ -9519,30 +8678,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.74
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "VOYG",
-      "direction": "LONG",
-      "entryPrice": 47.37,
-      "entryTime": "2026-06-11T15:24:37Z",
-      "exitPrice": 43.96,
-      "exitTime": "2026-06-12T15:23:41Z",
-      "open": false,
-      "returnPct": -7.19,
-      "qqqReturnPct": 0.59
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "RDW",
-      "direction": "SHORT",
-      "entryPrice": 15.94,
-      "entryTime": "2026-06-09T15:21:11Z",
-      "exitPrice": 15.9,
-      "exitTime": "2026-06-12T15:23:39Z",
-      "open": false,
-      "returnPct": 0.31,
-      "qqqReturnPct": 1.91
-    },
-    {
       "strategy": "Stocks Sentiment V5",
       "ticker": "GLD",
       "direction": "LONG",
@@ -9795,42 +8930,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.15
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "SMCI",
-      "direction": "SHORT",
-      "entryPrice": 33.68,
-      "entryTime": "2026-06-10T15:24:52Z",
-      "exitPrice": 29.4,
-      "exitTime": "2026-06-11T15:24:27Z",
-      "open": false,
-      "returnPct": 12.71,
-      "qqqReturnPct": 3.38
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "UNFI",
-      "direction": "LONG",
-      "entryPrice": 45.24,
-      "entryTime": "2026-06-09T15:21:11Z",
-      "exitPrice": 50.15,
-      "exitTime": "2026-06-11T15:24:26Z",
-      "open": false,
-      "returnPct": 10.86,
-      "qqqReturnPct": 1.31
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "KB",
-      "direction": "SHORT",
-      "entryPrice": 99.37,
-      "entryTime": "2026-06-08T15:19:39Z",
-      "exitPrice": 100.85,
-      "exitTime": "2026-06-11T15:24:25Z",
-      "open": false,
-      "returnPct": -1.49,
-      "qqqReturnPct": 0.15
-    },
-    {
       "strategy": "Stocks Sentiment V5",
       "ticker": "CRSP",
       "direction": "LONG",
@@ -9961,42 +9060,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.85,
       "qqqReturnPct": -3.13
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "AZI",
-      "direction": "LONG",
-      "entryPrice": 3.41,
-      "entryTime": "2026-06-09T15:21:11Z",
-      "exitPrice": 2.32,
-      "exitTime": "2026-06-10T15:24:42Z",
-      "open": false,
-      "returnPct": -31.96,
-      "qqqReturnPct": -2.0
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "UTI",
-      "direction": "SHORT",
-      "entryPrice": 37.65,
-      "entryTime": "2026-06-09T15:21:11Z",
-      "exitPrice": 40.28,
-      "exitTime": "2026-06-10T15:24:41Z",
-      "open": false,
-      "returnPct": -6.97,
-      "qqqReturnPct": -2.0
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "LULU",
-      "direction": "LONG",
-      "entryPrice": 115.27,
-      "entryTime": "2026-06-05T15:22:40Z",
-      "exitPrice": 122.0,
-      "exitTime": "2026-06-10T15:24:40Z",
-      "open": false,
-      "returnPct": 5.84,
-      "qqqReturnPct": -1.61
     },
     {
       "strategy": "Stocks Sentiment V5",
@@ -10167,126 +9230,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.7
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "OCC",
-      "direction": "LONG",
-      "entryPrice": 21.05,
-      "entryTime": "2026-06-08T15:19:39Z",
-      "exitPrice": 17.77,
-      "exitTime": "2026-06-09T15:21:01Z",
-      "open": false,
-      "returnPct": -15.58,
-      "qqqReturnPct": -1.15
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ABAT",
-      "direction": "LONG",
-      "entryPrice": 4.16,
-      "entryTime": "2026-06-08T15:19:39Z",
-      "exitPrice": 3.18,
-      "exitTime": "2026-06-09T15:21:01Z",
-      "open": false,
-      "returnPct": -23.47,
-      "qqqReturnPct": -1.15
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "CBRS",
-      "direction": "LONG",
-      "entryPrice": 235.49,
-      "entryTime": "2026-06-08T15:19:39Z",
-      "exitPrice": 223.29,
-      "exitTime": "2026-06-09T15:21:01Z",
-      "open": false,
-      "returnPct": -5.18,
-      "qqqReturnPct": -1.15
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "NOK",
-      "direction": "SHORT",
-      "entryPrice": 15.14,
-      "entryTime": "2026-06-05T15:22:40Z",
-      "exitPrice": 13.93,
-      "exitTime": "2026-06-09T15:21:00Z",
-      "open": false,
-      "returnPct": 8.0,
-      "qqqReturnPct": 0.39
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ALM",
-      "direction": "SHORT",
-      "entryPrice": 16.89,
-      "entryTime": "2026-06-05T15:22:40Z",
-      "exitPrice": 15.97,
-      "exitTime": "2026-06-09T15:21:00Z",
-      "open": false,
-      "returnPct": 5.45,
-      "qqqReturnPct": 0.39
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "TTAN",
-      "direction": "SHORT",
-      "entryPrice": 78.25,
-      "entryTime": "2026-06-05T15:22:40Z",
-      "exitPrice": 70.54,
-      "exitTime": "2026-06-09T15:21:00Z",
-      "open": false,
-      "returnPct": 9.86,
-      "qqqReturnPct": 0.39
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "TGTX",
-      "direction": "LONG",
-      "entryPrice": 40.32,
-      "entryTime": "2026-06-03T15:20:11Z",
-      "exitPrice": 42.12,
-      "exitTime": "2026-06-09T15:20:59Z",
-      "open": false,
-      "returnPct": 4.46,
-      "qqqReturnPct": -4.89
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "CRWD",
-      "direction": "LONG",
-      "entryPrice": 697.8,
-      "entryTime": "2026-06-04T15:21:23Z",
-      "exitPrice": 639.48,
-      "exitTime": "2026-06-09T15:20:59Z",
-      "open": false,
-      "returnPct": -8.36,
-      "qqqReturnPct": -4.43
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "PL",
-      "direction": "SHORT",
-      "entryPrice": 32.91,
-      "entryTime": "2026-06-05T15:22:40Z",
-      "exitPrice": 31.56,
-      "exitTime": "2026-06-09T15:20:59Z",
-      "open": false,
-      "returnPct": 4.1,
-      "qqqReturnPct": 0.39
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "POET",
-      "direction": "SHORT",
-      "entryPrice": 13.05,
-      "entryTime": "2026-06-05T15:22:40Z",
-      "exitPrice": 11.16,
-      "exitTime": "2026-06-09T15:20:59Z",
-      "open": false,
-      "returnPct": 14.44,
-      "qqqReturnPct": 0.39
-    },
-    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "AMD",
       "direction": "LONG",
@@ -10393,90 +9336,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -0.11,
       "qqqReturnPct": -3.01
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "KEEL",
-      "direction": "SHORT",
-      "entryPrice": 5.1,
-      "entryTime": "2026-06-05T15:22:40Z",
-      "exitPrice": 5.68,
-      "exitTime": "2026-06-08T15:19:28Z",
-      "open": false,
-      "returnPct": -11.26,
-      "qqqReturnPct": 1.56
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "RMSG",
-      "direction": "SHORT",
-      "entryPrice": 2.15,
-      "entryTime": "2026-06-05T15:22:40Z",
-      "exitPrice": 1.09,
-      "exitTime": "2026-06-08T15:19:27Z",
-      "open": false,
-      "returnPct": 49.42,
-      "qqqReturnPct": 1.56
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "CIEN",
-      "direction": "SHORT",
-      "entryPrice": 507.44,
-      "entryTime": "2026-06-04T15:21:23Z",
-      "exitPrice": 473.34,
-      "exitTime": "2026-06-08T15:19:26Z",
-      "open": false,
-      "returnPct": 6.72,
-      "qqqReturnPct": -3.31
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "FIVE",
-      "direction": "SHORT",
-      "entryPrice": 191.98,
-      "entryTime": "2026-06-04T15:21:23Z",
-      "exitPrice": 187.9,
-      "exitTime": "2026-06-08T15:19:26Z",
-      "open": false,
-      "returnPct": 2.12,
-      "qqqReturnPct": -3.31
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "OSCR",
-      "direction": "LONG",
-      "entryPrice": 23.59,
-      "entryTime": "2026-06-04T15:21:23Z",
-      "exitPrice": 25.72,
-      "exitTime": "2026-06-08T15:19:26Z",
-      "open": false,
-      "returnPct": 9.01,
-      "qqqReturnPct": -3.31
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "TMHC",
-      "direction": "LONG",
-      "entryPrice": 71.63,
-      "entryTime": "2026-06-01T15:22:34Z",
-      "exitPrice": 71.52,
-      "exitTime": "2026-06-08T15:19:25Z",
-      "open": false,
-      "returnPct": -0.16,
-      "qqqReturnPct": -3.59
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "MLYS",
-      "direction": "SHORT",
-      "entryPrice": 24.56,
-      "entryTime": "2026-06-03T15:20:11Z",
-      "exitPrice": 23.07,
-      "exitTime": "2026-06-08T15:19:25Z",
-      "open": false,
-      "returnPct": 6.05,
-      "qqqReturnPct": -3.78
     },
     {
       "strategy": "Stocks Sentiment V5",
@@ -10887,102 +9746,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.5
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "BB",
-      "direction": "LONG",
-      "entryPrice": 10.72,
-      "entryTime": "2026-06-04T15:21:23Z",
-      "exitPrice": 9.78,
-      "exitTime": "2026-06-05T15:22:30Z",
-      "open": false,
-      "returnPct": -8.77,
-      "qqqReturnPct": -4.8
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "NVTS",
-      "direction": "LONG",
-      "entryPrice": 30.91,
-      "entryTime": "2026-06-03T15:20:11Z",
-      "exitPrice": 26.26,
-      "exitTime": "2026-06-05T15:22:29Z",
-      "open": false,
-      "returnPct": -15.03,
-      "qqqReturnPct": -5.26
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "NTSK",
-      "direction": "LONG",
-      "entryPrice": 10.45,
-      "entryTime": "2026-06-04T15:21:23Z",
-      "exitPrice": 9.56,
-      "exitTime": "2026-06-05T15:22:29Z",
-      "open": false,
-      "returnPct": -8.51,
-      "qqqReturnPct": -4.8
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "PENG",
-      "direction": "LONG",
-      "entryPrice": 71.84,
-      "entryTime": "2026-06-02T15:20:58Z",
-      "exitPrice": 63.13,
-      "exitTime": "2026-06-05T15:22:28Z",
-      "open": false,
-      "returnPct": -12.12,
-      "qqqReturnPct": -5.51
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "LUNR",
-      "direction": "SHORT",
-      "entryPrice": 34.01,
-      "entryTime": "2026-06-03T15:20:11Z",
-      "exitPrice": 29.97,
-      "exitTime": "2026-06-05T15:22:28Z",
-      "open": false,
-      "returnPct": 11.87,
-      "qqqReturnPct": -5.26
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "RKLB",
-      "direction": "SHORT",
-      "entryPrice": 123.87,
-      "entryTime": "2026-06-01T15:22:34Z",
-      "exitPrice": 112.4,
-      "exitTime": "2026-06-05T15:22:27Z",
-      "open": false,
-      "returnPct": 9.26,
-      "qqqReturnPct": -5.07
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "HUBS",
-      "direction": "SHORT",
-      "entryPrice": 229.43,
-      "entryTime": "2026-06-02T15:20:58Z",
-      "exitPrice": 211.11,
-      "exitTime": "2026-06-05T15:22:27Z",
-      "open": false,
-      "returnPct": 7.99,
-      "qqqReturnPct": -5.51
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "XMTR",
-      "direction": "SHORT",
-      "entryPrice": 83.88,
-      "entryTime": "2026-06-02T15:20:58Z",
-      "exitPrice": 84.52,
-      "exitTime": "2026-06-05T15:22:27Z",
-      "open": false,
-      "returnPct": -0.76,
-      "qqqReturnPct": -5.51
-    },
-    {
       "strategy": "Stocks Sentiment V5",
       "ticker": "EU",
       "direction": "LONG",
@@ -11151,54 +9914,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.53
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "LASE",
-      "direction": "LONG",
-      "entryPrice": 3.78,
-      "entryTime": "2026-06-03T15:20:11Z",
-      "exitPrice": 3.32,
-      "exitTime": "2026-06-04T15:21:12Z",
-      "open": false,
-      "returnPct": -12.06,
-      "qqqReturnPct": -0.48
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "SDOT",
-      "direction": "LONG",
-      "entryPrice": 7.27,
-      "entryTime": "2026-06-03T15:20:11Z",
-      "exitPrice": 7.86,
-      "exitTime": "2026-06-04T15:21:11Z",
-      "open": false,
-      "returnPct": 8.15,
-      "qqqReturnPct": -0.48
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ARM",
-      "direction": "LONG",
-      "entryPrice": 413.99,
-      "entryTime": "2026-06-01T15:22:34Z",
-      "exitPrice": 387.05,
-      "exitTime": "2026-06-04T15:21:10Z",
-      "open": false,
-      "returnPct": -6.51,
-      "qqqReturnPct": -0.29
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "NTAP",
-      "direction": "LONG",
-      "entryPrice": 180.38,
-      "entryTime": "2026-05-29T15:25:12Z",
-      "exitPrice": 177.04,
-      "exitTime": "2026-06-04T15:21:09Z",
-      "open": false,
-      "returnPct": -1.85,
-      "qqqReturnPct": 0.31
-    },
-    {
       "strategy": "Stocks Sentiment V5",
       "ticker": "AGI",
       "direction": "LONG",
@@ -11365,42 +10080,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -1.42,
       "qqqReturnPct": 1.91
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "PRAX",
-      "direction": "SHORT",
-      "entryPrice": 293.7,
-      "entryTime": "2026-06-02T15:20:58Z",
-      "exitPrice": 272.21,
-      "exitTime": "2026-06-03T15:20:00Z",
-      "open": false,
-      "returnPct": 7.32,
-      "qqqReturnPct": -0.26
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "MRVL",
-      "direction": "LONG",
-      "entryPrice": 279.7,
-      "entryTime": "2026-06-02T15:20:58Z",
-      "exitPrice": 308.51,
-      "exitTime": "2026-06-03T15:19:59Z",
-      "open": false,
-      "returnPct": 10.3,
-      "qqqReturnPct": -0.26
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "LAC",
-      "direction": "LONG",
-      "entryPrice": 6.05,
-      "entryTime": "2026-06-02T15:20:58Z",
-      "exitPrice": 5.28,
-      "exitTime": "2026-06-03T15:19:59Z",
-      "open": false,
-      "returnPct": -12.81,
-      "qqqReturnPct": -0.26
     },
     {
       "strategy": "Stocks Sentiment V5",
@@ -11593,90 +10272,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.87,
       "qqqReturnPct": 2.29
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "SAIC",
-      "direction": "LONG",
-      "entryPrice": 122.86,
-      "entryTime": "2026-06-01T15:22:34Z",
-      "exitPrice": 111.24,
-      "exitTime": "2026-06-02T15:20:49Z",
-      "open": false,
-      "returnPct": -9.46,
-      "qqqReturnPct": 0.46
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "FLNC",
-      "direction": "LONG",
-      "entryPrice": 25.83,
-      "entryTime": "2026-06-01T15:22:34Z",
-      "exitPrice": 28.84,
-      "exitTime": "2026-06-02T15:20:48Z",
-      "open": false,
-      "returnPct": 11.63,
-      "qqqReturnPct": 0.46
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "RDW",
-      "direction": "SHORT",
-      "entryPrice": 20.59,
-      "entryTime": "2026-06-01T15:22:34Z",
-      "exitPrice": 21.56,
-      "exitTime": "2026-06-02T15:20:48Z",
-      "open": false,
-      "returnPct": -4.71,
-      "qqqReturnPct": 0.46
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "SMCI",
-      "direction": "LONG",
-      "entryPrice": 46.55,
-      "entryTime": "2026-05-29T15:25:12Z",
-      "exitPrice": 50.33,
-      "exitTime": "2026-06-02T15:20:47Z",
-      "open": false,
-      "returnPct": 8.12,
-      "qqqReturnPct": 1.06
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "HPE",
-      "direction": "LONG",
-      "entryPrice": 43.91,
-      "entryTime": "2026-05-29T15:25:12Z",
-      "exitPrice": 59.04,
-      "exitTime": "2026-06-02T15:20:47Z",
-      "open": false,
-      "returnPct": 34.46,
-      "qqqReturnPct": 1.06
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "UMAC",
-      "direction": "LONG",
-      "entryPrice": 28.13,
-      "entryTime": "2026-05-28T15:25:03Z",
-      "exitPrice": 31.84,
-      "exitTime": "2026-06-02T15:20:46Z",
-      "open": false,
-      "returnPct": 13.18,
-      "qqqReturnPct": 1.44
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "AMBA",
-      "direction": "SHORT",
-      "entryPrice": 72.47,
-      "entryTime": "2026-05-29T15:25:12Z",
-      "exitPrice": 80.06,
-      "exitTime": "2026-06-02T15:20:46Z",
-      "open": false,
-      "returnPct": -10.47,
-      "qqqReturnPct": 1.06
     },
     {
       "strategy": "Stocks Sentiment V5",
@@ -11905,90 +10500,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -9.41,
       "qqqReturnPct": 3.51
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "NOW",
-      "direction": "LONG",
-      "entryPrice": 123.28,
-      "entryTime": "2026-05-29T15:25:12Z",
-      "exitPrice": 136.91,
-      "exitTime": "2026-06-01T15:22:24Z",
-      "open": false,
-      "returnPct": 11.06,
-      "qqqReturnPct": 0.6
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "RDW",
-      "direction": "SHORT",
-      "entryPrice": 22.69,
-      "entryTime": "2026-05-29T15:25:12Z",
-      "exitPrice": 20.6,
-      "exitTime": "2026-06-01T15:22:23Z",
-      "open": false,
-      "returnPct": 9.21,
-      "qqqReturnPct": 0.6
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "SPCE",
-      "direction": "LONG",
-      "entryPrice": 4.89,
-      "entryTime": "2026-05-29T15:25:12Z",
-      "exitPrice": 7.03,
-      "exitTime": "2026-06-01T15:22:23Z",
-      "open": false,
-      "returnPct": 43.7,
-      "qqqReturnPct": 0.6
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "PDD",
-      "direction": "SHORT",
-      "entryPrice": 85.86,
-      "entryTime": "2026-05-27T15:20:22Z",
-      "exitPrice": 87.9,
-      "exitTime": "2026-06-01T15:22:22Z",
-      "open": false,
-      "returnPct": -2.37,
-      "qqqReturnPct": 1.82
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "SNOW",
-      "direction": "LONG",
-      "entryPrice": 237.22,
-      "entryTime": "2026-05-28T15:25:03Z",
-      "exitPrice": 279.07,
-      "exitTime": "2026-06-01T15:22:22Z",
-      "open": false,
-      "returnPct": 17.64,
-      "qqqReturnPct": 0.97
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "OKTA",
-      "direction": "LONG",
-      "entryPrice": 119.74,
-      "entryTime": "2026-05-29T15:25:12Z",
-      "exitPrice": 140.96,
-      "exitTime": "2026-06-01T15:22:22Z",
-      "open": false,
-      "returnPct": 17.72,
-      "qqqReturnPct": 0.6
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "BBWI",
-      "direction": "LONG",
-      "entryPrice": 19.89,
-      "entryTime": "2026-05-27T15:20:22Z",
-      "exitPrice": 18.68,
-      "exitTime": "2026-06-01T15:22:21Z",
-      "open": false,
-      "returnPct": -6.11,
-      "qqqReturnPct": 1.82
     },
     {
       "strategy": "Stocks Sentiment V5",
@@ -12351,102 +10862,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.21
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "AMPX",
-      "direction": "LONG",
-      "entryPrice": 21.34,
-      "entryTime": "2026-05-28T15:25:03Z",
-      "exitPrice": 19.9,
-      "exitTime": "2026-05-29T15:25:01Z",
-      "open": false,
-      "returnPct": -6.77,
-      "qqqReturnPct": 0.37
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ATS",
-      "direction": "SHORT",
-      "entryPrice": 29.83,
-      "entryTime": "2026-05-28T15:25:03Z",
-      "exitPrice": 31.18,
-      "exitTime": "2026-05-29T15:25:00Z",
-      "open": false,
-      "returnPct": -4.51,
-      "qqqReturnPct": 0.37
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ONDS",
-      "direction": "LONG",
-      "entryPrice": 12.98,
-      "entryTime": "2026-05-28T15:25:03Z",
-      "exitPrice": 12.0,
-      "exitTime": "2026-05-29T15:25:00Z",
-      "open": false,
-      "returnPct": -7.55,
-      "qqqReturnPct": 0.37
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "DY",
-      "direction": "LONG",
-      "entryPrice": 541.14,
-      "entryTime": "2026-05-27T15:20:22Z",
-      "exitPrice": 511.46,
-      "exitTime": "2026-05-29T15:24:59Z",
-      "open": false,
-      "returnPct": -5.48,
-      "qqqReturnPct": 1.21
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ZS",
-      "direction": "SHORT",
-      "entryPrice": 125.8,
-      "entryTime": "2026-05-27T15:20:22Z",
-      "exitPrice": 136.23,
-      "exitTime": "2026-05-29T15:24:59Z",
-      "open": false,
-      "returnPct": -8.29,
-      "qqqReturnPct": 1.21
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "AZO",
-      "direction": "SHORT",
-      "entryPrice": 3029.82,
-      "entryTime": "2026-05-26T15:22:15Z",
-      "exitPrice": 2954.57,
-      "exitTime": "2026-05-29T15:24:58Z",
-      "open": false,
-      "returnPct": 2.48,
-      "qqqReturnPct": 1.1
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ASTS",
-      "direction": "LONG",
-      "entryPrice": 125.7,
-      "entryTime": "2026-05-26T15:22:15Z",
-      "exitPrice": 109.63,
-      "exitTime": "2026-05-29T15:24:58Z",
-      "open": false,
-      "returnPct": -12.78,
-      "qqqReturnPct": 1.1
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ANF",
-      "direction": "LONG",
-      "entryPrice": 83.74,
-      "entryTime": "2026-05-27T15:20:22Z",
-      "exitPrice": 77.74,
-      "exitTime": "2026-05-29T15:24:58Z",
-      "open": false,
-      "returnPct": -7.17,
-      "qqqReturnPct": 1.21
-    },
-    {
       "strategy": "Stocks Sentiment V5",
       "ticker": "TTWO",
       "direction": "LONG",
@@ -12723,66 +11138,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.95
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "LUNR",
-      "direction": "LONG",
-      "entryPrice": 39.02,
-      "entryTime": "2026-05-27T15:20:22Z",
-      "exitPrice": 43.78,
-      "exitTime": "2026-05-28T15:24:54Z",
-      "open": false,
-      "returnPct": 12.2,
-      "qqqReturnPct": 0.84
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ASTC",
-      "direction": "LONG",
-      "entryPrice": 10.37,
-      "entryTime": "2026-05-27T15:20:22Z",
-      "exitPrice": 17.82,
-      "exitTime": "2026-05-28T15:24:53Z",
-      "open": false,
-      "returnPct": 71.84,
-      "qqqReturnPct": 0.84
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "DELL",
-      "direction": "LONG",
-      "entryPrice": 289.12,
-      "entryTime": "2026-05-22T15:24:25Z",
-      "exitPrice": 321.7,
-      "exitTime": "2026-05-28T15:24:52Z",
-      "open": false,
-      "returnPct": 11.27,
-      "qqqReturnPct": 2.52
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "RDW",
-      "direction": "LONG",
-      "entryPrice": 22.25,
-      "entryTime": "2026-05-26T15:22:15Z",
-      "exitPrice": 24.97,
-      "exitTime": "2026-05-28T15:24:52Z",
-      "open": false,
-      "returnPct": 12.22,
-      "qqqReturnPct": 0.73
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "YSS",
-      "direction": "LONG",
-      "entryPrice": 34.83,
-      "entryTime": "2026-05-26T15:22:15Z",
-      "exitPrice": 32.9,
-      "exitTime": "2026-05-28T15:24:52Z",
-      "open": false,
-      "returnPct": -5.53,
-      "qqqReturnPct": 0.73
-    },
-    {
       "strategy": "Stocks Sentiment V5",
       "ticker": "UBS",
       "direction": "LONG",
@@ -12949,30 +11304,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 2.46,
       "qqqReturnPct": 3.98
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "MOD",
-      "direction": "LONG",
-      "entryPrice": 310.57,
-      "entryTime": "2026-05-26T15:22:15Z",
-      "exitPrice": 277.0,
-      "exitTime": "2026-05-27T15:20:11Z",
-      "open": false,
-      "returnPct": -10.81,
-      "qqqReturnPct": -0.11
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "APLD",
-      "direction": "LONG",
-      "entryPrice": 46.71,
-      "entryTime": "2026-05-21T15:23:37Z",
-      "exitPrice": 45.59,
-      "exitTime": "2026-05-27T15:20:10Z",
-      "open": false,
-      "returnPct": -2.4,
-      "qqqReturnPct": 2.09
     },
     {
       "strategy": "Stocks Sentiment V5",
@@ -13164,102 +11495,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-05-26T15:23:25Z",
       "open": false,
       "returnPct": 11.16,
-      "qqqReturnPct": 3.46
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "INFQ",
-      "direction": "LONG",
-      "entryPrice": 17.51,
-      "entryTime": "2026-05-22T15:24:25Z",
-      "exitPrice": 15.24,
-      "exitTime": "2026-05-26T15:22:06Z",
-      "open": false,
-      "returnPct": -12.99,
-      "qqqReturnPct": 1.78
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "NIO",
-      "direction": "SHORT",
-      "entryPrice": 5.47,
-      "entryTime": "2026-05-21T15:23:37Z",
-      "exitPrice": 5.28,
-      "exitTime": "2026-05-26T15:22:05Z",
-      "open": false,
-      "returnPct": 3.42,
-      "qqqReturnPct": 2.21
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "OCTVV",
-      "direction": "SHORT",
-      "entryPrice": 21.5,
-      "entryTime": "2026-05-22T15:24:25Z",
-      "exitPrice": 17.26,
-      "exitTime": "2026-05-26T15:22:05Z",
-      "open": false,
-      "returnPct": 19.72,
-      "qqqReturnPct": 1.78
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "CAE",
-      "direction": "SHORT",
-      "entryPrice": 23.43,
-      "entryTime": "2026-05-22T15:24:25Z",
-      "exitPrice": 24.16,
-      "exitTime": "2026-05-26T15:22:05Z",
-      "open": false,
-      "returnPct": -3.09,
-      "qqqReturnPct": 1.78
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "RAMP",
-      "direction": "LONG",
-      "entryPrice": 37.86,
-      "entryTime": "2026-05-18T15:23:25Z",
-      "exitPrice": 37.67,
-      "exitTime": "2026-05-26T15:22:04Z",
-      "open": false,
-      "returnPct": -0.49,
-      "qqqReturnPct": 3.46
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "CMBT",
-      "direction": "LONG",
-      "entryPrice": 16.85,
-      "entryTime": "2026-05-19T15:21:12Z",
-      "exitPrice": 16.48,
-      "exitTime": "2026-05-26T15:22:04Z",
-      "open": false,
-      "returnPct": -2.24,
-      "qqqReturnPct": 4.1
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "WAY",
-      "direction": "LONG",
-      "entryPrice": 19.67,
-      "entryTime": "2026-05-19T15:21:12Z",
-      "exitPrice": 19.66,
-      "exitTime": "2026-05-26T15:22:04Z",
-      "open": false,
-      "returnPct": -0.05,
-      "qqqReturnPct": 4.1
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "BRC",
-      "direction": "LONG",
-      "entryPrice": 80.89,
-      "entryTime": "2026-05-18T15:23:25Z",
-      "exitPrice": 88.6,
-      "exitTime": "2026-05-26T15:22:03Z",
-      "open": false,
-      "returnPct": 9.52,
       "qqqReturnPct": 3.46
     },
     {
@@ -13551,78 +11786,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.65
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "QBTS",
-      "direction": "LONG",
-      "entryPrice": 24.37,
-      "entryTime": "2026-05-21T15:23:37Z",
-      "exitPrice": 30.22,
-      "exitTime": "2026-05-22T15:24:16Z",
-      "open": false,
-      "returnPct": 24.03,
-      "qqqReturnPct": 0.42
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "AAP",
-      "direction": "LONG",
-      "entryPrice": 61.1,
-      "entryTime": "2026-05-21T15:23:37Z",
-      "exitPrice": 56.49,
-      "exitTime": "2026-05-22T15:24:16Z",
-      "open": false,
-      "returnPct": -7.55,
-      "qqqReturnPct": 0.42
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "RGTI",
-      "direction": "LONG",
-      "entryPrice": 21.16,
-      "entryTime": "2026-05-21T15:23:37Z",
-      "exitPrice": 26.44,
-      "exitTime": "2026-05-22T15:24:16Z",
-      "open": false,
-      "returnPct": 24.95,
-      "qqqReturnPct": 0.42
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "AGYS",
-      "direction": "SHORT",
-      "entryPrice": 79.24,
-      "entryTime": "2026-05-19T15:21:12Z",
-      "exitPrice": 80.11,
-      "exitTime": "2026-05-22T15:24:15Z",
-      "open": false,
-      "returnPct": -1.1,
-      "qqqReturnPct": 2.28
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "INFQ",
-      "direction": "LONG",
-      "entryPrice": 14.89,
-      "entryTime": "2026-05-21T15:23:37Z",
-      "exitPrice": 17.52,
-      "exitTime": "2026-05-22T15:24:15Z",
-      "open": false,
-      "returnPct": 17.69,
-      "qqqReturnPct": 0.42
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "NOW",
-      "direction": "SHORT",
-      "entryPrice": 104.03,
-      "entryTime": "2026-05-19T15:21:12Z",
-      "exitPrice": 101.47,
-      "exitTime": "2026-05-22T15:24:14Z",
-      "open": false,
-      "returnPct": 2.45,
-      "qqqReturnPct": 2.28
-    },
-    {
       "strategy": "Stocks Sentiment V5",
       "ticker": "JD",
       "direction": "LONG",
@@ -13777,42 +11940,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -9.97,
       "qqqReturnPct": 0.19
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "IMVT",
-      "direction": "LONG",
-      "entryPrice": 34.71,
-      "entryTime": "2026-05-20T15:23:28Z",
-      "exitPrice": 32.97,
-      "exitTime": "2026-05-21T15:23:29Z",
-      "open": false,
-      "returnPct": -5.01,
-      "qqqReturnPct": 0.19
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "RLAY",
-      "direction": "LONG",
-      "entryPrice": 13.27,
-      "entryTime": "2026-05-19T15:21:12Z",
-      "exitPrice": 14.44,
-      "exitTime": "2026-05-21T15:23:27Z",
-      "open": false,
-      "returnPct": 8.78,
-      "qqqReturnPct": 1.85
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "FIG",
-      "direction": "LONG",
-      "entryPrice": 22.9,
-      "entryTime": "2026-05-15T15:25:00Z",
-      "exitPrice": 21.84,
-      "exitTime": "2026-05-21T15:23:26Z",
-      "open": false,
-      "returnPct": -4.63,
-      "qqqReturnPct": 0.79
     },
     {
       "strategy": "Stocks Sentiment V5",
@@ -13971,66 +12098,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.03
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "RUBI",
-      "direction": "SHORT",
-      "entryPrice": 1.87,
-      "entryTime": "2026-05-19T15:21:12Z",
-      "exitPrice": 0.84,
-      "exitTime": "2026-05-20T15:23:17Z",
-      "open": false,
-      "returnPct": 55.23,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "WNW",
-      "direction": "LONG",
-      "entryPrice": 5.05,
-      "entryTime": "2026-05-19T15:21:12Z",
-      "exitPrice": 5.69,
-      "exitTime": "2026-05-20T15:23:17Z",
-      "open": false,
-      "returnPct": 12.67,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "GCTS",
-      "direction": "LONG",
-      "entryPrice": 2.4,
-      "entryTime": "2026-05-18T15:23:25Z",
-      "exitPrice": 2.73,
-      "exitTime": "2026-05-20T15:23:16Z",
-      "open": false,
-      "returnPct": 13.71,
-      "qqqReturnPct": 1.03
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "RDW",
-      "direction": "SHORT",
-      "entryPrice": 13.44,
-      "entryTime": "2026-05-18T15:23:25Z",
-      "exitPrice": 14.06,
-      "exitTime": "2026-05-20T15:23:16Z",
-      "open": false,
-      "returnPct": -4.65,
-      "qqqReturnPct": 1.03
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "PCT",
-      "direction": "LONG",
-      "entryPrice": 12.69,
-      "entryTime": "2026-05-14T15:23:57Z",
-      "exitPrice": 12.3,
-      "exitTime": "2026-05-20T15:23:15Z",
-      "open": false,
-      "returnPct": -3.11,
-      "qqqReturnPct": -0.92
-    },
-    {
       "strategy": "Stocks Sentiment V5",
       "ticker": "UAE",
       "direction": "LONG",
@@ -14187,54 +12254,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.62
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "POET",
-      "direction": "SHORT",
-      "entryPrice": 14.12,
-      "entryTime": "2026-05-18T15:23:25Z",
-      "exitPrice": 12.87,
-      "exitTime": "2026-05-19T15:20:59Z",
-      "open": false,
-      "returnPct": 8.85,
-      "qqqReturnPct": -0.62
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "TNGX",
-      "direction": "SHORT",
-      "entryPrice": 20.36,
-      "entryTime": "2026-05-15T15:25:00Z",
-      "exitPrice": 21.06,
-      "exitTime": "2026-05-19T15:20:58Z",
-      "open": false,
-      "returnPct": -3.44,
-      "qqqReturnPct": -1.04
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "WOLF",
-      "direction": "SHORT",
-      "entryPrice": 60.67,
-      "entryTime": "2026-05-15T15:25:00Z",
-      "exitPrice": 59.3,
-      "exitTime": "2026-05-19T15:20:58Z",
-      "open": false,
-      "returnPct": 2.25,
-      "qqqReturnPct": -1.04
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "INTC",
-      "direction": "SHORT",
-      "entryPrice": 108.46,
-      "entryTime": "2026-05-15T15:25:00Z",
-      "exitPrice": 105.98,
-      "exitTime": "2026-05-19T15:20:58Z",
-      "open": false,
-      "returnPct": 2.3,
-      "qqqReturnPct": -1.04
-    },
-    {
       "strategy": "Stocks Sentiment V5",
       "ticker": "AM",
       "direction": "LONG",
@@ -14353,78 +12372,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.04,
       "qqqReturnPct": -1.93
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "YSS",
-      "direction": "SHORT",
-      "entryPrice": 24.08,
-      "entryTime": "2026-05-15T15:25:00Z",
-      "exitPrice": 25.08,
-      "exitTime": "2026-05-18T15:23:13Z",
-      "open": false,
-      "returnPct": -4.13,
-      "qqqReturnPct": -0.43
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "HCWB",
-      "direction": "LONG",
-      "entryPrice": 1.12,
-      "entryTime": "2026-05-15T15:25:00Z",
-      "exitPrice": 1.29,
-      "exitTime": "2026-05-18T15:23:13Z",
-      "open": false,
-      "returnPct": 15.52,
-      "qqqReturnPct": -0.43
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "DVLT",
-      "direction": "SHORT",
-      "entryPrice": 0.53,
-      "entryTime": "2026-05-15T15:25:00Z",
-      "exitPrice": 0.48,
-      "exitTime": "2026-05-18T15:23:13Z",
-      "open": false,
-      "returnPct": 8.96,
-      "qqqReturnPct": -0.43
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ONDS",
-      "direction": "LONG",
-      "entryPrice": 10.59,
-      "entryTime": "2026-05-14T15:23:57Z",
-      "exitPrice": 9.62,
-      "exitTime": "2026-05-18T15:23:12Z",
-      "open": false,
-      "returnPct": -9.12,
-      "qqqReturnPct": -1.93
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "POET",
-      "direction": "LONG",
-      "entryPrice": 18.94,
-      "entryTime": "2026-05-14T15:23:57Z",
-      "exitPrice": 14.14,
-      "exitTime": "2026-05-18T15:23:12Z",
-      "open": false,
-      "returnPct": -25.34,
-      "qqqReturnPct": -1.93
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "ZBRA",
-      "direction": "LONG",
-      "entryPrice": 251.87,
-      "entryTime": "2026-05-12T15:19:54Z",
-      "exitPrice": 258.89,
-      "exitTime": "2026-05-18T15:23:11Z",
-      "open": false,
-      "returnPct": 2.79,
-      "qqqReturnPct": -0.19
     },
     {
       "strategy": "Stocks Sentiment V5",
@@ -14679,42 +12626,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.51
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "LWLG",
-      "direction": "SHORT",
-      "entryPrice": 15.04,
-      "entryTime": "2026-05-14T15:23:57Z",
-      "exitPrice": 13.73,
-      "exitTime": "2026-05-15T15:24:49Z",
-      "open": false,
-      "returnPct": 8.7,
-      "qqqReturnPct": -1.51
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "PBH",
-      "direction": "SHORT",
-      "entryPrice": 44.56,
-      "entryTime": "2026-05-14T15:23:57Z",
-      "exitPrice": 47.4,
-      "exitTime": "2026-05-15T15:24:48Z",
-      "open": false,
-      "returnPct": -6.37,
-      "qqqReturnPct": -1.51
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "CAMT",
-      "direction": "SHORT",
-      "entryPrice": 171.58,
-      "entryTime": "2026-05-12T15:19:54Z",
-      "exitPrice": 170.05,
-      "exitTime": "2026-05-15T15:24:47Z",
-      "open": false,
-      "returnPct": 0.89,
-      "qqqReturnPct": 0.24
-    },
-    {
       "strategy": "Stocks Sentiment V5",
       "ticker": "SLV",
       "direction": "LONG",
@@ -14883,42 +12794,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.91
     },
     {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "VNET",
-      "direction": "LONG",
-      "entryPrice": 11.38,
-      "entryTime": "2026-05-13T15:20:16Z",
-      "exitPrice": 10.67,
-      "exitTime": "2026-05-14T15:23:47Z",
-      "open": false,
-      "returnPct": -6.2,
-      "qqqReturnPct": 0.71
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "NBIS",
-      "direction": "LONG",
-      "entryPrice": 208.22,
-      "entryTime": "2026-05-13T15:20:16Z",
-      "exitPrice": 228.49,
-      "exitTime": "2026-05-14T15:23:47Z",
-      "open": false,
-      "returnPct": 9.73,
-      "qqqReturnPct": 0.71
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "BGSI",
-      "direction": "SHORT",
-      "entryPrice": 96.25,
-      "entryTime": "2026-05-13T15:20:16Z",
-      "exitPrice": 103.17,
-      "exitTime": "2026-05-14T15:23:46Z",
-      "open": false,
-      "returnPct": -7.2,
-      "qqqReturnPct": 0.71
-    },
-    {
       "strategy": "Stocks Sentiment V5",
       "ticker": "META",
       "direction": "LONG",
@@ -15001,42 +12876,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 0.44,
       "qqqReturnPct": 0.2
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "PLUG",
-      "direction": "SHORT",
-      "entryPrice": 3.6,
-      "entryTime": "2026-05-12T15:19:54Z",
-      "exitPrice": 3.86,
-      "exitTime": "2026-05-13T15:20:06Z",
-      "open": false,
-      "returnPct": -7.09,
-      "qqqReturnPct": 1.06
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "BW",
-      "direction": "LONG",
-      "entryPrice": 17.95,
-      "entryTime": "2026-05-11T15:24:32Z",
-      "exitPrice": 19.93,
-      "exitTime": "2026-05-13T15:20:05Z",
-      "open": false,
-      "returnPct": 11.03,
-      "qqqReturnPct": 0.2
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "FLNC",
-      "direction": "SHORT",
-      "entryPrice": 21.08,
-      "entryTime": "2026-05-12T15:19:54Z",
-      "exitPrice": 22.35,
-      "exitTime": "2026-05-13T15:20:05Z",
-      "open": false,
-      "returnPct": -6.02,
-      "qqqReturnPct": 1.06
     },
     {
       "strategy": "Stocks Sentiment V5",
@@ -15168,18 +13007,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-05-12T15:23:48Z",
       "open": false,
       "returnPct": 1.4,
-      "qqqReturnPct": -0.85
-    },
-    {
-      "strategy": "Quad Earnings GAP D1",
-      "ticker": "MRAM",
-      "direction": "LONG",
-      "entryPrice": 38.0,
-      "entryTime": "2026-05-11T15:24:32Z",
-      "exitPrice": 35.58,
-      "exitTime": "2026-05-12T15:19:44Z",
-      "open": false,
-      "returnPct": -6.36,
       "qqqReturnPct": -0.85
     },
     {
