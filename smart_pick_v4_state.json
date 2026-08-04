@@ -1,5 +1,24 @@
 {
-  "Active": null,
+  "Active": {
+    "Ticker": "AAOI",
+    "Direction": "LONG",
+    "EntryPrice": 132.79,
+    "CurrentPrice": 132.79,
+    "CurrentReturn": 0.0,
+    "PeakReturn": 0.0,
+    "OpenedAt": "2026-08-04T15:29:12.8792943Z",
+    "TargetPct": 3.5,
+    "StopPct": 2.0,
+    "MaxDays": 7,
+    "EntryRegime": "BULL_HIGH_VOL",
+    "Thesis": "LONG AAOI (OTHER) macro=GREEN regime=BULL_HIGH_VOL score 2.71 from 2 signals",
+    "SourceScanners": [
+      "QUAD__earnings_gap_d1",
+      "STOCKS_NEWSCANNER__altdata"
+    ],
+    "MacroRegimeAtEntry": "GREEN",
+    "MacroSizeMult": 1.0
+  },
   "History": [
     {
       "Ticker": "RBLX",
