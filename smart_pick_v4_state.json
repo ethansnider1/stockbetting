@@ -1,25 +1,24 @@
 {
-  "Active": {
-    "Ticker": "AAOI",
-    "Direction": "LONG",
-    "EntryPrice": 132.79,
-    "CurrentPrice": 135.755,
-    "CurrentReturn": 2.23,
-    "PeakReturn": 2.23,
-    "OpenedAt": "2026-08-04T15:29:12.8792943Z",
-    "TargetPct": 3.5,
-    "StopPct": 2.0,
-    "MaxDays": 7,
-    "EntryRegime": "BULL_HIGH_VOL",
-    "Thesis": "LONG AAOI (OTHER) macro=GREEN regime=BULL_HIGH_VOL score 2.71 from 2 signals",
-    "SourceScanners": [
-      "QUAD__earnings_gap_d1",
-      "STOCKS_NEWSCANNER__altdata"
-    ],
-    "MacroRegimeAtEntry": "GREEN",
-    "MacroSizeMult": 1.0
-  },
+  "Active": null,
   "History": [
+    {
+      "Ticker": "AAOI",
+      "Direction": "LONG",
+      "EntryPrice": 132.79,
+      "ExitPrice": 132.685,
+      "FinalReturn": -0.08,
+      "OpenedAt": "2026-08-04T15:29:12.8792943Z",
+      "ClosedAt": "2026-08-04T19:00:02.9650202Z",
+      "EntryRegime": "BULL_HIGH_VOL",
+      "Status": "TRAIL_STOP",
+      "Thesis": "LONG AAOI (OTHER) macro=GREEN regime=BULL_HIGH_VOL score 2.71 from 2 signals",
+      "SourceScanners": [
+        "QUAD__earnings_gap_d1",
+        "STOCKS_NEWSCANNER__altdata"
+      ],
+      "MacroRegimeAtEntry": "GREEN",
+      "MacroSizeMult": 1.0
+    },
     {
       "Ticker": "RBLX",
       "Direction": "SHORT",
@@ -60,6 +59,7 @@
   ],
   "CoolDowns": {
     "KO": "2026-08-04T15:29:28.7217247Z",
-    "RBLX": "2026-08-05T17:30:02.8817394Z"
+    "RBLX": "2026-08-05T17:30:02.8817394Z",
+    "AAOI": "2026-08-09T19:00:02.9651922Z"
   }
 }
