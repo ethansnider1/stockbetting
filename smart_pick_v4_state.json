@@ -1,5 +1,24 @@
 {
-  "Active": null,
+  "Active": {
+    "Ticker": "LLY",
+    "Direction": "SHORT",
+    "EntryPrice": 1144.08,
+    "CurrentPrice": 1144.08,
+    "CurrentReturn": 0.0,
+    "PeakReturn": 0.0,
+    "OpenedAt": "2026-08-05T15:31:41.9645013Z",
+    "TargetPct": 3.5,
+    "StopPct": 2.0,
+    "MaxDays": 7,
+    "EntryRegime": "BULL_HIGH_VOL",
+    "Thesis": "SHORT LLY (HC) macro=GREEN regime=BULL_HIGH_VOL score 2.40 from 2 signals",
+    "SourceScanners": [
+      "QUAD__earnings_gap_d1",
+      "SCALPER__scalp"
+    ],
+    "MacroRegimeAtEntry": "GREEN",
+    "MacroSizeMult": 1.0
+  },
   "History": [
     {
       "Ticker": "AAOI",
