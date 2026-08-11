@@ -1,89 +1,11 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-08-10T15:31:33Z",
-  "totalClosed": 1981,
-  "totalOpen": 92,
-  "winRate": 55.6,
-  "avgReturnPct": 1.09,
-  "avgQqqReturnPct": 0.37,
+  "generatedAt": "2026-08-11T15:31:04Z",
+  "totalClosed": 813,
+  "totalOpen": 35,
+  "winRate": 56.6,
+  "avgReturnPct": 0.57,
+  "avgQqqReturnPct": 0.26,
   "strategies": [
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "verdict": "KEEP",
-      "closed": 128,
-      "open": 0,
-      "winRate": 52.3,
-      "avgReturnPct": 3.65,
-      "expectancy": 3.65,
-      "returnOnCapital": 24.6,
-      "avgPeakPct": 6.47,
-      "insight": "Mentions matters: the <20 bucket returns +10.0% (58t) vs 20-40 at -3.4% (36t). Filter toward <20.",
-      "insightKind": "bucket"
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "verdict": "KEEP",
-      "closed": 128,
-      "open": 0,
-      "winRate": 52.3,
-      "avgReturnPct": 3.65,
-      "expectancy": 3.65,
-      "returnOnCapital": 24.6,
-      "avgPeakPct": 6.47,
-      "insight": "Mentions matters: the <20 bucket returns +10.0% (58t) vs 20-40 at -3.4% (36t). Filter toward <20.",
-      "insightKind": "bucket"
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "verdict": "KEEP",
-      "closed": 386,
-      "open": 28,
-      "winRate": 53.9,
-      "avgReturnPct": 0.95,
-      "expectancy": 0.95,
-      "returnOnCapital": 9.4,
-      "avgPeakPct": null,
-      "insight": "54% WR, +0.9% avg across 386 trades.",
-      "insightKind": "plain"
-    },
-    {
-      "strategy": "Oracle",
-      "verdict": "KEEP",
-      "closed": 402,
-      "open": 22,
-      "winRate": 53.7,
-      "avgReturnPct": 0.88,
-      "expectancy": 0.88,
-      "returnOnCapital": 9.1,
-      "avgPeakPct": null,
-      "insight": "LONG book +1.6% (251t) vs SHORT book -0.4% (151t). The SHORT side is the drag — trading LONG-only flips the scanner.",
-      "insightKind": "split"
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "verdict": "KEEP",
-      "closed": 150,
-      "open": 16,
-      "winRate": 52.7,
-      "avgReturnPct": 0.92,
-      "expectancy": 0.92,
-      "returnOnCapital": 8.1,
-      "avgPeakPct": null,
-      "insight": "53% WR, +0.9% avg across 150 trades.",
-      "insightKind": "plain"
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "verdict": "KEEP",
-      "closed": 89,
-      "open": 0,
-      "winRate": 61.8,
-      "avgReturnPct": 0.97,
-      "expectancy": 0.97,
-      "returnOnCapital": 7.8,
-      "avgPeakPct": null,
-      "insight": "Genuine positive edge: 62% WR, +1.0% avg, expectancy +1.0% across 89 trades. One of the real ones — watch it hold out-of-sample.",
-      "insightKind": "keep"
-    },
     {
       "strategy": "Stocks Edge Fridaymon",
       "verdict": "KEEP",
@@ -100,37 +22,37 @@ window.V3KR_DATA = {
     {
       "strategy": "Kestrel",
       "verdict": "KEEP",
-      "closed": 311,
-      "open": 11,
-      "winRate": 58.5,
-      "avgReturnPct": 0.32,
-      "expectancy": 0.32,
-      "returnOnCapital": 7.1,
-      "avgPeakPct": 0.54,
-      "insight": "59% WR, +0.3% avg across 311 trades.",
+      "closed": 315,
+      "open": 12,
+      "winRate": 59.0,
+      "avgReturnPct": 0.33,
+      "expectancy": 0.33,
+      "returnOnCapital": 7.5,
+      "avgPeakPct": 0.56,
+      "insight": "59% WR, +0.3% avg across 315 trades.",
       "insightKind": "plain"
     },
     {
-      "strategy": "Output Kestrel Kestrel",
+      "strategy": "Oracle",
       "verdict": "KEEP",
-      "closed": 298,
-      "open": 15,
-      "winRate": 58.1,
-      "avgReturnPct": 0.31,
-      "expectancy": 0.31,
-      "returnOnCapital": 6.5,
-      "avgPeakPct": 0.52,
-      "insight": "58% WR, +0.3% avg across 298 trades.",
-      "insightKind": "plain"
+      "closed": 409,
+      "open": 23,
+      "winRate": 53.5,
+      "avgReturnPct": 0.67,
+      "expectancy": 0.67,
+      "returnOnCapital": 7.0,
+      "avgPeakPct": null,
+      "insight": "LONG book +1.6% (258t) vs SHORT book -0.9% (151t). The SHORT side is the drag — trading LONG-only flips the scanner.",
+      "insightKind": "split"
     }
   ],
   "trades": [
     {
       "strategy": "Kestrel",
-      "ticker": "TJX",
+      "ticker": "AAPL",
       "direction": "LONG",
-      "entryPrice": 160.35,
-      "entryTime": "2026-08-10T15:19:14Z",
+      "entryPrice": 306.27,
+      "entryTime": "2026-08-11T15:19:48Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -139,10 +61,10 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Kestrel",
-      "ticker": "CB",
+      "ticker": "KO",
       "direction": "LONG",
-      "entryPrice": 350.17,
-      "entryTime": "2026-08-10T15:19:14Z",
+      "entryPrice": 86.26,
+      "entryTime": "2026-08-11T15:19:48Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -151,10 +73,10 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Kestrel",
-      "ticker": "JCI",
+      "ticker": "PM",
       "direction": "LONG",
-      "entryPrice": 151.9,
-      "entryTime": "2026-08-10T15:19:14Z",
+      "entryPrice": 185.13,
+      "entryTime": "2026-08-11T15:19:48Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -163,10 +85,10 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Kestrel",
-      "ticker": "V",
+      "ticker": "DHR",
       "direction": "LONG",
-      "entryPrice": 361.48,
-      "entryTime": "2026-08-10T15:19:14Z",
+      "entryPrice": 206.35,
+      "entryTime": "2026-08-11T15:19:48Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -175,22 +97,10 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Kestrel",
-      "ticker": "GE",
+      "ticker": "XLE",
       "direction": "LONG",
-      "entryPrice": 367.68,
-      "entryTime": "2026-08-10T15:19:14Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "EPD",
-      "direction": "LONG",
-      "entryPrice": 37.77,
-      "entryTime": "2026-08-10T15:19:14Z",
+      "entryPrice": 60.81,
+      "entryTime": "2026-08-11T15:19:48Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -203,10 +113,298 @@ window.V3KR_DATA = {
       "direction": "LONG",
       "entryPrice": 480.07,
       "entryTime": "2026-08-10T15:19:14Z",
+      "exitPrice": 482.3,
+      "exitTime": "2026-08-11T15:18:44Z",
+      "open": false,
+      "returnPct": 0.47,
+      "qqqReturnPct": -0.07
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "JCI",
+      "direction": "LONG",
+      "entryPrice": 151.9,
+      "entryTime": "2026-08-10T15:19:14Z",
+      "exitPrice": 152.95,
+      "exitTime": "2026-08-11T15:18:43Z",
+      "open": false,
+      "returnPct": 0.69,
+      "qqqReturnPct": -0.07
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "V",
+      "direction": "LONG",
+      "entryPrice": 361.48,
+      "entryTime": "2026-08-10T15:19:14Z",
+      "exitPrice": 364.18,
+      "exitTime": "2026-08-11T15:18:43Z",
+      "open": false,
+      "returnPct": 0.75,
+      "qqqReturnPct": -0.07
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "VZ",
+      "direction": "LONG",
+      "entryPrice": 45.53,
+      "entryTime": "2026-08-05T15:20:04Z",
+      "exitPrice": 47.21,
+      "exitTime": "2026-08-11T15:18:42Z",
+      "open": false,
+      "returnPct": 3.68,
+      "qqqReturnPct": 0.43
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "CMG",
+      "direction": "LONG",
+      "entryPrice": 31.84,
+      "entryTime": "2026-08-11T15:17:46Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
       "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "CDNS",
+      "direction": "LONG",
+      "entryPrice": 324.56,
+      "entryTime": "2026-08-11T15:17:46Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "HON",
+      "direction": "LONG",
+      "entryPrice": 233.38,
+      "entryTime": "2026-08-11T15:17:46Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "RBLX",
+      "direction": "LONG",
+      "entryPrice": 36.74,
+      "entryTime": "2026-08-11T15:17:46Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "GME",
+      "direction": "LONG",
+      "entryPrice": 18.74,
+      "entryTime": "2026-08-11T15:17:46Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "CI",
+      "direction": "LONG",
+      "entryPrice": 273.68,
+      "entryTime": "2026-08-11T15:17:46Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "MDB",
+      "direction": "SHORT",
+      "entryPrice": 435.67,
+      "entryTime": "2026-08-11T15:17:46Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "TEAM",
+      "direction": "SHORT",
+      "entryPrice": 155.01,
+      "entryTime": "2026-08-11T15:17:46Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "TWLO",
+      "direction": "SHORT",
+      "entryPrice": 255.71,
+      "entryTime": "2026-08-11T15:17:46Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "TMUS",
+      "direction": "LONG",
+      "entryPrice": 171.34,
+      "entryTime": "2026-08-05T15:18:17Z",
+      "exitPrice": 180.67,
+      "exitTime": "2026-08-11T15:16:26Z",
+      "open": false,
+      "returnPct": 5.44,
+      "qqqReturnPct": 0.43
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "XPEV",
+      "direction": "LONG",
+      "entryPrice": 12.0,
+      "entryTime": "2026-08-04T15:15:57Z",
+      "exitPrice": 11.81,
+      "exitTime": "2026-08-11T15:16:25Z",
+      "open": false,
+      "returnPct": -1.58,
+      "qqqReturnPct": -0.48
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "WM",
+      "direction": "LONG",
+      "entryPrice": 223.26,
+      "entryTime": "2026-08-04T15:15:57Z",
+      "exitPrice": 228.47,
+      "exitTime": "2026-08-11T15:16:25Z",
+      "open": false,
+      "returnPct": 2.33,
+      "qqqReturnPct": -0.48
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "MAR",
+      "direction": "LONG",
+      "entryPrice": 346.94,
+      "entryTime": "2026-08-03T15:16:53Z",
+      "exitPrice": 348.46,
+      "exitTime": "2026-08-11T15:16:24Z",
+      "open": false,
+      "returnPct": 0.44,
+      "qqqReturnPct": 2.9
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "SPGI",
+      "direction": "LONG",
+      "entryPrice": 410.55,
+      "entryTime": "2026-08-03T15:16:53Z",
+      "exitPrice": 410.39,
+      "exitTime": "2026-08-11T15:16:24Z",
+      "open": false,
+      "returnPct": -0.04,
+      "qqqReturnPct": 2.9
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "AMZN",
+      "direction": "SHORT",
+      "entryPrice": 285.08,
+      "entryTime": "2026-08-03T15:16:53Z",
+      "exitPrice": 273.12,
+      "exitTime": "2026-08-11T15:16:24Z",
+      "open": false,
+      "returnPct": 4.2,
+      "qqqReturnPct": 2.9
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "ENB",
+      "direction": "LONG",
+      "entryPrice": 53.1,
+      "entryTime": "2026-08-04T15:15:57Z",
+      "exitPrice": 51.54,
+      "exitTime": "2026-08-11T15:16:24Z",
+      "open": false,
+      "returnPct": -2.93,
+      "qqqReturnPct": -0.48
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "GME",
+      "direction": "LONG",
+      "entryPrice": 19.01,
+      "entryTime": "2026-08-03T15:16:53Z",
+      "exitPrice": 18.74,
+      "exitTime": "2026-08-11T15:16:23Z",
+      "open": false,
+      "returnPct": -1.4,
+      "qqqReturnPct": 2.9
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "TJX",
+      "direction": "LONG",
+      "entryPrice": 160.35,
+      "entryTime": "2026-08-10T15:19:14Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": -2.39,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "CB",
+      "direction": "LONG",
+      "entryPrice": 350.17,
+      "entryTime": "2026-08-10T15:19:14Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": -0.66,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "GE",
+      "direction": "LONG",
+      "entryPrice": 367.68,
+      "entryTime": "2026-08-10T15:19:14Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.08,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "EPD",
+      "direction": "LONG",
+      "entryPrice": 37.77,
+      "entryTime": "2026-08-10T15:19:14Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.34,
       "qqqReturnPct": null
     },
     {
@@ -218,7 +416,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -0.87,
       "qqqReturnPct": null
     },
     {
@@ -230,7 +428,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 0.46,
       "qqqReturnPct": null
     },
     {
@@ -243,7 +441,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:18:10Z",
       "open": false,
       "returnPct": 1.27,
-      "qqqReturnPct": 0.55
+      "qqqReturnPct": 0.5
     },
     {
       "strategy": "Kestrel",
@@ -255,7 +453,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:18:10Z",
       "open": false,
       "returnPct": -2.24,
-      "qqqReturnPct": 0.55
+      "qqqReturnPct": 0.5
     },
     {
       "strategy": "Kestrel",
@@ -267,7 +465,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:18:10Z",
       "open": false,
       "returnPct": -1.32,
-      "qqqReturnPct": 0.92
+      "qqqReturnPct": 0.87
     },
     {
       "strategy": "Kestrel",
@@ -279,7 +477,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:18:10Z",
       "open": false,
       "returnPct": -2.01,
-      "qqqReturnPct": 0.92
+      "qqqReturnPct": 0.87
     },
     {
       "strategy": "Kestrel",
@@ -291,7 +489,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:18:09Z",
       "open": false,
       "returnPct": 2.97,
-      "qqqReturnPct": 0.55
+      "qqqReturnPct": 0.5
     },
     {
       "strategy": "Kestrel",
@@ -303,7 +501,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:18:09Z",
       "open": false,
       "returnPct": -1.21,
-      "qqqReturnPct": 0.55
+      "qqqReturnPct": 0.5
     },
     {
       "strategy": "Kestrel",
@@ -315,7 +513,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:18:09Z",
       "open": false,
       "returnPct": 0.42,
-      "qqqReturnPct": 0.55
+      "qqqReturnPct": 0.5
     },
     {
       "strategy": "Kestrel",
@@ -327,7 +525,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:18:08Z",
       "open": false,
       "returnPct": 0.16,
-      "qqqReturnPct": -0.36
+      "qqqReturnPct": -0.41
     },
     {
       "strategy": "Kestrel",
@@ -339,7 +537,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:18:08Z",
       "open": false,
       "returnPct": 0.66,
-      "qqqReturnPct": -0.36
+      "qqqReturnPct": -0.41
     },
     {
       "strategy": "Kestrel",
@@ -351,7 +549,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:18:08Z",
       "open": false,
       "returnPct": 1.15,
-      "qqqReturnPct": 0.55
+      "qqqReturnPct": 0.5
     },
     {
       "strategy": "Kestrel",
@@ -363,7 +561,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:18:07Z",
       "open": false,
       "returnPct": 1.17,
-      "qqqReturnPct": -0.36
+      "qqqReturnPct": -0.41
     },
     {
       "strategy": "Kestrel",
@@ -375,7 +573,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:18:07Z",
       "open": false,
       "returnPct": 2.78,
-      "qqqReturnPct": -0.36
+      "qqqReturnPct": -0.41
     },
     {
       "strategy": "Kestrel",
@@ -387,7 +585,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:18:07Z",
       "open": false,
       "returnPct": 3.5,
-      "qqqReturnPct": -0.36
+      "qqqReturnPct": -0.41
     },
     {
       "strategy": "Oracle",
@@ -398,7 +596,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 0.35,
       "qqqReturnPct": null
     },
     {
@@ -410,7 +608,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -2.57,
       "qqqReturnPct": null
     },
     {
@@ -422,7 +620,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -0.2,
       "qqqReturnPct": null
     },
     {
@@ -434,7 +632,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 0.9,
       "qqqReturnPct": null
     },
     {
@@ -446,7 +644,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -0.05,
       "qqqReturnPct": null
     },
     {
@@ -458,7 +656,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -3.11,
       "qqqReturnPct": null
     },
     {
@@ -470,7 +668,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -3.7,
       "qqqReturnPct": null
     },
     {
@@ -482,7 +680,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -1.07,
       "qqqReturnPct": null
     },
     {
@@ -494,7 +692,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -3.03,
       "qqqReturnPct": null
     },
     {
@@ -506,7 +704,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -3.46,
       "qqqReturnPct": null
     },
     {
@@ -519,7 +717,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:15:55Z",
       "open": false,
       "returnPct": -5.28,
-      "qqqReturnPct": 0.92
+      "qqqReturnPct": 0.87
     },
     {
       "strategy": "Oracle",
@@ -531,7 +729,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:15:54Z",
       "open": false,
       "returnPct": 16.04,
-      "qqqReturnPct": 0.92
+      "qqqReturnPct": 0.87
     },
     {
       "strategy": "Oracle",
@@ -543,7 +741,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:15:53Z",
       "open": false,
       "returnPct": 5.57,
-      "qqqReturnPct": 0.55
+      "qqqReturnPct": 0.5
     },
     {
       "strategy": "Oracle",
@@ -555,7 +753,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:15:53Z",
       "open": false,
       "returnPct": 5.05,
-      "qqqReturnPct": 0.55
+      "qqqReturnPct": 0.5
     },
     {
       "strategy": "Oracle",
@@ -567,7 +765,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:15:52Z",
       "open": false,
       "returnPct": -12.66,
-      "qqqReturnPct": -0.36
+      "qqqReturnPct": -0.41
     },
     {
       "strategy": "Oracle",
@@ -579,7 +777,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:15:52Z",
       "open": false,
       "returnPct": 8.68,
-      "qqqReturnPct": -0.36
+      "qqqReturnPct": -0.41
     },
     {
       "strategy": "Oracle",
@@ -591,7 +789,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:15:51Z",
       "open": false,
       "returnPct": -5.56,
-      "qqqReturnPct": 3.02
+      "qqqReturnPct": 2.97
     },
     {
       "strategy": "Oracle",
@@ -603,7 +801,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:15:50Z",
       "open": false,
       "returnPct": -6.71,
-      "qqqReturnPct": 3.02
+      "qqqReturnPct": 2.97
     },
     {
       "strategy": "Oracle",
@@ -615,7 +813,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:15:50Z",
       "open": false,
       "returnPct": -9.36,
-      "qqqReturnPct": 3.02
+      "qqqReturnPct": 2.97
     },
     {
       "strategy": "Oracle",
@@ -627,7 +825,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:15:49Z",
       "open": false,
       "returnPct": -4.08,
-      "qqqReturnPct": 4.83
+      "qqqReturnPct": 4.78
     },
     {
       "strategy": "Oracle",
@@ -639,7 +837,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:15:49Z",
       "open": false,
       "returnPct": 3.79,
-      "qqqReturnPct": 4.83
+      "qqqReturnPct": 4.78
     },
     {
       "strategy": "Oracle",
@@ -651,7 +849,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:15:49Z",
       "open": false,
       "returnPct": 0.01,
-      "qqqReturnPct": 4.83
+      "qqqReturnPct": 4.78
     },
     {
       "strategy": "Oracle",
@@ -663,7 +861,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:15:48Z",
       "open": false,
       "returnPct": 0.05,
-      "qqqReturnPct": 4.83
+      "qqqReturnPct": 4.78
     },
     {
       "strategy": "Oracle",
@@ -675,7 +873,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:15:48Z",
       "open": false,
       "returnPct": -2.64,
-      "qqqReturnPct": 4.83
+      "qqqReturnPct": 4.78
     },
     {
       "strategy": "Oracle",
@@ -687,7 +885,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:15:48Z",
       "open": false,
       "returnPct": -3.42,
-      "qqqReturnPct": 4.83
+      "qqqReturnPct": 4.78
     },
     {
       "strategy": "Oracle",
@@ -699,43 +897,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-10T15:15:47Z",
       "open": false,
       "returnPct": 0.76,
-      "qqqReturnPct": 5.51
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "GOOGL",
-      "direction": "LONG",
-      "entryPrice": 359.03,
-      "entryTime": "2026-08-06T15:18:44Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CARR",
-      "direction": "LONG",
-      "entryPrice": 65.12,
-      "entryTime": "2026-08-06T15:18:44Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "LLY",
-      "direction": "LONG",
-      "entryPrice": 1140.03,
-      "entryTime": "2026-08-05T15:20:04Z",
-      "exitPrice": 1182.69,
-      "exitTime": "2026-08-06T15:17:44Z",
-      "open": false,
-      "returnPct": 3.74,
-      "qqqReturnPct": -0.37
+      "qqqReturnPct": 5.46
     },
     {
       "strategy": "Kestrel",
@@ -750,42 +912,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.37
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "DKNG",
-      "direction": "LONG",
-      "entryPrice": 21.41,
-      "entryTime": "2026-08-06T15:16:42Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "BDX",
-      "direction": "SHORT",
-      "entryPrice": 177.71,
-      "entryTime": "2026-08-06T15:16:42Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SHOP",
-      "direction": "SHORT",
-      "entryPrice": 146.04,
-      "entryTime": "2026-08-06T15:16:42Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
       "strategy": "Oracle",
       "ticker": "BDX",
       "direction": "SHORT",
@@ -794,20 +920,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.28,
+      "returnPct": -1.3,
       "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "FSLY",
-      "direction": "SHORT",
-      "entryPrice": 26.65,
-      "entryTime": "2026-08-05T15:18:17Z",
-      "exitPrice": 23.16,
-      "exitTime": "2026-08-06T15:15:27Z",
-      "open": false,
-      "returnPct": 13.1,
-      "qqqReturnPct": -0.37
     },
     {
       "strategy": "Oracle",
@@ -822,18 +936,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.37
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NXPI",
-      "direction": "LONG",
-      "entryPrice": 224.24,
-      "entryTime": "2026-08-03T15:16:53Z",
-      "exitPrice": 236.08,
-      "exitTime": "2026-08-06T15:15:23Z",
-      "open": false,
-      "returnPct": 5.28,
-      "qqqReturnPct": 2.08
-    },
-    {
       "strategy": "Oracle",
       "ticker": "NXPI",
       "direction": "LONG",
@@ -844,138 +946,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 5.28,
       "qqqReturnPct": 2.08
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMZN",
-      "direction": "LONG",
-      "entryPrice": 275.79,
-      "entryTime": "2026-08-05T15:20:04Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -0.76,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "VZ",
-      "direction": "LONG",
-      "entryPrice": 45.53,
-      "entryTime": "2026-08-05T15:20:04Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 2.83,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ELV",
-      "direction": "LONG",
-      "entryPrice": 386.65,
-      "entryTime": "2026-08-05T15:20:04Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.55,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "COF",
-      "direction": "LONG",
-      "entryPrice": 221.51,
-      "entryTime": "2026-08-05T15:20:04Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -0.43,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 410.42,
-      "entryTime": "2026-08-05T15:20:04Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.17,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CTAS",
-      "direction": "LONG",
-      "entryPrice": 199.99,
-      "entryTime": "2026-08-05T15:20:04Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ENB",
-      "direction": "LONG",
-      "entryPrice": 52.28,
-      "entryTime": "2026-08-05T15:20:04Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.06,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "VZ",
-      "direction": "LONG",
-      "entryPrice": 45.53,
-      "entryTime": "2026-08-05T15:20:04Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 2.36,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ECL",
-      "direction": "LONG",
-      "entryPrice": 276.07,
-      "entryTime": "2026-08-03T15:18:54Z",
-      "exitPrice": 284.06,
-      "exitTime": "2026-08-05T15:18:56Z",
-      "open": false,
-      "returnPct": 2.89,
-      "qqqReturnPct": 2.46
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "PLD",
-      "direction": "LONG",
-      "entryPrice": 143.36,
-      "entryTime": "2026-08-03T15:18:54Z",
-      "exitPrice": 140.09,
-      "exitTime": "2026-08-05T15:18:56Z",
-      "open": false,
-      "returnPct": -2.28,
-      "qqqReturnPct": 2.46
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MAR",
-      "direction": "LONG",
-      "entryPrice": 347.07,
-      "entryTime": "2026-08-03T15:18:54Z",
-      "exitPrice": 357.83,
-      "exitTime": "2026-08-05T15:18:56Z",
-      "open": false,
-      "returnPct": 3.1,
-      "qqqReturnPct": 2.46
     },
     {
       "strategy": "Kestrel",
@@ -1011,42 +981,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-05T15:18:56Z",
       "open": false,
       "returnPct": 3.1,
-      "qqqReturnPct": 2.46
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CMG",
-      "direction": "LONG",
-      "entryPrice": 37.17,
-      "entryTime": "2026-08-03T15:18:54Z",
-      "exitPrice": 34.6,
-      "exitTime": "2026-08-05T15:18:55Z",
-      "open": false,
-      "returnPct": -6.93,
-      "qqqReturnPct": 2.46
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ABBV",
-      "direction": "LONG",
-      "entryPrice": 245.91,
-      "entryTime": "2026-08-03T15:18:54Z",
-      "exitPrice": 246.32,
-      "exitTime": "2026-08-05T15:18:55Z",
-      "open": false,
-      "returnPct": 0.16,
-      "qqqReturnPct": 2.46
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "KO",
-      "direction": "LONG",
-      "entryPrice": 86.85,
-      "entryTime": "2026-08-03T15:18:54Z",
-      "exitPrice": 86.72,
-      "exitTime": "2026-08-05T15:18:55Z",
-      "open": false,
-      "returnPct": -0.14,
       "qqqReturnPct": 2.46
     },
     {
@@ -1086,78 +1020,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.46
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SRE",
-      "direction": "LONG",
-      "entryPrice": 84.94,
-      "entryTime": "2026-08-05T15:18:17Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.07,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "RBLX",
-      "direction": "LONG",
-      "entryPrice": 36.44,
-      "entryTime": "2026-08-05T15:18:17Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 1.22,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "TMUS",
-      "direction": "LONG",
-      "entryPrice": 171.34,
-      "entryTime": "2026-08-05T15:18:17Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 3.94,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ON",
-      "direction": "LONG",
-      "entryPrice": 77.46,
-      "entryTime": "2026-08-05T15:18:17Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 2.92,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "EMR",
-      "direction": "SHORT",
-      "entryPrice": 163.45,
-      "entryTime": "2026-08-05T15:18:17Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 3.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ETN",
-      "direction": "SHORT",
-      "entryPrice": 450.4,
-      "entryTime": "2026-08-05T15:18:17Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -0.57,
-      "qqqReturnPct": null
-    },
-    {
       "strategy": "Oracle",
       "ticker": "SRE",
       "direction": "LONG",
@@ -1166,19 +1028,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.04,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "TMUS",
-      "direction": "LONG",
-      "entryPrice": 171.34,
-      "entryTime": "2026-08-05T15:18:17Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 2.11,
+      "returnPct": -0.65,
       "qqqReturnPct": null
     },
     {
@@ -1190,7 +1040,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 2.85,
+      "returnPct": 0.69,
       "qqqReturnPct": null
     },
     {
@@ -1202,20 +1052,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.7,
+      "returnPct": -2.26,
       "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "FSLY",
-      "direction": "SHORT",
-      "entryPrice": 24.22,
-      "entryTime": "2026-08-04T15:15:57Z",
-      "exitPrice": 26.78,
-      "exitTime": "2026-08-05T15:16:59Z",
-      "open": false,
-      "returnPct": -10.59,
-      "qqqReturnPct": -0.9
     },
     {
       "strategy": "Oracle",
@@ -1230,18 +1068,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.9
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SRE",
-      "direction": "LONG",
-      "entryPrice": 89.17,
-      "entryTime": "2026-07-31T15:16:00Z",
-      "exitPrice": 84.92,
-      "exitTime": "2026-08-05T15:16:55Z",
-      "open": false,
-      "returnPct": -4.76,
-      "qqqReturnPct": 4.26
-    },
-    {
       "strategy": "Oracle",
       "ticker": "SRE",
       "direction": "LONG",
@@ -1252,30 +1078,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.76,
       "qqqReturnPct": 4.26
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "TT",
-      "direction": "LONG",
-      "entryPrice": 444.11,
-      "entryTime": "2026-07-30T15:17:04Z",
-      "exitPrice": 479.31,
-      "exitTime": "2026-08-05T15:16:54Z",
-      "open": false,
-      "returnPct": 7.93,
-      "qqqReturnPct": 4.94
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CMG",
-      "direction": "SHORT",
-      "entryPrice": 38.42,
-      "entryTime": "2026-07-30T15:17:04Z",
-      "exitPrice": 34.62,
-      "exitTime": "2026-08-05T15:16:54Z",
-      "open": false,
-      "returnPct": 9.9,
-      "qqqReturnPct": 4.94
     },
     {
       "strategy": "Oracle",
@@ -1302,18 +1104,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.94
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "GM",
-      "direction": "SHORT",
-      "entryPrice": 89.74,
-      "entryTime": "2026-07-28T15:17:34Z",
-      "exitPrice": 88.62,
-      "exitTime": "2026-08-05T15:16:53Z",
-      "open": false,
-      "returnPct": 1.25,
-      "qqqReturnPct": 6.19
-    },
-    {
       "strategy": "Oracle",
       "ticker": "GM",
       "direction": "SHORT",
@@ -1326,78 +1116,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 6.19
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CVX",
-      "direction": "LONG",
-      "entryPrice": 190.55,
-      "entryTime": "2026-08-04T15:17:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -0.87,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "COP",
-      "direction": "LONG",
-      "entryPrice": 118.0,
-      "entryTime": "2026-08-04T15:17:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.17,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "XOM",
-      "direction": "LONG",
-      "entryPrice": 152.66,
-      "entryTime": "2026-08-04T15:17:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.09,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "SPY",
-      "direction": "LONG",
-      "entryPrice": 767.17,
-      "entryTime": "2026-08-04T15:17:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.32,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "IWM",
-      "direction": "LONG",
-      "entryPrice": 299.86,
-      "entryTime": "2026-08-04T15:17:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.24,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "QQQ",
-      "direction": "LONG",
-      "entryPrice": 717.55,
-      "entryTime": "2026-08-04T15:17:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.06,
-      "qqqReturnPct": null
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "SPY",
       "direction": "LONG",
@@ -1406,32 +1124,8 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.88,
+      "returnPct": 0.66,
       "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MA",
-      "direction": "LONG",
-      "entryPrice": 572.2,
-      "entryTime": "2026-08-03T15:18:54Z",
-      "exitPrice": 572.4,
-      "exitTime": "2026-08-04T15:16:52Z",
-      "open": false,
-      "returnPct": 0.03,
-      "qqqReturnPct": 3.4
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "APD",
-      "direction": "LONG",
-      "entryPrice": 291.95,
-      "entryTime": "2026-08-03T15:18:54Z",
-      "exitPrice": 295.57,
-      "exitTime": "2026-08-04T15:16:52Z",
-      "open": false,
-      "returnPct": 1.24,
-      "qqqReturnPct": 3.4
     },
     {
       "strategy": "Kestrel",
@@ -1458,18 +1152,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.4
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "WFC",
-      "direction": "LONG",
-      "entryPrice": 85.42,
-      "entryTime": "2026-07-29T15:20:50Z",
-      "exitPrice": 89.19,
-      "exitTime": "2026-08-04T15:16:51Z",
-      "open": false,
-      "returnPct": 4.42,
-      "qqqReturnPct": 9.39
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "WFC",
       "direction": "LONG",
@@ -1482,114 +1164,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 9.39
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ENB",
-      "direction": "LONG",
-      "entryPrice": 53.1,
-      "entryTime": "2026-08-04T15:15:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -2.46,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XPEV",
-      "direction": "LONG",
-      "entryPrice": 12.0,
-      "entryTime": "2026-08-04T15:15:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -2.25,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "WM",
-      "direction": "LONG",
-      "entryPrice": 223.26,
-      "entryTime": "2026-08-04T15:15:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.5,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PLTR",
-      "direction": "SHORT",
-      "entryPrice": 158.46,
-      "entryTime": "2026-08-04T15:15:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 1.02,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "TER",
-      "direction": "SHORT",
-      "entryPrice": 404.28,
-      "entryTime": "2026-08-04T15:15:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 2.71,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "ENB",
-      "direction": "LONG",
-      "entryPrice": 53.1,
-      "entryTime": "2026-08-04T15:15:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -3.71,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "XPEV",
-      "direction": "LONG",
-      "entryPrice": 12.0,
-      "entryTime": "2026-08-04T15:15:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -0.18,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "WM",
-      "direction": "LONG",
-      "entryPrice": 223.26,
-      "entryTime": "2026-08-04T15:15:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 1.53,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CARR",
-      "direction": "LONG",
-      "entryPrice": 59.76,
-      "entryTime": "2026-07-30T15:17:04Z",
-      "exitPrice": 65.05,
-      "exitTime": "2026-08-04T15:14:38Z",
-      "open": false,
-      "returnPct": 8.86,
-      "qqqReturnPct": 5.9
-    },
-    {
       "strategy": "Oracle",
       "ticker": "CARR",
       "direction": "LONG",
@@ -1599,30 +1173,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-04T15:14:38Z",
       "open": false,
       "returnPct": 8.86,
-      "qqqReturnPct": 5.9
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "KO",
-      "direction": "SHORT",
-      "entryPrice": 89.71,
-      "entryTime": "2026-07-28T15:17:34Z",
-      "exitPrice": 86.09,
-      "exitTime": "2026-08-04T15:14:37Z",
-      "open": false,
-      "returnPct": 4.04,
-      "qqqReturnPct": 7.16
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "QCOM",
-      "direction": "LONG",
-      "entryPrice": 150.4,
-      "entryTime": "2026-07-30T15:17:04Z",
-      "exitPrice": 161.2,
-      "exitTime": "2026-08-04T15:14:37Z",
-      "open": false,
-      "returnPct": 7.18,
       "qqqReturnPct": 5.9
     },
     {
@@ -1650,30 +1200,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.9
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "RTX",
-      "direction": "SHORT",
-      "entryPrice": 218.04,
-      "entryTime": "2026-07-27T15:17:19Z",
-      "exitPrice": 215.93,
-      "exitTime": "2026-08-04T15:14:36Z",
-      "open": false,
-      "returnPct": 0.97,
-      "qqqReturnPct": 6.12
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NVAX",
-      "direction": "LONG",
-      "entryPrice": 7.24,
-      "entryTime": "2026-07-28T15:17:34Z",
-      "exitPrice": 7.61,
-      "exitTime": "2026-08-04T15:14:36Z",
-      "open": false,
-      "returnPct": 5.18,
-      "qqqReturnPct": 7.16
-    },
-    {
       "strategy": "Oracle",
       "ticker": "RTX",
       "direction": "SHORT",
@@ -1696,54 +1222,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 5.18,
       "qqqReturnPct": 7.16
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "EPD",
-      "direction": "LONG",
-      "entryPrice": 38.28,
-      "entryTime": "2026-07-30T15:18:49Z",
-      "exitPrice": 37.71,
-      "exitTime": "2026-08-03T15:17:50Z",
-      "open": false,
-      "returnPct": -1.5,
-      "qqqReturnPct": 2.42
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ABBV",
-      "direction": "LONG",
-      "entryPrice": 253.6,
-      "entryTime": "2026-07-31T15:17:43Z",
-      "exitPrice": 246.01,
-      "exitTime": "2026-08-03T15:17:50Z",
-      "open": false,
-      "returnPct": -2.99,
-      "qqqReturnPct": 1.76
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "HUBS",
-      "direction": "LONG",
-      "entryPrice": 231.74,
-      "entryTime": "2026-07-31T15:17:43Z",
-      "exitPrice": 242.99,
-      "exitTime": "2026-08-03T15:17:50Z",
-      "open": false,
-      "returnPct": 4.86,
-      "qqqReturnPct": 1.76
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MCO",
-      "direction": "LONG",
-      "entryPrice": 473.15,
-      "entryTime": "2026-07-31T15:17:43Z",
-      "exitPrice": 478.58,
-      "exitTime": "2026-08-03T15:17:50Z",
-      "open": false,
-      "returnPct": 1.15,
-      "qqqReturnPct": 1.76
     },
     {
       "strategy": "Kestrel",
@@ -1794,42 +1272,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.76
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CSX",
-      "direction": "LONG",
-      "entryPrice": 50.49,
-      "entryTime": "2026-07-29T15:20:50Z",
-      "exitPrice": 50.26,
-      "exitTime": "2026-08-03T15:17:49Z",
-      "open": false,
-      "returnPct": -0.48,
-      "qqqReturnPct": 5.79
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "V",
-      "direction": "LONG",
-      "entryPrice": 371.32,
-      "entryTime": "2026-07-29T15:20:50Z",
-      "exitPrice": 366.3,
-      "exitTime": "2026-08-03T15:17:49Z",
-      "open": false,
-      "returnPct": -1.35,
-      "qqqReturnPct": 5.79
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "PCAR",
-      "direction": "LONG",
-      "entryPrice": 135.5,
-      "entryTime": "2026-07-29T15:20:50Z",
-      "exitPrice": 133.48,
-      "exitTime": "2026-08-03T15:17:49Z",
-      "open": false,
-      "returnPct": -1.49,
-      "qqqReturnPct": 5.79
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "CSX",
       "direction": "LONG",
@@ -1866,18 +1308,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.79
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "BSX",
-      "direction": "LONG",
-      "entryPrice": 46.44,
-      "entryTime": "2026-07-29T15:20:50Z",
-      "exitPrice": 47.68,
-      "exitTime": "2026-08-03T15:17:48Z",
-      "open": false,
-      "returnPct": 2.66,
-      "qqqReturnPct": 5.79
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "BSX",
       "direction": "LONG",
@@ -1890,150 +1320,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.79
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "GME",
-      "direction": "LONG",
-      "entryPrice": 19.01,
-      "entryTime": "2026-08-03T15:16:53Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.26,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MAR",
-      "direction": "LONG",
-      "entryPrice": 346.94,
-      "entryTime": "2026-08-03T15:16:53Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 3.04,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SPGI",
-      "direction": "LONG",
-      "entryPrice": 410.55,
-      "entryTime": "2026-08-03T15:16:53Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -0.91,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SNOW",
-      "direction": "SHORT",
-      "entryPrice": 313.26,
-      "entryTime": "2026-08-03T15:16:53Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.91,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ESTC",
-      "direction": "SHORT",
-      "entryPrice": 69.26,
-      "entryTime": "2026-08-03T15:16:53Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.82,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MSFT",
-      "direction": "SHORT",
-      "entryPrice": 481.92,
-      "entryTime": "2026-08-03T15:16:53Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -3.01,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMZN",
-      "direction": "SHORT",
-      "entryPrice": 285.08,
-      "entryTime": "2026-08-03T15:16:53Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 3.95,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "GME",
-      "direction": "LONG",
-      "entryPrice": 19.01,
-      "entryTime": "2026-08-03T15:16:53Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.83,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "MAR",
-      "direction": "LONG",
-      "entryPrice": 346.94,
-      "entryTime": "2026-08-03T15:16:53Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.59,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "SPGI",
-      "direction": "LONG",
-      "entryPrice": 410.55,
-      "entryTime": "2026-08-03T15:16:53Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.11,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "AMZN",
-      "direction": "SHORT",
-      "entryPrice": 285.08,
-      "entryTime": "2026-08-03T15:16:53Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 2.16,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "DXCM",
-      "direction": "SHORT",
-      "entryPrice": 82.17,
-      "entryTime": "2026-07-31T15:16:00Z",
-      "exitPrice": 85.8,
-      "exitTime": "2026-08-03T15:15:36Z",
-      "open": false,
-      "returnPct": -4.42,
-      "qqqReturnPct": 1.76
-    },
-    {
       "strategy": "Oracle",
       "ticker": "DXCM",
       "direction": "SHORT",
@@ -2044,30 +1330,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.42,
       "qqqReturnPct": 1.76
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SNOW",
-      "direction": "SHORT",
-      "entryPrice": 289.3,
-      "entryTime": "2026-07-30T15:17:04Z",
-      "exitPrice": 313.62,
-      "exitTime": "2026-08-03T15:15:34Z",
-      "open": false,
-      "returnPct": -8.41,
-      "qqqReturnPct": 2.42
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMC",
-      "direction": "SHORT",
-      "entryPrice": 2.68,
-      "entryTime": "2026-07-30T15:17:04Z",
-      "exitPrice": 2.83,
-      "exitTime": "2026-08-03T15:15:34Z",
-      "open": false,
-      "returnPct": -5.6,
-      "qqqReturnPct": 2.42
     },
     {
       "strategy": "Oracle",
@@ -2094,18 +1356,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.42
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MSFT",
-      "direction": "SHORT",
-      "entryPrice": 444.23,
-      "entryTime": "2026-07-30T15:17:04Z",
-      "exitPrice": 481.88,
-      "exitTime": "2026-08-03T15:15:33Z",
-      "open": false,
-      "returnPct": -8.48,
-      "qqqReturnPct": 2.42
-    },
-    {
       "strategy": "Oracle",
       "ticker": "MSFT",
       "direction": "SHORT",
@@ -2115,30 +1365,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-03T15:15:33Z",
       "open": false,
       "returnPct": -8.48,
-      "qqqReturnPct": 2.42
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NXPI",
-      "direction": "LONG",
-      "entryPrice": 244.87,
-      "entryTime": "2026-07-29T15:19:01Z",
-      "exitPrice": 223.85,
-      "exitTime": "2026-08-03T15:15:32Z",
-      "open": false,
-      "returnPct": -8.58,
-      "qqqReturnPct": 5.79
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "META",
-      "direction": "LONG",
-      "entryPrice": 536.72,
-      "entryTime": "2026-07-30T15:17:04Z",
-      "exitPrice": 592.97,
-      "exitTime": "2026-08-03T15:15:32Z",
-      "open": false,
-      "returnPct": 10.48,
       "qqqReturnPct": 2.42
     },
     {
@@ -2166,30 +1392,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.42
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AXP",
-      "direction": "LONG",
-      "entryPrice": 322.45,
-      "entryTime": "2026-07-24T15:21:01Z",
-      "exitPrice": 342.07,
-      "exitTime": "2026-08-03T15:15:30Z",
-      "open": false,
-      "returnPct": 6.08,
-      "qqqReturnPct": 2.32
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "TSLA",
-      "direction": "LONG",
-      "entryPrice": 304.83,
-      "entryTime": "2026-07-28T15:17:34Z",
-      "exitPrice": 322.14,
-      "exitTime": "2026-08-03T15:15:30Z",
-      "open": false,
-      "returnPct": 5.68,
-      "qqqReturnPct": 3.64
-    },
-    {
       "strategy": "Oracle",
       "ticker": "AXP",
       "direction": "LONG",
@@ -2212,102 +1414,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 5.68,
       "qqqReturnPct": 3.64
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "RBLX",
-      "direction": "LONG",
-      "entryPrice": 34.34,
-      "entryTime": "2026-07-31T00:00:00Z",
-      "exitPrice": 35.58,
-      "exitTime": "2026-08-03T00:00:00Z",
-      "open": false,
-      "returnPct": 3.61,
-      "qqqReturnPct": 1.76
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "COIN",
-      "direction": "LONG",
-      "entryPrice": 139.96,
-      "entryTime": "2026-07-31T00:00:00Z",
-      "exitPrice": 144.02,
-      "exitTime": "2026-08-03T00:00:00Z",
-      "open": false,
-      "returnPct": 2.9,
-      "qqqReturnPct": 1.76
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "AAPL",
-      "direction": "LONG",
-      "entryPrice": 302.42,
-      "entryTime": "2026-07-31T00:00:00Z",
-      "exitPrice": 309.67,
-      "exitTime": "2026-08-03T00:00:00Z",
-      "open": false,
-      "returnPct": 2.4,
-      "qqqReturnPct": 1.76
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "CLSK",
-      "direction": "LONG",
-      "entryPrice": 13.68,
-      "entryTime": "2026-07-31T00:00:00Z",
-      "exitPrice": 13.51,
-      "exitTime": "2026-08-03T00:00:00Z",
-      "open": false,
-      "returnPct": -1.24,
-      "qqqReturnPct": 1.76
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "RIOT",
-      "direction": "LONG",
-      "entryPrice": 20.88,
-      "entryTime": "2026-07-31T00:00:00Z",
-      "exitPrice": 19.62,
-      "exitTime": "2026-08-03T00:00:00Z",
-      "open": false,
-      "returnPct": -6.03,
-      "qqqReturnPct": 1.76
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "MARA",
-      "direction": "LONG",
-      "entryPrice": 11.16,
-      "entryTime": "2026-07-31T00:00:00Z",
-      "exitPrice": 11.15,
-      "exitTime": "2026-08-03T00:00:00Z",
-      "open": false,
-      "returnPct": -0.13,
-      "qqqReturnPct": 1.76
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "MU",
-      "direction": "LONG",
-      "entryPrice": 840.02,
-      "entryTime": "2026-07-31T00:00:00Z",
-      "exitPrice": 786.35,
-      "exitTime": "2026-08-03T00:00:00Z",
-      "open": false,
-      "returnPct": -6.39,
-      "qqqReturnPct": 1.76
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "SOFI",
-      "direction": "LONG",
-      "entryPrice": 15.92,
-      "entryTime": "2026-07-31T00:00:00Z",
-      "exitPrice": 16.55,
-      "exitTime": "2026-08-03T00:00:00Z",
-      "open": false,
-      "returnPct": 3.96,
-      "qqqReturnPct": 1.76
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -2406,18 +1512,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.76
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AAPL",
-      "direction": "LONG",
-      "entryPrice": 331.68,
-      "entryTime": "2026-07-30T15:18:49Z",
-      "exitPrice": 302.94,
-      "exitTime": "2026-07-31T15:16:40Z",
-      "open": false,
-      "returnPct": -8.67,
-      "qqqReturnPct": 0.65
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "AAPL",
       "direction": "LONG",
@@ -2428,18 +1522,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -8.67,
       "qqqReturnPct": 0.65
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "HON",
-      "direction": "LONG",
-      "entryPrice": 241.75,
-      "entryTime": "2026-07-29T15:20:50Z",
-      "exitPrice": 242.29,
-      "exitTime": "2026-07-31T15:16:39Z",
-      "open": false,
-      "returnPct": 0.22,
-      "qqqReturnPct": 3.97
     },
     {
       "strategy": "Kestrel",
@@ -2454,18 +1536,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.97
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "NVDA",
-      "direction": "LONG",
-      "entryPrice": 196.93,
-      "entryTime": "2026-07-28T15:19:17Z",
-      "exitPrice": 197.12,
-      "exitTime": "2026-07-31T15:16:38Z",
-      "open": false,
-      "returnPct": 0.1,
-      "qqqReturnPct": 1.85
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "NVDA",
       "direction": "LONG",
@@ -2476,102 +1546,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 0.1,
       "qqqReturnPct": 1.85
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "TLT",
-      "direction": "LONG",
-      "entryPrice": 82.16,
-      "entryTime": "2026-07-31T15:16:00Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.73,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XLU",
-      "direction": "LONG",
-      "entryPrice": 44.47,
-      "entryTime": "2026-07-31T15:16:00Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.88,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NEE",
-      "direction": "LONG",
-      "entryPrice": 87.5,
-      "entryTime": "2026-07-31T15:16:00Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -2.13,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AEP",
-      "direction": "LONG",
-      "entryPrice": 128.27,
-      "entryTime": "2026-07-31T15:16:00Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.85,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XLC",
-      "direction": "LONG",
-      "entryPrice": 107.14,
-      "entryTime": "2026-07-31T15:16:00Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 3.78,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NKE",
-      "direction": "LONG",
-      "entryPrice": 41.74,
-      "entryTime": "2026-07-31T15:16:00Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 1.19,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "HOOD",
-      "direction": "LONG",
-      "entryPrice": 90.1,
-      "entryTime": "2026-07-29T15:19:01Z",
-      "exitPrice": 85.17,
-      "exitTime": "2026-07-31T15:14:41Z",
-      "open": false,
-      "returnPct": -5.47,
-      "qqqReturnPct": 3.97
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ETN",
-      "direction": "LONG",
-      "entryPrice": 364.79,
-      "entryTime": "2026-07-29T15:19:01Z",
-      "exitPrice": 402.57,
-      "exitTime": "2026-07-31T15:14:41Z",
-      "open": false,
-      "returnPct": 10.36,
-      "qqqReturnPct": 3.97
     },
     {
       "strategy": "Oracle",
@@ -2598,30 +1572,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.97
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CVX",
-      "direction": "SHORT",
-      "entryPrice": 197.36,
-      "entryTime": "2026-07-23T15:22:02Z",
-      "exitPrice": 194.45,
-      "exitTime": "2026-07-31T15:14:39Z",
-      "open": false,
-      "returnPct": 1.47,
-      "qqqReturnPct": -0.57
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XOM",
-      "direction": "SHORT",
-      "entryPrice": 158.35,
-      "entryTime": "2026-07-23T15:22:02Z",
-      "exitPrice": 153.66,
-      "exitTime": "2026-07-31T15:14:39Z",
-      "open": false,
-      "returnPct": 2.96,
-      "qqqReturnPct": -0.57
-    },
-    {
       "strategy": "Oracle",
       "ticker": "CVX",
       "direction": "SHORT",
@@ -2646,18 +1596,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.57
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XLE",
-      "direction": "SHORT",
-      "entryPrice": 60.21,
-      "entryTime": "2026-07-23T15:22:02Z",
-      "exitPrice": 58.95,
-      "exitTime": "2026-07-31T15:14:38Z",
-      "open": false,
-      "returnPct": 2.09,
-      "qqqReturnPct": -0.57
-    },
-    {
       "strategy": "Oracle",
       "ticker": "XLE",
       "direction": "SHORT",
@@ -2670,18 +1608,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.57
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "EQIX",
-      "direction": "LONG",
-      "entryPrice": 1004.7,
-      "entryTime": "2026-07-29T15:20:50Z",
-      "exitPrice": 1054.19,
-      "exitTime": "2026-07-30T15:17:46Z",
-      "open": false,
-      "returnPct": 4.93,
-      "qqqReturnPct": 3.3
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "EQIX",
       "direction": "LONG",
@@ -2694,18 +1620,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.3
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "APD",
-      "direction": "LONG",
-      "entryPrice": 292.08,
-      "entryTime": "2026-07-29T15:20:50Z",
-      "exitPrice": 299.77,
-      "exitTime": "2026-07-30T15:17:45Z",
-      "open": false,
-      "returnPct": 2.63,
-      "qqqReturnPct": 3.3
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "APD",
       "direction": "LONG",
@@ -2715,42 +1629,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:17:45Z",
       "open": false,
       "returnPct": 2.63,
-      "qqqReturnPct": 3.3
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "UPS",
-      "direction": "LONG",
-      "entryPrice": 103.18,
-      "entryTime": "2026-07-30T15:17:04Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.74,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "F",
-      "direction": "SHORT",
-      "entryPrice": 15.81,
-      "entryTime": "2026-07-29T15:19:01Z",
-      "exitPrice": 14.66,
-      "exitTime": "2026-07-30T15:15:47Z",
-      "open": false,
-      "returnPct": 7.24,
-      "qqqReturnPct": 3.3
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ADP",
-      "direction": "SHORT",
-      "entryPrice": 277.77,
-      "entryTime": "2026-07-29T15:19:01Z",
-      "exitPrice": 257.83,
-      "exitTime": "2026-07-30T15:15:47Z",
-      "open": false,
-      "returnPct": 7.18,
       "qqqReturnPct": 3.3
     },
     {
@@ -2778,30 +1656,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.3
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 430.96,
-      "entryTime": "2026-07-29T15:19:01Z",
-      "exitPrice": 485.31,
-      "exitTime": "2026-07-30T15:15:46Z",
-      "open": false,
-      "returnPct": 12.61,
-      "qqqReturnPct": 3.3
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MCK",
-      "direction": "SHORT",
-      "entryPrice": 904.6,
-      "entryTime": "2026-07-29T15:19:01Z",
-      "exitPrice": 866.92,
-      "exitTime": "2026-07-30T15:15:46Z",
-      "open": false,
-      "returnPct": 4.17,
-      "qqqReturnPct": 3.3
-    },
-    {
       "strategy": "Oracle",
       "ticker": "AMD",
       "direction": "LONG",
@@ -2823,30 +1677,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:15:46Z",
       "open": false,
       "returnPct": 4.17,
-      "qqqReturnPct": 3.3
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MARA",
-      "direction": "LONG",
-      "entryPrice": 10.6,
-      "entryTime": "2026-07-29T15:19:01Z",
-      "exitPrice": 11.72,
-      "exitTime": "2026-07-30T15:15:45Z",
-      "open": false,
-      "returnPct": 10.52,
-      "qqqReturnPct": 3.3
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PLUG",
-      "direction": "LONG",
-      "entryPrice": 1.91,
-      "entryTime": "2026-07-29T15:19:01Z",
-      "exitPrice": 2.05,
-      "exitTime": "2026-07-30T15:15:45Z",
-      "open": false,
-      "returnPct": 7.05,
       "qqqReturnPct": 3.3
     },
     {
@@ -2874,30 +1704,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.3
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ITW",
-      "direction": "SHORT",
-      "entryPrice": 298.46,
-      "entryTime": "2026-07-28T15:17:34Z",
-      "exitPrice": 282.47,
-      "exitTime": "2026-07-30T15:15:44Z",
-      "open": false,
-      "returnPct": 5.36,
-      "qqqReturnPct": 1.19
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CTAS",
-      "direction": "SHORT",
-      "entryPrice": 217.38,
-      "entryTime": "2026-07-28T15:17:34Z",
-      "exitPrice": 205.6,
-      "exitTime": "2026-07-30T15:15:44Z",
-      "open": false,
-      "returnPct": 5.42,
-      "qqqReturnPct": 1.19
-    },
-    {
       "strategy": "Oracle",
       "ticker": "ITW",
       "direction": "SHORT",
@@ -2919,30 +1725,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-30T15:15:44Z",
       "open": false,
       "returnPct": 5.42,
-      "qqqReturnPct": 1.19
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LRCX",
-      "direction": "LONG",
-      "entryPrice": 264.05,
-      "entryTime": "2026-07-28T15:17:34Z",
-      "exitPrice": 303.83,
-      "exitTime": "2026-07-30T15:15:43Z",
-      "open": false,
-      "returnPct": 15.07,
-      "qqqReturnPct": 1.19
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "INTC",
-      "direction": "LONG",
-      "entryPrice": 85.66,
-      "entryTime": "2026-07-28T15:17:34Z",
-      "exitPrice": 92.52,
-      "exitTime": "2026-07-30T15:15:43Z",
-      "open": false,
-      "returnPct": 8.01,
       "qqqReturnPct": 1.19
     },
     {
@@ -2970,30 +1752,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.19
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "T",
-      "direction": "SHORT",
-      "entryPrice": 24.3,
-      "entryTime": "2026-07-27T15:17:19Z",
-      "exitPrice": 23.2,
-      "exitTime": "2026-07-30T15:15:42Z",
-      "open": false,
-      "returnPct": 4.53,
-      "qqqReturnPct": 0.21
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LMT",
-      "direction": "SHORT",
-      "entryPrice": 583.68,
-      "entryTime": "2026-07-27T15:17:19Z",
-      "exitPrice": 558.91,
-      "exitTime": "2026-07-30T15:15:42Z",
-      "open": false,
-      "returnPct": 4.24,
-      "qqqReturnPct": 0.21
-    },
-    {
       "strategy": "Oracle",
       "ticker": "T",
       "direction": "SHORT",
@@ -3018,18 +1776,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.21
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ORCL",
-      "direction": "LONG",
-      "entryPrice": 116.97,
-      "entryTime": "2026-07-24T15:21:01Z",
-      "exitPrice": 125.01,
-      "exitTime": "2026-07-30T15:15:41Z",
-      "open": false,
-      "returnPct": 6.87,
-      "qqqReturnPct": -0.1
-    },
-    {
       "strategy": "Oracle",
       "ticker": "ORCL",
       "direction": "LONG",
@@ -3042,18 +1788,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.1
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "TLT",
-      "direction": "LONG",
-      "entryPrice": 83.58,
-      "entryTime": "2026-07-22T15:29:35Z",
-      "exitPrice": 82.52,
-      "exitTime": "2026-07-30T15:15:40Z",
-      "open": false,
-      "returnPct": -1.26,
-      "qqqReturnPct": -3.09
-    },
-    {
       "strategy": "Oracle",
       "ticker": "TLT",
       "direction": "LONG",
@@ -3064,42 +1798,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -1.26,
       "qqqReturnPct": -3.09
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "XOM",
-      "direction": "LONG",
-      "entryPrice": 154.52,
-      "entryTime": "2026-07-28T15:19:17Z",
-      "exitPrice": 158.04,
-      "exitTime": "2026-07-29T15:19:46Z",
-      "open": false,
-      "returnPct": 2.27,
-      "qqqReturnPct": -2.04
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "BKR",
-      "direction": "LONG",
-      "entryPrice": 58.62,
-      "entryTime": "2026-07-28T15:19:17Z",
-      "exitPrice": 59.9,
-      "exitTime": "2026-07-29T15:19:46Z",
-      "open": false,
-      "returnPct": 2.18,
-      "qqqReturnPct": -2.04
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "QCOM",
-      "direction": "LONG",
-      "entryPrice": 166.7,
-      "entryTime": "2026-07-28T15:19:17Z",
-      "exitPrice": 160.17,
-      "exitTime": "2026-07-29T15:19:46Z",
-      "open": false,
-      "returnPct": -3.92,
-      "qqqReturnPct": -2.04
     },
     {
       "strategy": "Kestrel",
@@ -3136,54 +1834,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -3.92,
       "qqqReturnPct": -2.04
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "JNJ",
-      "direction": "LONG",
-      "entryPrice": 262.98,
-      "entryTime": "2026-07-24T15:23:30Z",
-      "exitPrice": 267.39,
-      "exitTime": "2026-07-29T15:19:45Z",
-      "open": false,
-      "returnPct": 1.68,
-      "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "GS",
-      "direction": "LONG",
-      "entryPrice": 1048.33,
-      "entryTime": "2026-07-27T15:19:43Z",
-      "exitPrice": 990.86,
-      "exitTime": "2026-07-29T15:19:45Z",
-      "open": false,
-      "returnPct": -5.48,
-      "qqqReturnPct": -2.99
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MS",
-      "direction": "LONG",
-      "entryPrice": 213.95,
-      "entryTime": "2026-07-27T15:19:43Z",
-      "exitPrice": 205.31,
-      "exitTime": "2026-07-29T15:19:45Z",
-      "open": false,
-      "returnPct": -4.04,
-      "qqqReturnPct": -2.99
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CSX",
-      "direction": "LONG",
-      "entryPrice": 51.93,
-      "entryTime": "2026-07-27T15:19:43Z",
-      "exitPrice": 50.54,
-      "exitTime": "2026-07-29T15:19:45Z",
-      "open": false,
-      "returnPct": -2.68,
-      "qqqReturnPct": -2.99
     },
     {
       "strategy": "Kestrel",
@@ -3234,18 +1884,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.99
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "SNOW",
-      "direction": "LONG",
-      "entryPrice": 264.31,
-      "entryTime": "2026-07-24T15:23:30Z",
-      "exitPrice": 282.8,
-      "exitTime": "2026-07-29T15:19:44Z",
-      "open": false,
-      "returnPct": 7.0,
-      "qqqReturnPct": -3.29
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "SNOW",
       "direction": "LONG",
@@ -3256,42 +1894,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 7.0,
       "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 452.11,
-      "entryTime": "2026-07-28T15:17:34Z",
-      "exitPrice": 430.61,
-      "exitTime": "2026-07-29T15:17:44Z",
-      "open": false,
-      "returnPct": -4.76,
-      "qqqReturnPct": -2.04
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "WDC",
-      "direction": "LONG",
-      "entryPrice": 436.54,
-      "entryTime": "2026-07-28T15:17:34Z",
-      "exitPrice": 467.74,
-      "exitTime": "2026-07-29T15:17:44Z",
-      "open": false,
-      "returnPct": 7.15,
-      "qqqReturnPct": -2.04
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "STX",
-      "direction": "LONG",
-      "entryPrice": 718.63,
-      "entryTime": "2026-07-28T15:17:34Z",
-      "exitPrice": 762.56,
-      "exitTime": "2026-07-29T15:17:44Z",
-      "open": false,
-      "returnPct": 6.11,
-      "qqqReturnPct": -2.04
     },
     {
       "strategy": "Oracle",
@@ -3330,18 +1932,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.04
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMAT",
-      "direction": "LONG",
-      "entryPrice": 473.1,
-      "entryTime": "2026-07-28T15:17:34Z",
-      "exitPrice": 452.7,
-      "exitTime": "2026-07-29T15:17:40Z",
-      "open": false,
-      "returnPct": -4.31,
-      "qqqReturnPct": -2.04
-    },
-    {
       "strategy": "Oracle",
       "ticker": "AMAT",
       "direction": "LONG",
@@ -3352,18 +1942,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.31,
       "qqqReturnPct": -2.04
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SLB",
-      "direction": "SHORT",
-      "entryPrice": 52.31,
-      "entryTime": "2026-07-27T15:17:19Z",
-      "exitPrice": 49.87,
-      "exitTime": "2026-07-29T15:17:39Z",
-      "open": false,
-      "returnPct": 4.66,
-      "qqqReturnPct": -2.99
     },
     {
       "strategy": "Oracle",
@@ -3378,18 +1956,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.99
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LSCC",
-      "direction": "LONG",
-      "entryPrice": 120.86,
-      "entryTime": "2026-07-27T15:17:19Z",
-      "exitPrice": 115.38,
-      "exitTime": "2026-07-29T15:17:38Z",
-      "open": false,
-      "returnPct": -4.53,
-      "qqqReturnPct": -2.99
-    },
-    {
       "strategy": "Oracle",
       "ticker": "LSCC",
       "direction": "LONG",
@@ -3400,30 +1966,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.53,
       "qqqReturnPct": -2.99
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "HOOD",
-      "direction": "LONG",
-      "entryPrice": 94.23,
-      "entryTime": "2026-07-24T15:21:01Z",
-      "exitPrice": 89.98,
-      "exitTime": "2026-07-29T15:17:37Z",
-      "open": false,
-      "returnPct": -4.51,
-      "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SOFI",
-      "direction": "LONG",
-      "entryPrice": 16.38,
-      "entryTime": "2026-07-24T15:21:01Z",
-      "exitPrice": 15.3,
-      "exitTime": "2026-07-29T15:17:37Z",
-      "open": false,
-      "returnPct": -6.62,
-      "qqqReturnPct": -3.29
     },
     {
       "strategy": "Oracle",
@@ -3450,30 +1992,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.29
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MCD",
-      "direction": "LONG",
-      "entryPrice": 265.22,
-      "entryTime": "2026-07-21T15:22:24Z",
-      "exitPrice": 271.96,
-      "exitTime": "2026-07-29T15:17:35Z",
-      "open": false,
-      "returnPct": 2.54,
-      "qqqReturnPct": -6.66
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "GLD",
-      "direction": "LONG",
-      "entryPrice": 373.97,
-      "entryTime": "2026-07-21T15:22:24Z",
-      "exitPrice": 367.56,
-      "exitTime": "2026-07-29T15:17:35Z",
-      "open": false,
-      "returnPct": -1.71,
-      "qqqReturnPct": -6.66
-    },
-    {
       "strategy": "Oracle",
       "ticker": "MCD",
       "direction": "LONG",
@@ -3495,30 +2013,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-29T15:17:35Z",
       "open": false,
       "returnPct": -1.71,
-      "qqqReturnPct": -6.66
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SRE",
-      "direction": "LONG",
-      "entryPrice": 89.91,
-      "entryTime": "2026-07-21T15:22:24Z",
-      "exitPrice": 89.94,
-      "exitTime": "2026-07-29T15:17:34Z",
-      "open": false,
-      "returnPct": 0.03,
-      "qqqReturnPct": -6.66
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "BA",
-      "direction": "LONG",
-      "entryPrice": 210.65,
-      "entryTime": "2026-07-21T15:22:24Z",
-      "exitPrice": 211.66,
-      "exitTime": "2026-07-29T15:17:34Z",
-      "open": false,
-      "returnPct": 0.47,
       "qqqReturnPct": -6.66
     },
     {
@@ -3546,18 +2040,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -6.66
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "HON",
-      "direction": "LONG",
-      "entryPrice": 244.52,
-      "entryTime": "2026-07-27T15:19:43Z",
-      "exitPrice": 247.23,
-      "exitTime": "2026-07-28T15:18:13Z",
-      "open": false,
-      "returnPct": 1.11,
-      "qqqReturnPct": -0.97
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "HON",
       "direction": "LONG",
@@ -3570,18 +2052,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.97
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 417.83,
-      "entryTime": "2026-07-27T15:19:43Z",
-      "exitPrice": 423.22,
-      "exitTime": "2026-07-28T15:18:12Z",
-      "open": false,
-      "returnPct": 1.29,
-      "qqqReturnPct": -0.97
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "UNH",
       "direction": "LONG",
@@ -3591,42 +2061,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-28T15:18:12Z",
       "open": false,
       "returnPct": 1.29,
-      "qqqReturnPct": -0.97
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "INTC",
-      "direction": "LONG",
-      "entryPrice": 89.54,
-      "entryTime": "2026-07-27T15:17:19Z",
-      "exitPrice": 85.6,
-      "exitTime": "2026-07-28T15:16:14Z",
-      "open": false,
-      "returnPct": -4.41,
-      "qqqReturnPct": -0.97
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 480.1,
-      "entryTime": "2026-07-27T15:17:19Z",
-      "exitPrice": 452.09,
-      "exitTime": "2026-07-28T15:16:14Z",
-      "open": false,
-      "returnPct": -5.83,
-      "qqqReturnPct": -0.97
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "KLAC",
-      "direction": "LONG",
-      "entryPrice": 197.88,
-      "entryTime": "2026-07-27T15:17:19Z",
-      "exitPrice": 189.21,
-      "exitTime": "2026-07-28T15:16:14Z",
-      "open": false,
-      "returnPct": -4.38,
       "qqqReturnPct": -0.97
     },
     {
@@ -3666,30 +2100,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.97
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LRCX",
-      "direction": "LONG",
-      "entryPrice": 281.86,
-      "entryTime": "2026-07-27T15:17:19Z",
-      "exitPrice": 263.51,
-      "exitTime": "2026-07-28T15:16:13Z",
-      "open": false,
-      "returnPct": -6.51,
-      "qqqReturnPct": -0.97
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMAT",
-      "direction": "LONG",
-      "entryPrice": 501.73,
-      "entryTime": "2026-07-27T15:17:19Z",
-      "exitPrice": 472.72,
-      "exitTime": "2026-07-28T15:16:13Z",
-      "open": false,
-      "returnPct": -5.78,
-      "qqqReturnPct": -0.97
-    },
-    {
       "strategy": "Oracle",
       "ticker": "LRCX",
       "direction": "LONG",
@@ -3714,30 +2124,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.97
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "TSLA",
-      "direction": "LONG",
-      "entryPrice": 322.13,
-      "entryTime": "2026-07-23T15:22:02Z",
-      "exitPrice": 304.85,
-      "exitTime": "2026-07-28T15:16:11Z",
-      "open": false,
-      "returnPct": -5.36,
-      "qqqReturnPct": -2.38
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MRNA",
-      "direction": "LONG",
-      "entryPrice": 56.89,
-      "entryTime": "2026-07-23T15:22:02Z",
-      "exitPrice": 53.96,
-      "exitTime": "2026-07-28T15:16:11Z",
-      "open": false,
-      "returnPct": -5.15,
-      "qqqReturnPct": -2.38
-    },
-    {
       "strategy": "Oracle",
       "ticker": "TSLA",
       "direction": "LONG",
@@ -3760,42 +2146,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -5.15,
       "qqqReturnPct": -2.38
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PEP",
-      "direction": "LONG",
-      "entryPrice": 135.14,
-      "entryTime": "2026-07-21T15:22:24Z",
-      "exitPrice": 143.9,
-      "exitTime": "2026-07-28T15:16:10Z",
-      "open": false,
-      "returnPct": 6.48,
-      "qqqReturnPct": -4.72
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PYPL",
-      "direction": "SHORT",
-      "entryPrice": 55.85,
-      "entryTime": "2026-07-21T15:22:24Z",
-      "exitPrice": 58.35,
-      "exitTime": "2026-07-28T15:16:10Z",
-      "open": false,
-      "returnPct": -4.49,
-      "qqqReturnPct": -4.72
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "WMT",
-      "direction": "LONG",
-      "entryPrice": 108.99,
-      "entryTime": "2026-07-22T15:29:35Z",
-      "exitPrice": 114.93,
-      "exitTime": "2026-07-28T15:16:10Z",
-      "open": false,
-      "returnPct": 5.45,
-      "qqqReturnPct": -4.23
     },
     {
       "strategy": "Oracle",
@@ -3834,18 +2184,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.23
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "JD",
-      "direction": "SHORT",
-      "entryPrice": 30.48,
-      "entryTime": "2026-07-20T15:24:55Z",
-      "exitPrice": 31.84,
-      "exitTime": "2026-07-28T15:16:08Z",
-      "open": false,
-      "returnPct": -4.5,
-      "qqqReturnPct": -2.96
-    },
-    {
       "strategy": "Oracle",
       "ticker": "JD",
       "direction": "SHORT",
@@ -3856,18 +2194,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.5,
       "qqqReturnPct": -2.96
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "EPD",
-      "direction": "LONG",
-      "entryPrice": 38.9,
-      "entryTime": "2026-07-24T15:23:30Z",
-      "exitPrice": 38.23,
-      "exitTime": "2026-07-27T15:18:44Z",
-      "open": false,
-      "returnPct": -1.72,
-      "qqqReturnPct": -0.31
     },
     {
       "strategy": "Kestrel",
@@ -3879,42 +2205,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-27T15:18:44Z",
       "open": false,
       "returnPct": -1.72,
-      "qqqReturnPct": -0.31
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 421.29,
-      "entryTime": "2026-07-24T15:23:30Z",
-      "exitPrice": 417.83,
-      "exitTime": "2026-07-27T15:18:43Z",
-      "open": false,
-      "returnPct": -0.82,
-      "qqqReturnPct": -0.31
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 530.48,
-      "entryTime": "2026-07-24T15:23:30Z",
-      "exitPrice": 479.49,
-      "exitTime": "2026-07-27T15:18:43Z",
-      "open": false,
-      "returnPct": -9.61,
-      "qqqReturnPct": -0.31
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MU",
-      "direction": "LONG",
-      "entryPrice": 923.86,
-      "entryTime": "2026-07-24T15:23:30Z",
-      "exitPrice": 866.77,
-      "exitTime": "2026-07-27T15:18:43Z",
-      "open": false,
-      "returnPct": -6.18,
       "qqqReturnPct": -0.31
     },
     {
@@ -3954,42 +2244,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.31
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "KLAC",
-      "direction": "LONG",
-      "entryPrice": 217.46,
-      "entryTime": "2026-07-22T15:32:22Z",
-      "exitPrice": 197.53,
-      "exitTime": "2026-07-27T15:18:42Z",
-      "open": false,
-      "returnPct": -9.16,
-      "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "GS",
-      "direction": "LONG",
-      "entryPrice": 1064.63,
-      "entryTime": "2026-07-23T15:23:48Z",
-      "exitPrice": 1047.6,
-      "exitTime": "2026-07-27T15:18:42Z",
-      "open": false,
-      "returnPct": -1.6,
-      "qqqReturnPct": -1.42
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "EOG",
-      "direction": "LONG",
-      "entryPrice": 147.41,
-      "entryTime": "2026-07-23T15:23:48Z",
-      "exitPrice": 142.3,
-      "exitTime": "2026-07-27T15:18:42Z",
-      "open": false,
-      "returnPct": -3.47,
-      "qqqReturnPct": -1.42
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "KLAC",
       "direction": "LONG",
@@ -4026,18 +2280,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.42
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "V",
-      "direction": "LONG",
-      "entryPrice": 355.55,
-      "entryTime": "2026-07-22T15:32:22Z",
-      "exitPrice": 363.12,
-      "exitTime": "2026-07-27T15:18:41Z",
-      "open": false,
-      "returnPct": 2.13,
-      "qqqReturnPct": -3.29
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "V",
       "direction": "LONG",
@@ -4050,18 +2292,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.29
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "FANG",
-      "direction": "SHORT",
-      "entryPrice": 209.12,
-      "entryTime": "2026-07-24T15:21:01Z",
-      "exitPrice": 198.59,
-      "exitTime": "2026-07-27T15:15:59Z",
-      "open": false,
-      "returnPct": 5.04,
-      "qqqReturnPct": -0.31
-    },
-    {
       "strategy": "Oracle",
       "ticker": "FANG",
       "direction": "SHORT",
@@ -4071,30 +2301,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-27T15:15:59Z",
       "open": false,
       "returnPct": 5.04,
-      "qqqReturnPct": -0.31
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "COP",
-      "direction": "SHORT",
-      "entryPrice": 122.21,
-      "entryTime": "2026-07-23T15:22:02Z",
-      "exitPrice": 117.17,
-      "exitTime": "2026-07-27T15:15:58Z",
-      "open": false,
-      "returnPct": 4.12,
-      "qqqReturnPct": -1.42
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MDB",
-      "direction": "LONG",
-      "entryPrice": 293.79,
-      "entryTime": "2026-07-24T15:21:01Z",
-      "exitPrice": 309.76,
-      "exitTime": "2026-07-27T15:15:58Z",
-      "open": false,
-      "returnPct": 5.44,
       "qqqReturnPct": -0.31
     },
     {
@@ -4122,18 +2328,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.31
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "TWLO",
-      "direction": "LONG",
-      "entryPrice": 180.37,
-      "entryTime": "2026-07-23T15:22:02Z",
-      "exitPrice": 193.18,
-      "exitTime": "2026-07-27T15:15:57Z",
-      "open": false,
-      "returnPct": 7.1,
-      "qqqReturnPct": -1.42
-    },
-    {
       "strategy": "Oracle",
       "ticker": "TWLO",
       "direction": "LONG",
@@ -4143,54 +2337,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-27T15:15:57Z",
       "open": false,
       "returnPct": 7.1,
-      "qqqReturnPct": -1.42
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AI",
-      "direction": "LONG",
-      "entryPrice": 7.99,
-      "entryTime": "2026-07-23T15:22:02Z",
-      "exitPrice": 8.75,
-      "exitTime": "2026-07-27T15:15:56Z",
-      "open": false,
-      "returnPct": 9.51,
-      "qqqReturnPct": -1.42
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "IBM",
-      "direction": "LONG",
-      "entryPrice": 206.24,
-      "entryTime": "2026-07-23T15:22:02Z",
-      "exitPrice": 217.84,
-      "exitTime": "2026-07-27T15:15:56Z",
-      "open": false,
-      "returnPct": 5.62,
-      "qqqReturnPct": -1.42
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "DASH",
-      "direction": "LONG",
-      "entryPrice": 167.16,
-      "entryTime": "2026-07-23T15:22:02Z",
-      "exitPrice": 183.35,
-      "exitTime": "2026-07-27T15:15:56Z",
-      "open": false,
-      "returnPct": 9.69,
-      "qqqReturnPct": -1.42
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "DKNG",
-      "direction": "LONG",
-      "entryPrice": 22.42,
-      "entryTime": "2026-07-23T15:22:02Z",
-      "exitPrice": 24.45,
-      "exitTime": "2026-07-27T15:15:56Z",
-      "open": false,
-      "returnPct": 9.05,
       "qqqReturnPct": -1.42
     },
     {
@@ -4242,30 +2388,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.42
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "BSX",
-      "direction": "LONG",
-      "entryPrice": 42.86,
-      "entryTime": "2026-07-22T15:29:35Z",
-      "exitPrice": 46.23,
-      "exitTime": "2026-07-27T15:15:55Z",
-      "open": false,
-      "returnPct": 7.87,
-      "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ISRG",
-      "direction": "LONG",
-      "entryPrice": 330.65,
-      "entryTime": "2026-07-23T15:22:02Z",
-      "exitPrice": 356.34,
-      "exitTime": "2026-07-27T15:15:55Z",
-      "open": false,
-      "returnPct": 7.77,
-      "qqqReturnPct": -1.42
-    },
-    {
       "strategy": "Oracle",
       "ticker": "BSX",
       "direction": "LONG",
@@ -4290,18 +2412,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.42
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NET",
-      "direction": "SHORT",
-      "entryPrice": 273.62,
-      "entryTime": "2026-07-21T15:22:24Z",
-      "exitPrice": 262.24,
-      "exitTime": "2026-07-27T15:15:54Z",
-      "open": false,
-      "returnPct": 4.16,
-      "qqqReturnPct": -3.79
-    },
-    {
       "strategy": "Oracle",
       "ticker": "NET",
       "direction": "SHORT",
@@ -4314,18 +2424,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.79
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "KLAC",
-      "direction": "LONG",
-      "entryPrice": 211.4,
-      "entryTime": "2026-07-20T15:24:55Z",
-      "exitPrice": 198.18,
-      "exitTime": "2026-07-27T15:15:52Z",
-      "open": false,
-      "returnPct": -6.26,
-      "qqqReturnPct": -2.0
-    },
-    {
       "strategy": "Oracle",
       "ticker": "KLAC",
       "direction": "LONG",
@@ -4335,54 +2433,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-27T15:15:52Z",
       "open": false,
       "returnPct": -6.26,
-      "qqqReturnPct": -2.0
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NSC",
-      "direction": "SHORT",
-      "entryPrice": 341.83,
-      "entryTime": "2026-07-17T15:27:45Z",
-      "exitPrice": 346.42,
-      "exitTime": "2026-07-27T15:15:51Z",
-      "open": false,
-      "returnPct": -1.34,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ET",
-      "direction": "SHORT",
-      "entryPrice": 20.45,
-      "entryTime": "2026-07-17T15:27:45Z",
-      "exitPrice": 19.98,
-      "exitTime": "2026-07-27T15:15:51Z",
-      "open": false,
-      "returnPct": 2.32,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NVAX",
-      "direction": "LONG",
-      "entryPrice": 7.98,
-      "entryTime": "2026-07-20T15:24:55Z",
-      "exitPrice": 7.62,
-      "exitTime": "2026-07-27T15:15:51Z",
-      "open": false,
-      "returnPct": -4.45,
-      "qqqReturnPct": -2.0
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LRCX",
-      "direction": "LONG",
-      "entryPrice": 310.62,
-      "entryTime": "2026-07-20T15:24:55Z",
-      "exitPrice": 282.15,
-      "exitTime": "2026-07-27T15:15:51Z",
-      "open": false,
-      "returnPct": -9.17,
       "qqqReturnPct": -2.0
     },
     {
@@ -4434,30 +2484,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.0
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SNPS",
-      "direction": "LONG",
-      "entryPrice": 375.28,
-      "entryTime": "2026-07-17T15:27:45Z",
-      "exitPrice": 392.93,
-      "exitTime": "2026-07-27T15:15:50Z",
-      "open": false,
-      "returnPct": 4.7,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ENB",
-      "direction": "SHORT",
-      "entryPrice": 57.04,
-      "entryTime": "2026-07-17T15:27:45Z",
-      "exitPrice": 55.75,
-      "exitTime": "2026-07-27T15:15:50Z",
-      "open": false,
-      "returnPct": 2.26,
-      "qqqReturnPct": -1.9
-    },
-    {
       "strategy": "Oracle",
       "ticker": "SNPS",
       "direction": "LONG",
@@ -4480,102 +2506,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 2.26,
       "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "HIMS",
-      "direction": "LONG",
-      "entryPrice": 30.64,
-      "entryTime": "2026-07-24T00:00:00Z",
-      "exitPrice": 28.73,
-      "exitTime": "2026-07-27T00:00:00Z",
-      "open": false,
-      "returnPct": -6.23,
-      "qqqReturnPct": -0.31
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "MU",
-      "direction": "LONG",
-      "entryPrice": 929.06,
-      "entryTime": "2026-07-24T00:00:00Z",
-      "exitPrice": 932.45,
-      "exitTime": "2026-07-27T00:00:00Z",
-      "open": false,
-      "returnPct": 0.36,
-      "qqqReturnPct": -0.31
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "HOOD",
-      "direction": "LONG",
-      "entryPrice": 95.67,
-      "entryTime": "2026-07-24T00:00:00Z",
-      "exitPrice": 97.0,
-      "exitTime": "2026-07-27T00:00:00Z",
-      "open": false,
-      "returnPct": 1.39,
-      "qqqReturnPct": -0.31
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "CLSK",
-      "direction": "LONG",
-      "entryPrice": 14.96,
-      "entryTime": "2026-07-24T00:00:00Z",
-      "exitPrice": 14.82,
-      "exitTime": "2026-07-27T00:00:00Z",
-      "open": false,
-      "returnPct": -0.94,
-      "qqqReturnPct": -0.31
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "QUBT",
-      "direction": "LONG",
-      "entryPrice": 7.54,
-      "entryTime": "2026-07-24T00:00:00Z",
-      "exitPrice": 7.74,
-      "exitTime": "2026-07-27T00:00:00Z",
-      "open": false,
-      "returnPct": 2.72,
-      "qqqReturnPct": -0.31
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "INTC",
-      "direction": "LONG",
-      "entryPrice": 96.19,
-      "entryTime": "2026-07-24T00:00:00Z",
-      "exitPrice": 92.46,
-      "exitTime": "2026-07-27T00:00:00Z",
-      "open": false,
-      "returnPct": -3.88,
-      "qqqReturnPct": -0.31
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "BBAI",
-      "direction": "LONG",
-      "entryPrice": 2.74,
-      "entryTime": "2026-07-24T00:00:00Z",
-      "exitPrice": 2.86,
-      "exitTime": "2026-07-27T00:00:00Z",
-      "open": false,
-      "returnPct": 4.38,
-      "qqqReturnPct": -0.31
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "MARA",
-      "direction": "LONG",
-      "entryPrice": 12.32,
-      "entryTime": "2026-07-24T00:00:00Z",
-      "exitPrice": 12.27,
-      "exitTime": "2026-07-27T00:00:00Z",
-      "open": false,
-      "returnPct": -0.41,
-      "qqqReturnPct": -0.31
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -4674,18 +2604,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.31
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "UPS",
-      "direction": "LONG",
-      "entryPrice": 114.55,
-      "entryTime": "2026-07-23T15:23:48Z",
-      "exitPrice": 114.82,
-      "exitTime": "2026-07-24T15:22:21Z",
-      "open": false,
-      "returnPct": 0.24,
-      "qqqReturnPct": -1.12
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "UPS",
       "direction": "LONG",
@@ -4695,42 +2613,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-24T15:22:21Z",
       "open": false,
       "returnPct": 0.24,
-      "qqqReturnPct": -1.12
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AAPL",
-      "direction": "LONG",
-      "entryPrice": 321.95,
-      "entryTime": "2026-07-23T15:23:48Z",
-      "exitPrice": 331.29,
-      "exitTime": "2026-07-24T15:22:20Z",
-      "open": false,
-      "returnPct": 2.9,
-      "qqqReturnPct": -1.12
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "LLY",
-      "direction": "LONG",
-      "entryPrice": 1185.14,
-      "entryTime": "2026-07-23T15:23:48Z",
-      "exitPrice": 1199.62,
-      "exitTime": "2026-07-24T15:22:20Z",
-      "open": false,
-      "returnPct": 1.22,
-      "qqqReturnPct": -1.12
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "BAC",
-      "direction": "LONG",
-      "entryPrice": 60.71,
-      "entryTime": "2026-07-23T15:23:48Z",
-      "exitPrice": 61.81,
-      "exitTime": "2026-07-24T15:22:20Z",
-      "open": false,
-      "returnPct": 1.81,
       "qqqReturnPct": -1.12
     },
     {
@@ -4770,30 +2652,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.12
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "PM",
-      "direction": "LONG",
-      "entryPrice": 190.01,
-      "entryTime": "2026-07-21T15:24:46Z",
-      "exitPrice": 195.18,
-      "exitTime": "2026-07-24T15:22:19Z",
-      "open": false,
-      "returnPct": 2.72,
-      "qqqReturnPct": -3.49
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MRVL",
-      "direction": "LONG",
-      "entryPrice": 213.17,
-      "entryTime": "2026-07-22T15:32:22Z",
-      "exitPrice": 197.31,
-      "exitTime": "2026-07-24T15:22:19Z",
-      "open": false,
-      "returnPct": -7.44,
-      "qqqReturnPct": -2.99
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "PM",
       "direction": "LONG",
@@ -4816,18 +2674,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -7.44,
       "qqqReturnPct": -2.99
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SLB",
-      "direction": "LONG",
-      "entryPrice": 46.08,
-      "entryTime": "2026-07-21T15:22:24Z",
-      "exitPrice": 51.68,
-      "exitTime": "2026-07-24T15:19:37Z",
-      "open": false,
-      "returnPct": 12.15,
-      "qqqReturnPct": -3.49
     },
     {
       "strategy": "Oracle",
@@ -4840,54 +2686,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 12.15,
       "qqqReturnPct": -3.49
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XLP",
-      "direction": "LONG",
-      "entryPrice": 85.46,
-      "entryTime": "2026-07-16T17:30:49Z",
-      "exitPrice": 84.04,
-      "exitTime": "2026-07-24T15:19:33Z",
-      "open": false,
-      "returnPct": -1.67,
-      "qqqReturnPct": -3.08
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ZTS",
-      "direction": "LONG",
-      "entryPrice": 77.36,
-      "entryTime": "2026-07-16T17:30:49Z",
-      "exitPrice": 75.24,
-      "exitTime": "2026-07-24T15:19:33Z",
-      "open": false,
-      "returnPct": -2.74,
-      "qqqReturnPct": -3.08
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "COST",
-      "direction": "LONG",
-      "entryPrice": 938.87,
-      "entryTime": "2026-07-16T17:30:49Z",
-      "exitPrice": 933.72,
-      "exitTime": "2026-07-24T15:19:33Z",
-      "open": false,
-      "returnPct": -0.55,
-      "qqqReturnPct": -3.08
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "REGN",
-      "direction": "LONG",
-      "entryPrice": 677.33,
-      "entryTime": "2026-07-16T17:30:49Z",
-      "exitPrice": 665.6,
-      "exitTime": "2026-07-24T15:19:33Z",
-      "open": false,
-      "returnPct": -1.73,
-      "qqqReturnPct": -3.08
     },
     {
       "strategy": "Oracle",
@@ -4938,18 +2736,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.08
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XLRE",
-      "direction": "LONG",
-      "entryPrice": 45.21,
-      "entryTime": "2026-07-16T17:30:49Z",
-      "exitPrice": 46.09,
-      "exitTime": "2026-07-24T15:19:32Z",
-      "open": false,
-      "returnPct": 1.96,
-      "qqqReturnPct": -3.08
-    },
-    {
       "strategy": "Oracle",
       "ticker": "XLRE",
       "direction": "LONG",
@@ -4960,138 +2746,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.96,
       "qqqReturnPct": -3.08
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AAPL",
-      "direction": "LONG",
-      "entryPrice": 321.95,
-      "entryTime": "2026-07-23T15:36:44Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "LLY",
-      "direction": "LONG",
-      "entryPrice": 1185.14,
-      "entryTime": "2026-07-23T15:36:44Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "BAC",
-      "direction": "LONG",
-      "entryPrice": 60.71,
-      "entryTime": "2026-07-23T15:36:44Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "UPS",
-      "direction": "LONG",
-      "entryPrice": 114.55,
-      "entryTime": "2026-07-23T15:36:44Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "GS",
-      "direction": "LONG",
-      "entryPrice": 1064.63,
-      "entryTime": "2026-07-23T15:36:44Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "EOG",
-      "direction": "LONG",
-      "entryPrice": 147.41,
-      "entryTime": "2026-07-23T15:36:44Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "CMG",
-      "direction": "LONG",
-      "entryPrice": 33.41,
-      "entryTime": "2026-07-21T15:36:36Z",
-      "exitPrice": 31.94,
-      "exitTime": "2026-07-23T15:36:43Z",
-      "open": false,
-      "returnPct": -4.38,
-      "qqqReturnPct": -2.4
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "OKTA",
-      "direction": "LONG",
-      "entryPrice": 139.72,
-      "entryTime": "2026-07-21T15:36:36Z",
-      "exitPrice": 134.66,
-      "exitTime": "2026-07-23T15:36:43Z",
-      "open": false,
-      "returnPct": -3.62,
-      "qqqReturnPct": -2.4
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "ABNB",
-      "direction": "LONG",
-      "entryPrice": 146.04,
-      "entryTime": "2026-07-17T15:43:20Z",
-      "exitPrice": 135.8,
-      "exitTime": "2026-07-23T15:36:40Z",
-      "open": false,
-      "returnPct": -7.01,
-      "qqqReturnPct": -0.48
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "EOG",
-      "direction": "LONG",
-      "entryPrice": 144.96,
-      "entryTime": "2026-07-22T15:32:22Z",
-      "exitPrice": 147.35,
-      "exitTime": "2026-07-23T15:22:45Z",
-      "open": false,
-      "returnPct": 1.65,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MO",
-      "direction": "LONG",
-      "entryPrice": 72.32,
-      "entryTime": "2026-07-22T15:32:22Z",
-      "exitPrice": 72.64,
-      "exitTime": "2026-07-23T15:22:45Z",
-      "open": false,
-      "returnPct": 0.44,
-      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Kestrel",
@@ -5118,30 +2772,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.9
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CMG",
-      "direction": "LONG",
-      "entryPrice": 33.41,
-      "entryTime": "2026-07-21T15:24:46Z",
-      "exitPrice": 32.03,
-      "exitTime": "2026-07-23T15:22:44Z",
-      "open": false,
-      "returnPct": -4.13,
-      "qqqReturnPct": -2.4
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "OKTA",
-      "direction": "LONG",
-      "entryPrice": 139.72,
-      "entryTime": "2026-07-21T15:24:46Z",
-      "exitPrice": 134.65,
-      "exitTime": "2026-07-23T15:22:44Z",
-      "open": false,
-      "returnPct": -3.63,
-      "qqqReturnPct": -2.4
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "CMG",
       "direction": "LONG",
@@ -5166,18 +2796,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.4
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ABNB",
-      "direction": "LONG",
-      "entryPrice": 144.04,
-      "entryTime": "2026-07-21T15:24:46Z",
-      "exitPrice": 136.38,
-      "exitTime": "2026-07-23T15:22:43Z",
-      "open": false,
-      "returnPct": -5.32,
-      "qqqReturnPct": -2.4
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "ABNB",
       "direction": "LONG",
@@ -5188,18 +2806,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -5.32,
       "qqqReturnPct": -2.4
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "RIVN",
-      "direction": "SHORT",
-      "entryPrice": 17.53,
-      "entryTime": "2026-07-22T15:29:35Z",
-      "exitPrice": 16.49,
-      "exitTime": "2026-07-23T15:20:39Z",
-      "open": false,
-      "returnPct": 5.93,
-      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Oracle",
@@ -5212,30 +2818,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 5.93,
       "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMC",
-      "direction": "SHORT",
-      "entryPrice": 2.31,
-      "entryTime": "2026-07-21T15:22:24Z",
-      "exitPrice": 2.17,
-      "exitTime": "2026-07-23T15:20:38Z",
-      "open": false,
-      "returnPct": 6.06,
-      "qqqReturnPct": -2.4
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "S",
-      "direction": "SHORT",
-      "entryPrice": 18.7,
-      "entryTime": "2026-07-21T15:22:24Z",
-      "exitPrice": 17.56,
-      "exitTime": "2026-07-23T15:20:38Z",
-      "open": false,
-      "returnPct": 6.1,
-      "qqqReturnPct": -2.4
     },
     {
       "strategy": "Oracle",
@@ -5262,18 +2844,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.4
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CVX",
-      "direction": "SHORT",
-      "entryPrice": 189.33,
-      "entryTime": "2026-07-20T15:24:55Z",
-      "exitPrice": 197.41,
-      "exitTime": "2026-07-23T15:20:35Z",
-      "open": false,
-      "returnPct": -4.27,
-      "qqqReturnPct": -0.59
-    },
-    {
       "strategy": "Oracle",
       "ticker": "CVX",
       "direction": "SHORT",
@@ -5283,30 +2853,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-23T15:20:35Z",
       "open": false,
       "returnPct": -4.27,
-      "qqqReturnPct": -0.59
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MRNA",
-      "direction": "LONG",
-      "entryPrice": 61.53,
-      "entryTime": "2026-07-20T15:24:55Z",
-      "exitPrice": 57.14,
-      "exitTime": "2026-07-23T15:20:34Z",
-      "open": false,
-      "returnPct": -7.15,
-      "qqqReturnPct": -0.59
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ISRG",
-      "direction": "LONG",
-      "entryPrice": 349.55,
-      "entryTime": "2026-07-20T15:24:55Z",
-      "exitPrice": 330.6,
-      "exitTime": "2026-07-23T15:20:34Z",
-      "open": false,
-      "returnPct": -5.42,
       "qqqReturnPct": -0.59
     },
     {
@@ -5334,18 +2880,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.59
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "DIS",
-      "direction": "LONG",
-      "entryPrice": 98.88,
-      "entryTime": "2026-07-16T17:30:49Z",
-      "exitPrice": 92.68,
-      "exitTime": "2026-07-23T15:20:31Z",
-      "open": false,
-      "returnPct": -6.27,
-      "qqqReturnPct": -1.98
-    },
-    {
       "strategy": "Oracle",
       "ticker": "DIS",
       "direction": "LONG",
@@ -5358,90 +2892,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.98
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "MRVL",
-      "direction": "LONG",
-      "entryPrice": 213.17,
-      "entryTime": "2026-07-22T15:45:54Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -2.78,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "V",
-      "direction": "LONG",
-      "entryPrice": 355.55,
-      "entryTime": "2026-07-22T15:45:54Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.42,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "MO",
-      "direction": "LONG",
-      "entryPrice": 72.32,
-      "entryTime": "2026-07-22T15:45:54Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.16,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "LLY",
-      "direction": "LONG",
-      "entryPrice": 1187.73,
-      "entryTime": "2026-07-14T15:45:38Z",
-      "exitPrice": 1167.7,
-      "exitTime": "2026-07-22T15:45:50Z",
-      "open": false,
-      "returnPct": -1.69,
-      "qqqReturnPct": -1.99
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "EMR",
-      "direction": "LONG",
-      "entryPrice": 137.43,
-      "entryTime": "2026-07-16T17:46:46Z",
-      "exitPrice": 139.58,
-      "exitTime": "2026-07-22T15:45:50Z",
-      "open": false,
-      "returnPct": 1.56,
-      "qqqReturnPct": -0.08
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MNST",
-      "direction": "LONG",
-      "entryPrice": 96.17,
-      "entryTime": "2026-07-20T15:27:21Z",
-      "exitPrice": 94.58,
-      "exitTime": "2026-07-22T15:31:12Z",
-      "open": false,
-      "returnPct": -1.66,
-      "qqqReturnPct": 1.33
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "SBUX",
-      "direction": "LONG",
-      "entryPrice": 104.78,
-      "entryTime": "2026-07-20T15:27:21Z",
-      "exitPrice": 104.12,
-      "exitTime": "2026-07-22T15:31:12Z",
-      "open": false,
-      "returnPct": -0.62,
-      "qqqReturnPct": 1.33
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "MNST",
       "direction": "LONG",
@@ -5463,42 +2913,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-22T15:31:12Z",
       "open": false,
       "returnPct": -0.62,
-      "qqqReturnPct": 1.33
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "PG",
-      "direction": "LONG",
-      "entryPrice": 149.58,
-      "entryTime": "2026-07-20T15:27:21Z",
-      "exitPrice": 149.72,
-      "exitTime": "2026-07-22T15:31:11Z",
-      "open": false,
-      "returnPct": 0.09,
-      "qqqReturnPct": 1.33
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "WDAY",
-      "direction": "LONG",
-      "entryPrice": 145.49,
-      "entryTime": "2026-07-20T15:27:21Z",
-      "exitPrice": 135.62,
-      "exitTime": "2026-07-22T15:31:11Z",
-      "open": false,
-      "returnPct": -6.79,
-      "qqqReturnPct": 1.33
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CRM",
-      "direction": "LONG",
-      "entryPrice": 171.08,
-      "entryTime": "2026-07-20T15:27:21Z",
-      "exitPrice": 165.54,
-      "exitTime": "2026-07-22T15:31:11Z",
-      "open": false,
-      "returnPct": -3.24,
       "qqqReturnPct": 1.33
     },
     {
@@ -5538,18 +2952,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.33
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SMCI",
-      "direction": "LONG",
-      "entryPrice": 24.16,
-      "entryTime": "2026-07-20T15:24:55Z",
-      "exitPrice": 31.74,
-      "exitTime": "2026-07-22T15:28:10Z",
-      "open": false,
-      "returnPct": 31.38,
-      "qqqReturnPct": 1.33
-    },
-    {
       "strategy": "Oracle",
       "ticker": "SMCI",
       "direction": "LONG",
@@ -5562,18 +2964,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.33
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XOM",
-      "direction": "SHORT",
-      "entryPrice": 148.39,
-      "entryTime": "2026-07-17T15:27:45Z",
-      "exitPrice": 154.36,
-      "exitTime": "2026-07-22T15:28:09Z",
-      "open": false,
-      "returnPct": -4.02,
-      "qqqReturnPct": 1.44
-    },
-    {
       "strategy": "Oracle",
       "ticker": "XOM",
       "direction": "SHORT",
@@ -5583,30 +2973,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-22T15:28:09Z",
       "open": false,
       "returnPct": -4.02,
-      "qqqReturnPct": 1.44
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "WMT",
-      "direction": "LONG",
-      "entryPrice": 115.27,
-      "entryTime": "2026-07-16T17:30:49Z",
-      "exitPrice": 108.96,
-      "exitTime": "2026-07-22T15:28:08Z",
-      "open": false,
-      "returnPct": -5.47,
-      "qqqReturnPct": -0.08
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CDNS",
-      "direction": "LONG",
-      "entryPrice": 325.38,
-      "entryTime": "2026-07-17T15:27:45Z",
-      "exitPrice": 343.99,
-      "exitTime": "2026-07-22T15:28:08Z",
-      "open": false,
-      "returnPct": 5.72,
       "qqqReturnPct": 1.44
     },
     {
@@ -5634,30 +3000,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.44
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XLU",
-      "direction": "LONG",
-      "entryPrice": 45.88,
-      "entryTime": "2026-07-14T15:28:59Z",
-      "exitPrice": 45.6,
-      "exitTime": "2026-07-22T15:28:06Z",
-      "open": false,
-      "returnPct": -0.61,
-      "qqqReturnPct": -1.99
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "IBM",
-      "direction": "SHORT",
-      "entryPrice": 214.2,
-      "entryTime": "2026-07-14T15:28:59Z",
-      "exitPrice": 210.38,
-      "exitTime": "2026-07-22T15:28:06Z",
-      "open": false,
-      "returnPct": 1.78,
-      "qqqReturnPct": -1.99
-    },
-    {
       "strategy": "Oracle",
       "ticker": "XLU",
       "direction": "LONG",
@@ -5679,42 +3021,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-22T15:28:06Z",
       "open": false,
       "returnPct": 1.78,
-      "qqqReturnPct": -1.99
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NEE",
-      "direction": "LONG",
-      "entryPrice": 89.43,
-      "entryTime": "2026-07-14T15:28:59Z",
-      "exitPrice": 88.84,
-      "exitTime": "2026-07-22T15:28:05Z",
-      "open": false,
-      "returnPct": -0.65,
-      "qqqReturnPct": -1.99
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "TLT",
-      "direction": "LONG",
-      "entryPrice": 84.43,
-      "entryTime": "2026-07-14T15:28:59Z",
-      "exitPrice": 83.58,
-      "exitTime": "2026-07-22T15:28:05Z",
-      "open": false,
-      "returnPct": -1.01,
-      "qqqReturnPct": -1.99
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "GME",
-      "direction": "LONG",
-      "entryPrice": 22.33,
-      "entryTime": "2026-07-14T15:28:59Z",
-      "exitPrice": 21.72,
-      "exitTime": "2026-07-22T15:28:05Z",
-      "open": false,
-      "returnPct": -2.71,
       "qqqReturnPct": -1.99
     },
     {
@@ -5754,66 +3060,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.99
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "PM",
-      "direction": "LONG",
-      "entryPrice": 190.01,
-      "entryTime": "2026-07-21T15:36:36Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 1.65,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "LRCX",
-      "direction": "LONG",
-      "entryPrice": 318.85,
-      "entryTime": "2026-07-16T17:46:46Z",
-      "exitPrice": 320.99,
-      "exitTime": "2026-07-21T15:36:34Z",
-      "open": false,
-      "returnPct": 0.67,
-      "qqqReturnPct": 0.43
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AMAT",
-      "direction": "LONG",
-      "entryPrice": 532.41,
-      "entryTime": "2026-07-17T15:43:20Z",
-      "exitPrice": 566.64,
-      "exitTime": "2026-07-21T15:36:34Z",
-      "open": false,
-      "returnPct": 6.43,
-      "qqqReturnPct": 1.96
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 497.68,
-      "entryTime": "2026-07-16T17:46:46Z",
-      "exitPrice": 534.9,
-      "exitTime": "2026-07-21T15:36:33Z",
-      "open": false,
-      "returnPct": 7.48,
-      "qqqReturnPct": 0.43
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "XLRE",
-      "direction": "LONG",
-      "entryPrice": 45.24,
-      "entryTime": "2026-07-20T15:27:21Z",
-      "exitPrice": 45.29,
-      "exitTime": "2026-07-21T15:23:43Z",
-      "open": false,
-      "returnPct": 0.12,
-      "qqqReturnPct": 1.85
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "XLRE",
       "direction": "LONG",
@@ -5826,18 +3072,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.85
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "JPM",
-      "direction": "LONG",
-      "entryPrice": 340.33,
-      "entryTime": "2026-07-20T15:27:21Z",
-      "exitPrice": 342.98,
-      "exitTime": "2026-07-21T15:23:42Z",
-      "open": false,
-      "returnPct": 0.78,
-      "qqqReturnPct": 1.85
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "JPM",
       "direction": "LONG",
@@ -5847,30 +3081,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-21T15:23:42Z",
       "open": false,
       "returnPct": 0.78,
-      "qqqReturnPct": 1.85
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 497.68,
-      "entryTime": "2026-07-16T17:33:29Z",
-      "exitPrice": 534.1,
-      "exitTime": "2026-07-21T15:23:41Z",
-      "open": false,
-      "returnPct": 7.32,
-      "qqqReturnPct": 0.43
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "HUBS",
-      "direction": "LONG",
-      "entryPrice": 229.0,
-      "entryTime": "2026-07-20T15:27:21Z",
-      "exitPrice": 218.36,
-      "exitTime": "2026-07-21T15:23:41Z",
-      "open": false,
-      "returnPct": -4.65,
       "qqqReturnPct": 1.85
     },
     {
@@ -5898,18 +3108,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.85
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MU",
-      "direction": "SHORT",
-      "entryPrice": 852.04,
-      "entryTime": "2026-07-16T17:30:49Z",
-      "exitPrice": 952.57,
-      "exitTime": "2026-07-21T15:21:07Z",
-      "open": false,
-      "returnPct": -11.8,
-      "qqqReturnPct": 0.43
-    },
-    {
       "strategy": "Oracle",
       "ticker": "MU",
       "direction": "SHORT",
@@ -5922,18 +3120,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.43
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SRE",
-      "direction": "LONG",
-      "entryPrice": 94.38,
-      "entryTime": "2026-07-14T15:28:59Z",
-      "exitPrice": 89.96,
-      "exitTime": "2026-07-21T15:21:04Z",
-      "open": false,
-      "returnPct": -4.68,
-      "qqqReturnPct": -1.49
-    },
-    {
       "strategy": "Oracle",
       "ticker": "SRE",
       "direction": "LONG",
@@ -5944,42 +3130,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.68,
       "qqqReturnPct": -1.49
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "EPD",
-      "direction": "LONG",
-      "entryPrice": 38.14,
-      "entryTime": "2026-07-13T15:26:14Z",
-      "exitPrice": 38.72,
-      "exitTime": "2026-07-21T15:21:02Z",
-      "open": false,
-      "returnPct": 1.52,
-      "qqqReturnPct": -0.39
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XLE",
-      "direction": "LONG",
-      "entryPrice": 56.31,
-      "entryTime": "2026-07-13T15:26:14Z",
-      "exitPrice": 58.14,
-      "exitTime": "2026-07-21T15:21:02Z",
-      "open": false,
-      "returnPct": 3.23,
-      "qqqReturnPct": -0.39
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CRM",
-      "direction": "LONG",
-      "entryPrice": 171.64,
-      "entryTime": "2026-07-13T15:26:14Z",
-      "exitPrice": 170.37,
-      "exitTime": "2026-07-21T15:21:02Z",
-      "open": false,
-      "returnPct": -0.74,
-      "qqqReturnPct": -0.39
     },
     {
       "strategy": "Oracle",
@@ -6018,18 +3168,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.39
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "INTU",
-      "direction": "LONG",
-      "entryPrice": 291.18,
-      "entryTime": "2026-07-13T15:26:14Z",
-      "exitPrice": 291.18,
-      "exitTime": "2026-07-21T15:21:01Z",
-      "open": false,
-      "returnPct": -0.0,
-      "qqqReturnPct": -0.39
-    },
-    {
       "strategy": "Oracle",
       "ticker": "INTU",
       "direction": "LONG",
@@ -6040,126 +3178,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -0.0,
       "qqqReturnPct": -0.39
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "JPM",
-      "direction": "LONG",
-      "entryPrice": 340.33,
-      "entryTime": "2026-07-20T15:40:00Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 2.04,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "PG",
-      "direction": "LONG",
-      "entryPrice": 149.58,
-      "entryTime": "2026-07-20T15:40:00Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.79,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "XLRE",
-      "direction": "LONG",
-      "entryPrice": 45.24,
-      "entryTime": "2026-07-20T15:40:00Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -0.31,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "MNST",
-      "direction": "LONG",
-      "entryPrice": 96.17,
-      "entryTime": "2026-07-20T15:40:00Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -2.86,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "SBUX",
-      "direction": "LONG",
-      "entryPrice": 104.78,
-      "entryTime": "2026-07-20T15:40:00Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -2.49,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "CSX",
-      "direction": "LONG",
-      "entryPrice": 49.6,
-      "entryTime": "2026-07-10T15:39:16Z",
-      "exitPrice": 50.28,
-      "exitTime": "2026-07-20T15:39:57Z",
-      "open": false,
-      "returnPct": 1.37,
-      "qqqReturnPct": -4.06
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "NET",
-      "direction": "LONG",
-      "entryPrice": 274.42,
-      "entryTime": "2026-07-13T15:41:50Z",
-      "exitPrice": 277.4,
-      "exitTime": "2026-07-20T15:39:57Z",
-      "open": false,
-      "returnPct": 1.09,
-      "qqqReturnPct": -2.2
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CAT",
-      "direction": "LONG",
-      "entryPrice": 879.98,
-      "entryTime": "2026-07-17T15:30:18Z",
-      "exitPrice": 871.12,
-      "exitTime": "2026-07-20T15:26:19Z",
-      "open": false,
-      "returnPct": -1.01,
-      "qqqReturnPct": 0.1
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ABNB",
-      "direction": "LONG",
-      "entryPrice": 146.04,
-      "entryTime": "2026-07-17T15:30:18Z",
-      "exitPrice": 146.29,
-      "exitTime": "2026-07-20T15:26:19Z",
-      "open": false,
-      "returnPct": 0.17,
-      "qqqReturnPct": 0.1
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMAT",
-      "direction": "LONG",
-      "entryPrice": 532.41,
-      "entryTime": "2026-07-17T15:30:18Z",
-      "exitPrice": 532.34,
-      "exitTime": "2026-07-20T15:26:19Z",
-      "open": false,
-      "returnPct": -0.01,
-      "qqqReturnPct": 0.1
     },
     {
       "strategy": "Kestrel",
@@ -6198,42 +3216,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.1
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MAR",
-      "direction": "LONG",
-      "entryPrice": 370.45,
-      "entryTime": "2026-07-16T17:33:29Z",
-      "exitPrice": 367.56,
-      "exitTime": "2026-07-20T15:26:18Z",
-      "open": false,
-      "returnPct": -0.78,
-      "qqqReturnPct": -1.4
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "SCHW",
-      "direction": "LONG",
-      "entryPrice": 102.54,
-      "entryTime": "2026-07-16T17:33:29Z",
-      "exitPrice": 101.54,
-      "exitTime": "2026-07-20T15:26:18Z",
-      "open": false,
-      "returnPct": -0.97,
-      "qqqReturnPct": -1.4
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "LRCX",
-      "direction": "LONG",
-      "entryPrice": 318.85,
-      "entryTime": "2026-07-16T17:33:29Z",
-      "exitPrice": 310.61,
-      "exitTime": "2026-07-20T15:26:18Z",
-      "open": false,
-      "returnPct": -2.58,
-      "qqqReturnPct": -1.4
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "MAR",
       "direction": "LONG",
@@ -6270,30 +3252,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.4
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "IBM",
-      "direction": "LONG",
-      "entryPrice": 218.01,
-      "entryTime": "2026-07-16T17:33:29Z",
-      "exitPrice": 211.01,
-      "exitTime": "2026-07-20T15:26:17Z",
-      "open": false,
-      "returnPct": -3.21,
-      "qqqReturnPct": -1.4
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "LULU",
-      "direction": "LONG",
-      "entryPrice": 118.04,
-      "entryTime": "2026-07-16T17:33:29Z",
-      "exitPrice": 116.59,
-      "exitTime": "2026-07-20T15:26:17Z",
-      "open": false,
-      "returnPct": -1.23,
-      "qqqReturnPct": -1.4
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "IBM",
       "direction": "LONG",
@@ -6318,30 +3276,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.4
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ARM",
-      "direction": "LONG",
-      "entryPrice": 258.68,
-      "entryTime": "2026-07-17T15:27:45Z",
-      "exitPrice": 272.64,
-      "exitTime": "2026-07-20T15:23:33Z",
-      "open": false,
-      "returnPct": 5.4,
-      "qqqReturnPct": 0.1
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "INTC",
-      "direction": "LONG",
-      "entryPrice": 93.24,
-      "entryTime": "2026-07-17T15:27:45Z",
-      "exitPrice": 98.54,
-      "exitTime": "2026-07-20T15:23:33Z",
-      "open": false,
-      "returnPct": 5.68,
-      "qqqReturnPct": 0.1
-    },
-    {
       "strategy": "Oracle",
       "ticker": "ARM",
       "direction": "LONG",
@@ -6363,42 +3297,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-20T15:23:33Z",
       "open": false,
       "returnPct": 5.68,
-      "qqqReturnPct": 0.1
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MARA",
-      "direction": "LONG",
-      "entryPrice": 10.68,
-      "entryTime": "2026-07-17T15:27:45Z",
-      "exitPrice": 11.8,
-      "exitTime": "2026-07-20T15:23:32Z",
-      "open": false,
-      "returnPct": 10.49,
-      "qqqReturnPct": 0.1
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "RIOT",
-      "direction": "LONG",
-      "entryPrice": 18.34,
-      "entryTime": "2026-07-17T15:27:45Z",
-      "exitPrice": 19.54,
-      "exitTime": "2026-07-20T15:23:32Z",
-      "open": false,
-      "returnPct": 6.54,
-      "qqqReturnPct": 0.1
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MRVL",
-      "direction": "LONG",
-      "entryPrice": 184.32,
-      "entryTime": "2026-07-17T15:27:45Z",
-      "exitPrice": 199.54,
-      "exitTime": "2026-07-20T15:23:32Z",
-      "open": false,
-      "returnPct": 8.26,
       "qqqReturnPct": 0.1
     },
     {
@@ -6438,30 +3336,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.1
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "WDC",
-      "direction": "SHORT",
-      "entryPrice": 459.55,
-      "entryTime": "2026-07-16T17:30:49Z",
-      "exitPrice": 499.94,
-      "exitTime": "2026-07-20T15:23:31Z",
-      "open": false,
-      "returnPct": -8.79,
-      "qqqReturnPct": -1.4
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "STX",
-      "direction": "SHORT",
-      "entryPrice": 750.82,
-      "entryTime": "2026-07-16T17:30:49Z",
-      "exitPrice": 812.76,
-      "exitTime": "2026-07-20T15:23:31Z",
-      "open": false,
-      "returnPct": -8.25,
-      "qqqReturnPct": -1.4
-    },
-    {
       "strategy": "Oracle",
       "ticker": "WDC",
       "direction": "SHORT",
@@ -6486,18 +3360,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.4
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CVX",
-      "direction": "LONG",
-      "entryPrice": 180.01,
-      "entryTime": "2026-07-13T15:26:14Z",
-      "exitPrice": 189.3,
-      "exitTime": "2026-07-20T15:23:27Z",
-      "open": false,
-      "returnPct": 5.16,
-      "qqqReturnPct": -2.2
-    },
-    {
       "strategy": "Oracle",
       "ticker": "CVX",
       "direction": "LONG",
@@ -6508,102 +3370,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 5.16,
       "qqqReturnPct": -2.2
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "NFLX",
-      "direction": "LONG",
-      "entryPrice": 67.81,
-      "entryTime": "2026-07-17T00:00:00Z",
-      "exitPrice": 68.32,
-      "exitTime": "2026-07-20T00:00:00Z",
-      "open": false,
-      "returnPct": 0.75,
-      "qqqReturnPct": 0.1
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "MARA",
-      "direction": "LONG",
-      "entryPrice": 10.77,
-      "entryTime": "2026-07-17T00:00:00Z",
-      "exitPrice": 11.07,
-      "exitTime": "2026-07-20T00:00:00Z",
-      "open": false,
-      "returnPct": 2.79,
-      "qqqReturnPct": 0.1
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "HOOD",
-      "direction": "LONG",
-      "entryPrice": 100.99,
-      "entryTime": "2026-07-17T00:00:00Z",
-      "exitPrice": 102.4,
-      "exitTime": "2026-07-20T00:00:00Z",
-      "open": false,
-      "returnPct": 1.4,
-      "qqqReturnPct": 0.1
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "META",
-      "direction": "LONG",
-      "entryPrice": 636.56,
-      "entryTime": "2026-07-17T00:00:00Z",
-      "exitPrice": 646.7,
-      "exitTime": "2026-07-20T00:00:00Z",
-      "open": false,
-      "returnPct": 1.59,
-      "qqqReturnPct": 0.1
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "SOUN",
-      "direction": "LONG",
-      "entryPrice": 6.08,
-      "entryTime": "2026-07-17T00:00:00Z",
-      "exitPrice": 6.28,
-      "exitTime": "2026-07-20T00:00:00Z",
-      "open": false,
-      "returnPct": 3.29,
-      "qqqReturnPct": 0.1
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "RBLX",
-      "direction": "LONG",
-      "entryPrice": 52.32,
-      "entryTime": "2026-07-17T00:00:00Z",
-      "exitPrice": 52.0,
-      "exitTime": "2026-07-20T00:00:00Z",
-      "open": false,
-      "returnPct": -0.61,
-      "qqqReturnPct": 0.1
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "BBAI",
-      "direction": "LONG",
-      "entryPrice": 2.84,
-      "entryTime": "2026-07-17T00:00:00Z",
-      "exitPrice": 2.85,
-      "exitTime": "2026-07-20T00:00:00Z",
-      "open": false,
-      "returnPct": 0.53,
-      "qqqReturnPct": 0.1
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "SNAP",
-      "direction": "LONG",
-      "entryPrice": 4.57,
-      "entryTime": "2026-07-17T00:00:00Z",
-      "exitPrice": 4.5,
-      "exitTime": "2026-07-20T00:00:00Z",
-      "open": false,
-      "returnPct": -1.42,
-      "qqqReturnPct": 0.1
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -6702,66 +3468,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.1
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AMAT",
-      "direction": "LONG",
-      "entryPrice": 563.46,
-      "entryTime": "2026-07-16T17:46:46Z",
-      "exitPrice": 536.0,
-      "exitTime": "2026-07-17T15:43:19Z",
-      "open": false,
-      "returnPct": -4.87,
-      "qqqReturnPct": -1.5
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "ABBV",
-      "direction": "LONG",
-      "entryPrice": 246.43,
-      "entryTime": "2026-07-13T15:41:50Z",
-      "exitPrice": 258.93,
-      "exitTime": "2026-07-17T15:43:17Z",
-      "open": false,
-      "returnPct": 5.07,
-      "qqqReturnPct": -2.31
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "MRK",
-      "direction": "LONG",
-      "entryPrice": 123.53,
-      "entryTime": "2026-07-13T15:41:50Z",
-      "exitPrice": 130.37,
-      "exitTime": "2026-07-17T15:43:17Z",
-      "open": false,
-      "returnPct": 5.53,
-      "qqqReturnPct": -2.31
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMAT",
-      "direction": "LONG",
-      "entryPrice": 563.46,
-      "entryTime": "2026-07-16T17:33:29Z",
-      "exitPrice": 531.72,
-      "exitTime": "2026-07-17T15:29:12Z",
-      "open": false,
-      "returnPct": -5.63,
-      "qqqReturnPct": -1.5
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "KLAC",
-      "direction": "LONG",
-      "entryPrice": 219.15,
-      "entryTime": "2026-07-16T17:33:29Z",
-      "exitPrice": 209.68,
-      "exitTime": "2026-07-17T15:29:12Z",
-      "open": false,
-      "returnPct": -4.32,
-      "qqqReturnPct": -1.5
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "AMAT",
       "direction": "LONG",
@@ -6786,18 +3492,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.5
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "EMR",
-      "direction": "LONG",
-      "entryPrice": 137.43,
-      "entryTime": "2026-07-16T17:33:29Z",
-      "exitPrice": 141.32,
-      "exitTime": "2026-07-17T15:29:11Z",
-      "open": false,
-      "returnPct": 2.83,
-      "qqqReturnPct": -1.5
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "EMR",
       "direction": "LONG",
@@ -6807,18 +3501,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-17T15:29:11Z",
       "open": false,
       "returnPct": 2.83,
-      "qqqReturnPct": -1.5
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMAT",
-      "direction": "SHORT",
-      "entryPrice": 563.75,
-      "entryTime": "2026-07-16T17:30:49Z",
-      "exitPrice": 530.82,
-      "exitTime": "2026-07-17T15:26:24Z",
-      "open": false,
-      "returnPct": 5.84,
       "qqqReturnPct": -1.5
     },
     {
@@ -6832,30 +3514,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 5.84,
       "qqqReturnPct": -1.5
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ARM",
-      "direction": "SHORT",
-      "entryPrice": 287.0,
-      "entryTime": "2026-07-14T15:28:59Z",
-      "exitPrice": 257.95,
-      "exitTime": "2026-07-17T15:26:21Z",
-      "open": false,
-      "returnPct": 10.12,
-      "qqqReturnPct": -3.38
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "DKNG",
-      "direction": "SHORT",
-      "entryPrice": 25.38,
-      "entryTime": "2026-07-14T15:28:59Z",
-      "exitPrice": 24.2,
-      "exitTime": "2026-07-17T15:26:21Z",
-      "open": false,
-      "returnPct": 4.65,
-      "qqqReturnPct": -3.38
     },
     {
       "strategy": "Oracle",
@@ -6882,18 +3540,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.38
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LULU",
-      "direction": "LONG",
-      "entryPrice": 121.19,
-      "entryTime": "2026-07-10T15:25:19Z",
-      "exitPrice": 117.14,
-      "exitTime": "2026-07-17T15:26:18Z",
-      "open": false,
-      "returnPct": -3.34,
-      "qqqReturnPct": -4.16
-    },
-    {
       "strategy": "Oracle",
       "ticker": "LULU",
       "direction": "LONG",
@@ -6903,42 +3549,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-17T15:26:18Z",
       "open": false,
       "returnPct": -3.34,
-      "qqqReturnPct": -4.16
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XLC",
-      "direction": "LONG",
-      "entryPrice": 111.61,
-      "entryTime": "2026-07-10T15:25:19Z",
-      "exitPrice": 110.46,
-      "exitTime": "2026-07-17T15:26:17Z",
-      "open": false,
-      "returnPct": -1.03,
-      "qqqReturnPct": -4.16
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XLB",
-      "direction": "LONG",
-      "entryPrice": 51.01,
-      "entryTime": "2026-07-10T15:25:19Z",
-      "exitPrice": 50.96,
-      "exitTime": "2026-07-17T15:26:17Z",
-      "open": false,
-      "returnPct": -0.08,
-      "qqqReturnPct": -4.16
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ITW",
-      "direction": "LONG",
-      "entryPrice": 270.1,
-      "entryTime": "2026-07-10T15:25:19Z",
-      "exitPrice": 280.81,
-      "exitTime": "2026-07-17T15:26:17Z",
-      "open": false,
-      "returnPct": 3.97,
       "qqqReturnPct": -4.16
     },
     {
@@ -6978,54 +3588,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.16
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "KLAC",
-      "direction": "LONG",
-      "entryPrice": 219.15,
-      "entryTime": "2026-07-16T17:46:46Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -2.01,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "EQIX",
-      "direction": "LONG",
-      "entryPrice": 1043.96,
-      "entryTime": "2026-07-13T15:41:50Z",
-      "exitPrice": 1005.56,
-      "exitTime": "2026-07-16T17:46:45Z",
-      "open": false,
-      "returnPct": -3.68,
-      "qqqReturnPct": -0.81
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "V",
-      "direction": "LONG",
-      "entryPrice": 346.1,
-      "entryTime": "2026-07-09T15:45:41Z",
-      "exitPrice": 361.56,
-      "exitTime": "2026-07-16T17:46:44Z",
-      "open": false,
-      "returnPct": 4.47,
-      "qqqReturnPct": -2.4
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "HUBS",
-      "direction": "LONG",
-      "entryPrice": 212.1,
-      "entryTime": "2026-07-14T15:31:51Z",
-      "exitPrice": 226.61,
-      "exitTime": "2026-07-16T17:32:23Z",
-      "open": false,
-      "returnPct": 6.84,
-      "qqqReturnPct": -1.91
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "HUBS",
       "direction": "LONG",
@@ -7035,30 +3597,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-16T17:32:23Z",
       "open": false,
       "returnPct": 6.84,
-      "qqqReturnPct": -1.91
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "PLTR",
-      "direction": "LONG",
-      "entryPrice": 132.26,
-      "entryTime": "2026-07-14T15:31:51Z",
-      "exitPrice": 133.9,
-      "exitTime": "2026-07-16T17:32:22Z",
-      "open": false,
-      "returnPct": 1.23,
-      "qqqReturnPct": -1.91
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MDB",
-      "direction": "LONG",
-      "entryPrice": 344.05,
-      "entryTime": "2026-07-14T15:31:51Z",
-      "exitPrice": 330.11,
-      "exitTime": "2026-07-16T17:32:22Z",
-      "open": false,
-      "returnPct": -4.05,
       "qqqReturnPct": -1.91
     },
     {
@@ -7086,18 +3624,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.91
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "KO",
-      "direction": "LONG",
-      "entryPrice": 83.68,
-      "entryTime": "2026-07-13T15:28:47Z",
-      "exitPrice": 84.61,
-      "exitTime": "2026-07-16T17:32:20Z",
-      "open": false,
-      "returnPct": 1.11,
-      "qqqReturnPct": -0.81
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "KO",
       "direction": "LONG",
@@ -7110,18 +3636,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "EQIX",
-      "direction": "LONG",
-      "entryPrice": 1043.96,
-      "entryTime": "2026-07-13T15:28:47Z",
-      "exitPrice": 1004.9,
-      "exitTime": "2026-07-16T17:32:17Z",
-      "open": false,
-      "returnPct": -3.74,
-      "qqqReturnPct": -0.81
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "EQIX",
       "direction": "LONG",
@@ -7131,42 +3645,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-16T17:32:17Z",
       "open": false,
       "returnPct": -3.74,
-      "qqqReturnPct": -0.81
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ABBV",
-      "direction": "LONG",
-      "entryPrice": 246.43,
-      "entryTime": "2026-07-13T15:28:47Z",
-      "exitPrice": 251.38,
-      "exitTime": "2026-07-16T17:32:16Z",
-      "open": false,
-      "returnPct": 2.01,
-      "qqqReturnPct": -0.81
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MRK",
-      "direction": "LONG",
-      "entryPrice": 123.53,
-      "entryTime": "2026-07-13T15:28:47Z",
-      "exitPrice": 128.07,
-      "exitTime": "2026-07-16T17:32:16Z",
-      "open": false,
-      "returnPct": 3.68,
-      "qqqReturnPct": -0.81
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CL",
-      "direction": "LONG",
-      "entryPrice": 92.41,
-      "entryTime": "2026-07-13T15:28:47Z",
-      "exitPrice": 93.99,
-      "exitTime": "2026-07-16T17:32:16Z",
-      "open": false,
-      "returnPct": 1.7,
       "qqqReturnPct": -0.81
     },
     {
@@ -7206,18 +3684,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "LLY",
-      "direction": "LONG",
-      "entryPrice": 1187.73,
-      "entryTime": "2026-07-13T15:28:47Z",
-      "exitPrice": 1172.09,
-      "exitTime": "2026-07-16T17:32:15Z",
-      "open": false,
-      "returnPct": -1.32,
-      "qqqReturnPct": -0.81
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "LLY",
       "direction": "LONG",
@@ -7230,30 +3696,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LRCX",
-      "direction": "SHORT",
-      "entryPrice": 334.59,
-      "entryTime": "2026-07-13T15:26:14Z",
-      "exitPrice": 319.57,
-      "exitTime": "2026-07-16T17:29:25Z",
-      "open": false,
-      "returnPct": 4.49,
-      "qqqReturnPct": -0.81
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MRVL",
-      "direction": "SHORT",
-      "entryPrice": 224.29,
-      "entryTime": "2026-07-13T15:26:14Z",
-      "exitPrice": 188.39,
-      "exitTime": "2026-07-16T17:29:25Z",
-      "open": false,
-      "returnPct": 16.01,
-      "qqqReturnPct": -0.81
-    },
-    {
       "strategy": "Oracle",
       "ticker": "LRCX",
       "direction": "SHORT",
@@ -7278,30 +3720,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MRNA",
-      "direction": "SHORT",
-      "entryPrice": 68.67,
-      "entryTime": "2026-07-10T15:25:19Z",
-      "exitPrice": 64.15,
-      "exitTime": "2026-07-16T17:29:23Z",
-      "open": false,
-      "returnPct": 6.58,
-      "qqqReturnPct": -2.7
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "INTC",
-      "direction": "SHORT",
-      "entryPrice": 109.2,
-      "entryTime": "2026-07-10T15:25:19Z",
-      "exitPrice": 96.55,
-      "exitTime": "2026-07-16T17:29:23Z",
-      "open": false,
-      "returnPct": 11.59,
-      "qqqReturnPct": -2.7
-    },
-    {
       "strategy": "Oracle",
       "ticker": "MRNA",
       "direction": "SHORT",
@@ -7324,42 +3742,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 11.59,
       "qqqReturnPct": -2.7
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "GLD",
-      "direction": "LONG",
-      "entryPrice": 378.64,
-      "entryTime": "2026-07-09T15:29:14Z",
-      "exitPrice": 365.75,
-      "exitTime": "2026-07-16T17:29:21Z",
-      "open": false,
-      "returnPct": -3.4,
-      "qqqReturnPct": -2.4
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "VRTX",
-      "direction": "SHORT",
-      "entryPrice": 485.34,
-      "entryTime": "2026-07-09T15:29:14Z",
-      "exitPrice": 483.33,
-      "exitTime": "2026-07-16T17:29:21Z",
-      "open": false,
-      "returnPct": 0.41,
-      "qqqReturnPct": -2.4
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "GOOGL",
-      "direction": "SHORT",
-      "entryPrice": 353.51,
-      "entryTime": "2026-07-09T15:29:14Z",
-      "exitPrice": 371.76,
-      "exitTime": "2026-07-16T17:29:21Z",
-      "open": false,
-      "returnPct": -5.16,
-      "qqqReturnPct": -2.4
     },
     {
       "strategy": "Oracle",
@@ -7395,54 +3777,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-16T17:29:21Z",
       "open": false,
       "returnPct": -5.16,
-      "qqqReturnPct": -2.4
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PFE",
-      "direction": "LONG",
-      "entryPrice": 24.23,
-      "entryTime": "2026-07-09T15:29:14Z",
-      "exitPrice": 25.04,
-      "exitTime": "2026-07-16T17:29:20Z",
-      "open": false,
-      "returnPct": 3.34,
-      "qqqReturnPct": -2.4
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SPY",
-      "direction": "LONG",
-      "entryPrice": 749.86,
-      "entryTime": "2026-07-09T15:29:14Z",
-      "exitPrice": 752.76,
-      "exitTime": "2026-07-16T17:29:20Z",
-      "open": false,
-      "returnPct": 0.39,
-      "qqqReturnPct": -2.4
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "JD",
-      "direction": "LONG",
-      "entryPrice": 27.88,
-      "entryTime": "2026-07-09T15:29:14Z",
-      "exitPrice": 29.72,
-      "exitTime": "2026-07-16T17:29:20Z",
-      "open": false,
-      "returnPct": 6.62,
-      "qqqReturnPct": -2.4
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CSX",
-      "direction": "LONG",
-      "entryPrice": 49.32,
-      "entryTime": "2026-07-09T15:29:14Z",
-      "exitPrice": 50.78,
-      "exitTime": "2026-07-16T17:29:20Z",
-      "open": false,
-      "returnPct": 2.97,
       "qqqReturnPct": -2.4
     },
     {
@@ -7494,18 +3828,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.4
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SCHW",
-      "direction": "SHORT",
-      "entryPrice": 102.54,
-      "entryTime": "2026-07-08T15:21:28Z",
-      "exitPrice": 102.7,
-      "exitTime": "2026-07-16T17:29:19Z",
-      "open": false,
-      "returnPct": -0.16,
-      "qqqReturnPct": -0.77
-    },
-    {
       "strategy": "Oracle",
       "ticker": "SCHW",
       "direction": "SHORT",
@@ -7516,126 +3838,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -0.16,
       "qqqReturnPct": -0.77
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 550.24,
-      "entryTime": "2026-07-13T15:41:50Z",
-      "exitPrice": 520.31,
-      "exitTime": "2026-07-15T15:07:33Z",
-      "open": false,
-      "returnPct": -5.44,
-      "qqqReturnPct": 0.84
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "BAC",
-      "direction": "LONG",
-      "entryPrice": 58.67,
-      "entryTime": "2026-07-08T15:35:42Z",
-      "exitPrice": 61.82,
-      "exitTime": "2026-07-15T15:07:31Z",
-      "open": false,
-      "returnPct": 5.36,
-      "qqqReturnPct": 0.89
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "OKTA",
-      "direction": "LONG",
-      "entryPrice": 141.29,
-      "entryTime": "2026-07-13T15:41:50Z",
-      "exitPrice": 154.49,
-      "exitTime": "2026-07-14T15:45:37Z",
-      "open": false,
-      "returnPct": 9.34,
-      "qqqReturnPct": 1.12
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "CVS",
-      "direction": "LONG",
-      "entryPrice": 103.31,
-      "entryTime": "2026-07-09T15:45:41Z",
-      "exitPrice": 106.48,
-      "exitTime": "2026-07-14T15:45:35Z",
-      "open": false,
-      "returnPct": 3.07,
-      "qqqReturnPct": -0.5
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "SRE",
-      "direction": "LONG",
-      "entryPrice": 94.72,
-      "entryTime": "2026-07-09T15:45:41Z",
-      "exitPrice": 94.49,
-      "exitTime": "2026-07-14T15:45:35Z",
-      "open": false,
-      "returnPct": -0.24,
-      "qqqReturnPct": -0.5
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "LLY",
-      "direction": "LONG",
-      "entryPrice": 1211.23,
-      "entryTime": "2026-07-09T15:45:41Z",
-      "exitPrice": 1155.0,
-      "exitTime": "2026-07-14T15:45:34Z",
-      "open": false,
-      "returnPct": -4.64,
-      "qqqReturnPct": -0.5
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "GILD",
-      "direction": "LONG",
-      "entryPrice": 133.59,
-      "entryTime": "2026-07-09T15:45:41Z",
-      "exitPrice": 130.47,
-      "exitTime": "2026-07-14T15:45:34Z",
-      "open": false,
-      "returnPct": -2.34,
-      "qqqReturnPct": -0.5
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "NET",
-      "direction": "LONG",
-      "entryPrice": 274.42,
-      "entryTime": "2026-07-13T15:28:47Z",
-      "exitPrice": 280.42,
-      "exitTime": "2026-07-14T15:30:39Z",
-      "open": false,
-      "returnPct": 2.19,
-      "qqqReturnPct": 1.12
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "OKTA",
-      "direction": "LONG",
-      "entryPrice": 141.29,
-      "entryTime": "2026-07-13T15:28:47Z",
-      "exitPrice": 153.02,
-      "exitTime": "2026-07-14T15:30:39Z",
-      "open": false,
-      "returnPct": 8.31,
-      "qqqReturnPct": 1.12
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 550.24,
-      "entryTime": "2026-07-13T15:28:47Z",
-      "exitPrice": 566.54,
-      "exitTime": "2026-07-14T15:30:39Z",
-      "open": false,
-      "returnPct": 2.96,
-      "qqqReturnPct": 1.12
     },
     {
       "strategy": "Kestrel",
@@ -7674,18 +3876,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.12
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ARM",
-      "direction": "SHORT",
-      "entryPrice": 306.5,
-      "entryTime": "2026-07-13T15:26:14Z",
-      "exitPrice": 287.42,
-      "exitTime": "2026-07-14T15:27:32Z",
-      "open": false,
-      "returnPct": 6.23,
-      "qqqReturnPct": 1.12
-    },
-    {
       "strategy": "Oracle",
       "ticker": "ARM",
       "direction": "SHORT",
@@ -7696,18 +3886,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 6.23,
       "qqqReturnPct": 1.12
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CRWD",
-      "direction": "SHORT",
-      "entryPrice": 188.57,
-      "entryTime": "2026-07-10T15:25:19Z",
-      "exitPrice": 206.42,
-      "exitTime": "2026-07-14T15:27:30Z",
-      "open": false,
-      "returnPct": -9.47,
-      "qqqReturnPct": -0.8
     },
     {
       "strategy": "Oracle",
@@ -7722,18 +3900,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.8
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PLTR",
-      "direction": "SHORT",
-      "entryPrice": 126.46,
-      "entryTime": "2026-07-09T15:29:14Z",
-      "exitPrice": 132.17,
-      "exitTime": "2026-07-14T15:27:27Z",
-      "open": false,
-      "returnPct": -4.52,
-      "qqqReturnPct": -0.5
-    },
-    {
       "strategy": "Oracle",
       "ticker": "PLTR",
       "direction": "SHORT",
@@ -7746,18 +3912,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.5
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NEE",
-      "direction": "LONG",
-      "entryPrice": 88.89,
-      "entryTime": "2026-07-07T15:21:27Z",
-      "exitPrice": 89.44,
-      "exitTime": "2026-07-14T15:27:25Z",
-      "open": false,
-      "returnPct": 0.61,
-      "qqqReturnPct": 1.45
-    },
-    {
       "strategy": "Oracle",
       "ticker": "NEE",
       "direction": "LONG",
@@ -7767,42 +3921,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-14T15:27:25Z",
       "open": false,
       "returnPct": 0.61,
-      "qqqReturnPct": 1.45
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "REGN",
-      "direction": "LONG",
-      "entryPrice": 669.68,
-      "entryTime": "2026-07-07T15:21:27Z",
-      "exitPrice": 656.92,
-      "exitTime": "2026-07-14T15:27:24Z",
-      "open": false,
-      "returnPct": -1.91,
-      "qqqReturnPct": 1.45
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XOM",
-      "direction": "LONG",
-      "entryPrice": 140.62,
-      "entryTime": "2026-07-07T15:21:27Z",
-      "exitPrice": 144.19,
-      "exitTime": "2026-07-14T15:27:24Z",
-      "open": false,
-      "returnPct": 2.54,
-      "qqqReturnPct": 1.45
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ET",
-      "direction": "LONG",
-      "entryPrice": 19.7,
-      "entryTime": "2026-07-07T15:21:27Z",
-      "exitPrice": 20.04,
-      "exitTime": "2026-07-14T15:27:24Z",
-      "open": false,
-      "returnPct": 1.7,
       "qqqReturnPct": 1.45
     },
     {
@@ -7842,30 +3960,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.45
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MCK",
-      "direction": "LONG",
-      "entryPrice": 808.04,
-      "entryTime": "2026-07-07T15:21:27Z",
-      "exitPrice": 808.47,
-      "exitTime": "2026-07-14T15:27:23Z",
-      "open": false,
-      "returnPct": 0.05,
-      "qqqReturnPct": 1.45
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SRE",
-      "direction": "LONG",
-      "entryPrice": 95.1,
-      "entryTime": "2026-07-07T15:21:27Z",
-      "exitPrice": 94.48,
-      "exitTime": "2026-07-14T15:27:23Z",
-      "open": false,
-      "returnPct": -0.65,
-      "qqqReturnPct": 1.45
-    },
-    {
       "strategy": "Oracle",
       "ticker": "MCK",
       "direction": "LONG",
@@ -7888,90 +3982,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -0.65,
       "qqqReturnPct": 1.45
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "CVX",
-      "direction": "LONG",
-      "entryPrice": 174.23,
-      "entryTime": "2026-07-10T15:39:16Z",
-      "exitPrice": 180.02,
-      "exitTime": "2026-07-13T15:41:50Z",
-      "open": false,
-      "returnPct": 3.32,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "DE",
-      "direction": "LONG",
-      "entryPrice": 602.92,
-      "entryTime": "2026-07-07T15:35:35Z",
-      "exitPrice": 584.82,
-      "exitTime": "2026-07-13T15:41:47Z",
-      "open": false,
-      "returnPct": -3.0,
-      "qqqReturnPct": 0.33
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AMGN",
-      "direction": "LONG",
-      "entryPrice": 368.15,
-      "entryTime": "2026-07-08T15:35:42Z",
-      "exitPrice": 357.05,
-      "exitTime": "2026-07-13T15:41:47Z",
-      "open": false,
-      "returnPct": -3.01,
-      "qqqReturnPct": 0.04
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "ABBV",
-      "direction": "LONG",
-      "entryPrice": 255.07,
-      "entryTime": "2026-07-08T15:35:42Z",
-      "exitPrice": 246.53,
-      "exitTime": "2026-07-13T15:41:47Z",
-      "open": false,
-      "returnPct": -3.35,
-      "qqqReturnPct": 0.04
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "V",
-      "direction": "LONG",
-      "entryPrice": 352.66,
-      "entryTime": "2026-07-07T15:35:35Z",
-      "exitPrice": 354.49,
-      "exitTime": "2026-07-13T15:41:46Z",
-      "open": false,
-      "returnPct": 0.52,
-      "qqqReturnPct": 0.33
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "XLY",
-      "direction": "LONG",
-      "entryPrice": 117.58,
-      "entryTime": "2026-07-07T15:35:35Z",
-      "exitPrice": 116.76,
-      "exitTime": "2026-07-13T15:41:46Z",
-      "open": false,
-      "returnPct": -0.7,
-      "qqqReturnPct": 0.33
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CSX",
-      "direction": "LONG",
-      "entryPrice": 49.6,
-      "entryTime": "2026-07-10T15:27:23Z",
-      "exitPrice": 49.51,
-      "exitTime": "2026-07-13T15:27:43Z",
-      "open": false,
-      "returnPct": -0.18,
-      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Kestrel",
@@ -7983,54 +3993,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:27:43Z",
       "open": false,
       "returnPct": -0.18,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "XLE",
-      "direction": "LONG",
-      "entryPrice": 54.69,
-      "entryTime": "2026-07-10T15:27:23Z",
-      "exitPrice": 56.32,
-      "exitTime": "2026-07-13T15:27:42Z",
-      "open": false,
-      "returnPct": 2.98,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "OKE",
-      "direction": "LONG",
-      "entryPrice": 88.94,
-      "entryTime": "2026-07-10T15:27:23Z",
-      "exitPrice": 91.68,
-      "exitTime": "2026-07-13T15:27:42Z",
-      "open": false,
-      "returnPct": 3.07,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "EPD",
-      "direction": "LONG",
-      "entryPrice": 37.09,
-      "entryTime": "2026-07-10T15:27:23Z",
-      "exitPrice": 38.09,
-      "exitTime": "2026-07-13T15:27:42Z",
-      "open": false,
-      "returnPct": 2.7,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CVX",
-      "direction": "LONG",
-      "entryPrice": 174.23,
-      "entryTime": "2026-07-10T15:27:23Z",
-      "exitPrice": 179.9,
-      "exitTime": "2026-07-13T15:27:42Z",
-      "open": false,
-      "returnPct": 3.26,
       "qqqReturnPct": -1.9
     },
     {
@@ -8082,42 +4044,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.9
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "V",
-      "direction": "LONG",
-      "entryPrice": 346.1,
-      "entryTime": "2026-07-09T15:31:58Z",
-      "exitPrice": 354.1,
-      "exitTime": "2026-07-13T15:27:41Z",
-      "open": false,
-      "returnPct": 2.31,
-      "qqqReturnPct": -1.6
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "GILD",
-      "direction": "LONG",
-      "entryPrice": 133.59,
-      "entryTime": "2026-07-09T15:31:58Z",
-      "exitPrice": 130.12,
-      "exitTime": "2026-07-13T15:27:41Z",
-      "open": false,
-      "returnPct": -2.59,
-      "qqqReturnPct": -1.6
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "SRE",
-      "direction": "LONG",
-      "entryPrice": 94.72,
-      "entryTime": "2026-07-09T15:31:58Z",
-      "exitPrice": 94.12,
-      "exitTime": "2026-07-13T15:27:41Z",
-      "open": false,
-      "returnPct": -0.63,
-      "qqqReturnPct": -1.6
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "V",
       "direction": "LONG",
@@ -8151,42 +4077,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:27:41Z",
       "open": false,
       "returnPct": -0.63,
-      "qqqReturnPct": -1.6
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "BAC",
-      "direction": "LONG",
-      "entryPrice": 58.67,
-      "entryTime": "2026-07-08T15:23:52Z",
-      "exitPrice": 59.01,
-      "exitTime": "2026-07-13T15:27:40Z",
-      "open": false,
-      "returnPct": 0.57,
-      "qqqReturnPct": 0.04
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "TEAM",
-      "direction": "LONG",
-      "entryPrice": 88.91,
-      "entryTime": "2026-07-09T15:31:58Z",
-      "exitPrice": 94.68,
-      "exitTime": "2026-07-13T15:27:40Z",
-      "open": false,
-      "returnPct": 6.49,
-      "qqqReturnPct": -1.6
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "LLY",
-      "direction": "LONG",
-      "entryPrice": 1211.23,
-      "entryTime": "2026-07-09T15:31:58Z",
-      "exitPrice": 1187.86,
-      "exitTime": "2026-07-13T15:27:40Z",
-      "open": false,
-      "returnPct": -1.93,
       "qqqReturnPct": -1.6
     },
     {
@@ -8226,18 +4116,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.6
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MRVL",
-      "direction": "SHORT",
-      "entryPrice": 236.3,
-      "entryTime": "2026-07-10T15:25:19Z",
-      "exitPrice": 224.47,
-      "exitTime": "2026-07-13T15:24:54Z",
-      "open": false,
-      "returnPct": 5.01,
-      "qqqReturnPct": -1.9
-    },
-    {
       "strategy": "Oracle",
       "ticker": "MRVL",
       "direction": "SHORT",
@@ -8248,30 +4126,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 5.01,
       "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NVAX",
-      "direction": "SHORT",
-      "entryPrice": 9.31,
-      "entryTime": "2026-07-06T15:21:11Z",
-      "exitPrice": 9.15,
-      "exitTime": "2026-07-13T15:24:48Z",
-      "open": false,
-      "returnPct": 1.72,
-      "qqqReturnPct": -1.53
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "DDOG",
-      "direction": "SHORT",
-      "entryPrice": 258.84,
-      "entryTime": "2026-07-06T15:21:11Z",
-      "exitPrice": 262.61,
-      "exitTime": "2026-07-13T15:24:48Z",
-      "open": false,
-      "returnPct": -1.46,
-      "qqqReturnPct": -1.53
     },
     {
       "strategy": "Oracle",
@@ -8298,30 +4152,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.53
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "EQIX",
-      "direction": "LONG",
-      "entryPrice": 1001.05,
-      "entryTime": "2026-07-06T15:21:11Z",
-      "exitPrice": 1046.19,
-      "exitTime": "2026-07-13T15:24:47Z",
-      "open": false,
-      "returnPct": 4.51,
-      "qqqReturnPct": -1.53
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XLP",
-      "direction": "LONG",
-      "entryPrice": 83.49,
-      "entryTime": "2026-07-06T15:21:11Z",
-      "exitPrice": 84.45,
-      "exitTime": "2026-07-13T15:24:47Z",
-      "open": false,
-      "returnPct": 1.16,
-      "qqqReturnPct": -1.53
-    },
-    {
       "strategy": "Oracle",
       "ticker": "EQIX",
       "direction": "LONG",
@@ -8343,42 +4173,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-13T15:24:47Z",
       "open": false,
       "returnPct": 1.16,
-      "qqqReturnPct": -1.53
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XLE",
-      "direction": "LONG",
-      "entryPrice": 53.41,
-      "entryTime": "2026-07-06T15:21:11Z",
-      "exitPrice": 56.32,
-      "exitTime": "2026-07-13T15:24:46Z",
-      "open": false,
-      "returnPct": 5.45,
-      "qqqReturnPct": -1.53
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XLRE",
-      "direction": "LONG",
-      "entryPrice": 44.25,
-      "entryTime": "2026-07-06T15:21:11Z",
-      "exitPrice": 44.61,
-      "exitTime": "2026-07-13T15:24:46Z",
-      "open": false,
-      "returnPct": 0.81,
-      "qqqReturnPct": -1.53
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "EPD",
-      "direction": "LONG",
-      "entryPrice": 36.89,
-      "entryTime": "2026-07-06T15:21:11Z",
-      "exitPrice": 38.14,
-      "exitTime": "2026-07-13T15:24:46Z",
-      "open": false,
-      "returnPct": 3.38,
       "qqqReturnPct": -1.53
     },
     {
@@ -8418,18 +4212,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.53
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "TLT",
-      "direction": "LONG",
-      "entryPrice": 85.29,
-      "entryTime": "2026-07-06T15:21:11Z",
-      "exitPrice": 84.12,
-      "exitTime": "2026-07-13T15:24:45Z",
-      "open": false,
-      "returnPct": -1.37,
-      "qqqReturnPct": -1.53
-    },
-    {
       "strategy": "Oracle",
       "ticker": "TLT",
       "direction": "LONG",
@@ -8440,102 +4222,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -1.37,
       "qqqReturnPct": -1.53
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "MRNA",
-      "direction": "LONG",
-      "entryPrice": 69.73,
-      "entryTime": "2026-07-10T00:00:00Z",
-      "exitPrice": 66.33,
-      "exitTime": "2026-07-13T00:00:00Z",
-      "open": false,
-      "returnPct": -4.88,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "RXRX",
-      "direction": "LONG",
-      "entryPrice": 3.5,
-      "entryTime": "2026-07-10T00:00:00Z",
-      "exitPrice": 3.52,
-      "exitTime": "2026-07-13T00:00:00Z",
-      "open": false,
-      "returnPct": 0.4,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "MARA",
-      "direction": "LONG",
-      "entryPrice": 12.52,
-      "entryTime": "2026-07-10T00:00:00Z",
-      "exitPrice": 12.39,
-      "exitTime": "2026-07-13T00:00:00Z",
-      "open": false,
-      "returnPct": -1.04,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "HIMS",
-      "direction": "LONG",
-      "entryPrice": 33.81,
-      "entryTime": "2026-07-10T00:00:00Z",
-      "exitPrice": 34.3,
-      "exitTime": "2026-07-13T00:00:00Z",
-      "open": false,
-      "returnPct": 1.45,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "IONQ",
-      "direction": "LONG",
-      "entryPrice": 43.2,
-      "entryTime": "2026-07-10T00:00:00Z",
-      "exitPrice": 42.07,
-      "exitTime": "2026-07-13T00:00:00Z",
-      "open": false,
-      "returnPct": -2.6,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "HOOD",
-      "direction": "LONG",
-      "entryPrice": 111.47,
-      "entryTime": "2026-07-10T00:00:00Z",
-      "exitPrice": 111.22,
-      "exitTime": "2026-07-13T00:00:00Z",
-      "open": false,
-      "returnPct": -0.22,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "RIOT",
-      "direction": "LONG",
-      "entryPrice": 20.84,
-      "entryTime": "2026-07-10T00:00:00Z",
-      "exitPrice": 20.65,
-      "exitTime": "2026-07-13T00:00:00Z",
-      "open": false,
-      "returnPct": -0.91,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "INTC",
-      "direction": "LONG",
-      "entryPrice": 109.09,
-      "entryTime": "2026-07-10T00:00:00Z",
-      "exitPrice": 105.96,
-      "exitTime": "2026-07-13T00:00:00Z",
-      "open": false,
-      "returnPct": -2.87,
-      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -8634,42 +4320,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.9
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "LIN",
-      "direction": "LONG",
-      "entryPrice": 533.41,
-      "entryTime": "2026-07-06T15:35:30Z",
-      "exitPrice": 531.51,
-      "exitTime": "2026-07-10T15:39:12Z",
-      "open": false,
-      "returnPct": -0.36,
-      "qqqReturnPct": 0.37
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "MET",
-      "direction": "LONG",
-      "entryPrice": 89.04,
-      "entryTime": "2026-07-02T15:38:03Z",
-      "exitPrice": 91.5,
-      "exitTime": "2026-07-10T15:39:11Z",
-      "open": false,
-      "returnPct": 2.76,
-      "qqqReturnPct": 1.81
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CVS",
-      "direction": "LONG",
-      "entryPrice": 103.31,
-      "entryTime": "2026-07-09T15:31:58Z",
-      "exitPrice": 104.71,
-      "exitTime": "2026-07-10T15:26:16Z",
-      "open": false,
-      "returnPct": 1.36,
-      "qqqReturnPct": 0.31
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "CVS",
       "direction": "LONG",
@@ -8680,30 +4330,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.36,
       "qqqReturnPct": 0.31
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMGN",
-      "direction": "LONG",
-      "entryPrice": 368.15,
-      "entryTime": "2026-07-08T15:23:52Z",
-      "exitPrice": 363.54,
-      "exitTime": "2026-07-10T15:26:14Z",
-      "open": false,
-      "returnPct": -1.25,
-      "qqqReturnPct": 1.98
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ABBV",
-      "direction": "LONG",
-      "entryPrice": 255.07,
-      "entryTime": "2026-07-08T15:23:52Z",
-      "exitPrice": 246.34,
-      "exitTime": "2026-07-10T15:26:14Z",
-      "open": false,
-      "returnPct": -3.42,
-      "qqqReturnPct": 1.98
     },
     {
       "strategy": "Kestrel",
@@ -8730,18 +4356,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.98
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MET",
-      "direction": "LONG",
-      "entryPrice": 89.04,
-      "entryTime": "2026-07-02T15:26:06Z",
-      "exitPrice": 91.65,
-      "exitTime": "2026-07-10T15:26:13Z",
-      "open": false,
-      "returnPct": 2.93,
-      "qqqReturnPct": 1.81
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "MET",
       "direction": "LONG",
@@ -8752,18 +4366,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 2.93,
       "qqqReturnPct": 1.81
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MRNA",
-      "direction": "SHORT",
-      "entryPrice": 74.97,
-      "entryTime": "2026-07-09T15:29:14Z",
-      "exitPrice": 68.51,
-      "exitTime": "2026-07-10T15:23:59Z",
-      "open": false,
-      "returnPct": 8.62,
-      "qqqReturnPct": 0.31
     },
     {
       "strategy": "Oracle",
@@ -8778,78 +4380,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.31
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AMAT",
-      "direction": "LONG",
-      "entryPrice": 535.01,
-      "entryTime": "2026-07-07T15:35:35Z",
-      "exitPrice": 610.45,
-      "exitTime": "2026-07-09T15:45:39Z",
-      "open": false,
-      "returnPct": 14.1,
-      "qqqReturnPct": 1.95
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "KLAC",
-      "direction": "LONG",
-      "entryPrice": 213.64,
-      "entryTime": "2026-07-07T15:35:35Z",
-      "exitPrice": 236.26,
-      "exitTime": "2026-07-09T15:45:39Z",
-      "open": false,
-      "returnPct": 10.59,
-      "qqqReturnPct": 1.95
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "CSCO",
-      "direction": "LONG",
-      "entryPrice": 112.92,
-      "entryTime": "2026-07-02T15:38:03Z",
-      "exitPrice": 118.27,
-      "exitTime": "2026-07-09T15:45:38Z",
-      "open": false,
-      "returnPct": 4.74,
-      "qqqReturnPct": 1.5
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "LLY",
-      "direction": "LONG",
-      "entryPrice": 1183.78,
-      "entryTime": "2026-07-01T15:38:57Z",
-      "exitPrice": 1211.86,
-      "exitTime": "2026-07-09T15:45:37Z",
-      "open": false,
-      "returnPct": 2.37,
-      "qqqReturnPct": -0.26
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "XLY",
-      "direction": "LONG",
-      "entryPrice": 117.58,
-      "entryTime": "2026-07-07T15:23:50Z",
-      "exitPrice": 115.76,
-      "exitTime": "2026-07-09T15:30:50Z",
-      "open": false,
-      "returnPct": -1.55,
-      "qqqReturnPct": 1.95
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "DE",
-      "direction": "LONG",
-      "entryPrice": 602.92,
-      "entryTime": "2026-07-07T15:23:50Z",
-      "exitPrice": 600.4,
-      "exitTime": "2026-07-09T15:30:50Z",
-      "open": false,
-      "returnPct": -0.42,
-      "qqqReturnPct": 1.95
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "XLY",
       "direction": "LONG",
@@ -8871,42 +4401,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:30:50Z",
       "open": false,
       "returnPct": -0.42,
-      "qqqReturnPct": 1.95
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "V",
-      "direction": "LONG",
-      "entryPrice": 352.66,
-      "entryTime": "2026-07-07T15:23:50Z",
-      "exitPrice": 346.13,
-      "exitTime": "2026-07-09T15:30:49Z",
-      "open": false,
-      "returnPct": -1.85,
-      "qqqReturnPct": 1.95
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMAT",
-      "direction": "LONG",
-      "entryPrice": 535.01,
-      "entryTime": "2026-07-07T15:23:50Z",
-      "exitPrice": 607.19,
-      "exitTime": "2026-07-09T15:30:49Z",
-      "open": false,
-      "returnPct": 13.49,
-      "qqqReturnPct": 1.95
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "KLAC",
-      "direction": "LONG",
-      "entryPrice": 213.64,
-      "entryTime": "2026-07-07T15:23:50Z",
-      "exitPrice": 237.03,
-      "exitTime": "2026-07-09T15:30:49Z",
-      "open": false,
-      "returnPct": 10.95,
       "qqqReturnPct": 1.95
     },
     {
@@ -8946,18 +4440,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.95
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "LIN",
-      "direction": "LONG",
-      "entryPrice": 533.41,
-      "entryTime": "2026-07-06T15:23:35Z",
-      "exitPrice": 520.82,
-      "exitTime": "2026-07-09T15:30:48Z",
-      "open": false,
-      "returnPct": -2.36,
-      "qqqReturnPct": 0.06
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "LIN",
       "direction": "LONG",
@@ -8970,30 +4452,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.06
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "RIOT",
-      "direction": "LONG",
-      "entryPrice": 20.75,
-      "entryTime": "2026-07-08T15:21:28Z",
-      "exitPrice": 22.13,
-      "exitTime": "2026-07-09T15:27:50Z",
-      "open": false,
-      "returnPct": 6.68,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ARM",
-      "direction": "LONG",
-      "entryPrice": 296.46,
-      "entryTime": "2026-07-08T15:21:28Z",
-      "exitPrice": 334.0,
-      "exitTime": "2026-07-09T15:27:50Z",
-      "open": false,
-      "returnPct": 12.66,
-      "qqqReturnPct": 1.66
-    },
-    {
       "strategy": "Oracle",
       "ticker": "RIOT",
       "direction": "LONG",
@@ -9015,54 +4473,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-09T15:27:50Z",
       "open": false,
       "returnPct": 12.66,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CLSK",
-      "direction": "LONG",
-      "entryPrice": 12.13,
-      "entryTime": "2026-07-08T15:21:28Z",
-      "exitPrice": 13.16,
-      "exitTime": "2026-07-09T15:27:49Z",
-      "open": false,
-      "returnPct": 8.47,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MARA",
-      "direction": "LONG",
-      "entryPrice": 11.72,
-      "entryTime": "2026-07-08T15:21:28Z",
-      "exitPrice": 13.95,
-      "exitTime": "2026-07-09T15:27:49Z",
-      "open": false,
-      "returnPct": 19.08,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MRVL",
-      "direction": "LONG",
-      "entryPrice": 228.09,
-      "entryTime": "2026-07-08T15:21:28Z",
-      "exitPrice": 247.12,
-      "exitTime": "2026-07-09T15:27:49Z",
-      "open": false,
-      "returnPct": 8.34,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SWKS",
-      "direction": "LONG",
-      "entryPrice": 57.65,
-      "entryTime": "2026-07-08T15:21:28Z",
-      "exitPrice": 60.84,
-      "exitTime": "2026-07-09T15:27:49Z",
-      "open": false,
-      "returnPct": 5.52,
       "qqqReturnPct": 1.66
     },
     {
@@ -9114,42 +4524,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LRCX",
-      "direction": "SHORT",
-      "entryPrice": 319.56,
-      "entryTime": "2026-07-07T15:21:27Z",
-      "exitPrice": 354.62,
-      "exitTime": "2026-07-09T15:27:48Z",
-      "open": false,
-      "returnPct": -10.97,
-      "qqqReturnPct": 1.95
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MU",
-      "direction": "SHORT",
-      "entryPrice": 915.47,
-      "entryTime": "2026-07-07T15:21:27Z",
-      "exitPrice": 1016.76,
-      "exitTime": "2026-07-09T15:27:48Z",
-      "open": false,
-      "returnPct": -11.06,
-      "qqqReturnPct": 1.95
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "INTC",
-      "direction": "LONG",
-      "entryPrice": 105.25,
-      "entryTime": "2026-07-08T15:21:28Z",
-      "exitPrice": 112.94,
-      "exitTime": "2026-07-09T15:27:48Z",
-      "open": false,
-      "returnPct": 7.31,
-      "qqqReturnPct": 1.66
-    },
-    {
       "strategy": "Oracle",
       "ticker": "LRCX",
       "direction": "SHORT",
@@ -9186,18 +4560,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "KLAC",
-      "direction": "SHORT",
-      "entryPrice": 213.36,
-      "entryTime": "2026-07-07T15:21:27Z",
-      "exitPrice": 237.09,
-      "exitTime": "2026-07-09T15:27:47Z",
-      "open": false,
-      "returnPct": -11.12,
-      "qqqReturnPct": 1.95
-    },
-    {
       "strategy": "Oracle",
       "ticker": "KLAC",
       "direction": "SHORT",
@@ -9208,30 +4570,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -11.12,
       "qqqReturnPct": 1.95
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "T",
-      "direction": "LONG",
-      "entryPrice": 20.44,
-      "entryTime": "2026-07-02T15:23:41Z",
-      "exitPrice": 20.82,
-      "exitTime": "2026-07-09T15:27:43Z",
-      "open": false,
-      "returnPct": 1.81,
-      "qqqReturnPct": 1.5
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SLB",
-      "direction": "LONG",
-      "entryPrice": 45.12,
-      "entryTime": "2026-07-02T15:23:41Z",
-      "exitPrice": 47.16,
-      "exitTime": "2026-07-09T15:27:43Z",
-      "open": false,
-      "returnPct": 4.52,
-      "qqqReturnPct": 1.5
     },
     {
       "strategy": "Oracle",
@@ -9256,42 +4594,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 4.52,
       "qqqReturnPct": 1.5
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "COST",
-      "direction": "LONG",
-      "entryPrice": 925.46,
-      "entryTime": "2026-07-01T15:24:55Z",
-      "exitPrice": 908.9,
-      "exitTime": "2026-07-09T15:27:42Z",
-      "open": false,
-      "returnPct": -1.79,
-      "qqqReturnPct": -0.26
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "TJX",
-      "direction": "LONG",
-      "entryPrice": 150.87,
-      "entryTime": "2026-07-01T15:24:55Z",
-      "exitPrice": 152.31,
-      "exitTime": "2026-07-09T15:27:42Z",
-      "open": false,
-      "returnPct": 0.95,
-      "qqqReturnPct": -0.26
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PFE",
-      "direction": "LONG",
-      "entryPrice": 23.92,
-      "entryTime": "2026-07-01T15:24:55Z",
-      "exitPrice": 24.23,
-      "exitTime": "2026-07-09T15:27:42Z",
-      "open": false,
-      "returnPct": 1.32,
-      "qqqReturnPct": -0.26
     },
     {
       "strategy": "Oracle",
@@ -9330,54 +4632,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.26
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "SNOW",
-      "direction": "LONG",
-      "entryPrice": 269.46,
-      "entryTime": "2026-07-07T15:35:35Z",
-      "exitPrice": 259.69,
-      "exitTime": "2026-07-08T15:35:42Z",
-      "open": false,
-      "returnPct": -3.63,
-      "qqqReturnPct": 0.28
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "FTNT",
-      "direction": "LONG",
-      "entryPrice": 162.76,
-      "entryTime": "2026-07-06T15:35:30Z",
-      "exitPrice": 154.9,
-      "exitTime": "2026-07-08T15:35:39Z",
-      "open": false,
-      "returnPct": -4.83,
-      "qqqReturnPct": -1.57
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 416.37,
-      "entryTime": "2026-06-30T15:36:11Z",
-      "exitPrice": 427.41,
-      "exitTime": "2026-07-08T15:35:38Z",
-      "open": false,
-      "returnPct": 2.65,
-      "qqqReturnPct": -3.39
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "SNOW",
-      "direction": "LONG",
-      "entryPrice": 269.46,
-      "entryTime": "2026-07-07T15:23:50Z",
-      "exitPrice": 259.05,
-      "exitTime": "2026-07-08T15:22:49Z",
-      "open": false,
-      "returnPct": -3.86,
-      "qqqReturnPct": 0.28
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "SNOW",
       "direction": "LONG",
@@ -9388,30 +4642,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -3.86,
       "qqqReturnPct": 0.28
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CSCO",
-      "direction": "LONG",
-      "entryPrice": 112.92,
-      "entryTime": "2026-07-02T15:26:06Z",
-      "exitPrice": 112.66,
-      "exitTime": "2026-07-08T15:22:47Z",
-      "open": false,
-      "returnPct": -0.23,
-      "qqqReturnPct": -0.16
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "FTNT",
-      "direction": "LONG",
-      "entryPrice": 162.76,
-      "entryTime": "2026-07-06T15:23:35Z",
-      "exitPrice": 154.65,
-      "exitTime": "2026-07-08T15:22:47Z",
-      "open": false,
-      "returnPct": -4.98,
-      "qqqReturnPct": -1.57
     },
     {
       "strategy": "Kestrel",
@@ -9436,18 +4666,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.98,
       "qqqReturnPct": -1.57
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMAT",
-      "direction": "SHORT",
-      "entryPrice": 532.93,
-      "entryTime": "2026-07-07T15:21:27Z",
-      "exitPrice": 559.06,
-      "exitTime": "2026-07-08T15:20:11Z",
-      "open": false,
-      "returnPct": -4.9,
-      "qqqReturnPct": 0.28
     },
     {
       "strategy": "Oracle",
@@ -9460,42 +4678,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.9,
       "qqqReturnPct": 0.28
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "BKR",
-      "direction": "LONG",
-      "entryPrice": 53.85,
-      "entryTime": "2026-07-02T15:23:41Z",
-      "exitPrice": 56.74,
-      "exitTime": "2026-07-08T15:20:07Z",
-      "open": false,
-      "returnPct": 5.38,
-      "qqqReturnPct": -0.16
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "DVN",
-      "direction": "LONG",
-      "entryPrice": 40.28,
-      "entryTime": "2026-07-02T15:23:41Z",
-      "exitPrice": 43.22,
-      "exitTime": "2026-07-08T15:20:07Z",
-      "open": false,
-      "returnPct": 7.32,
-      "qqqReturnPct": -0.16
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PANW",
-      "direction": "SHORT",
-      "entryPrice": 349.12,
-      "entryTime": "2026-07-02T15:23:41Z",
-      "exitPrice": 318.57,
-      "exitTime": "2026-07-08T15:20:07Z",
-      "open": false,
-      "returnPct": 8.75,
-      "qqqReturnPct": -0.16
     },
     {
       "strategy": "Oracle",
@@ -9534,42 +4716,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.16
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "JD",
-      "direction": "LONG",
-      "entryPrice": 25.42,
-      "entryTime": "2026-06-30T15:22:12Z",
-      "exitPrice": 27.6,
-      "exitTime": "2026-07-08T15:20:05Z",
-      "open": false,
-      "returnPct": 8.6,
-      "qqqReturnPct": -3.39
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "WMT",
-      "direction": "LONG",
-      "entryPrice": 107.45,
-      "entryTime": "2026-07-01T15:24:55Z",
-      "exitPrice": 113.07,
-      "exitTime": "2026-07-08T15:20:05Z",
-      "open": false,
-      "returnPct": 5.23,
-      "qqqReturnPct": -1.89
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "FANG",
-      "direction": "LONG",
-      "entryPrice": 174.14,
-      "entryTime": "2026-07-01T15:24:55Z",
-      "exitPrice": 186.25,
-      "exitTime": "2026-07-08T15:20:05Z",
-      "open": false,
-      "returnPct": 6.95,
-      "qqqReturnPct": -1.89
-    },
-    {
       "strategy": "Oracle",
       "ticker": "JD",
       "direction": "LONG",
@@ -9604,42 +4750,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 6.95,
       "qqqReturnPct": -1.89
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CVX",
-      "direction": "LONG",
-      "entryPrice": 168.19,
-      "entryTime": "2026-06-30T15:22:12Z",
-      "exitPrice": 178.16,
-      "exitTime": "2026-07-08T15:20:04Z",
-      "open": false,
-      "returnPct": 5.92,
-      "qqqReturnPct": -3.39
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "OXY",
-      "direction": "LONG",
-      "entryPrice": 49.39,
-      "entryTime": "2026-06-30T15:22:12Z",
-      "exitPrice": 54.49,
-      "exitTime": "2026-07-08T15:20:04Z",
-      "open": false,
-      "returnPct": 10.33,
-      "qqqReturnPct": -3.39
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "VZ",
-      "direction": "LONG",
-      "entryPrice": 42.22,
-      "entryTime": "2026-06-30T15:22:12Z",
-      "exitPrice": 42.98,
-      "exitTime": "2026-07-08T15:20:04Z",
-      "open": false,
-      "returnPct": 1.82,
-      "qqqReturnPct": -3.39
     },
     {
       "strategy": "Oracle",
@@ -9678,114 +4788,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.39
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AMAT",
-      "direction": "LONG",
-      "entryPrice": 597.21,
-      "entryTime": "2026-07-06T15:35:30Z",
-      "exitPrice": 535.74,
-      "exitTime": "2026-07-07T15:35:35Z",
-      "open": false,
-      "returnPct": -10.29,
-      "qqqReturnPct": -1.85
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "CRWD",
-      "direction": "LONG",
-      "entryPrice": 205.4,
-      "entryTime": "2026-07-06T15:35:30Z",
-      "exitPrice": 197.26,
-      "exitTime": "2026-07-07T15:35:34Z",
-      "open": false,
-      "returnPct": -3.97,
-      "qqqReturnPct": -1.85
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "JNJ",
-      "direction": "LONG",
-      "entryPrice": 252.4,
-      "entryTime": "2026-07-01T15:38:57Z",
-      "exitPrice": 268.42,
-      "exitTime": "2026-07-07T15:35:33Z",
-      "open": false,
-      "returnPct": 6.35,
-      "qqqReturnPct": -2.17
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "KLAC",
-      "direction": "LONG",
-      "entryPrice": 241.07,
-      "entryTime": "2026-07-02T15:38:03Z",
-      "exitPrice": 214.02,
-      "exitTime": "2026-07-07T15:35:33Z",
-      "open": false,
-      "returnPct": -11.22,
-      "qqqReturnPct": -0.44
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "HUBS",
-      "direction": "LONG",
-      "entryPrice": 189.72,
-      "entryTime": "2026-07-02T15:38:03Z",
-      "exitPrice": 202.94,
-      "exitTime": "2026-07-07T15:35:33Z",
-      "open": false,
-      "returnPct": 6.97,
-      "qqqReturnPct": -0.44
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "TFC",
-      "direction": "LONG",
-      "entryPrice": 50.62,
-      "entryTime": "2026-07-01T15:38:57Z",
-      "exitPrice": 51.67,
-      "exitTime": "2026-07-07T15:35:32Z",
-      "open": false,
-      "returnPct": 2.07,
-      "qqqReturnPct": -2.17
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 417.08,
-      "entryTime": "2026-07-06T15:23:35Z",
-      "exitPrice": 427.48,
-      "exitTime": "2026-07-07T15:22:48Z",
-      "open": false,
-      "returnPct": 2.49,
-      "qqqReturnPct": -1.85
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMAT",
-      "direction": "LONG",
-      "entryPrice": 597.21,
-      "entryTime": "2026-07-06T15:23:35Z",
-      "exitPrice": 534.65,
-      "exitTime": "2026-07-07T15:22:48Z",
-      "open": false,
-      "returnPct": -10.48,
-      "qqqReturnPct": -1.85
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AFL",
-      "direction": "LONG",
-      "entryPrice": 120.04,
-      "entryTime": "2026-07-06T15:23:35Z",
-      "exitPrice": 122.33,
-      "exitTime": "2026-07-07T15:22:48Z",
-      "open": false,
-      "returnPct": 1.91,
-      "qqqReturnPct": -1.85
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "UNH",
       "direction": "LONG",
@@ -9822,30 +4824,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.85
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CRWD",
-      "direction": "LONG",
-      "entryPrice": 205.4,
-      "entryTime": "2026-07-06T15:23:35Z",
-      "exitPrice": 197.59,
-      "exitTime": "2026-07-07T15:22:47Z",
-      "open": false,
-      "returnPct": -3.8,
-      "qqqReturnPct": -1.85
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "PANW",
-      "direction": "LONG",
-      "entryPrice": 360.68,
-      "entryTime": "2026-07-06T15:23:35Z",
-      "exitPrice": 347.06,
-      "exitTime": "2026-07-07T15:22:47Z",
-      "open": false,
-      "returnPct": -3.78,
-      "qqqReturnPct": -1.85
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "CRWD",
       "direction": "LONG",
@@ -9870,18 +4848,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.85
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "KLAC",
-      "direction": "LONG",
-      "entryPrice": 241.07,
-      "entryTime": "2026-07-02T15:26:06Z",
-      "exitPrice": 213.62,
-      "exitTime": "2026-07-07T15:22:46Z",
-      "open": false,
-      "returnPct": -11.39,
-      "qqqReturnPct": -0.44
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "KLAC",
       "direction": "LONG",
@@ -9892,30 +4858,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -11.39,
       "qqqReturnPct": -0.44
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "WDAY",
-      "direction": "SHORT",
-      "entryPrice": 133.62,
-      "entryTime": "2026-07-06T15:21:11Z",
-      "exitPrice": 144.15,
-      "exitTime": "2026-07-07T15:20:14Z",
-      "open": false,
-      "returnPct": -7.88,
-      "qqqReturnPct": -1.85
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MRNA",
-      "direction": "SHORT",
-      "entryPrice": 82.46,
-      "entryTime": "2026-07-06T15:21:11Z",
-      "exitPrice": 79.11,
-      "exitTime": "2026-07-07T15:20:14Z",
-      "open": false,
-      "returnPct": 4.06,
-      "qqqReturnPct": -1.85
     },
     {
       "strategy": "Oracle",
@@ -9942,102 +4884,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.85
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 519.64,
-      "entryTime": "2026-07-02T15:38:03Z",
-      "exitPrice": 567.33,
-      "exitTime": "2026-07-06T15:35:29Z",
-      "open": false,
-      "returnPct": 9.18,
-      "qqqReturnPct": 1.43
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "DHI",
-      "direction": "LONG",
-      "entryPrice": 161.96,
-      "entryTime": "2026-07-01T15:38:57Z",
-      "exitPrice": 156.25,
-      "exitTime": "2026-07-06T15:35:28Z",
-      "open": false,
-      "returnPct": -3.53,
-      "qqqReturnPct": -0.32
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "SPGI",
-      "direction": "LONG",
-      "entryPrice": 414.66,
-      "entryTime": "2026-07-01T15:38:57Z",
-      "exitPrice": 440.15,
-      "exitTime": "2026-07-06T15:35:27Z",
-      "open": false,
-      "returnPct": 6.15,
-      "qqqReturnPct": -0.32
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "GM",
-      "direction": "LONG",
-      "entryPrice": 77.18,
-      "entryTime": "2026-06-29T15:35:44Z",
-      "exitPrice": 77.09,
-      "exitTime": "2026-07-06T15:35:26Z",
-      "open": false,
-      "returnPct": -0.12,
-      "qqqReturnPct": -0.17
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "SLB",
-      "direction": "LONG",
-      "entryPrice": 46.42,
-      "entryTime": "2026-06-30T15:36:11Z",
-      "exitPrice": 45.89,
-      "exitTime": "2026-07-06T15:35:26Z",
-      "open": false,
-      "returnPct": -1.14,
-      "qqqReturnPct": -1.84
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "CDNS",
-      "direction": "LONG",
-      "entryPrice": 376.22,
-      "entryTime": "2026-06-30T15:36:11Z",
-      "exitPrice": 375.64,
-      "exitTime": "2026-07-06T15:35:26Z",
-      "open": false,
-      "returnPct": -0.15,
-      "qqqReturnPct": -1.84
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "GS",
-      "direction": "LONG",
-      "entryPrice": 1028.9,
-      "entryTime": "2026-06-26T15:36:29Z",
-      "exitPrice": 1052.84,
-      "exitTime": "2026-07-06T15:35:25Z",
-      "open": false,
-      "returnPct": 2.33,
-      "qqqReturnPct": 2.31
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 519.64,
-      "entryTime": "2026-07-02T15:26:06Z",
-      "exitPrice": 563.6,
-      "exitTime": "2026-07-06T15:22:32Z",
-      "open": false,
-      "returnPct": 8.46,
-      "qqqReturnPct": 1.43
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "AMD",
       "direction": "LONG",
@@ -10047,30 +4893,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-06T15:22:32Z",
       "open": false,
       "returnPct": 8.46,
-      "qqqReturnPct": 1.43
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "HUM",
-      "direction": "LONG",
-      "entryPrice": 405.26,
-      "entryTime": "2026-07-02T15:26:06Z",
-      "exitPrice": 391.46,
-      "exitTime": "2026-07-06T15:22:31Z",
-      "open": false,
-      "returnPct": -3.41,
-      "qqqReturnPct": 1.43
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "HUBS",
-      "direction": "LONG",
-      "entryPrice": 189.72,
-      "entryTime": "2026-07-02T15:26:06Z",
-      "exitPrice": 192.66,
-      "exitTime": "2026-07-06T15:22:31Z",
-      "open": false,
-      "returnPct": 1.55,
       "qqqReturnPct": 1.43
     },
     {
@@ -10096,54 +4918,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.55,
       "qqqReturnPct": 1.43
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "GS",
-      "direction": "LONG",
-      "entryPrice": 1028.9,
-      "entryTime": "2026-06-26T15:24:06Z",
-      "exitPrice": 1052.54,
-      "exitTime": "2026-07-06T15:22:30Z",
-      "open": false,
-      "returnPct": 2.3,
-      "qqqReturnPct": 2.31
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "SLB",
-      "direction": "LONG",
-      "entryPrice": 46.42,
-      "entryTime": "2026-06-30T15:24:02Z",
-      "exitPrice": 45.98,
-      "exitTime": "2026-07-06T15:22:30Z",
-      "open": false,
-      "returnPct": -0.95,
-      "qqqReturnPct": -1.84
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "TFC",
-      "direction": "LONG",
-      "entryPrice": 50.62,
-      "entryTime": "2026-07-01T15:26:41Z",
-      "exitPrice": 51.11,
-      "exitTime": "2026-07-06T15:22:30Z",
-      "open": false,
-      "returnPct": 0.97,
-      "qqqReturnPct": -0.32
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "DHI",
-      "direction": "LONG",
-      "entryPrice": 161.96,
-      "entryTime": "2026-07-01T15:26:41Z",
-      "exitPrice": 156.26,
-      "exitTime": "2026-07-06T15:22:30Z",
-      "open": false,
-      "returnPct": -3.52,
-      "qqqReturnPct": -0.32
     },
     {
       "strategy": "Kestrel",
@@ -10194,30 +4968,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.32
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MRNA",
-      "direction": "SHORT",
-      "entryPrice": 77.08,
-      "entryTime": "2026-07-02T15:23:41Z",
-      "exitPrice": 82.62,
-      "exitTime": "2026-07-06T15:19:54Z",
-      "open": false,
-      "returnPct": -7.18,
-      "qqqReturnPct": 1.43
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CRWD",
-      "direction": "SHORT",
-      "entryPrice": 197.04,
-      "entryTime": "2026-07-02T15:23:41Z",
-      "exitPrice": 205.0,
-      "exitTime": "2026-07-06T15:19:54Z",
-      "open": false,
-      "returnPct": -4.04,
-      "qqqReturnPct": 1.43
-    },
-    {
       "strategy": "Oracle",
       "ticker": "MRNA",
       "direction": "SHORT",
@@ -10242,18 +4992,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.43
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "OKTA",
-      "direction": "SHORT",
-      "entryPrice": 139.7,
-      "entryTime": "2026-07-02T15:23:41Z",
-      "exitPrice": 146.51,
-      "exitTime": "2026-07-06T15:19:53Z",
-      "open": false,
-      "returnPct": -4.88,
-      "qqqReturnPct": 1.43
-    },
-    {
       "strategy": "Oracle",
       "ticker": "OKTA",
       "direction": "SHORT",
@@ -10266,18 +5004,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.43
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "DASH",
-      "direction": "SHORT",
-      "entryPrice": 187.35,
-      "entryTime": "2026-06-30T15:22:12Z",
-      "exitPrice": 194.84,
-      "exitTime": "2026-07-06T15:19:50Z",
-      "open": false,
-      "returnPct": -4.0,
-      "qqqReturnPct": -1.84
-    },
-    {
       "strategy": "Oracle",
       "ticker": "DASH",
       "direction": "SHORT",
@@ -10288,42 +5014,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.0,
       "qqqReturnPct": -1.84
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NXPI",
-      "direction": "LONG",
-      "entryPrice": 282.51,
-      "entryTime": "2026-06-26T15:22:16Z",
-      "exitPrice": 283.64,
-      "exitTime": "2026-07-06T15:19:49Z",
-      "open": false,
-      "returnPct": 0.4,
-      "qqqReturnPct": 2.31
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AVGO",
-      "direction": "LONG",
-      "entryPrice": 367.52,
-      "entryTime": "2026-06-26T15:22:16Z",
-      "exitPrice": 373.7,
-      "exitTime": "2026-07-06T15:19:49Z",
-      "open": false,
-      "returnPct": 1.68,
-      "qqqReturnPct": 2.31
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "REGN",
-      "direction": "SHORT",
-      "entryPrice": 636.49,
-      "entryTime": "2026-06-26T15:22:16Z",
-      "exitPrice": 644.01,
-      "exitTime": "2026-07-06T15:19:49Z",
-      "open": false,
-      "returnPct": -1.18,
-      "qqqReturnPct": 2.31
     },
     {
       "strategy": "Oracle",
@@ -10362,18 +5052,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.31
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MPWR",
-      "direction": "LONG",
-      "entryPrice": 1333.17,
-      "entryTime": "2026-06-26T15:22:16Z",
-      "exitPrice": 1351.22,
-      "exitTime": "2026-07-06T15:19:48Z",
-      "open": false,
-      "returnPct": 1.35,
-      "qqqReturnPct": 2.31
-    },
-    {
       "strategy": "Oracle",
       "ticker": "MPWR",
       "direction": "LONG",
@@ -10386,78 +5064,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.31
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "LIN",
-      "direction": "LONG",
-      "entryPrice": 510.73,
-      "entryTime": "2026-06-29T15:35:44Z",
-      "exitPrice": 546.21,
-      "exitTime": "2026-07-02T15:38:00Z",
-      "open": false,
-      "returnPct": 6.95,
-      "qqqReturnPct": -1.59
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "BKR",
-      "direction": "LONG",
-      "entryPrice": 55.87,
-      "entryTime": "2026-06-30T15:36:11Z",
-      "exitPrice": 53.4,
-      "exitTime": "2026-07-02T15:38:00Z",
-      "open": false,
-      "returnPct": -4.42,
-      "qqqReturnPct": -3.23
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "CL",
-      "direction": "LONG",
-      "entryPrice": 92.78,
-      "entryTime": "2026-06-24T15:35:57Z",
-      "exitPrice": 94.47,
-      "exitTime": "2026-07-02T15:37:59Z",
-      "open": false,
-      "returnPct": 1.82,
-      "qqqReturnPct": 0.28
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "USB",
-      "direction": "LONG",
-      "entryPrice": 60.17,
-      "entryTime": "2026-06-24T15:35:57Z",
-      "exitPrice": 61.56,
-      "exitTime": "2026-07-02T15:37:59Z",
-      "open": false,
-      "returnPct": 2.31,
-      "qqqReturnPct": 0.28
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "CB",
-      "direction": "LONG",
-      "entryPrice": 334.88,
-      "entryTime": "2026-06-24T15:35:57Z",
-      "exitPrice": 356.28,
-      "exitTime": "2026-07-02T15:37:58Z",
-      "open": false,
-      "returnPct": 6.39,
-      "qqqReturnPct": 0.28
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "JNJ",
-      "direction": "LONG",
-      "entryPrice": 252.4,
-      "entryTime": "2026-07-01T15:26:41Z",
-      "exitPrice": 260.9,
-      "exitTime": "2026-07-02T15:25:05Z",
-      "open": false,
-      "returnPct": 3.37,
-      "qqqReturnPct": -1.73
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "JNJ",
       "direction": "LONG",
@@ -10470,18 +5076,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.73
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "LLY",
-      "direction": "LONG",
-      "entryPrice": 1183.78,
-      "entryTime": "2026-07-01T15:26:41Z",
-      "exitPrice": 1217.53,
-      "exitTime": "2026-07-02T15:25:04Z",
-      "open": false,
-      "returnPct": 2.85,
-      "qqqReturnPct": -1.73
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "LLY",
       "direction": "LONG",
@@ -10491,42 +5085,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-02T15:25:04Z",
       "open": false,
       "returnPct": 2.85,
-      "qqqReturnPct": -1.73
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "GM",
-      "direction": "LONG",
-      "entryPrice": 77.18,
-      "entryTime": "2026-06-29T15:23:09Z",
-      "exitPrice": 74.82,
-      "exitTime": "2026-07-02T15:25:03Z",
-      "open": false,
-      "returnPct": -3.06,
-      "qqqReturnPct": -1.59
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "BKR",
-      "direction": "LONG",
-      "entryPrice": 55.87,
-      "entryTime": "2026-06-30T15:24:02Z",
-      "exitPrice": 53.83,
-      "exitTime": "2026-07-02T15:25:03Z",
-      "open": false,
-      "returnPct": -3.64,
-      "qqqReturnPct": -3.23
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "SPGI",
-      "direction": "LONG",
-      "entryPrice": 414.66,
-      "entryTime": "2026-07-01T15:26:41Z",
-      "exitPrice": 431.27,
-      "exitTime": "2026-07-02T15:25:03Z",
-      "open": false,
-      "returnPct": 4.01,
       "qqqReturnPct": -1.73
     },
     {
@@ -10566,30 +5124,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.73
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CL",
-      "direction": "LONG",
-      "entryPrice": 92.78,
-      "entryTime": "2026-06-24T15:23:50Z",
-      "exitPrice": 94.51,
-      "exitTime": "2026-07-02T15:25:02Z",
-      "open": false,
-      "returnPct": 1.87,
-      "qqqReturnPct": 0.28
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "USB",
-      "direction": "LONG",
-      "entryPrice": 60.17,
-      "entryTime": "2026-06-24T15:23:50Z",
-      "exitPrice": 61.53,
-      "exitTime": "2026-07-02T15:25:02Z",
-      "open": false,
-      "returnPct": 2.25,
-      "qqqReturnPct": 0.28
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "CL",
       "direction": "LONG",
@@ -10614,18 +5148,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.28
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CB",
-      "direction": "LONG",
-      "entryPrice": 334.88,
-      "entryTime": "2026-06-24T15:23:50Z",
-      "exitPrice": 357.09,
-      "exitTime": "2026-07-02T15:25:01Z",
-      "open": false,
-      "returnPct": 6.63,
-      "qqqReturnPct": 0.28
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "CB",
       "direction": "LONG",
@@ -10636,30 +5158,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 6.63,
       "qqqReturnPct": 0.28
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "KLAC",
-      "direction": "SHORT",
-      "entryPrice": 273.04,
-      "entryTime": "2026-07-01T15:24:55Z",
-      "exitPrice": 241.25,
-      "exitTime": "2026-07-02T15:22:27Z",
-      "open": false,
-      "returnPct": 11.64,
-      "qqqReturnPct": -1.73
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LRCX",
-      "direction": "SHORT",
-      "entryPrice": 397.94,
-      "entryTime": "2026-07-01T15:24:55Z",
-      "exitPrice": 360.33,
-      "exitTime": "2026-07-02T15:22:27Z",
-      "open": false,
-      "returnPct": 9.45,
-      "qqqReturnPct": -1.73
     },
     {
       "strategy": "Oracle",
@@ -10686,18 +5184,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.73
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMAT",
-      "direction": "SHORT",
-      "entryPrice": 665.68,
-      "entryTime": "2026-07-01T15:24:55Z",
-      "exitPrice": 598.71,
-      "exitTime": "2026-07-02T15:22:26Z",
-      "open": false,
-      "returnPct": 10.06,
-      "qqqReturnPct": -1.73
-    },
-    {
       "strategy": "Oracle",
       "ticker": "AMAT",
       "direction": "SHORT",
@@ -10710,18 +5196,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.73
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MRNA",
-      "direction": "SHORT",
-      "entryPrice": 72.68,
-      "entryTime": "2026-06-30T15:22:12Z",
-      "exitPrice": 77.32,
-      "exitTime": "2026-07-02T15:22:25Z",
-      "open": false,
-      "returnPct": -6.39,
-      "qqqReturnPct": -3.23
-    },
-    {
       "strategy": "Oracle",
       "ticker": "MRNA",
       "direction": "SHORT",
@@ -10731,54 +5205,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-02T15:22:25Z",
       "open": false,
       "returnPct": -6.39,
-      "qqqReturnPct": -3.23
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ICE",
-      "direction": "LONG",
-      "entryPrice": 123.02,
-      "entryTime": "2026-06-30T15:22:12Z",
-      "exitPrice": 130.61,
-      "exitTime": "2026-07-02T15:22:23Z",
-      "open": false,
-      "returnPct": 6.17,
-      "qqqReturnPct": -3.23
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PEP",
-      "direction": "LONG",
-      "entryPrice": 135.88,
-      "entryTime": "2026-06-30T15:22:12Z",
-      "exitPrice": 144.49,
-      "exitTime": "2026-07-02T15:22:23Z",
-      "open": false,
-      "returnPct": 6.34,
-      "qqqReturnPct": -3.23
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "BSX",
-      "direction": "LONG",
-      "entryPrice": 42.37,
-      "entryTime": "2026-06-30T15:22:12Z",
-      "exitPrice": 45.0,
-      "exitTime": "2026-07-02T15:22:23Z",
-      "open": false,
-      "returnPct": 6.22,
-      "qqqReturnPct": -3.23
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CME",
-      "direction": "LONG",
-      "entryPrice": 222.76,
-      "entryTime": "2026-06-30T15:22:12Z",
-      "exitPrice": 235.4,
-      "exitTime": "2026-07-02T15:22:23Z",
-      "open": false,
-      "returnPct": 5.67,
       "qqqReturnPct": -3.23
     },
     {
@@ -10830,30 +5256,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.23
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "VRTX",
-      "direction": "SHORT",
-      "entryPrice": 499.49,
-      "entryTime": "2026-06-26T15:22:16Z",
-      "exitPrice": 519.51,
-      "exitTime": "2026-07-02T15:22:22Z",
-      "open": false,
-      "returnPct": -4.01,
-      "qqqReturnPct": 0.86
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "QCOM",
-      "direction": "LONG",
-      "entryPrice": 189.52,
-      "entryTime": "2026-06-29T15:21:16Z",
-      "exitPrice": 174.71,
-      "exitTime": "2026-07-02T15:22:22Z",
-      "open": false,
-      "returnPct": -7.81,
-      "qqqReturnPct": -1.59
-    },
-    {
       "strategy": "Oracle",
       "ticker": "VRTX",
       "direction": "SHORT",
@@ -10878,18 +5280,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.59
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SWKS",
-      "direction": "LONG",
-      "entryPrice": 67.39,
-      "entryTime": "2026-06-26T15:22:16Z",
-      "exitPrice": 63.46,
-      "exitTime": "2026-07-02T15:22:21Z",
-      "open": false,
-      "returnPct": -5.82,
-      "qqqReturnPct": 0.86
-    },
-    {
       "strategy": "Oracle",
       "ticker": "SWKS",
       "direction": "LONG",
@@ -10900,30 +5290,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -5.82,
       "qqqReturnPct": 0.86
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ABT",
-      "direction": "SHORT",
-      "entryPrice": 94.23,
-      "entryTime": "2026-06-25T15:20:01Z",
-      "exitPrice": 94.46,
-      "exitTime": "2026-07-02T15:22:20Z",
-      "open": false,
-      "returnPct": -0.25,
-      "qqqReturnPct": -0.53
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ECL",
-      "direction": "SHORT",
-      "entryPrice": 282.24,
-      "entryTime": "2026-06-25T15:20:01Z",
-      "exitPrice": 280.62,
-      "exitTime": "2026-07-02T15:22:20Z",
-      "open": false,
-      "returnPct": 0.57,
-      "qqqReturnPct": -0.53
     },
     {
       "strategy": "Oracle",
@@ -10950,30 +5316,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.53
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CDNS",
-      "direction": "LONG",
-      "entryPrice": 376.22,
-      "entryTime": "2026-06-30T15:24:02Z",
-      "exitPrice": 380.86,
-      "exitTime": "2026-07-01T15:25:39Z",
-      "open": false,
-      "returnPct": 1.23,
-      "qqqReturnPct": -1.52
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 416.37,
-      "entryTime": "2026-06-30T15:24:02Z",
-      "exitPrice": 420.81,
-      "exitTime": "2026-07-01T15:25:39Z",
-      "open": false,
-      "returnPct": 1.07,
-      "qqqReturnPct": -1.52
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "CDNS",
       "direction": "LONG",
@@ -10996,30 +5338,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.07,
       "qqqReturnPct": -1.52
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "PDD",
-      "direction": "LONG",
-      "entryPrice": 75.54,
-      "entryTime": "2026-06-26T15:24:06Z",
-      "exitPrice": 81.52,
-      "exitTime": "2026-07-01T15:25:38Z",
-      "open": false,
-      "returnPct": 7.92,
-      "qqqReturnPct": 2.64
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "LIN",
-      "direction": "LONG",
-      "entryPrice": 510.73,
-      "entryTime": "2026-06-29T15:23:09Z",
-      "exitPrice": 532.3,
-      "exitTime": "2026-07-01T15:25:38Z",
-      "open": false,
-      "returnPct": 4.22,
-      "qqqReturnPct": 0.15
     },
     {
       "strategy": "Kestrel",
@@ -11046,18 +5364,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.15
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "COIN",
-      "direction": "LONG",
-      "entryPrice": 147.0,
-      "entryTime": "2026-06-26T15:24:06Z",
-      "exitPrice": 161.75,
-      "exitTime": "2026-07-01T15:25:37Z",
-      "open": false,
-      "returnPct": 10.03,
-      "qqqReturnPct": 2.64
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "COIN",
       "direction": "LONG",
@@ -11070,18 +5376,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.64
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMAT",
-      "direction": "SHORT",
-      "entryPrice": 734.45,
-      "entryTime": "2026-06-30T15:22:12Z",
-      "exitPrice": 666.08,
-      "exitTime": "2026-07-01T15:23:41Z",
-      "open": false,
-      "returnPct": 9.31,
-      "qqqReturnPct": -1.52
-    },
-    {
       "strategy": "Oracle",
       "ticker": "AMAT",
       "direction": "SHORT",
@@ -11091,18 +5385,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-01T15:23:41Z",
       "open": false,
       "returnPct": 9.31,
-      "qqqReturnPct": -1.52
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PANW",
-      "direction": "SHORT",
-      "entryPrice": 338.06,
-      "entryTime": "2026-06-30T15:22:12Z",
-      "exitPrice": 355.26,
-      "exitTime": "2026-07-01T15:23:40Z",
-      "open": false,
-      "returnPct": -5.09,
       "qqqReturnPct": -1.52
     },
     {
@@ -11116,30 +5398,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -5.09,
       "qqqReturnPct": -1.52
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "RBLX",
-      "direction": "SHORT",
-      "entryPrice": 54.28,
-      "entryTime": "2026-06-29T15:21:16Z",
-      "exitPrice": 58.1,
-      "exitTime": "2026-07-01T15:23:38Z",
-      "open": false,
-      "returnPct": -7.05,
-      "qqqReturnPct": 0.15
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LCID",
-      "direction": "SHORT",
-      "entryPrice": 6.24,
-      "entryTime": "2026-06-29T15:21:16Z",
-      "exitPrice": 6.77,
-      "exitTime": "2026-07-01T15:23:38Z",
-      "open": false,
-      "returnPct": -8.58,
-      "qqqReturnPct": 0.15
     },
     {
       "strategy": "Oracle",
@@ -11166,18 +5424,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.15
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CLSK",
-      "direction": "LONG",
-      "entryPrice": 15.3,
-      "entryTime": "2026-06-29T15:21:16Z",
-      "exitPrice": 14.11,
-      "exitTime": "2026-07-01T15:23:37Z",
-      "open": false,
-      "returnPct": -7.75,
-      "qqqReturnPct": 0.15
-    },
-    {
       "strategy": "Oracle",
       "ticker": "CLSK",
       "direction": "LONG",
@@ -11188,30 +5434,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -7.75,
       "qqqReturnPct": 0.15
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "TEAM",
-      "direction": "LONG",
-      "entryPrice": 76.79,
-      "entryTime": "2026-06-25T15:20:01Z",
-      "exitPrice": 84.42,
-      "exitTime": "2026-07-01T15:23:35Z",
-      "open": false,
-      "returnPct": 9.94,
-      "qqqReturnPct": 1.23
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SNAP",
-      "direction": "LONG",
-      "entryPrice": 4.3,
-      "entryTime": "2026-06-25T15:20:01Z",
-      "exitPrice": 4.82,
-      "exitTime": "2026-07-01T15:23:35Z",
-      "open": false,
-      "returnPct": 12.34,
-      "qqqReturnPct": 1.23
     },
     {
       "strategy": "Oracle",
@@ -11235,54 +5457,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-07-01T15:23:35Z",
       "open": false,
       "returnPct": 12.34,
-      "qqqReturnPct": 1.23
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SHW",
-      "direction": "SHORT",
-      "entryPrice": 335.39,
-      "entryTime": "2026-06-24T15:22:01Z",
-      "exitPrice": 349.76,
-      "exitTime": "2026-07-01T15:23:34Z",
-      "open": false,
-      "returnPct": -4.28,
-      "qqqReturnPct": 2.05
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "BKNG",
-      "direction": "SHORT",
-      "entryPrice": 184.19,
-      "entryTime": "2026-06-24T15:22:01Z",
-      "exitPrice": 184.54,
-      "exitTime": "2026-07-01T15:23:34Z",
-      "open": false,
-      "returnPct": -0.19,
-      "qqqReturnPct": 2.05
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "TLT",
-      "direction": "SHORT",
-      "entryPrice": 87.35,
-      "entryTime": "2026-06-24T15:22:01Z",
-      "exitPrice": 85.66,
-      "exitTime": "2026-07-01T15:23:34Z",
-      "open": false,
-      "returnPct": 1.93,
-      "qqqReturnPct": 2.05
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AI",
-      "direction": "LONG",
-      "entryPrice": 8.76,
-      "entryTime": "2026-06-25T15:20:01Z",
-      "exitPrice": 9.64,
-      "exitTime": "2026-07-01T15:23:34Z",
-      "open": false,
-      "returnPct": 10.05,
       "qqqReturnPct": 1.23
     },
     {
@@ -11334,54 +5508,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.23
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SLB",
-      "direction": "LONG",
-      "entryPrice": 46.24,
-      "entryTime": "2026-06-24T15:22:01Z",
-      "exitPrice": 45.9,
-      "exitTime": "2026-07-01T15:23:33Z",
-      "open": false,
-      "returnPct": -0.74,
-      "qqqReturnPct": 2.05
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "FCX",
-      "direction": "LONG",
-      "entryPrice": 62.08,
-      "entryTime": "2026-06-24T15:22:01Z",
-      "exitPrice": 61.63,
-      "exitTime": "2026-07-01T15:23:33Z",
-      "open": false,
-      "returnPct": -0.72,
-      "qqqReturnPct": 2.05
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SLV",
-      "direction": "LONG",
-      "entryPrice": 53.35,
-      "entryTime": "2026-06-24T15:22:01Z",
-      "exitPrice": 54.4,
-      "exitTime": "2026-07-01T15:23:33Z",
-      "open": false,
-      "returnPct": 1.97,
-      "qqqReturnPct": 2.05
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "DHI",
-      "direction": "SHORT",
-      "entryPrice": 169.17,
-      "entryTime": "2026-06-24T15:22:01Z",
-      "exitPrice": 161.95,
-      "exitTime": "2026-07-01T15:23:33Z",
-      "open": false,
-      "returnPct": 4.27,
-      "qqqReturnPct": 2.05
-    },
-    {
       "strategy": "Oracle",
       "ticker": "SLB",
       "direction": "LONG",
@@ -11430,66 +5556,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.05
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "INTC",
-      "direction": "LONG",
-      "entryPrice": 124.92,
-      "entryTime": "2026-06-29T15:35:44Z",
-      "exitPrice": 139.99,
-      "exitTime": "2026-06-30T15:36:10Z",
-      "open": false,
-      "returnPct": 12.06,
-      "qqqReturnPct": 1.7
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "PM",
-      "direction": "LONG",
-      "entryPrice": 179.78,
-      "entryTime": "2026-06-25T15:34:50Z",
-      "exitPrice": 179.85,
-      "exitTime": "2026-06-30T15:36:09Z",
-      "open": false,
-      "returnPct": 0.04,
-      "qqqReturnPct": 2.79
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "COP",
-      "direction": "LONG",
-      "entryPrice": 106.98,
-      "entryTime": "2026-06-25T15:34:50Z",
-      "exitPrice": 104.3,
-      "exitTime": "2026-06-30T15:36:09Z",
-      "open": false,
-      "returnPct": -2.51,
-      "qqqReturnPct": 2.79
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 516.69,
-      "entryTime": "2026-06-24T15:35:57Z",
-      "exitPrice": 566.42,
-      "exitTime": "2026-06-30T15:36:07Z",
-      "open": false,
-      "returnPct": 9.62,
-      "qqqReturnPct": 3.63
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "INTC",
-      "direction": "LONG",
-      "entryPrice": 124.92,
-      "entryTime": "2026-06-29T15:23:09Z",
-      "exitPrice": 140.26,
-      "exitTime": "2026-06-30T15:22:59Z",
-      "open": false,
-      "returnPct": 12.28,
-      "qqqReturnPct": 1.7
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "INTC",
       "direction": "LONG",
@@ -11502,18 +5568,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.7
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "TT",
-      "direction": "LONG",
-      "entryPrice": 481.99,
-      "entryTime": "2026-06-26T15:24:06Z",
-      "exitPrice": 494.39,
-      "exitTime": "2026-06-30T15:22:58Z",
-      "open": false,
-      "returnPct": 2.57,
-      "qqqReturnPct": 4.23
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "TT",
       "direction": "LONG",
@@ -11524,30 +5578,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 2.57,
       "qqqReturnPct": 4.23
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "COP",
-      "direction": "LONG",
-      "entryPrice": 106.98,
-      "entryTime": "2026-06-25T15:22:33Z",
-      "exitPrice": 104.43,
-      "exitTime": "2026-06-30T15:22:57Z",
-      "open": false,
-      "returnPct": -2.38,
-      "qqqReturnPct": 2.79
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MAR",
-      "direction": "LONG",
-      "entryPrice": 381.75,
-      "entryTime": "2026-06-25T15:22:33Z",
-      "exitPrice": 369.0,
-      "exitTime": "2026-06-30T15:22:57Z",
-      "open": false,
-      "returnPct": -3.34,
-      "qqqReturnPct": 2.79
     },
     {
       "strategy": "Kestrel",
@@ -11574,18 +5604,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.79
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MRVL",
-      "direction": "LONG",
-      "entryPrice": 262.89,
-      "entryTime": "2026-06-29T15:21:16Z",
-      "exitPrice": 296.94,
-      "exitTime": "2026-06-30T15:20:55Z",
-      "open": false,
-      "returnPct": 12.95,
-      "qqqReturnPct": 1.7
-    },
-    {
       "strategy": "Oracle",
       "ticker": "MRVL",
       "direction": "LONG",
@@ -11595,18 +5613,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-30T15:20:55Z",
       "open": false,
       "returnPct": 12.95,
-      "qqqReturnPct": 1.7
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ON",
-      "direction": "LONG",
-      "entryPrice": 88.12,
-      "entryTime": "2026-06-29T15:21:16Z",
-      "exitPrice": 92.82,
-      "exitTime": "2026-06-30T15:20:54Z",
-      "open": false,
-      "returnPct": 5.33,
       "qqqReturnPct": 1.7
     },
     {
@@ -11620,30 +5626,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 5.33,
       "qqqReturnPct": 1.7
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ARM",
-      "direction": "LONG",
-      "entryPrice": 332.21,
-      "entryTime": "2026-06-26T15:22:16Z",
-      "exitPrice": 352.72,
-      "exitTime": "2026-06-30T15:20:53Z",
-      "open": false,
-      "returnPct": 6.17,
-      "qqqReturnPct": 4.23
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SYK",
-      "direction": "SHORT",
-      "entryPrice": 332.1,
-      "entryTime": "2026-06-26T15:22:16Z",
-      "exitPrice": 315.58,
-      "exitTime": "2026-06-30T15:20:53Z",
-      "open": false,
-      "returnPct": 4.98,
-      "qqqReturnPct": 4.23
     },
     {
       "strategy": "Oracle",
@@ -11670,18 +5652,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.23
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PLUG",
-      "direction": "LONG",
-      "entryPrice": 2.53,
-      "entryTime": "2026-06-26T15:22:16Z",
-      "exitPrice": 2.66,
-      "exitTime": "2026-06-30T15:20:52Z",
-      "open": false,
-      "returnPct": 5.54,
-      "qqqReturnPct": 4.23
-    },
-    {
       "strategy": "Oracle",
       "ticker": "PLUG",
       "direction": "LONG",
@@ -11692,18 +5662,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 5.54,
       "qqqReturnPct": 4.23
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ORCL",
-      "direction": "LONG",
-      "entryPrice": 151.29,
-      "entryTime": "2026-06-25T15:20:01Z",
-      "exitPrice": 145.06,
-      "exitTime": "2026-06-30T15:20:50Z",
-      "open": false,
-      "returnPct": -4.11,
-      "qqqReturnPct": 2.79
     },
     {
       "strategy": "Oracle",
@@ -11718,18 +5676,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.79
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CHPT",
-      "direction": "LONG",
-      "entryPrice": 5.44,
-      "entryTime": "2026-06-25T15:20:01Z",
-      "exitPrice": 5.94,
-      "exitTime": "2026-06-30T15:20:49Z",
-      "open": false,
-      "returnPct": 9.17,
-      "qqqReturnPct": 2.79
-    },
-    {
       "strategy": "Oracle",
       "ticker": "CHPT",
       "direction": "LONG",
@@ -11740,30 +5686,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 9.17,
       "qqqReturnPct": 2.79
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "USB",
-      "direction": "SHORT",
-      "entryPrice": 59.67,
-      "entryTime": "2026-06-23T15:20:20Z",
-      "exitPrice": 60.74,
-      "exitTime": "2026-06-30T15:20:47Z",
-      "open": false,
-      "returnPct": -1.78,
-      "qqqReturnPct": 3.19
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "WMB",
-      "direction": "SHORT",
-      "entryPrice": 75.46,
-      "entryTime": "2026-06-23T15:20:20Z",
-      "exitPrice": 75.48,
-      "exitTime": "2026-06-30T15:20:47Z",
-      "open": false,
-      "returnPct": -0.03,
-      "qqqReturnPct": 3.19
     },
     {
       "strategy": "Oracle",
@@ -11787,42 +5709,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-30T15:20:47Z",
       "open": false,
       "returnPct": -0.03,
-      "qqqReturnPct": 3.19
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XOM",
-      "direction": "LONG",
-      "entryPrice": 137.48,
-      "entryTime": "2026-06-22T15:21:48Z",
-      "exitPrice": 136.43,
-      "exitTime": "2026-06-30T15:20:46Z",
-      "open": false,
-      "returnPct": -0.76,
-      "qqqReturnPct": -0.21
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AEP",
-      "direction": "SHORT",
-      "entryPrice": 132.79,
-      "entryTime": "2026-06-23T15:20:20Z",
-      "exitPrice": 137.09,
-      "exitTime": "2026-06-30T15:20:46Z",
-      "open": false,
-      "returnPct": -3.24,
-      "qqqReturnPct": 3.19
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "BAC",
-      "direction": "SHORT",
-      "entryPrice": 57.83,
-      "entryTime": "2026-06-23T15:20:20Z",
-      "exitPrice": 57.21,
-      "exitTime": "2026-06-30T15:20:46Z",
-      "open": false,
-      "returnPct": 1.08,
       "qqqReturnPct": 3.19
     },
     {
@@ -11860,54 +5746,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.08,
       "qqqReturnPct": 3.19
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "COP",
-      "direction": "LONG",
-      "entryPrice": 108.68,
-      "entryTime": "2026-06-22T15:21:48Z",
-      "exitPrice": 104.48,
-      "exitTime": "2026-06-30T15:20:45Z",
-      "open": false,
-      "returnPct": -3.86,
-      "qqqReturnPct": -0.21
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XLC",
-      "direction": "LONG",
-      "entryPrice": 106.62,
-      "entryTime": "2026-06-22T15:21:48Z",
-      "exitPrice": 106.86,
-      "exitTime": "2026-06-30T15:20:45Z",
-      "open": false,
-      "returnPct": 0.22,
-      "qqqReturnPct": -0.21
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PFE",
-      "direction": "LONG",
-      "entryPrice": 25.05,
-      "entryTime": "2026-06-22T15:21:48Z",
-      "exitPrice": 24.08,
-      "exitTime": "2026-06-30T15:20:45Z",
-      "open": false,
-      "returnPct": -3.85,
-      "qqqReturnPct": -0.21
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ET",
-      "direction": "LONG",
-      "entryPrice": 18.86,
-      "entryTime": "2026-06-22T15:21:48Z",
-      "exitPrice": 19.06,
-      "exitTime": "2026-06-30T15:20:45Z",
-      "open": false,
-      "returnPct": 1.08,
-      "qqqReturnPct": -0.21
     },
     {
       "strategy": "Oracle",
@@ -11958,66 +5796,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.21
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AAPL",
-      "direction": "LONG",
-      "entryPrice": 276.63,
-      "entryTime": "2026-06-25T15:34:50Z",
-      "exitPrice": 282.04,
-      "exitTime": "2026-06-29T15:35:43Z",
-      "open": false,
-      "returnPct": 1.96,
-      "qqqReturnPct": 1.07
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "FDX",
-      "direction": "LONG",
-      "entryPrice": 321.64,
-      "entryTime": "2026-06-23T15:34:20Z",
-      "exitPrice": 322.32,
-      "exitTime": "2026-06-29T15:35:41Z",
-      "open": false,
-      "returnPct": 0.21,
-      "qqqReturnPct": 1.46
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "QCOM",
-      "direction": "LONG",
-      "entryPrice": 199.32,
-      "entryTime": "2026-06-23T15:34:20Z",
-      "exitPrice": 190.59,
-      "exitTime": "2026-06-29T15:35:41Z",
-      "open": false,
-      "returnPct": -4.38,
-      "qqqReturnPct": 1.46
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "LIN",
-      "direction": "LONG",
-      "entryPrice": 513.53,
-      "entryTime": "2026-06-22T15:36:38Z",
-      "exitPrice": 509.52,
-      "exitTime": "2026-06-29T15:35:40Z",
-      "open": false,
-      "returnPct": -0.78,
-      "qqqReturnPct": -1.88
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CSCO",
-      "direction": "LONG",
-      "entryPrice": 114.49,
-      "entryTime": "2026-06-26T15:24:06Z",
-      "exitPrice": 116.96,
-      "exitTime": "2026-06-29T15:22:04Z",
-      "open": false,
-      "returnPct": 2.16,
-      "qqqReturnPct": 2.49
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "CSCO",
       "direction": "LONG",
@@ -12028,30 +5806,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 2.16,
       "qqqReturnPct": 2.49
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "QCOM",
-      "direction": "LONG",
-      "entryPrice": 199.32,
-      "entryTime": "2026-06-23T15:22:03Z",
-      "exitPrice": 189.65,
-      "exitTime": "2026-06-29T15:22:01Z",
-      "open": false,
-      "returnPct": -4.85,
-      "qqqReturnPct": 1.46
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 516.69,
-      "entryTime": "2026-06-24T15:23:50Z",
-      "exitPrice": 522.17,
-      "exitTime": "2026-06-29T15:22:01Z",
-      "open": false,
-      "returnPct": 1.06,
-      "qqqReturnPct": 1.89
     },
     {
       "strategy": "Kestrel",
@@ -12078,18 +5832,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.89
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ON",
-      "direction": "LONG",
-      "entryPrice": 93.38,
-      "entryTime": "2026-06-26T15:22:16Z",
-      "exitPrice": 88.06,
-      "exitTime": "2026-06-29T15:19:53Z",
-      "open": false,
-      "returnPct": -5.69,
-      "qqqReturnPct": 2.49
-    },
-    {
       "strategy": "Oracle",
       "ticker": "ON",
       "direction": "LONG",
@@ -12100,30 +5842,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -5.69,
       "qqqReturnPct": 2.49
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MDB",
-      "direction": "LONG",
-      "entryPrice": 296.43,
-      "entryTime": "2026-06-25T15:20:01Z",
-      "exitPrice": 332.63,
-      "exitTime": "2026-06-29T15:19:52Z",
-      "open": false,
-      "returnPct": 12.21,
-      "qqqReturnPct": 1.07
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ABBV",
-      "direction": "SHORT",
-      "entryPrice": 243.06,
-      "entryTime": "2026-06-25T15:20:01Z",
-      "exitPrice": 254.63,
-      "exitTime": "2026-06-29T15:19:52Z",
-      "open": false,
-      "returnPct": -4.76,
-      "qqqReturnPct": 1.07
     },
     {
       "strategy": "Oracle",
@@ -12147,30 +5865,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-29T15:19:52Z",
       "open": false,
       "returnPct": -4.76,
-      "qqqReturnPct": 1.07
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ESTC",
-      "direction": "LONG",
-      "entryPrice": 53.53,
-      "entryTime": "2026-06-25T15:20:01Z",
-      "exitPrice": 57.98,
-      "exitTime": "2026-06-29T15:19:51Z",
-      "open": false,
-      "returnPct": 8.33,
-      "qqqReturnPct": 1.07
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "DKNG",
-      "direction": "LONG",
-      "entryPrice": 23.71,
-      "entryTime": "2026-06-25T15:20:01Z",
-      "exitPrice": 25.46,
-      "exitTime": "2026-06-29T15:19:51Z",
-      "open": false,
-      "returnPct": 7.38,
       "qqqReturnPct": 1.07
     },
     {
@@ -12198,18 +5892,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.07
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "TWLO",
-      "direction": "LONG",
-      "entryPrice": 183.02,
-      "entryTime": "2026-06-23T15:20:20Z",
-      "exitPrice": 195.84,
-      "exitTime": "2026-06-29T15:19:47Z",
-      "open": false,
-      "returnPct": 7.0,
-      "qqqReturnPct": 1.46
-    },
-    {
       "strategy": "Oracle",
       "ticker": "TWLO",
       "direction": "LONG",
@@ -12219,18 +5901,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-29T15:19:47Z",
       "open": false,
       "returnPct": 7.0,
-      "qqqReturnPct": 1.46
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "QCOM",
-      "direction": "LONG",
-      "entryPrice": 198.61,
-      "entryTime": "2026-06-23T15:20:20Z",
-      "exitPrice": 189.53,
-      "exitTime": "2026-06-29T15:19:46Z",
-      "open": false,
-      "returnPct": -4.57,
       "qqqReturnPct": 1.46
     },
     {
@@ -12244,54 +5914,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.57,
       "qqqReturnPct": 1.46
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "CAT",
-      "direction": "LONG",
-      "entryPrice": 1020.0,
-      "entryTime": "2026-06-26T00:00:00Z",
-      "exitPrice": 998.41,
-      "exitTime": "2026-06-29T00:00:00Z",
-      "open": false,
-      "returnPct": -2.12,
-      "qqqReturnPct": 2.49
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "MS",
-      "direction": "LONG",
-      "entryPrice": 214.96,
-      "entryTime": "2026-06-26T00:00:00Z",
-      "exitPrice": 214.33,
-      "exitTime": "2026-06-29T00:00:00Z",
-      "open": false,
-      "returnPct": -0.29,
-      "qqqReturnPct": 2.49
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "GS",
-      "direction": "LONG",
-      "entryPrice": 1035.9,
-      "entryTime": "2026-06-26T00:00:00Z",
-      "exitPrice": 1029.19,
-      "exitTime": "2026-06-29T00:00:00Z",
-      "open": false,
-      "returnPct": -0.65,
-      "qqqReturnPct": 2.49
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "AVGO",
-      "direction": "LONG",
-      "entryPrice": 369.79,
-      "entryTime": "2026-06-26T00:00:00Z",
-      "exitPrice": 373.52,
-      "exitTime": "2026-06-29T00:00:00Z",
-      "open": false,
-      "returnPct": 1.01,
-      "qqqReturnPct": 2.49
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -12342,66 +5964,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.49
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "SHOP",
-      "direction": "LONG",
-      "entryPrice": 112.53,
-      "entryTime": "2026-06-24T15:35:57Z",
-      "exitPrice": 117.39,
-      "exitTime": "2026-06-26T15:36:26Z",
-      "open": false,
-      "returnPct": 4.32,
-      "qqqReturnPct": -0.58
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "GS",
-      "direction": "LONG",
-      "entryPrice": 1081.55,
-      "entryTime": "2026-06-24T15:35:57Z",
-      "exitPrice": 1032.09,
-      "exitTime": "2026-06-26T15:36:26Z",
-      "open": false,
-      "returnPct": -4.57,
-      "qqqReturnPct": -0.58
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "ECL",
-      "direction": "LONG",
-      "entryPrice": 271.49,
-      "entryTime": "2026-06-22T15:36:38Z",
-      "exitPrice": 282.38,
-      "exitTime": "2026-06-26T15:36:24Z",
-      "open": false,
-      "returnPct": 4.01,
-      "qqqReturnPct": -4.26
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "V",
-      "direction": "LONG",
-      "entryPrice": 329.28,
-      "entryTime": "2026-06-18T15:35:30Z",
-      "exitPrice": 338.71,
-      "exitTime": "2026-06-26T15:36:23Z",
-      "open": false,
-      "returnPct": 2.86,
-      "qqqReturnPct": -4.6
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "JCI",
-      "direction": "LONG",
-      "entryPrice": 145.54,
-      "entryTime": "2026-06-25T15:22:33Z",
-      "exitPrice": 140.02,
-      "exitTime": "2026-06-26T15:23:03Z",
-      "open": false,
-      "returnPct": -3.79,
-      "qqqReturnPct": -1.38
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "JCI",
       "direction": "LONG",
@@ -12411,30 +5973,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-26T15:23:03Z",
       "open": false,
       "returnPct": -3.79,
-      "qqqReturnPct": -1.38
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "PM",
-      "direction": "LONG",
-      "entryPrice": 179.78,
-      "entryTime": "2026-06-25T15:22:33Z",
-      "exitPrice": 182.01,
-      "exitTime": "2026-06-26T15:23:02Z",
-      "open": false,
-      "returnPct": 1.24,
-      "qqqReturnPct": -1.38
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AAPL",
-      "direction": "LONG",
-      "entryPrice": 276.63,
-      "entryTime": "2026-06-25T15:22:33Z",
-      "exitPrice": 278.61,
-      "exitTime": "2026-06-26T15:23:02Z",
-      "open": false,
-      "returnPct": 0.72,
       "qqqReturnPct": -1.38
     },
     {
@@ -12462,30 +6000,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.38
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "SHOP",
-      "direction": "LONG",
-      "entryPrice": 112.53,
-      "entryTime": "2026-06-24T15:23:50Z",
-      "exitPrice": 116.29,
-      "exitTime": "2026-06-26T15:23:00Z",
-      "open": false,
-      "returnPct": 3.34,
-      "qqqReturnPct": -0.58
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "GS",
-      "direction": "LONG",
-      "entryPrice": 1081.55,
-      "entryTime": "2026-06-24T15:23:50Z",
-      "exitPrice": 1028.03,
-      "exitTime": "2026-06-26T15:23:00Z",
-      "open": false,
-      "returnPct": -4.95,
-      "qqqReturnPct": -0.58
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "SHOP",
       "direction": "LONG",
@@ -12508,18 +6022,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.95,
       "qqqReturnPct": -0.58
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MPWR",
-      "direction": "LONG",
-      "entryPrice": 1426.22,
-      "entryTime": "2026-06-23T15:20:20Z",
-      "exitPrice": 1328.97,
-      "exitTime": "2026-06-26T15:20:50Z",
-      "open": false,
-      "returnPct": -6.82,
-      "qqqReturnPct": -1.0
     },
     {
       "strategy": "Oracle",
@@ -12532,30 +6034,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -6.82,
       "qqqReturnPct": -1.0
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "HAL",
-      "direction": "LONG",
-      "entryPrice": 34.71,
-      "entryTime": "2026-06-18T15:21:10Z",
-      "exitPrice": 34.12,
-      "exitTime": "2026-06-26T15:20:48Z",
-      "open": false,
-      "returnPct": -1.7,
-      "qqqReturnPct": -4.6
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "OXY",
-      "direction": "LONG",
-      "entryPrice": 51.39,
-      "entryTime": "2026-06-18T15:21:10Z",
-      "exitPrice": 50.51,
-      "exitTime": "2026-06-26T15:20:48Z",
-      "open": false,
-      "returnPct": -1.71,
-      "qqqReturnPct": -4.6
     },
     {
       "strategy": "Oracle",
@@ -12582,54 +6060,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.6
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "HUBS",
-      "direction": "LONG",
-      "entryPrice": 182.14,
-      "entryTime": "2026-06-24T15:35:57Z",
-      "exitPrice": 174.26,
-      "exitTime": "2026-06-25T15:34:48Z",
-      "open": false,
-      "returnPct": -4.32,
-      "qqqReturnPct": 0.81
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "NOW",
-      "direction": "LONG",
-      "entryPrice": 95.96,
-      "entryTime": "2026-06-24T15:35:57Z",
-      "exitPrice": 90.66,
-      "exitTime": "2026-06-25T15:34:48Z",
-      "open": false,
-      "returnPct": -5.53,
-      "qqqReturnPct": 0.81
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "CDNS",
-      "direction": "LONG",
-      "entryPrice": 381.29,
-      "entryTime": "2026-06-22T15:36:38Z",
-      "exitPrice": 368.12,
-      "exitTime": "2026-06-25T15:34:46Z",
-      "open": false,
-      "returnPct": -3.45,
-      "qqqReturnPct": -2.92
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "NOW",
-      "direction": "LONG",
-      "entryPrice": 95.96,
-      "entryTime": "2026-06-24T15:23:50Z",
-      "exitPrice": 90.11,
-      "exitTime": "2026-06-25T15:21:28Z",
-      "open": false,
-      "returnPct": -6.1,
-      "qqqReturnPct": 0.81
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "NOW",
       "direction": "LONG",
@@ -12639,42 +6069,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-25T15:21:28Z",
       "open": false,
       "returnPct": -6.1,
-      "qqqReturnPct": 0.81
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "FDX",
-      "direction": "LONG",
-      "entryPrice": 321.64,
-      "entryTime": "2026-06-23T15:22:03Z",
-      "exitPrice": 326.36,
-      "exitTime": "2026-06-25T15:21:27Z",
-      "open": false,
-      "returnPct": 1.47,
-      "qqqReturnPct": 0.38
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "TXN",
-      "direction": "LONG",
-      "entryPrice": 304.85,
-      "entryTime": "2026-06-23T15:22:03Z",
-      "exitPrice": 309.52,
-      "exitTime": "2026-06-25T15:21:27Z",
-      "open": false,
-      "returnPct": 1.53,
-      "qqqReturnPct": 0.38
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "HUBS",
-      "direction": "LONG",
-      "entryPrice": 182.14,
-      "entryTime": "2026-06-24T15:23:50Z",
-      "exitPrice": 173.15,
-      "exitTime": "2026-06-25T15:21:27Z",
-      "open": false,
-      "returnPct": -4.94,
       "qqqReturnPct": 0.81
     },
     {
@@ -12714,18 +6108,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.81
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CDNS",
-      "direction": "LONG",
-      "entryPrice": 381.29,
-      "entryTime": "2026-06-22T15:23:35Z",
-      "exitPrice": 366.36,
-      "exitTime": "2026-06-25T15:21:26Z",
-      "open": false,
-      "returnPct": -3.91,
-      "qqqReturnPct": -2.92
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "CDNS",
       "direction": "LONG",
@@ -12738,18 +6120,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.92
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MDB",
-      "direction": "LONG",
-      "entryPrice": 313.36,
-      "entryTime": "2026-06-24T15:22:01Z",
-      "exitPrice": 296.16,
-      "exitTime": "2026-06-25T15:18:44Z",
-      "open": false,
-      "returnPct": -5.49,
-      "qqqReturnPct": 0.81
-    },
-    {
       "strategy": "Oracle",
       "ticker": "MDB",
       "direction": "LONG",
@@ -12759,30 +6129,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-25T15:18:44Z",
       "open": false,
       "returnPct": -5.49,
-      "qqqReturnPct": 0.81
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ORCL",
-      "direction": "LONG",
-      "entryPrice": 160.09,
-      "entryTime": "2026-06-24T15:22:01Z",
-      "exitPrice": 151.36,
-      "exitTime": "2026-06-25T15:18:43Z",
-      "open": false,
-      "returnPct": -5.45,
-      "qqqReturnPct": 0.81
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CHPT",
-      "direction": "LONG",
-      "entryPrice": 5.95,
-      "entryTime": "2026-06-24T15:22:01Z",
-      "exitPrice": 5.44,
-      "exitTime": "2026-06-25T15:18:43Z",
-      "open": false,
-      "returnPct": -8.56,
       "qqqReturnPct": 0.81
     },
     {
@@ -12810,18 +6156,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.81
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PLTR",
-      "direction": "LONG",
-      "entryPrice": 118.3,
-      "entryTime": "2026-06-23T15:20:20Z",
-      "exitPrice": 107.13,
-      "exitTime": "2026-06-25T15:18:42Z",
-      "open": false,
-      "returnPct": -9.44,
-      "qqqReturnPct": 0.38
-    },
-    {
       "strategy": "Oracle",
       "ticker": "PLTR",
       "direction": "LONG",
@@ -12831,30 +6165,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-25T15:18:42Z",
       "open": false,
       "returnPct": -9.44,
-      "qqqReturnPct": 0.38
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AI",
-      "direction": "LONG",
-      "entryPrice": 9.66,
-      "entryTime": "2026-06-23T15:20:20Z",
-      "exitPrice": 8.76,
-      "exitTime": "2026-06-25T15:18:41Z",
-      "open": false,
-      "returnPct": -9.37,
-      "qqqReturnPct": 0.38
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "TEAM",
-      "direction": "LONG",
-      "entryPrice": 80.59,
-      "entryTime": "2026-06-23T15:20:20Z",
-      "exitPrice": 76.76,
-      "exitTime": "2026-06-25T15:18:41Z",
-      "open": false,
-      "returnPct": -4.75,
       "qqqReturnPct": 0.38
     },
     {
@@ -12882,18 +6192,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.38
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SNAP",
-      "direction": "LONG",
-      "entryPrice": 4.48,
-      "entryTime": "2026-06-23T15:20:20Z",
-      "exitPrice": 4.3,
-      "exitTime": "2026-06-25T15:18:40Z",
-      "open": false,
-      "returnPct": -4.13,
-      "qqqReturnPct": 0.38
-    },
-    {
       "strategy": "Oracle",
       "ticker": "SNAP",
       "direction": "LONG",
@@ -12904,18 +6202,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.13,
       "qqqReturnPct": 0.38
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "BDX",
-      "direction": "LONG",
-      "entryPrice": 142.51,
-      "entryTime": "2026-06-18T15:21:10Z",
-      "exitPrice": 151.91,
-      "exitTime": "2026-06-25T15:18:38Z",
-      "open": false,
-      "returnPct": 6.59,
-      "qqqReturnPct": -3.27
     },
     {
       "strategy": "Oracle",
@@ -12930,18 +6216,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.27
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ICE",
-      "direction": "LONG",
-      "entryPrice": 133.87,
-      "entryTime": "2026-06-18T15:21:10Z",
-      "exitPrice": 127.48,
-      "exitTime": "2026-06-25T15:18:37Z",
-      "open": false,
-      "returnPct": -4.77,
-      "qqqReturnPct": -3.27
-    },
-    {
       "strategy": "Oracle",
       "ticker": "ICE",
       "direction": "LONG",
@@ -12952,42 +6226,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.77,
       "qqqReturnPct": -3.27
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "SPY",
-      "direction": "LONG",
-      "entryPrice": 754.9,
-      "entryTime": "2026-06-15T15:40:47Z",
-      "exitPrice": 739.5,
-      "exitTime": "2026-06-24T15:35:55Z",
-      "open": false,
-      "returnPct": -2.04,
-      "qqqReturnPct": -4.49
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "PINS",
-      "direction": "LONG",
-      "entryPrice": 19.93,
-      "entryTime": "2026-06-23T15:22:03Z",
-      "exitPrice": 20.34,
-      "exitTime": "2026-06-24T15:22:45Z",
-      "open": false,
-      "returnPct": 2.06,
-      "qqqReturnPct": -0.42
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "SOFI",
-      "direction": "LONG",
-      "entryPrice": 17.4,
-      "entryTime": "2026-06-23T15:22:03Z",
-      "exitPrice": 18.39,
-      "exitTime": "2026-06-24T15:22:45Z",
-      "open": false,
-      "returnPct": 5.72,
-      "qqqReturnPct": -0.42
     },
     {
       "strategy": "Kestrel",
@@ -13012,42 +6250,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 5.72,
       "qqqReturnPct": -0.42
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 407.62,
-      "entryTime": "2026-06-17T15:19:56Z",
-      "exitPrice": 405.11,
-      "exitTime": "2026-06-24T15:22:44Z",
-      "open": false,
-      "returnPct": -0.62,
-      "qqqReturnPct": -1.65
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "V",
-      "direction": "LONG",
-      "entryPrice": 329.28,
-      "entryTime": "2026-06-18T15:23:38Z",
-      "exitPrice": 334.58,
-      "exitTime": "2026-06-24T15:22:44Z",
-      "open": false,
-      "returnPct": 1.61,
-      "qqqReturnPct": -4.05
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ECL",
-      "direction": "LONG",
-      "entryPrice": 271.49,
-      "entryTime": "2026-06-22T15:23:35Z",
-      "exitPrice": 279.42,
-      "exitTime": "2026-06-24T15:22:44Z",
-      "open": false,
-      "returnPct": 2.92,
-      "qqqReturnPct": -3.7
     },
     {
       "strategy": "Kestrel",
@@ -13086,18 +6288,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.7
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "SPY",
-      "direction": "LONG",
-      "entryPrice": 754.9,
-      "entryTime": "2026-06-15T15:27:58Z",
-      "exitPrice": 739.18,
-      "exitTime": "2026-06-24T15:22:43Z",
-      "open": false,
-      "returnPct": -2.08,
-      "qqqReturnPct": -4.49
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "SPY",
       "direction": "LONG",
@@ -13110,18 +6300,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.49
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ORCL",
-      "direction": "LONG",
-      "entryPrice": 169.81,
-      "entryTime": "2026-06-23T15:20:20Z",
-      "exitPrice": 160.2,
-      "exitTime": "2026-06-24T15:20:42Z",
-      "open": false,
-      "returnPct": -5.66,
-      "qqqReturnPct": -0.42
-    },
-    {
       "strategy": "Oracle",
       "ticker": "ORCL",
       "direction": "LONG",
@@ -13132,54 +6310,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -5.66,
       "qqqReturnPct": -0.42
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XLE",
-      "direction": "LONG",
-      "entryPrice": 55.03,
-      "entryTime": "2026-06-17T15:17:27Z",
-      "exitPrice": 53.31,
-      "exitTime": "2026-06-24T15:20:38Z",
-      "open": false,
-      "returnPct": -3.12,
-      "qqqReturnPct": -1.65
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CVX",
-      "direction": "LONG",
-      "entryPrice": 179.25,
-      "entryTime": "2026-06-17T15:17:27Z",
-      "exitPrice": 171.52,
-      "exitTime": "2026-06-24T15:20:38Z",
-      "open": false,
-      "returnPct": -4.32,
-      "qqqReturnPct": -1.65
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "EPD",
-      "direction": "LONG",
-      "entryPrice": 36.58,
-      "entryTime": "2026-06-17T15:17:27Z",
-      "exitPrice": 36.71,
-      "exitTime": "2026-06-24T15:20:38Z",
-      "open": false,
-      "returnPct": 0.36,
-      "qqqReturnPct": -1.65
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "HOOD",
-      "direction": "SHORT",
-      "entryPrice": 105.38,
-      "entryTime": "2026-06-17T15:17:27Z",
-      "exitPrice": 100.77,
-      "exitTime": "2026-06-24T15:20:38Z",
-      "open": false,
-      "returnPct": 4.37,
-      "qqqReturnPct": -1.65
     },
     {
       "strategy": "Oracle",
@@ -13230,54 +6360,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.65
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "QQQ",
-      "direction": "LONG",
-      "entryPrice": 742.85,
-      "entryTime": "2026-06-15T15:40:47Z",
-      "exitPrice": 716.8,
-      "exitTime": "2026-06-23T15:34:18Z",
-      "open": false,
-      "returnPct": -3.51,
-      "qqqReturnPct": -4.08
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "ARM",
-      "direction": "LONG",
-      "entryPrice": 411.58,
-      "entryTime": "2026-06-22T15:36:38Z",
-      "exitPrice": 371.95,
-      "exitTime": "2026-06-23T15:34:18Z",
-      "open": false,
-      "returnPct": -9.63,
-      "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "LLY",
-      "direction": "LONG",
-      "entryPrice": 1132.53,
-      "entryTime": "2026-06-15T15:40:47Z",
-      "exitPrice": 1098.37,
-      "exitTime": "2026-06-23T15:34:17Z",
-      "open": false,
-      "returnPct": -3.02,
-      "qqqReturnPct": -4.08
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "LIN",
-      "direction": "LONG",
-      "entryPrice": 513.53,
-      "entryTime": "2026-06-22T15:23:35Z",
-      "exitPrice": 518.53,
-      "exitTime": "2026-06-23T15:21:02Z",
-      "open": false,
-      "returnPct": 0.97,
-      "qqqReturnPct": -3.29
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "LIN",
       "direction": "LONG",
@@ -13287,30 +6369,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-23T15:21:02Z",
       "open": false,
       "returnPct": 0.97,
-      "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "TMUS",
-      "direction": "LONG",
-      "entryPrice": 181.24,
-      "entryTime": "2026-06-22T15:23:35Z",
-      "exitPrice": 183.32,
-      "exitTime": "2026-06-23T15:21:01Z",
-      "open": false,
-      "returnPct": 1.15,
-      "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ARM",
-      "direction": "LONG",
-      "entryPrice": 411.58,
-      "entryTime": "2026-06-22T15:23:35Z",
-      "exitPrice": 372.07,
-      "exitTime": "2026-06-23T15:21:01Z",
-      "open": false,
-      "returnPct": -9.6,
       "qqqReturnPct": -3.29
     },
     {
@@ -13338,18 +6396,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.29
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "XLF",
-      "direction": "LONG",
-      "entryPrice": 53.92,
-      "entryTime": "2026-06-18T15:23:38Z",
-      "exitPrice": 53.96,
-      "exitTime": "2026-06-23T15:21:00Z",
-      "open": false,
-      "returnPct": 0.06,
-      "qqqReturnPct": -3.64
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "XLF",
       "direction": "LONG",
@@ -13360,42 +6406,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 0.06,
       "qqqReturnPct": -3.64
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "LLY",
-      "direction": "LONG",
-      "entryPrice": 1132.53,
-      "entryTime": "2026-06-15T15:27:58Z",
-      "exitPrice": 1100.53,
-      "exitTime": "2026-06-23T15:20:59Z",
-      "open": false,
-      "returnPct": -2.83,
-      "qqqReturnPct": -4.08
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "QQQ",
-      "direction": "LONG",
-      "entryPrice": 742.85,
-      "entryTime": "2026-06-15T15:27:58Z",
-      "exitPrice": 716.82,
-      "exitTime": "2026-06-23T15:20:59Z",
-      "open": false,
-      "returnPct": -3.5,
-      "qqqReturnPct": -4.08
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "OKE",
-      "direction": "LONG",
-      "entryPrice": 85.6,
-      "entryTime": "2026-06-16T15:24:37Z",
-      "exitPrice": 87.4,
-      "exitTime": "2026-06-23T15:20:59Z",
-      "open": false,
-      "returnPct": 2.1,
-      "qqqReturnPct": -2.22
     },
     {
       "strategy": "Kestrel",
@@ -13434,42 +6444,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.22
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MRNA",
-      "direction": "SHORT",
-      "entryPrice": 57.51,
-      "entryTime": "2026-06-22T15:21:48Z",
-      "exitPrice": 61.97,
-      "exitTime": "2026-06-23T15:19:04Z",
-      "open": false,
-      "returnPct": -7.76,
-      "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ARM",
-      "direction": "SHORT",
-      "entryPrice": 411.92,
-      "entryTime": "2026-06-22T15:21:48Z",
-      "exitPrice": 370.8,
-      "exitTime": "2026-06-23T15:19:04Z",
-      "open": false,
-      "returnPct": 9.98,
-      "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CHPT",
-      "direction": "SHORT",
-      "entryPrice": 8.04,
-      "entryTime": "2026-06-22T15:21:48Z",
-      "exitPrice": 7.17,
-      "exitTime": "2026-06-23T15:19:04Z",
-      "open": false,
-      "returnPct": 10.82,
-      "qqqReturnPct": -3.29
-    },
-    {
       "strategy": "Oracle",
       "ticker": "MRNA",
       "direction": "SHORT",
@@ -13504,42 +6478,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 10.82,
       "qqqReturnPct": -3.29
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMC",
-      "direction": "SHORT",
-      "entryPrice": 2.82,
-      "entryTime": "2026-06-18T15:21:10Z",
-      "exitPrice": 2.04,
-      "exitTime": "2026-06-23T15:19:02Z",
-      "open": false,
-      "returnPct": 27.35,
-      "qqqReturnPct": -3.64
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "WDC",
-      "direction": "SHORT",
-      "entryPrice": 774.0,
-      "entryTime": "2026-06-18T15:21:10Z",
-      "exitPrice": 661.36,
-      "exitTime": "2026-06-23T15:19:02Z",
-      "open": false,
-      "returnPct": 14.55,
-      "qqqReturnPct": -3.64
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMAT",
-      "direction": "SHORT",
-      "entryPrice": 632.5,
-      "entryTime": "2026-06-18T15:21:10Z",
-      "exitPrice": 579.71,
-      "exitTime": "2026-06-23T15:19:02Z",
-      "open": false,
-      "returnPct": 8.35,
-      "qqqReturnPct": -3.64
     },
     {
       "strategy": "Oracle",
@@ -13578,126 +6516,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.64
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "NSC",
-      "direction": "LONG",
-      "entryPrice": 303.65,
-      "entryTime": "2026-06-17T15:32:12Z",
-      "exitPrice": 305.0,
-      "exitTime": "2026-06-22T15:36:37Z",
-      "open": false,
-      "returnPct": 0.44,
-      "qqqReturnPct": 2.14
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "XLF",
-      "direction": "LONG",
-      "entryPrice": 53.92,
-      "entryTime": "2026-06-18T15:35:30Z",
-      "exitPrice": 53.84,
-      "exitTime": "2026-06-22T15:36:37Z",
-      "open": false,
-      "returnPct": -0.15,
-      "qqqReturnPct": -0.36
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "TEAM",
-      "direction": "LONG",
-      "entryPrice": 84.6,
-      "entryTime": "2026-06-18T15:35:30Z",
-      "exitPrice": 80.94,
-      "exitTime": "2026-06-22T15:36:37Z",
-      "open": false,
-      "returnPct": -4.32,
-      "qqqReturnPct": -0.36
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "DHI",
-      "direction": "LONG",
-      "entryPrice": 159.6,
-      "entryTime": "2026-06-17T15:32:12Z",
-      "exitPrice": 157.66,
-      "exitTime": "2026-06-22T15:36:36Z",
-      "open": false,
-      "returnPct": -1.22,
-      "qqqReturnPct": 2.14
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "ENB",
-      "direction": "LONG",
-      "entryPrice": 55.03,
-      "entryTime": "2026-06-17T15:32:12Z",
-      "exitPrice": 54.76,
-      "exitTime": "2026-06-22T15:36:36Z",
-      "open": false,
-      "returnPct": -0.5,
-      "qqqReturnPct": 2.14
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "DUK",
-      "direction": "LONG",
-      "entryPrice": 125.03,
-      "entryTime": "2026-06-15T15:40:47Z",
-      "exitPrice": 124.35,
-      "exitTime": "2026-06-22T15:36:35Z",
-      "open": false,
-      "returnPct": -0.54,
-      "qqqReturnPct": -0.81
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "XLRE",
-      "direction": "LONG",
-      "entryPrice": 45.26,
-      "entryTime": "2026-06-10T15:42:30Z",
-      "exitPrice": 44.04,
-      "exitTime": "2026-06-22T15:36:34Z",
-      "open": false,
-      "returnPct": -2.7,
-      "qqqReturnPct": 6.38
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 406.32,
-      "entryTime": "2026-06-11T15:42:12Z",
-      "exitPrice": 404.56,
-      "exitTime": "2026-06-22T15:36:34Z",
-      "open": false,
-      "returnPct": -0.43,
-      "qqqReturnPct": 2.9
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "ELV",
-      "direction": "LONG",
-      "entryPrice": 398.97,
-      "entryTime": "2026-06-12T15:40:39Z",
-      "exitPrice": 396.29,
-      "exitTime": "2026-06-22T15:36:34Z",
-      "open": false,
-      "returnPct": -0.67,
-      "qqqReturnPct": 2.3
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "TEAM",
-      "direction": "LONG",
-      "entryPrice": 84.6,
-      "entryTime": "2026-06-18T15:23:38Z",
-      "exitPrice": 80.61,
-      "exitTime": "2026-06-22T15:22:31Z",
-      "open": false,
-      "returnPct": -4.72,
-      "qqqReturnPct": -0.36
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "TEAM",
       "direction": "LONG",
@@ -13707,30 +6525,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-22T15:22:31Z",
       "open": false,
       "returnPct": -4.72,
-      "qqqReturnPct": -0.36
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ENB",
-      "direction": "LONG",
-      "entryPrice": 55.03,
-      "entryTime": "2026-06-17T15:19:56Z",
-      "exitPrice": 54.93,
-      "exitTime": "2026-06-22T15:22:30Z",
-      "open": false,
-      "returnPct": -0.18,
-      "qqqReturnPct": 2.14
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "HUBS",
-      "direction": "LONG",
-      "entryPrice": 180.95,
-      "entryTime": "2026-06-18T15:23:38Z",
-      "exitPrice": 172.79,
-      "exitTime": "2026-06-22T15:22:30Z",
-      "open": false,
-      "returnPct": -4.51,
       "qqqReturnPct": -0.36
     },
     {
@@ -13758,18 +6552,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.36
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "DHI",
-      "direction": "LONG",
-      "entryPrice": 159.6,
-      "entryTime": "2026-06-17T15:19:56Z",
-      "exitPrice": 157.6,
-      "exitTime": "2026-06-22T15:22:29Z",
-      "open": false,
-      "returnPct": -1.25,
-      "qqqReturnPct": 2.14
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "DHI",
       "direction": "LONG",
@@ -13780,18 +6562,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -1.25,
       "qqqReturnPct": 2.14
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MAR",
-      "direction": "LONG",
-      "entryPrice": 402.35,
-      "entryTime": "2026-06-15T15:27:58Z",
-      "exitPrice": 389.46,
-      "exitTime": "2026-06-22T15:22:28Z",
-      "open": false,
-      "returnPct": -3.2,
-      "qqqReturnPct": -0.81
     },
     {
       "strategy": "Kestrel",
@@ -13806,18 +6576,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.81
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "XLRE",
-      "direction": "LONG",
-      "entryPrice": 45.26,
-      "entryTime": "2026-06-10T15:29:25Z",
-      "exitPrice": 44.03,
-      "exitTime": "2026-06-22T15:22:27Z",
-      "open": false,
-      "returnPct": -2.7,
-      "qqqReturnPct": 6.38
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "XLRE",
       "direction": "LONG",
@@ -13830,18 +6588,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 6.38
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MRNA",
-      "direction": "SHORT",
-      "entryPrice": 62.02,
-      "entryTime": "2026-06-18T15:21:10Z",
-      "exitPrice": 57.68,
-      "exitTime": "2026-06-22T15:20:31Z",
-      "open": false,
-      "returnPct": 7.0,
-      "qqqReturnPct": -0.36
-    },
-    {
       "strategy": "Oracle",
       "ticker": "MRNA",
       "direction": "SHORT",
@@ -13851,18 +6597,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-22T15:20:31Z",
       "open": false,
       "returnPct": 7.0,
-      "qqqReturnPct": -0.36
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NFLX",
-      "direction": "LONG",
-      "entryPrice": 77.14,
-      "entryTime": "2026-06-18T15:21:10Z",
-      "exitPrice": 73.92,
-      "exitTime": "2026-06-22T15:20:29Z",
-      "open": false,
-      "returnPct": -4.17,
       "qqqReturnPct": -0.36
     },
     {
@@ -13876,42 +6610,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.17,
       "qqqReturnPct": -0.36
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ADSK",
-      "direction": "LONG",
-      "entryPrice": 200.34,
-      "entryTime": "2026-06-12T15:26:28Z",
-      "exitPrice": 189.39,
-      "exitTime": "2026-06-22T15:20:27Z",
-      "open": false,
-      "returnPct": -5.46,
-      "qqqReturnPct": 2.3
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MSFT",
-      "direction": "LONG",
-      "entryPrice": 389.67,
-      "entryTime": "2026-06-12T15:26:28Z",
-      "exitPrice": 371.0,
-      "exitTime": "2026-06-22T15:20:27Z",
-      "open": false,
-      "returnPct": -4.79,
-      "qqqReturnPct": 2.3
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "KLAC",
-      "direction": "SHORT",
-      "entryPrice": 248.88,
-      "entryTime": "2026-06-12T15:26:28Z",
-      "exitPrice": 267.64,
-      "exitTime": "2026-06-22T15:20:27Z",
-      "open": false,
-      "returnPct": -7.54,
-      "qqqReturnPct": 2.3
     },
     {
       "strategy": "Oracle",
@@ -13950,18 +6648,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.3
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "DIS",
-      "direction": "LONG",
-      "entryPrice": 98.64,
-      "entryTime": "2026-06-11T15:27:22Z",
-      "exitPrice": 102.83,
-      "exitTime": "2026-06-22T15:20:26Z",
-      "open": false,
-      "returnPct": 4.25,
-      "qqqReturnPct": 2.9
-    },
-    {
       "strategy": "Oracle",
       "ticker": "DIS",
       "direction": "LONG",
@@ -13974,54 +6660,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.9
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "F",
-      "direction": "LONG",
-      "entryPrice": 14.78,
-      "entryTime": "2026-06-15T15:40:47Z",
-      "exitPrice": 13.96,
-      "exitTime": "2026-06-18T15:35:27Z",
-      "open": false,
-      "returnPct": -5.56,
-      "qqqReturnPct": -0.45
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "WMB",
-      "direction": "LONG",
-      "entryPrice": 72.78,
-      "entryTime": "2026-06-12T15:40:39Z",
-      "exitPrice": 72.26,
-      "exitTime": "2026-06-18T15:35:26Z",
-      "open": false,
-      "returnPct": -0.72,
-      "qqqReturnPct": 2.67
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "KO",
-      "direction": "LONG",
-      "entryPrice": 82.3,
-      "entryTime": "2026-06-12T15:40:39Z",
-      "exitPrice": 78.94,
-      "exitTime": "2026-06-18T15:35:26Z",
-      "open": false,
-      "returnPct": -4.08,
-      "qqqReturnPct": 2.67
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "NSC",
-      "direction": "LONG",
-      "entryPrice": 303.65,
-      "entryTime": "2026-06-17T15:19:56Z",
-      "exitPrice": 303.73,
-      "exitTime": "2026-06-18T15:22:37Z",
-      "open": false,
-      "returnPct": 0.02,
-      "qqqReturnPct": 2.51
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "NSC",
       "direction": "LONG",
@@ -14031,18 +6669,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-18T15:22:37Z",
       "open": false,
       "returnPct": 0.02,
-      "qqqReturnPct": 2.51
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "HOOD",
-      "direction": "LONG",
-      "entryPrice": 105.59,
-      "entryTime": "2026-06-17T15:19:56Z",
-      "exitPrice": 108.05,
-      "exitTime": "2026-06-18T15:22:36Z",
-      "open": false,
-      "returnPct": 2.33,
       "qqqReturnPct": 2.51
     },
     {
@@ -14058,18 +6684,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.51
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "KO",
-      "direction": "LONG",
-      "entryPrice": 82.3,
-      "entryTime": "2026-06-12T15:28:15Z",
-      "exitPrice": 78.98,
-      "exitTime": "2026-06-18T15:22:35Z",
-      "open": false,
-      "returnPct": -4.03,
-      "qqqReturnPct": 2.67
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "KO",
       "direction": "LONG",
@@ -14079,18 +6693,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-18T15:22:35Z",
       "open": false,
       "returnPct": -4.03,
-      "qqqReturnPct": 2.67
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "WMB",
-      "direction": "LONG",
-      "entryPrice": 72.78,
-      "entryTime": "2026-06-12T15:28:15Z",
-      "exitPrice": 72.23,
-      "exitTime": "2026-06-18T15:22:34Z",
-      "open": false,
-      "returnPct": -0.77,
       "qqqReturnPct": 2.67
     },
     {
@@ -14104,30 +6706,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -0.77,
       "qqqReturnPct": 2.67
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMC",
-      "direction": "SHORT",
-      "entryPrice": 2.68,
-      "entryTime": "2026-06-17T15:17:27Z",
-      "exitPrice": 2.81,
-      "exitTime": "2026-06-18T15:19:55Z",
-      "open": false,
-      "returnPct": -4.66,
-      "qqqReturnPct": 2.51
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "WDC",
-      "direction": "SHORT",
-      "entryPrice": 724.27,
-      "entryTime": "2026-06-17T15:17:27Z",
-      "exitPrice": 770.6,
-      "exitTime": "2026-06-18T15:19:55Z",
-      "open": false,
-      "returnPct": -6.4,
-      "qqqReturnPct": 2.51
     },
     {
       "strategy": "Oracle",
@@ -14154,30 +6732,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.51
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CRM",
-      "direction": "LONG",
-      "entryPrice": 158.67,
-      "entryTime": "2026-06-17T15:17:27Z",
-      "exitPrice": 151.97,
-      "exitTime": "2026-06-18T15:19:54Z",
-      "open": false,
-      "returnPct": -4.22,
-      "qqqReturnPct": 2.51
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "OXY",
-      "direction": "LONG",
-      "entryPrice": 53.59,
-      "entryTime": "2026-06-17T15:17:27Z",
-      "exitPrice": 51.34,
-      "exitTime": "2026-06-18T15:19:54Z",
-      "open": false,
-      "returnPct": -4.19,
-      "qqqReturnPct": 2.51
-    },
-    {
       "strategy": "Oracle",
       "ticker": "CRM",
       "direction": "LONG",
@@ -14200,42 +6754,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.19,
       "qqqReturnPct": 2.51
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMAT",
-      "direction": "SHORT",
-      "entryPrice": 594.41,
-      "entryTime": "2026-06-15T15:25:24Z",
-      "exitPrice": 631.82,
-      "exitTime": "2026-06-18T15:19:53Z",
-      "open": false,
-      "returnPct": -6.29,
-      "qqqReturnPct": -0.45
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XPEV",
-      "direction": "LONG",
-      "entryPrice": 13.99,
-      "entryTime": "2026-06-16T15:22:28Z",
-      "exitPrice": 13.12,
-      "exitTime": "2026-06-18T15:19:53Z",
-      "open": false,
-      "returnPct": -6.22,
-      "qqqReturnPct": 1.47
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ICE",
-      "direction": "LONG",
-      "entryPrice": 139.8,
-      "entryTime": "2026-06-16T15:22:28Z",
-      "exitPrice": 133.88,
-      "exitTime": "2026-06-18T15:19:53Z",
-      "open": false,
-      "returnPct": -4.23,
-      "qqqReturnPct": 1.47
     },
     {
       "strategy": "Oracle",
@@ -14274,42 +6792,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.47
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NFLX",
-      "direction": "LONG",
-      "entryPrice": 81.19,
-      "entryTime": "2026-06-15T15:25:24Z",
-      "exitPrice": 77.17,
-      "exitTime": "2026-06-18T15:19:52Z",
-      "open": false,
-      "returnPct": -4.96,
-      "qqqReturnPct": -0.45
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ADBE",
-      "direction": "LONG",
-      "entryPrice": 208.99,
-      "entryTime": "2026-06-15T15:25:24Z",
-      "exitPrice": 194.72,
-      "exitTime": "2026-06-18T15:19:52Z",
-      "open": false,
-      "returnPct": -6.83,
-      "qqqReturnPct": -0.45
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "INTU",
-      "direction": "LONG",
-      "entryPrice": 286.45,
-      "entryTime": "2026-06-15T15:25:24Z",
-      "exitPrice": 264.62,
-      "exitTime": "2026-06-18T15:19:52Z",
-      "open": false,
-      "returnPct": -7.62,
-      "qqqReturnPct": -0.45
-    },
-    {
       "strategy": "Oracle",
       "ticker": "NFLX",
       "direction": "LONG",
@@ -14344,42 +6826,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -7.62,
       "qqqReturnPct": -0.45
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "GILD",
-      "direction": "LONG",
-      "entryPrice": 122.6,
-      "entryTime": "2026-06-10T15:27:29Z",
-      "exitPrice": 122.64,
-      "exitTime": "2026-06-18T15:19:50Z",
-      "open": false,
-      "returnPct": 0.03,
-      "qqqReturnPct": 6.77
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "HUM",
-      "direction": "SHORT",
-      "entryPrice": 366.53,
-      "entryTime": "2026-06-10T15:27:29Z",
-      "exitPrice": 366.93,
-      "exitTime": "2026-06-18T15:19:50Z",
-      "open": false,
-      "returnPct": -0.11,
-      "qqqReturnPct": 6.77
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PENN",
-      "direction": "SHORT",
-      "entryPrice": 21.1,
-      "entryTime": "2026-06-10T15:27:29Z",
-      "exitPrice": 21.25,
-      "exitTime": "2026-06-18T15:19:50Z",
-      "open": false,
-      "returnPct": -0.71,
-      "qqqReturnPct": 6.77
     },
     {
       "strategy": "Oracle",
@@ -14418,126 +6864,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 6.77
     },
     {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "ESG",
-      "direction": "LONG",
-      "entryPrice": 172.65,
-      "entryTime": "2026-06-10T14:18:09Z",
-      "exitPrice": 174.02,
-      "exitTime": "2026-06-18T14:14:40Z",
-      "open": false,
-      "returnPct": 0.8,
-      "qqqReturnPct": 6.77
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "ASTS",
-      "direction": "LONG",
-      "entryPrice": 84.97,
-      "entryTime": "2026-06-15T14:17:25Z",
-      "exitPrice": 78.58,
-      "exitTime": "2026-06-18T14:14:40Z",
-      "open": false,
-      "returnPct": -7.52,
-      "qqqReturnPct": -0.45
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "ESG",
-      "direction": "LONG",
-      "entryPrice": 172.65,
-      "entryTime": "2026-06-10T14:18:09Z",
-      "exitPrice": 174.02,
-      "exitTime": "2026-06-18T14:14:40Z",
-      "open": false,
-      "returnPct": 0.8,
-      "qqqReturnPct": 6.77
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "ASTS",
-      "direction": "LONG",
-      "entryPrice": 84.97,
-      "entryTime": "2026-06-15T14:17:25Z",
-      "exitPrice": 78.58,
-      "exitTime": "2026-06-18T14:14:40Z",
-      "open": false,
-      "returnPct": -7.52,
-      "qqqReturnPct": -0.45
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "DUK",
-      "direction": "LONG",
-      "entryPrice": 124.55,
-      "entryTime": "2026-06-12T15:40:39Z",
-      "exitPrice": 124.64,
-      "exitTime": "2026-06-17T15:32:09Z",
-      "open": false,
-      "returnPct": 0.08,
-      "qqqReturnPct": 0.16
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "ABBV",
-      "direction": "LONG",
-      "entryPrice": 224.54,
-      "entryTime": "2026-06-12T15:40:39Z",
-      "exitPrice": 222.05,
-      "exitTime": "2026-06-17T15:32:09Z",
-      "open": false,
-      "returnPct": -1.11,
-      "qqqReturnPct": 0.16
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "OKTA",
-      "direction": "LONG",
-      "entryPrice": 116.29,
-      "entryTime": "2026-06-11T15:42:12Z",
-      "exitPrice": 115.59,
-      "exitTime": "2026-06-17T15:32:08Z",
-      "open": false,
-      "returnPct": -0.6,
-      "qqqReturnPct": 0.75
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AAPL",
-      "direction": "LONG",
-      "entryPrice": 292.53,
-      "entryTime": "2026-06-09T15:38:35Z",
-      "exitPrice": 297.33,
-      "exitTime": "2026-06-17T15:32:07Z",
-      "open": false,
-      "returnPct": 1.64,
-      "qqqReturnPct": 2.07
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ABBV",
-      "direction": "LONG",
-      "entryPrice": 224.54,
-      "entryTime": "2026-06-12T15:28:15Z",
-      "exitPrice": 222.71,
-      "exitTime": "2026-06-17T15:18:52Z",
-      "open": false,
-      "returnPct": -0.82,
-      "qqqReturnPct": 0.16
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "F",
-      "direction": "LONG",
-      "entryPrice": 14.78,
-      "entryTime": "2026-06-15T15:27:58Z",
-      "exitPrice": 14.3,
-      "exitTime": "2026-06-17T15:18:52Z",
-      "open": false,
-      "returnPct": -3.26,
-      "qqqReturnPct": -2.89
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "ABBV",
       "direction": "LONG",
@@ -14562,18 +6888,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.89
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AAPL",
-      "direction": "LONG",
-      "entryPrice": 292.53,
-      "entryTime": "2026-06-09T15:26:06Z",
-      "exitPrice": 298.1,
-      "exitTime": "2026-06-17T15:18:51Z",
-      "open": false,
-      "returnPct": 1.9,
-      "qqqReturnPct": 2.07
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "AAPL",
       "direction": "LONG",
@@ -14584,30 +6898,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.9,
       "qqqReturnPct": 2.07
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMC",
-      "direction": "SHORT",
-      "entryPrice": 2.38,
-      "entryTime": "2026-06-16T15:22:28Z",
-      "exitPrice": 2.68,
-      "exitTime": "2026-06-17T15:16:12Z",
-      "open": false,
-      "returnPct": -12.82,
-      "qqqReturnPct": -1.01
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "WDC",
-      "direction": "SHORT",
-      "entryPrice": 681.0,
-      "entryTime": "2026-06-16T15:22:28Z",
-      "exitPrice": 723.68,
-      "exitTime": "2026-06-17T15:16:12Z",
-      "open": false,
-      "returnPct": -6.27,
-      "qqqReturnPct": -1.01
     },
     {
       "strategy": "Oracle",
@@ -14634,18 +6924,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.01
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CRM",
-      "direction": "LONG",
-      "entryPrice": 167.33,
-      "entryTime": "2026-06-15T15:25:24Z",
-      "exitPrice": 158.72,
-      "exitTime": "2026-06-17T15:16:10Z",
-      "open": false,
-      "returnPct": -5.15,
-      "qqqReturnPct": -2.89
-    },
-    {
       "strategy": "Oracle",
       "ticker": "CRM",
       "direction": "LONG",
@@ -14658,18 +6936,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.89
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PDD",
-      "direction": "LONG",
-      "entryPrice": 82.46,
-      "entryTime": "2026-06-09T15:23:39Z",
-      "exitPrice": 80.68,
-      "exitTime": "2026-06-17T15:16:07Z",
-      "open": false,
-      "returnPct": -2.15,
-      "qqqReturnPct": 2.07
-    },
-    {
       "strategy": "Oracle",
       "ticker": "PDD",
       "direction": "LONG",
@@ -14680,102 +6946,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -2.15,
       "qqqReturnPct": 2.07
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "AR",
-      "direction": "LONG",
-      "entryPrice": 34.78,
-      "entryTime": "2026-06-09T14:17:13Z",
-      "exitPrice": 33.88,
-      "exitTime": "2026-06-17T14:14:11Z",
-      "open": false,
-      "returnPct": -2.59,
-      "qqqReturnPct": 2.07
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "NFLX",
-      "direction": "LONG",
-      "entryPrice": 81.78,
-      "entryTime": "2026-06-10T14:18:09Z",
-      "exitPrice": 77.97,
-      "exitTime": "2026-06-17T14:14:11Z",
-      "open": false,
-      "returnPct": -4.66,
-      "qqqReturnPct": 4.15
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "RKLB",
-      "direction": "LONG",
-      "entryPrice": 105.77,
-      "entryTime": "2026-06-12T14:17:19Z",
-      "exitPrice": 109.4,
-      "exitTime": "2026-06-17T14:14:11Z",
-      "open": false,
-      "returnPct": 3.43,
-      "qqqReturnPct": 0.16
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "AR",
-      "direction": "LONG",
-      "entryPrice": 34.78,
-      "entryTime": "2026-06-09T14:17:13Z",
-      "exitPrice": 33.88,
-      "exitTime": "2026-06-17T14:14:11Z",
-      "open": false,
-      "returnPct": -2.59,
-      "qqqReturnPct": 2.07
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "NFLX",
-      "direction": "LONG",
-      "entryPrice": 81.78,
-      "entryTime": "2026-06-10T14:18:09Z",
-      "exitPrice": 77.97,
-      "exitTime": "2026-06-17T14:14:11Z",
-      "open": false,
-      "returnPct": -4.66,
-      "qqqReturnPct": 4.15
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "RKLB",
-      "direction": "LONG",
-      "entryPrice": 105.77,
-      "entryTime": "2026-06-12T14:17:19Z",
-      "exitPrice": 109.4,
-      "exitTime": "2026-06-17T14:14:11Z",
-      "open": false,
-      "returnPct": 3.43,
-      "qqqReturnPct": 0.16
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "OKE",
-      "direction": "LONG",
-      "entryPrice": 91.31,
-      "entryTime": "2026-06-12T15:40:39Z",
-      "exitPrice": 85.79,
-      "exitTime": "2026-06-16T15:36:07Z",
-      "open": false,
-      "returnPct": -6.05,
-      "qqqReturnPct": 1.18
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "DUK",
-      "direction": "LONG",
-      "entryPrice": 125.03,
-      "entryTime": "2026-06-15T15:27:58Z",
-      "exitPrice": 126.29,
-      "exitTime": "2026-06-16T15:23:31Z",
-      "open": false,
-      "returnPct": 1.01,
-      "qqqReturnPct": -1.9
     },
     {
       "strategy": "Kestrel",
@@ -14787,18 +6957,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-16T15:23:31Z",
       "open": false,
       "returnPct": 1.01,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "HUBS",
-      "direction": "LONG",
-      "entryPrice": 192.32,
-      "entryTime": "2026-06-15T15:25:24Z",
-      "exitPrice": 182.15,
-      "exitTime": "2026-06-16T15:21:12Z",
-      "open": false,
-      "returnPct": -5.29,
       "qqqReturnPct": -1.9
     },
     {
@@ -14814,18 +6972,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.9
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XPEV",
-      "direction": "LONG",
-      "entryPrice": 14.65,
-      "entryTime": "2026-06-12T15:26:28Z",
-      "exitPrice": 13.98,
-      "exitTime": "2026-06-16T15:21:10Z",
-      "open": false,
-      "returnPct": -4.57,
-      "qqqReturnPct": 1.18
-    },
-    {
       "strategy": "Oracle",
       "ticker": "XPEV",
       "direction": "LONG",
@@ -14836,18 +6982,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.57,
       "qqqReturnPct": 1.18
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMC",
-      "direction": "SHORT",
-      "entryPrice": 2.26,
-      "entryTime": "2026-06-11T15:27:22Z",
-      "exitPrice": 2.37,
-      "exitTime": "2026-06-16T15:21:09Z",
-      "open": false,
-      "returnPct": -4.87,
-      "qqqReturnPct": 1.78
     },
     {
       "strategy": "Oracle",
@@ -14862,150 +6996,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.78
     },
     {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "UAE",
-      "direction": "LONG",
-      "entryPrice": 18.79,
-      "entryTime": "2026-06-10T14:18:09Z",
-      "exitPrice": 19.63,
-      "exitTime": "2026-06-16T14:16:28Z",
-      "open": false,
-      "returnPct": 4.47,
-      "qqqReturnPct": 5.21
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "LUNR",
-      "direction": "LONG",
-      "entryPrice": 26.22,
-      "entryTime": "2026-06-15T14:17:25Z",
-      "exitPrice": 23.45,
-      "exitTime": "2026-06-16T14:16:28Z",
-      "open": false,
-      "returnPct": -10.56,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "UAE",
-      "direction": "LONG",
-      "entryPrice": 18.79,
-      "entryTime": "2026-06-10T14:18:09Z",
-      "exitPrice": 19.63,
-      "exitTime": "2026-06-16T14:16:28Z",
-      "open": false,
-      "returnPct": 4.47,
-      "qqqReturnPct": 5.21
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "LUNR",
-      "direction": "LONG",
-      "entryPrice": 26.22,
-      "entryTime": "2026-06-15T14:17:25Z",
-      "exitPrice": 23.45,
-      "exitTime": "2026-06-16T14:16:28Z",
-      "open": false,
-      "returnPct": -10.56,
-      "qqqReturnPct": -1.9
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "COP",
-      "direction": "LONG",
-      "entryPrice": 117.53,
-      "entryTime": "2026-06-12T15:40:39Z",
-      "exitPrice": 112.66,
-      "exitTime": "2026-06-15T15:40:45Z",
-      "open": false,
-      "returnPct": -4.14,
-      "qqqReturnPct": 3.14
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "NET",
-      "direction": "LONG",
-      "entryPrice": 223.53,
-      "entryTime": "2026-06-11T15:42:12Z",
-      "exitPrice": 237.77,
-      "exitTime": "2026-06-15T15:40:44Z",
-      "open": false,
-      "returnPct": 6.37,
-      "qqqReturnPct": 3.75
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "JCI",
-      "direction": "LONG",
-      "entryPrice": 143.57,
-      "entryTime": "2026-06-10T15:42:30Z",
-      "exitPrice": 147.52,
-      "exitTime": "2026-06-15T15:40:43Z",
-      "open": false,
-      "returnPct": 2.75,
-      "qqqReturnPct": 7.25
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AEP",
-      "direction": "LONG",
-      "entryPrice": 129.75,
-      "entryTime": "2026-06-05T15:40:31Z",
-      "exitPrice": 129.25,
-      "exitTime": "2026-06-15T15:40:42Z",
-      "open": false,
-      "returnPct": -0.39,
-      "qqqReturnPct": 5.52
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "CL",
-      "direction": "LONG",
-      "entryPrice": 88.38,
-      "entryTime": "2026-06-09T15:38:35Z",
-      "exitPrice": 89.66,
-      "exitTime": "2026-06-15T15:40:42Z",
-      "open": false,
-      "returnPct": 1.45,
-      "qqqReturnPct": 5.11
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AMZN",
-      "direction": "LONG",
-      "entryPrice": 243.6,
-      "entryTime": "2026-06-09T15:38:35Z",
-      "exitPrice": 245.88,
-      "exitTime": "2026-06-15T15:40:42Z",
-      "open": false,
-      "returnPct": 0.94,
-      "qqqReturnPct": 5.11
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "XLV",
-      "direction": "LONG",
-      "entryPrice": 154.6,
-      "entryTime": "2026-06-05T15:40:31Z",
-      "exitPrice": 153.28,
-      "exitTime": "2026-06-15T15:40:41Z",
-      "open": false,
-      "returnPct": -0.85,
-      "qqqReturnPct": 5.52
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ELV",
-      "direction": "LONG",
-      "entryPrice": 398.97,
-      "entryTime": "2026-06-12T15:28:15Z",
-      "exitPrice": 404.6,
-      "exitTime": "2026-06-15T15:26:51Z",
-      "open": false,
-      "returnPct": 1.41,
-      "qqqReturnPct": 3.14
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "ELV",
       "direction": "LONG",
@@ -15018,18 +7008,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "DUK",
-      "direction": "LONG",
-      "entryPrice": 124.55,
-      "entryTime": "2026-06-12T15:28:15Z",
-      "exitPrice": 125.02,
-      "exitTime": "2026-06-15T15:26:50Z",
-      "open": false,
-      "returnPct": 0.38,
-      "qqqReturnPct": 3.14
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "DUK",
       "direction": "LONG",
@@ -15039,30 +7017,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-15T15:26:50Z",
       "open": false,
       "returnPct": 0.38,
-      "qqqReturnPct": 3.14
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "COP",
-      "direction": "LONG",
-      "entryPrice": 117.53,
-      "entryTime": "2026-06-12T15:28:15Z",
-      "exitPrice": 112.4,
-      "exitTime": "2026-06-15T15:26:49Z",
-      "open": false,
-      "returnPct": -4.36,
-      "qqqReturnPct": 3.14
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "OKE",
-      "direction": "LONG",
-      "entryPrice": 91.31,
-      "entryTime": "2026-06-12T15:28:15Z",
-      "exitPrice": 88.08,
-      "exitTime": "2026-06-15T15:26:49Z",
-      "open": false,
-      "returnPct": -3.53,
       "qqqReturnPct": 3.14
     },
     {
@@ -15088,42 +7042,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -3.53,
       "qqqReturnPct": 3.14
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "XLV",
-      "direction": "LONG",
-      "entryPrice": 154.6,
-      "entryTime": "2026-06-05T15:27:41Z",
-      "exitPrice": 153.2,
-      "exitTime": "2026-06-15T15:26:48Z",
-      "open": false,
-      "returnPct": -0.91,
-      "qqqReturnPct": 5.52
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AEP",
-      "direction": "LONG",
-      "entryPrice": 129.75,
-      "entryTime": "2026-06-05T15:27:41Z",
-      "exitPrice": 129.04,
-      "exitTime": "2026-06-15T15:26:48Z",
-      "open": false,
-      "returnPct": -0.54,
-      "qqqReturnPct": 5.52
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMZN",
-      "direction": "LONG",
-      "entryPrice": 243.6,
-      "entryTime": "2026-06-09T15:26:06Z",
-      "exitPrice": 246.13,
-      "exitTime": "2026-06-15T15:26:48Z",
-      "open": false,
-      "returnPct": 1.04,
-      "qqqReturnPct": 5.11
     },
     {
       "strategy": "Kestrel",
@@ -15162,30 +7080,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.11
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMAT",
-      "direction": "SHORT",
-      "entryPrice": 562.8,
-      "entryTime": "2026-06-12T15:26:28Z",
-      "exitPrice": 594.4,
-      "exitTime": "2026-06-15T15:24:07Z",
-      "open": false,
-      "returnPct": -5.61,
-      "qqqReturnPct": 3.14
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LRCX",
-      "direction": "SHORT",
-      "entryPrice": 370.87,
-      "entryTime": "2026-06-12T15:26:28Z",
-      "exitPrice": 388.74,
-      "exitTime": "2026-06-15T15:24:07Z",
-      "open": false,
-      "returnPct": -4.82,
-      "qqqReturnPct": 3.14
-    },
-    {
       "strategy": "Oracle",
       "ticker": "AMAT",
       "direction": "SHORT",
@@ -15210,18 +7104,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "UBER",
-      "direction": "LONG",
-      "entryPrice": 68.43,
-      "entryTime": "2026-06-12T15:26:28Z",
-      "exitPrice": 72.83,
-      "exitTime": "2026-06-15T15:24:06Z",
-      "open": false,
-      "returnPct": 6.43,
-      "qqqReturnPct": 3.14
-    },
-    {
       "strategy": "Oracle",
       "ticker": "UBER",
       "direction": "LONG",
@@ -15234,18 +7116,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "GLD",
-      "direction": "LONG",
-      "entryPrice": 374.63,
-      "entryTime": "2026-06-11T15:27:22Z",
-      "exitPrice": 399.78,
-      "exitTime": "2026-06-15T15:24:04Z",
-      "open": false,
-      "returnPct": 6.71,
-      "qqqReturnPct": 3.75
-    },
-    {
       "strategy": "Oracle",
       "ticker": "GLD",
       "direction": "LONG",
@@ -15256,30 +7126,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 6.71,
       "qqqReturnPct": 3.75
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SLV",
-      "direction": "LONG",
-      "entryPrice": 59.71,
-      "entryTime": "2026-06-09T15:23:39Z",
-      "exitPrice": 63.9,
-      "exitTime": "2026-06-15T15:24:03Z",
-      "open": false,
-      "returnPct": 7.02,
-      "qqqReturnPct": 5.11
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "DXCM",
-      "direction": "SHORT",
-      "entryPrice": 77.7,
-      "entryTime": "2026-06-09T15:23:39Z",
-      "exitPrice": 74.4,
-      "exitTime": "2026-06-15T15:24:03Z",
-      "open": false,
-      "returnPct": 4.25,
-      "qqqReturnPct": 5.11
     },
     {
       "strategy": "Oracle",
@@ -15306,30 +7152,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 5.11
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PEP",
-      "direction": "LONG",
-      "entryPrice": 140.52,
-      "entryTime": "2026-06-08T15:22:00Z",
-      "exitPrice": 145.22,
-      "exitTime": "2026-06-15T15:24:02Z",
-      "open": false,
-      "returnPct": 3.34,
-      "qqqReturnPct": 3.9
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LLY",
-      "direction": "SHORT",
-      "entryPrice": 1167.05,
-      "entryTime": "2026-06-08T15:22:00Z",
-      "exitPrice": 1136.83,
-      "exitTime": "2026-06-15T15:24:02Z",
-      "open": false,
-      "returnPct": 2.59,
-      "qqqReturnPct": 3.9
-    },
-    {
       "strategy": "Oracle",
       "ticker": "PEP",
       "direction": "LONG",
@@ -15351,54 +7173,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-15T15:24:02Z",
       "open": false,
       "returnPct": 2.59,
-      "qqqReturnPct": 3.9
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PYPL",
-      "direction": "LONG",
-      "entryPrice": 41.22,
-      "entryTime": "2026-06-08T15:22:00Z",
-      "exitPrice": 43.1,
-      "exitTime": "2026-06-15T15:24:01Z",
-      "open": false,
-      "returnPct": 4.55,
-      "qqqReturnPct": 3.9
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ICE",
-      "direction": "LONG",
-      "entryPrice": 139.77,
-      "entryTime": "2026-06-08T15:22:00Z",
-      "exitPrice": 141.44,
-      "exitTime": "2026-06-15T15:24:01Z",
-      "open": false,
-      "returnPct": 1.19,
-      "qqqReturnPct": 3.9
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XLC",
-      "direction": "LONG",
-      "entryPrice": 111.17,
-      "entryTime": "2026-06-08T15:22:00Z",
-      "exitPrice": 112.1,
-      "exitTime": "2026-06-15T15:24:01Z",
-      "open": false,
-      "returnPct": 0.83,
-      "qqqReturnPct": 3.9
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NFLX",
-      "direction": "LONG",
-      "entryPrice": 82.11,
-      "entryTime": "2026-06-08T15:22:00Z",
-      "exitPrice": 81.22,
-      "exitTime": "2026-06-15T15:24:01Z",
-      "open": false,
-      "returnPct": -1.08,
       "qqqReturnPct": 3.9
     },
     {
@@ -15450,18 +7224,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.9
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "T",
-      "direction": "LONG",
-      "entryPrice": 22.63,
-      "entryTime": "2026-06-08T15:22:00Z",
-      "exitPrice": 23.44,
-      "exitTime": "2026-06-15T15:24:00Z",
-      "open": false,
-      "returnPct": 3.56,
-      "qqqReturnPct": 3.9
-    },
-    {
       "strategy": "Oracle",
       "ticker": "T",
       "direction": "LONG",
@@ -15472,318 +7234,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 3.56,
       "qqqReturnPct": 3.9
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "CELH",
-      "direction": "LONG",
-      "entryPrice": 27.94,
-      "entryTime": "2026-06-08T14:17:05Z",
-      "exitPrice": 29.02,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": 3.85,
-      "qqqReturnPct": 3.9
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "ET",
-      "direction": "LONG",
-      "entryPrice": 19.39,
-      "entryTime": "2026-06-08T14:17:05Z",
-      "exitPrice": 18.98,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": -2.06,
-      "qqqReturnPct": 3.9
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "BJ",
-      "direction": "LONG",
-      "entryPrice": 92.22,
-      "entryTime": "2026-06-08T14:17:05Z",
-      "exitPrice": 91.78,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": -0.48,
-      "qqqReturnPct": 3.9
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "AM",
-      "direction": "LONG",
-      "entryPrice": 21.6,
-      "entryTime": "2026-06-08T14:17:05Z",
-      "exitPrice": 21.38,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": -1.06,
-      "qqqReturnPct": 3.9
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "AVAV",
-      "direction": "LONG",
-      "entryPrice": 179.87,
-      "entryTime": "2026-06-09T14:17:13Z",
-      "exitPrice": 172.31,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": -4.2,
-      "qqqReturnPct": 5.11
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "AGI",
-      "direction": "LONG",
-      "entryPrice": 34.43,
-      "entryTime": "2026-06-10T14:18:09Z",
-      "exitPrice": 38.15,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": 10.8,
-      "qqqReturnPct": 7.25
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "PYPL",
-      "direction": "LONG",
-      "entryPrice": 40.71,
-      "entryTime": "2026-06-11T14:17:39Z",
-      "exitPrice": 42.82,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": 5.2,
-      "qqqReturnPct": 3.75
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "DTE",
-      "direction": "LONG",
-      "entryPrice": 147.71,
-      "entryTime": "2026-06-11T14:17:39Z",
-      "exitPrice": 148.11,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": 0.27,
-      "qqqReturnPct": 3.75
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "SPXC",
-      "direction": "LONG",
-      "entryPrice": 228.68,
-      "entryTime": "2026-06-12T14:17:19Z",
-      "exitPrice": 237.85,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": 4.01,
-      "qqqReturnPct": 3.14
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "MSFT",
-      "direction": "LONG",
-      "entryPrice": 384.67,
-      "entryTime": "2026-06-12T14:17:19Z",
-      "exitPrice": 398.45,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": 3.58,
-      "qqqReturnPct": 3.14
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "CELH",
-      "direction": "LONG",
-      "entryPrice": 27.94,
-      "entryTime": "2026-06-08T14:17:05Z",
-      "exitPrice": 29.02,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": 3.85,
-      "qqqReturnPct": 3.9
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "ET",
-      "direction": "LONG",
-      "entryPrice": 19.39,
-      "entryTime": "2026-06-08T14:17:05Z",
-      "exitPrice": 18.98,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": -2.06,
-      "qqqReturnPct": 3.9
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "BJ",
-      "direction": "LONG",
-      "entryPrice": 92.22,
-      "entryTime": "2026-06-08T14:17:05Z",
-      "exitPrice": 91.78,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": -0.48,
-      "qqqReturnPct": 3.9
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "AM",
-      "direction": "LONG",
-      "entryPrice": 21.6,
-      "entryTime": "2026-06-08T14:17:05Z",
-      "exitPrice": 21.38,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": -1.06,
-      "qqqReturnPct": 3.9
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "AVAV",
-      "direction": "LONG",
-      "entryPrice": 179.87,
-      "entryTime": "2026-06-09T14:17:13Z",
-      "exitPrice": 172.31,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": -4.2,
-      "qqqReturnPct": 5.11
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "AGI",
-      "direction": "LONG",
-      "entryPrice": 34.43,
-      "entryTime": "2026-06-10T14:18:09Z",
-      "exitPrice": 38.15,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": 10.8,
-      "qqqReturnPct": 7.25
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "PYPL",
-      "direction": "LONG",
-      "entryPrice": 40.71,
-      "entryTime": "2026-06-11T14:17:39Z",
-      "exitPrice": 42.82,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": 5.2,
-      "qqqReturnPct": 3.75
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "DTE",
-      "direction": "LONG",
-      "entryPrice": 147.71,
-      "entryTime": "2026-06-11T14:17:39Z",
-      "exitPrice": 148.11,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": 0.27,
-      "qqqReturnPct": 3.75
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "SPXC",
-      "direction": "LONG",
-      "entryPrice": 228.68,
-      "entryTime": "2026-06-12T14:17:19Z",
-      "exitPrice": 237.85,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": 4.01,
-      "qqqReturnPct": 3.14
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "MSFT",
-      "direction": "LONG",
-      "entryPrice": 384.67,
-      "entryTime": "2026-06-12T14:17:19Z",
-      "exitPrice": 398.45,
-      "exitTime": "2026-06-15T14:17:26Z",
-      "open": false,
-      "returnPct": 3.58,
-      "qqqReturnPct": 3.14
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "SMCI",
-      "direction": "LONG",
-      "entryPrice": 30.78,
-      "entryTime": "2026-06-12T00:00:00Z",
-      "exitPrice": 31.72,
-      "exitTime": "2026-06-15T00:00:00Z",
-      "open": false,
-      "returnPct": 3.05,
-      "qqqReturnPct": 3.14
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "DASH",
-      "direction": "LONG",
-      "entryPrice": 148.86,
-      "entryTime": "2026-06-12T00:00:00Z",
-      "exitPrice": 152.0,
-      "exitTime": "2026-06-15T00:00:00Z",
-      "open": false,
-      "returnPct": 2.11,
-      "qqqReturnPct": 3.14
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "DKNG",
-      "direction": "LONG",
-      "entryPrice": 28.99,
-      "entryTime": "2026-06-12T00:00:00Z",
-      "exitPrice": 28.52,
-      "exitTime": "2026-06-15T00:00:00Z",
-      "open": false,
-      "returnPct": -1.63,
-      "qqqReturnPct": 3.14
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "NOW",
-      "direction": "LONG",
-      "entryPrice": 99.83,
-      "entryTime": "2026-06-12T00:00:00Z",
-      "exitPrice": 104.8,
-      "exitTime": "2026-06-15T00:00:00Z",
-      "open": false,
-      "returnPct": 4.98,
-      "qqqReturnPct": 3.14
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "PINS",
-      "direction": "LONG",
-      "entryPrice": 20.88,
-      "entryTime": "2026-06-12T00:00:00Z",
-      "exitPrice": 20.48,
-      "exitTime": "2026-06-15T00:00:00Z",
-      "open": false,
-      "returnPct": -1.94,
-      "qqqReturnPct": 3.14
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "UBER",
-      "direction": "LONG",
-      "entryPrice": 67.68,
-      "entryTime": "2026-06-12T00:00:00Z",
-      "exitPrice": 70.62,
-      "exitTime": "2026-06-15T00:00:00Z",
-      "open": false,
-      "returnPct": 4.34,
-      "qqqReturnPct": 3.14
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -15858,54 +7308,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.14
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 457.39,
-      "entryTime": "2026-06-10T15:42:30Z",
-      "exitPrice": 513.85,
-      "exitTime": "2026-06-12T15:40:37Z",
-      "open": false,
-      "returnPct": 12.34,
-      "qqqReturnPct": 3.99
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AFL",
-      "direction": "LONG",
-      "entryPrice": 115.69,
-      "entryTime": "2026-06-08T15:35:45Z",
-      "exitPrice": 118.2,
-      "exitTime": "2026-06-12T15:40:36Z",
-      "open": false,
-      "returnPct": 2.17,
-      "qqqReturnPct": 0.74
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CSCO",
-      "direction": "LONG",
-      "entryPrice": 119.34,
-      "entryTime": "2026-06-11T15:29:19Z",
-      "exitPrice": 122.52,
-      "exitTime": "2026-06-12T15:27:10Z",
-      "open": false,
-      "returnPct": 2.66,
-      "qqqReturnPct": 0.59
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 406.32,
-      "entryTime": "2026-06-11T15:29:19Z",
-      "exitPrice": 408.15,
-      "exitTime": "2026-06-12T15:27:10Z",
-      "open": false,
-      "returnPct": 0.45,
-      "qqqReturnPct": 0.59
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "CSCO",
       "direction": "LONG",
@@ -15927,30 +7329,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-12T15:27:10Z",
       "open": false,
       "returnPct": 0.45,
-      "qqqReturnPct": 0.59
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "NET",
-      "direction": "LONG",
-      "entryPrice": 223.53,
-      "entryTime": "2026-06-11T15:29:19Z",
-      "exitPrice": 228.26,
-      "exitTime": "2026-06-12T15:27:09Z",
-      "open": false,
-      "returnPct": 2.11,
-      "qqqReturnPct": 0.59
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "OKTA",
-      "direction": "LONG",
-      "entryPrice": 116.29,
-      "entryTime": "2026-06-11T15:29:19Z",
-      "exitPrice": 118.46,
-      "exitTime": "2026-06-12T15:27:09Z",
-      "open": false,
-      "returnPct": 1.87,
       "qqqReturnPct": 0.59
     },
     {
@@ -15976,42 +7354,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.87,
       "qqqReturnPct": 0.59
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "LIN",
-      "direction": "LONG",
-      "entryPrice": 514.47,
-      "entryTime": "2026-06-10T15:29:25Z",
-      "exitPrice": 522.86,
-      "exitTime": "2026-06-12T15:27:08Z",
-      "open": false,
-      "returnPct": 1.63,
-      "qqqReturnPct": 3.99
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "JCI",
-      "direction": "LONG",
-      "entryPrice": 143.57,
-      "entryTime": "2026-06-10T15:29:25Z",
-      "exitPrice": 145.54,
-      "exitTime": "2026-06-12T15:27:08Z",
-      "open": false,
-      "returnPct": 1.37,
-      "qqqReturnPct": 3.99
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 457.39,
-      "entryTime": "2026-06-10T15:29:25Z",
-      "exitPrice": 515.44,
-      "exitTime": "2026-06-12T15:27:08Z",
-      "open": false,
-      "returnPct": 12.69,
-      "qqqReturnPct": 3.99
     },
     {
       "strategy": "Kestrel",
@@ -16050,42 +7392,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.99
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "KLAC",
-      "direction": "SHORT",
-      "entryPrice": 2313.2,
-      "entryTime": "2026-06-11T15:27:22Z",
-      "exitPrice": 248.94,
-      "exitTime": "2026-06-12T15:25:08Z",
-      "open": false,
-      "returnPct": 89.24,
-      "qqqReturnPct": 0.59
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "KLAC",
-      "direction": "SHORT",
-      "entryPrice": 2313.2,
-      "entryTime": "2026-06-11T15:27:22Z",
-      "exitPrice": 248.94,
-      "exitTime": "2026-06-12T15:25:08Z",
-      "open": false,
-      "returnPct": 89.24,
-      "qqqReturnPct": 0.59
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LI",
-      "direction": "LONG",
-      "entryPrice": 13.57,
-      "entryTime": "2026-06-11T15:27:22Z",
-      "exitPrice": 14.42,
-      "exitTime": "2026-06-12T15:25:07Z",
-      "open": false,
-      "returnPct": 6.19,
-      "qqqReturnPct": 0.59
-    },
-    {
       "strategy": "Oracle",
       "ticker": "LI",
       "direction": "LONG",
@@ -16096,18 +7402,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 6.19,
       "qqqReturnPct": 0.59
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MRVL",
-      "direction": "SHORT",
-      "entryPrice": 259.0,
-      "entryTime": "2026-06-10T15:27:29Z",
-      "exitPrice": 286.7,
-      "exitTime": "2026-06-12T15:25:06Z",
-      "open": false,
-      "returnPct": -10.7,
-      "qqqReturnPct": 3.99
     },
     {
       "strategy": "Oracle",
@@ -16122,18 +7416,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.99
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "BNTX",
-      "direction": "LONG",
-      "entryPrice": 85.4,
-      "entryTime": "2026-06-09T15:23:39Z",
-      "exitPrice": 90.18,
-      "exitTime": "2026-06-12T15:25:05Z",
-      "open": false,
-      "returnPct": 5.59,
-      "qqqReturnPct": 1.91
-    },
-    {
       "strategy": "Oracle",
       "ticker": "BNTX",
       "direction": "LONG",
@@ -16146,18 +7428,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "HCA",
-      "direction": "LONG",
-      "entryPrice": 362.81,
-      "entryTime": "2026-06-08T15:22:00Z",
-      "exitPrice": 386.24,
-      "exitTime": "2026-06-12T15:25:04Z",
-      "open": false,
-      "returnPct": 6.46,
-      "qqqReturnPct": 0.74
-    },
-    {
       "strategy": "Oracle",
       "ticker": "HCA",
       "direction": "LONG",
@@ -16168,150 +7438,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 6.46,
       "qqqReturnPct": 0.74
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "GLD",
-      "direction": "LONG",
-      "entryPrice": 382.72,
-      "entryTime": "2026-06-10T14:18:09Z",
-      "exitPrice": 384.84,
-      "exitTime": "2026-06-12T14:17:22Z",
-      "open": false,
-      "returnPct": 0.55,
-      "qqqReturnPct": 3.99
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "ORCL",
-      "direction": "LONG",
-      "entryPrice": 176.55,
-      "entryTime": "2026-06-11T14:17:39Z",
-      "exitPrice": 181.19,
-      "exitTime": "2026-06-12T14:17:22Z",
-      "open": false,
-      "returnPct": 2.63,
-      "qqqReturnPct": 0.59
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "BATL",
-      "direction": "LONG",
-      "entryPrice": 1.84,
-      "entryTime": "2026-06-11T14:17:39Z",
-      "exitPrice": 1.4,
-      "exitTime": "2026-06-12T14:17:22Z",
-      "open": false,
-      "returnPct": -23.91,
-      "qqqReturnPct": 0.59
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "GLD",
-      "direction": "LONG",
-      "entryPrice": 382.72,
-      "entryTime": "2026-06-10T14:18:09Z",
-      "exitPrice": 384.84,
-      "exitTime": "2026-06-12T14:17:22Z",
-      "open": false,
-      "returnPct": 0.55,
-      "qqqReturnPct": 3.99
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "ORCL",
-      "direction": "LONG",
-      "entryPrice": 176.55,
-      "entryTime": "2026-06-11T14:17:39Z",
-      "exitPrice": 181.19,
-      "exitTime": "2026-06-12T14:17:22Z",
-      "open": false,
-      "returnPct": 2.63,
-      "qqqReturnPct": 0.59
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "BATL",
-      "direction": "LONG",
-      "entryPrice": 1.84,
-      "entryTime": "2026-06-11T14:17:39Z",
-      "exitPrice": 1.4,
-      "exitTime": "2026-06-12T14:17:22Z",
-      "open": false,
-      "returnPct": -23.91,
-      "qqqReturnPct": 0.59
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "ADBE",
-      "direction": "LONG",
-      "entryPrice": 236.63,
-      "entryTime": "2026-06-10T15:42:30Z",
-      "exitPrice": 223.0,
-      "exitTime": "2026-06-11T15:42:11Z",
-      "open": false,
-      "returnPct": -5.76,
-      "qqqReturnPct": 3.38
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "ADSK",
-      "direction": "LONG",
-      "entryPrice": 224.18,
-      "entryTime": "2026-06-10T15:42:30Z",
-      "exitPrice": 216.12,
-      "exitTime": "2026-06-11T15:42:11Z",
-      "open": false,
-      "returnPct": -3.6,
-      "qqqReturnPct": 3.38
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "CRM",
-      "direction": "LONG",
-      "entryPrice": 174.26,
-      "entryTime": "2026-06-10T15:42:30Z",
-      "exitPrice": 165.17,
-      "exitTime": "2026-06-11T15:42:10Z",
-      "open": false,
-      "returnPct": -5.22,
-      "qqqReturnPct": 3.38
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CRM",
-      "direction": "LONG",
-      "entryPrice": 174.26,
-      "entryTime": "2026-06-10T15:29:25Z",
-      "exitPrice": 164.7,
-      "exitTime": "2026-06-11T15:28:06Z",
-      "open": false,
-      "returnPct": -5.49,
-      "qqqReturnPct": 3.38
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ADBE",
-      "direction": "LONG",
-      "entryPrice": 236.63,
-      "entryTime": "2026-06-10T15:29:25Z",
-      "exitPrice": 222.76,
-      "exitTime": "2026-06-11T15:28:06Z",
-      "open": false,
-      "returnPct": -5.86,
-      "qqqReturnPct": 3.38
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ADSK",
-      "direction": "LONG",
-      "entryPrice": 224.18,
-      "entryTime": "2026-06-10T15:29:25Z",
-      "exitPrice": 215.56,
-      "exitTime": "2026-06-11T15:28:06Z",
-      "open": false,
-      "returnPct": -3.85,
-      "qqqReturnPct": 3.38
     },
     {
       "strategy": "Kestrel",
@@ -16350,18 +7476,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.38
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "GOOGL",
-      "direction": "LONG",
-      "entryPrice": 363.49,
-      "entryTime": "2026-06-08T15:24:05Z",
-      "exitPrice": 348.1,
-      "exitTime": "2026-06-11T15:28:05Z",
-      "open": false,
-      "returnPct": -4.24,
-      "qqqReturnPct": 0.15
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "GOOGL",
       "direction": "LONG",
@@ -16374,18 +7488,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.15
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AMC",
-      "direction": "SHORT",
-      "entryPrice": 2.07,
-      "entryTime": "2026-06-10T15:27:29Z",
-      "exitPrice": 2.26,
-      "exitTime": "2026-06-11T15:25:55Z",
-      "open": false,
-      "returnPct": -9.02,
-      "qqqReturnPct": 3.38
-    },
-    {
       "strategy": "Oracle",
       "ticker": "AMC",
       "direction": "SHORT",
@@ -16396,42 +7498,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -9.02,
       "qqqReturnPct": 3.38
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "KLAC",
-      "direction": "SHORT",
-      "entryPrice": 2122.0,
-      "entryTime": "2026-06-08T15:22:00Z",
-      "exitPrice": 2312.5,
-      "exitTime": "2026-06-11T15:25:53Z",
-      "open": false,
-      "returnPct": -8.98,
-      "qqqReturnPct": 0.15
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LI",
-      "direction": "LONG",
-      "entryPrice": 14.14,
-      "entryTime": "2026-06-09T15:23:39Z",
-      "exitPrice": 13.56,
-      "exitTime": "2026-06-11T15:25:53Z",
-      "open": false,
-      "returnPct": -4.07,
-      "qqqReturnPct": 1.31
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "GLD",
-      "direction": "LONG",
-      "entryPrice": 393.51,
-      "entryTime": "2026-06-09T15:23:39Z",
-      "exitPrice": 374.09,
-      "exitTime": "2026-06-11T15:25:53Z",
-      "open": false,
-      "returnPct": -4.94,
-      "qqqReturnPct": 1.31
     },
     {
       "strategy": "Oracle",
@@ -16470,18 +7536,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.31
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LCID",
-      "direction": "LONG",
-      "entryPrice": 5.05,
-      "entryTime": "2026-06-08T15:22:00Z",
-      "exitPrice": 4.85,
-      "exitTime": "2026-06-11T15:25:52Z",
-      "open": false,
-      "returnPct": -4.06,
-      "qqqReturnPct": 0.15
-    },
-    {
       "strategy": "Oracle",
       "ticker": "LCID",
       "direction": "LONG",
@@ -16492,138 +7546,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.06,
       "qqqReturnPct": 0.15
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "CRSP",
-      "direction": "LONG",
-      "entryPrice": 53.64,
-      "entryTime": "2026-06-05T14:16:55Z",
-      "exitPrice": 49.57,
-      "exitTime": "2026-06-11T14:17:41Z",
-      "open": false,
-      "returnPct": -7.58,
-      "qqqReturnPct": 1.71
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "SF",
-      "direction": "LONG",
-      "entryPrice": 71.31,
-      "entryTime": "2026-06-09T14:17:13Z",
-      "exitPrice": 70.08,
-      "exitTime": "2026-06-11T14:17:41Z",
-      "open": false,
-      "returnPct": -1.73,
-      "qqqReturnPct": 1.31
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "FIG",
-      "direction": "LONG",
-      "entryPrice": 20.7,
-      "entryTime": "2026-06-09T14:17:13Z",
-      "exitPrice": 19.02,
-      "exitTime": "2026-06-11T14:17:41Z",
-      "open": false,
-      "returnPct": -8.12,
-      "qqqReturnPct": 1.31
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "CRSP",
-      "direction": "LONG",
-      "entryPrice": 53.64,
-      "entryTime": "2026-06-05T14:16:55Z",
-      "exitPrice": 49.57,
-      "exitTime": "2026-06-11T14:17:41Z",
-      "open": false,
-      "returnPct": -7.58,
-      "qqqReturnPct": 1.71
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "SF",
-      "direction": "LONG",
-      "entryPrice": 71.31,
-      "entryTime": "2026-06-09T14:17:13Z",
-      "exitPrice": 70.08,
-      "exitTime": "2026-06-11T14:17:41Z",
-      "open": false,
-      "returnPct": -1.73,
-      "qqqReturnPct": 1.31
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "FIG",
-      "direction": "LONG",
-      "entryPrice": 20.7,
-      "entryTime": "2026-06-09T14:17:13Z",
-      "exitPrice": 19.02,
-      "exitTime": "2026-06-11T14:17:41Z",
-      "open": false,
-      "returnPct": -8.12,
-      "qqqReturnPct": 1.31
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "EW",
-      "direction": "LONG",
-      "entryPrice": 86.32,
-      "entryTime": "2026-06-05T15:40:31Z",
-      "exitPrice": 86.54,
-      "exitTime": "2026-06-10T15:42:27Z",
-      "open": false,
-      "returnPct": 0.25,
-      "qqqReturnPct": -1.61
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "FDX",
-      "direction": "LONG",
-      "entryPrice": 331.14,
-      "entryTime": "2026-06-05T15:40:31Z",
-      "exitPrice": 322.06,
-      "exitTime": "2026-06-10T15:42:27Z",
-      "open": false,
-      "returnPct": -2.74,
-      "qqqReturnPct": -1.61
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "GOOGL",
-      "direction": "LONG",
-      "entryPrice": 358.82,
-      "entryTime": "2026-06-03T15:37:10Z",
-      "exitPrice": 361.42,
-      "exitTime": "2026-06-10T15:42:26Z",
-      "open": false,
-      "returnPct": 0.73,
-      "qqqReturnPct": -6.79
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CL",
-      "direction": "LONG",
-      "entryPrice": 88.38,
-      "entryTime": "2026-06-09T15:26:06Z",
-      "exitPrice": 89.4,
-      "exitTime": "2026-06-10T15:28:17Z",
-      "open": false,
-      "returnPct": 1.15,
-      "qqqReturnPct": -2.0
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMAT",
-      "direction": "LONG",
-      "entryPrice": 496.01,
-      "entryTime": "2026-06-09T15:26:06Z",
-      "exitPrice": 505.58,
-      "exitTime": "2026-06-10T15:28:17Z",
-      "open": false,
-      "returnPct": 1.93,
-      "qqqReturnPct": -2.0
     },
     {
       "strategy": "Kestrel",
@@ -16650,30 +7572,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.0
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "COST",
-      "direction": "LONG",
-      "entryPrice": 976.26,
-      "entryTime": "2026-06-08T15:24:05Z",
-      "exitPrice": 979.38,
-      "exitTime": "2026-06-10T15:28:16Z",
-      "open": false,
-      "returnPct": 0.32,
-      "qqqReturnPct": -3.13
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AFL",
-      "direction": "LONG",
-      "entryPrice": 115.69,
-      "entryTime": "2026-06-08T15:24:05Z",
-      "exitPrice": 117.58,
-      "exitTime": "2026-06-10T15:28:16Z",
-      "open": false,
-      "returnPct": 1.63,
-      "qqqReturnPct": -3.13
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "COST",
       "direction": "LONG",
@@ -16698,30 +7596,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.13
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "FDX",
-      "direction": "LONG",
-      "entryPrice": 331.14,
-      "entryTime": "2026-06-05T15:27:41Z",
-      "exitPrice": 322.52,
-      "exitTime": "2026-06-10T15:28:15Z",
-      "open": false,
-      "returnPct": -2.6,
-      "qqqReturnPct": -1.61
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 486.58,
-      "entryTime": "2026-06-05T15:27:41Z",
-      "exitPrice": 457.0,
-      "exitTime": "2026-06-10T15:28:15Z",
-      "open": false,
-      "returnPct": -6.08,
-      "qqqReturnPct": -1.61
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "FDX",
       "direction": "LONG",
@@ -16744,18 +7618,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -6.08,
       "qqqReturnPct": -1.61
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "HUM",
-      "direction": "SHORT",
-      "entryPrice": 349.56,
-      "entryTime": "2026-06-08T15:22:00Z",
-      "exitPrice": 366.53,
-      "exitTime": "2026-06-10T15:26:07Z",
-      "open": false,
-      "returnPct": -4.85,
-      "qqqReturnPct": -3.13
     },
     {
       "strategy": "Oracle",
@@ -16768,246 +7630,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.85,
       "qqqReturnPct": -3.13
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "GLP",
-      "direction": "LONG",
-      "entryPrice": 48.0,
-      "entryTime": "2026-06-02T14:17:21Z",
-      "exitPrice": 49.73,
-      "exitTime": "2026-06-10T14:18:11Z",
-      "open": false,
-      "returnPct": 3.6,
-      "qqqReturnPct": -7.03
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "UPS",
-      "direction": "LONG",
-      "entryPrice": 109.92,
-      "entryTime": "2026-06-03T14:17:14Z",
-      "exitPrice": 105.36,
-      "exitTime": "2026-06-10T14:18:11Z",
-      "open": false,
-      "returnPct": -4.15,
-      "qqqReturnPct": -6.79
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "ULTA",
-      "direction": "LONG",
-      "entryPrice": 464.84,
-      "entryTime": "2026-06-03T14:17:14Z",
-      "exitPrice": 481.12,
-      "exitTime": "2026-06-10T14:18:11Z",
-      "open": false,
-      "returnPct": 3.5,
-      "qqqReturnPct": -6.79
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "BMNR",
-      "direction": "LONG",
-      "entryPrice": 16.82,
-      "entryTime": "2026-06-08T14:17:05Z",
-      "exitPrice": 16.24,
-      "exitTime": "2026-06-10T14:18:11Z",
-      "open": false,
-      "returnPct": -3.51,
-      "qqqReturnPct": -3.13
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "GMM",
-      "direction": "LONG",
-      "entryPrice": 0.18,
-      "entryTime": "2026-06-09T14:17:13Z",
-      "exitPrice": 0.06,
-      "exitTime": "2026-06-10T14:18:11Z",
-      "open": false,
-      "returnPct": -67.19,
-      "qqqReturnPct": -2.0
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "GLP",
-      "direction": "LONG",
-      "entryPrice": 48.0,
-      "entryTime": "2026-06-02T14:17:21Z",
-      "exitPrice": 49.73,
-      "exitTime": "2026-06-10T14:18:11Z",
-      "open": false,
-      "returnPct": 3.6,
-      "qqqReturnPct": -7.03
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "UPS",
-      "direction": "LONG",
-      "entryPrice": 109.92,
-      "entryTime": "2026-06-03T14:17:14Z",
-      "exitPrice": 105.36,
-      "exitTime": "2026-06-10T14:18:11Z",
-      "open": false,
-      "returnPct": -4.15,
-      "qqqReturnPct": -6.79
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "ULTA",
-      "direction": "LONG",
-      "entryPrice": 464.84,
-      "entryTime": "2026-06-03T14:17:14Z",
-      "exitPrice": 481.12,
-      "exitTime": "2026-06-10T14:18:11Z",
-      "open": false,
-      "returnPct": 3.5,
-      "qqqReturnPct": -6.79
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "BMNR",
-      "direction": "LONG",
-      "entryPrice": 16.82,
-      "entryTime": "2026-06-08T14:17:05Z",
-      "exitPrice": 16.24,
-      "exitTime": "2026-06-10T14:18:11Z",
-      "open": false,
-      "returnPct": -3.51,
-      "qqqReturnPct": -3.13
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "GMM",
-      "direction": "LONG",
-      "entryPrice": 0.18,
-      "entryTime": "2026-06-09T14:17:13Z",
-      "exitPrice": 0.06,
-      "exitTime": "2026-06-10T14:18:11Z",
-      "open": false,
-      "returnPct": -67.19,
-      "qqqReturnPct": -2.0
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 486.58,
-      "entryTime": "2026-06-05T15:40:31Z",
-      "exitPrice": 465.0,
-      "exitTime": "2026-06-09T15:38:34Z",
-      "open": false,
-      "returnPct": -4.44,
-      "qqqReturnPct": 0.39
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "NVDA",
-      "direction": "LONG",
-      "entryPrice": 216.09,
-      "entryTime": "2026-06-03T15:37:10Z",
-      "exitPrice": 203.5,
-      "exitTime": "2026-06-09T15:38:33Z",
-      "open": false,
-      "returnPct": -5.82,
-      "qqqReturnPct": -4.89
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "CSX",
-      "direction": "LONG",
-      "entryPrice": 45.96,
-      "entryTime": "2026-06-04T15:37:54Z",
-      "exitPrice": 46.86,
-      "exitTime": "2026-06-09T15:38:33Z",
-      "open": false,
-      "returnPct": 1.97,
-      "qqqReturnPct": -4.43
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "QQQ",
-      "direction": "LONG",
-      "entryPrice": 745.04,
-      "entryTime": "2026-06-02T15:38:40Z",
-      "exitPrice": 700.88,
-      "exitTime": "2026-06-09T15:38:32Z",
-      "open": false,
-      "returnPct": -5.93,
-      "qqqReturnPct": -5.14
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "CARR",
-      "direction": "LONG",
-      "entryPrice": 68.43,
-      "entryTime": "2026-06-03T15:37:10Z",
-      "exitPrice": 69.06,
-      "exitTime": "2026-06-09T15:38:32Z",
-      "open": false,
-      "returnPct": 0.93,
-      "qqqReturnPct": -4.89
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "GM",
-      "direction": "LONG",
-      "entryPrice": 83.33,
-      "entryTime": "2026-06-03T15:37:10Z",
-      "exitPrice": 81.72,
-      "exitTime": "2026-06-09T15:38:32Z",
-      "open": false,
-      "returnPct": -1.93,
-      "qqqReturnPct": -4.89
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CARR",
-      "direction": "LONG",
-      "entryPrice": 68.43,
-      "entryTime": "2026-06-03T15:25:16Z",
-      "exitPrice": 69.57,
-      "exitTime": "2026-06-09T15:25:00Z",
-      "open": false,
-      "returnPct": 1.67,
-      "qqqReturnPct": -4.89
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "NVDA",
-      "direction": "LONG",
-      "entryPrice": 216.09,
-      "entryTime": "2026-06-03T15:25:16Z",
-      "exitPrice": 204.59,
-      "exitTime": "2026-06-09T15:25:00Z",
-      "open": false,
-      "returnPct": -5.32,
-      "qqqReturnPct": -4.89
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "QCOM",
-      "direction": "LONG",
-      "entryPrice": 225.82,
-      "entryTime": "2026-06-05T15:27:41Z",
-      "exitPrice": 202.28,
-      "exitTime": "2026-06-09T15:25:00Z",
-      "open": false,
-      "returnPct": -10.42,
-      "qqqReturnPct": 0.39
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "EW",
-      "direction": "LONG",
-      "entryPrice": 86.32,
-      "entryTime": "2026-06-05T15:27:41Z",
-      "exitPrice": 86.87,
-      "exitTime": "2026-06-09T15:25:00Z",
-      "open": false,
-      "returnPct": 0.63,
-      "qqqReturnPct": 0.39
     },
     {
       "strategy": "Kestrel",
@@ -17058,18 +7680,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.39
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "QQQ",
-      "direction": "LONG",
-      "entryPrice": 745.04,
-      "entryTime": "2026-06-02T15:26:23Z",
-      "exitPrice": 705.52,
-      "exitTime": "2026-06-09T15:24:59Z",
-      "open": false,
-      "returnPct": -5.3,
-      "qqqReturnPct": -5.14
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "QQQ",
       "direction": "LONG",
@@ -17080,18 +7690,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -5.3,
       "qqqReturnPct": -5.14
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MRVL",
-      "direction": "SHORT",
-      "entryPrice": 302.95,
-      "entryTime": "2026-06-08T15:22:00Z",
-      "exitPrice": 266.15,
-      "exitTime": "2026-06-09T15:22:22Z",
-      "open": false,
-      "returnPct": 12.15,
-      "qqqReturnPct": -1.15
     },
     {
       "strategy": "Oracle",
@@ -17106,18 +7704,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.15
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NEE",
-      "direction": "LONG",
-      "entryPrice": 84.56,
-      "entryTime": "2026-06-01T15:25:06Z",
-      "exitPrice": 84.3,
-      "exitTime": "2026-06-09T15:22:20Z",
-      "open": false,
-      "returnPct": -0.31,
-      "qqqReturnPct": -4.7
-    },
-    {
       "strategy": "Oracle",
       "ticker": "NEE",
       "direction": "LONG",
@@ -17128,66 +7714,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -0.31,
       "qqqReturnPct": -4.7
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "INTC",
-      "direction": "LONG",
-      "entryPrice": 103.83,
-      "entryTime": "2026-06-05T15:40:31Z",
-      "exitPrice": 110.91,
-      "exitTime": "2026-06-08T15:35:44Z",
-      "open": false,
-      "returnPct": 6.82,
-      "qqqReturnPct": 1.56
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "QCOM",
-      "direction": "LONG",
-      "entryPrice": 225.82,
-      "entryTime": "2026-06-05T15:40:31Z",
-      "exitPrice": 218.78,
-      "exitTime": "2026-06-08T15:35:43Z",
-      "open": false,
-      "returnPct": -3.12,
-      "qqqReturnPct": 1.56
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "MRK",
-      "direction": "LONG",
-      "entryPrice": 118.54,
-      "entryTime": "2026-05-29T15:41:02Z",
-      "exitPrice": 120.77,
-      "exitTime": "2026-06-08T15:35:41Z",
-      "open": false,
-      "returnPct": 1.88,
-      "qqqReturnPct": -3.01
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "TFC",
-      "direction": "LONG",
-      "entryPrice": 47.88,
-      "entryTime": "2026-06-02T15:38:40Z",
-      "exitPrice": 49.06,
-      "exitTime": "2026-06-08T15:35:41Z",
-      "open": false,
-      "returnPct": 2.46,
-      "qqqReturnPct": -4.03
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "INTC",
-      "direction": "LONG",
-      "entryPrice": 103.83,
-      "entryTime": "2026-06-05T15:27:41Z",
-      "exitPrice": 111.78,
-      "exitTime": "2026-06-08T15:23:00Z",
-      "open": false,
-      "returnPct": 7.66,
-      "qqqReturnPct": 1.56
     },
     {
       "strategy": "Kestrel",
@@ -17202,18 +7728,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "GM",
-      "direction": "LONG",
-      "entryPrice": 83.33,
-      "entryTime": "2026-06-03T15:25:16Z",
-      "exitPrice": 83.8,
-      "exitTime": "2026-06-08T15:22:58Z",
-      "open": false,
-      "returnPct": 0.56,
-      "qqqReturnPct": -3.78
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "GM",
       "direction": "LONG",
@@ -17226,18 +7740,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.78
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "GILD",
-      "direction": "LONG",
-      "entryPrice": 130.72,
-      "entryTime": "2026-06-01T15:27:32Z",
-      "exitPrice": 129.07,
-      "exitTime": "2026-06-08T15:22:57Z",
-      "open": false,
-      "returnPct": -1.27,
-      "qqqReturnPct": -3.59
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "GILD",
       "direction": "LONG",
@@ -17247,18 +7749,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-08T15:22:57Z",
       "open": false,
       "returnPct": -1.27,
-      "qqqReturnPct": -3.59
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PENN",
-      "direction": "SHORT",
-      "entryPrice": 19.81,
-      "entryTime": "2026-06-01T15:25:06Z",
-      "exitPrice": 18.89,
-      "exitTime": "2026-06-08T15:20:48Z",
-      "open": false,
-      "returnPct": 4.67,
       "qqqReturnPct": -3.59
     },
     {
@@ -17272,30 +7762,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 4.67,
       "qqqReturnPct": -3.59
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "COST",
-      "direction": "LONG",
-      "entryPrice": 949.88,
-      "entryTime": "2026-05-29T15:27:42Z",
-      "exitPrice": 976.6,
-      "exitTime": "2026-06-08T15:20:47Z",
-      "open": false,
-      "returnPct": 2.81,
-      "qqqReturnPct": -3.01
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "APD",
-      "direction": "LONG",
-      "entryPrice": 278.46,
-      "entryTime": "2026-05-29T15:27:42Z",
-      "exitPrice": 278.14,
-      "exitTime": "2026-06-08T15:20:47Z",
-      "open": false,
-      "returnPct": -0.11,
-      "qqqReturnPct": -3.01
     },
     {
       "strategy": "Oracle",
@@ -17320,162 +7786,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -0.11,
       "qqqReturnPct": -3.01
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "HP",
-      "direction": "LONG",
-      "entryPrice": 39.01,
-      "entryTime": "2026-06-01T14:17:02Z",
-      "exitPrice": 38.91,
-      "exitTime": "2026-06-08T14:17:07Z",
-      "open": false,
-      "returnPct": -0.24,
-      "qqqReturnPct": -3.59
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "BRBR",
-      "direction": "LONG",
-      "entryPrice": 9.23,
-      "entryTime": "2026-06-02T14:17:21Z",
-      "exitPrice": 8.34,
-      "exitTime": "2026-06-08T14:17:07Z",
-      "open": false,
-      "returnPct": -9.61,
-      "qqqReturnPct": -4.03
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "LULU",
-      "direction": "LONG",
-      "entryPrice": 114.92,
-      "entryTime": "2026-06-05T14:16:55Z",
-      "exitPrice": 115.88,
-      "exitTime": "2026-06-08T14:17:07Z",
-      "open": false,
-      "returnPct": 0.84,
-      "qqqReturnPct": 1.56
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "HP",
-      "direction": "LONG",
-      "entryPrice": 39.01,
-      "entryTime": "2026-06-01T14:17:02Z",
-      "exitPrice": 38.91,
-      "exitTime": "2026-06-08T14:17:07Z",
-      "open": false,
-      "returnPct": -0.24,
-      "qqqReturnPct": -3.59
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "BRBR",
-      "direction": "LONG",
-      "entryPrice": 9.23,
-      "entryTime": "2026-06-02T14:17:21Z",
-      "exitPrice": 8.34,
-      "exitTime": "2026-06-08T14:17:07Z",
-      "open": false,
-      "returnPct": -9.61,
-      "qqqReturnPct": -4.03
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "LULU",
-      "direction": "LONG",
-      "entryPrice": 114.92,
-      "entryTime": "2026-06-05T14:16:55Z",
-      "exitPrice": 115.88,
-      "exitTime": "2026-06-08T14:17:07Z",
-      "open": false,
-      "returnPct": 0.84,
-      "qqqReturnPct": 1.56
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "CLSK",
-      "direction": "LONG",
-      "entryPrice": 15.07,
-      "entryTime": "2026-06-05T00:00:00Z",
-      "exitPrice": 15.89,
-      "exitTime": "2026-06-08T00:00:00Z",
-      "open": false,
-      "returnPct": 5.44,
-      "qqqReturnPct": 1.56
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "MARA",
-      "direction": "LONG",
-      "entryPrice": 12.54,
-      "entryTime": "2026-06-05T00:00:00Z",
-      "exitPrice": 12.75,
-      "exitTime": "2026-06-08T00:00:00Z",
-      "open": false,
-      "returnPct": 1.72,
-      "qqqReturnPct": 1.56
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "RIOT",
-      "direction": "LONG",
-      "entryPrice": 25.1,
-      "entryTime": "2026-06-05T00:00:00Z",
-      "exitPrice": 25.42,
-      "exitTime": "2026-06-08T00:00:00Z",
-      "open": false,
-      "returnPct": 1.28,
-      "qqqReturnPct": 1.56
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "QUBT",
-      "direction": "LONG",
-      "entryPrice": 10.24,
-      "entryTime": "2026-06-05T00:00:00Z",
-      "exitPrice": 10.29,
-      "exitTime": "2026-06-08T00:00:00Z",
-      "open": false,
-      "returnPct": 0.46,
-      "qqqReturnPct": 1.56
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "BBAI",
-      "direction": "LONG",
-      "entryPrice": 4.37,
-      "entryTime": "2026-06-05T00:00:00Z",
-      "exitPrice": 4.32,
-      "exitTime": "2026-06-08T00:00:00Z",
-      "open": false,
-      "returnPct": -1.12,
-      "qqqReturnPct": 1.56
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "SMCI",
-      "direction": "LONG",
-      "entryPrice": 43.12,
-      "entryTime": "2026-06-05T00:00:00Z",
-      "exitPrice": 43.8,
-      "exitTime": "2026-06-08T00:00:00Z",
-      "open": false,
-      "returnPct": 1.58,
-      "qqqReturnPct": 1.56
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "IONQ",
-      "direction": "LONG",
-      "entryPrice": 60.43,
-      "entryTime": "2026-06-05T00:00:00Z",
-      "exitPrice": 59.54,
-      "exitTime": "2026-06-08T00:00:00Z",
-      "open": false,
-      "returnPct": -1.47,
-      "qqqReturnPct": 1.56
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -17562,90 +7872,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "TSLA",
-      "direction": "LONG",
-      "entryPrice": 420.42,
-      "entryTime": "2026-06-04T15:37:54Z",
-      "exitPrice": 401.04,
-      "exitTime": "2026-06-05T15:40:31Z",
-      "open": false,
-      "returnPct": -4.61,
-      "qqqReturnPct": -4.8
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "CL",
-      "direction": "LONG",
-      "entryPrice": 85.6,
-      "entryTime": "2026-06-03T15:37:10Z",
-      "exitPrice": 88.18,
-      "exitTime": "2026-06-05T15:40:30Z",
-      "open": false,
-      "returnPct": 3.03,
-      "qqqReturnPct": -5.26
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "SBUX",
-      "direction": "LONG",
-      "entryPrice": 95.75,
-      "entryTime": "2026-06-01T15:40:11Z",
-      "exitPrice": 95.77,
-      "exitTime": "2026-06-05T15:40:28Z",
-      "open": false,
-      "returnPct": 0.02,
-      "qqqReturnPct": -5.07
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "NSC",
-      "direction": "LONG",
-      "entryPrice": 301.82,
-      "entryTime": "2026-06-01T15:40:11Z",
-      "exitPrice": 313.17,
-      "exitTime": "2026-06-05T15:40:28Z",
-      "open": false,
-      "returnPct": 3.76,
-      "qqqReturnPct": -5.07
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "SLB",
-      "direction": "LONG",
-      "entryPrice": 55.65,
-      "entryTime": "2026-05-28T15:41:03Z",
-      "exitPrice": 56.26,
-      "exitTime": "2026-06-05T15:40:27Z",
-      "open": false,
-      "returnPct": 1.1,
-      "qqqReturnPct": -4.15
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "GILD",
-      "direction": "LONG",
-      "entryPrice": 130.72,
-      "entryTime": "2026-06-01T15:40:11Z",
-      "exitPrice": 130.78,
-      "exitTime": "2026-06-05T15:40:27Z",
-      "open": false,
-      "returnPct": 0.04,
-      "qqqReturnPct": -5.07
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CSX",
-      "direction": "LONG",
-      "entryPrice": 45.96,
-      "entryTime": "2026-06-04T15:25:56Z",
-      "exitPrice": 47.09,
-      "exitTime": "2026-06-05T15:26:40Z",
-      "open": false,
-      "returnPct": 2.47,
-      "qqqReturnPct": -4.8
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "CSX",
       "direction": "LONG",
@@ -17655,54 +7881,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-05T15:26:40Z",
       "open": false,
       "returnPct": 2.47,
-      "qqqReturnPct": -4.8
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AVGO",
-      "direction": "LONG",
-      "entryPrice": 412.51,
-      "entryTime": "2026-06-04T15:25:56Z",
-      "exitPrice": 397.52,
-      "exitTime": "2026-06-05T15:26:39Z",
-      "open": false,
-      "returnPct": -3.63,
-      "qqqReturnPct": -4.8
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ANET",
-      "direction": "LONG",
-      "entryPrice": 164.73,
-      "entryTime": "2026-06-04T15:25:56Z",
-      "exitPrice": 157.18,
-      "exitTime": "2026-06-05T15:26:39Z",
-      "open": false,
-      "returnPct": -4.58,
-      "qqqReturnPct": -4.8
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "SMCI",
-      "direction": "LONG",
-      "entryPrice": 47.37,
-      "entryTime": "2026-06-04T15:25:56Z",
-      "exitPrice": 42.58,
-      "exitTime": "2026-06-05T15:26:39Z",
-      "open": false,
-      "returnPct": -10.1,
-      "qqqReturnPct": -4.8
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "TSLA",
-      "direction": "LONG",
-      "entryPrice": 420.42,
-      "entryTime": "2026-06-04T15:25:56Z",
-      "exitPrice": 402.09,
-      "exitTime": "2026-06-05T15:26:39Z",
-      "open": false,
-      "returnPct": -4.36,
       "qqqReturnPct": -4.8
     },
     {
@@ -17754,18 +7932,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.8
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CL",
-      "direction": "LONG",
-      "entryPrice": 85.6,
-      "entryTime": "2026-06-03T15:25:16Z",
-      "exitPrice": 88.09,
-      "exitTime": "2026-06-05T15:26:38Z",
-      "open": false,
-      "returnPct": 2.91,
-      "qqqReturnPct": -5.26
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "CL",
       "direction": "LONG",
@@ -17776,30 +7942,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 2.91,
       "qqqReturnPct": -5.26
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "XLB",
-      "direction": "LONG",
-      "entryPrice": 51.31,
-      "entryTime": "2026-05-27T15:25:08Z",
-      "exitPrice": 51.17,
-      "exitTime": "2026-06-05T15:26:36Z",
-      "open": false,
-      "returnPct": -0.26,
-      "qqqReturnPct": -3.34
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MRK",
-      "direction": "LONG",
-      "entryPrice": 118.54,
-      "entryTime": "2026-05-29T15:29:43Z",
-      "exitPrice": 122.74,
-      "exitTime": "2026-06-05T15:26:36Z",
-      "open": false,
-      "returnPct": 3.54,
-      "qqqReturnPct": -4.5
     },
     {
       "strategy": "Kestrel",
@@ -17824,18 +7966,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 3.54,
       "qqqReturnPct": -4.5
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "WMT",
-      "direction": "LONG",
-      "entryPrice": 113.82,
-      "entryTime": "2026-06-01T15:25:06Z",
-      "exitPrice": 120.44,
-      "exitTime": "2026-06-05T15:23:52Z",
-      "open": false,
-      "returnPct": 5.81,
-      "qqqReturnPct": -5.07
     },
     {
       "strategy": "Oracle",
@@ -17848,42 +7978,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 5.81,
       "qqqReturnPct": -5.07
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "BSX",
-      "direction": "LONG",
-      "entryPrice": 49.17,
-      "entryTime": "2026-05-28T15:27:33Z",
-      "exitPrice": 49.75,
-      "exitTime": "2026-06-05T15:23:51Z",
-      "open": false,
-      "returnPct": 1.18,
-      "qqqReturnPct": -4.15
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SCHW",
-      "direction": "LONG",
-      "entryPrice": 84.24,
-      "entryTime": "2026-05-28T15:27:33Z",
-      "exitPrice": 88.26,
-      "exitTime": "2026-06-05T15:23:51Z",
-      "open": false,
-      "returnPct": 4.78,
-      "qqqReturnPct": -4.15
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LI",
-      "direction": "LONG",
-      "entryPrice": 15.01,
-      "entryTime": "2026-05-29T15:27:42Z",
-      "exitPrice": 14.1,
-      "exitTime": "2026-06-05T15:23:51Z",
-      "open": false,
-      "returnPct": -6.03,
-      "qqqReturnPct": -4.5
     },
     {
       "strategy": "Oracle",
@@ -17922,114 +8016,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -4.5
     },
     {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "EU",
-      "direction": "LONG",
-      "entryPrice": 1.6,
-      "entryTime": "2026-06-04T14:17:34Z",
-      "exitPrice": 1.46,
-      "exitTime": "2026-06-05T14:16:56Z",
-      "open": false,
-      "returnPct": -9.03,
-      "qqqReturnPct": -4.8
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "AMZN",
-      "direction": "LONG",
-      "entryPrice": 253.9,
-      "entryTime": "2026-06-04T14:17:34Z",
-      "exitPrice": 252.94,
-      "exitTime": "2026-06-05T14:16:56Z",
-      "open": false,
-      "returnPct": -0.38,
-      "qqqReturnPct": -4.8
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "EU",
-      "direction": "LONG",
-      "entryPrice": 1.6,
-      "entryTime": "2026-06-04T14:17:34Z",
-      "exitPrice": 1.46,
-      "exitTime": "2026-06-05T14:16:56Z",
-      "open": false,
-      "returnPct": -9.03,
-      "qqqReturnPct": -4.8
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "AMZN",
-      "direction": "LONG",
-      "entryPrice": 253.9,
-      "entryTime": "2026-06-04T14:17:34Z",
-      "exitPrice": 252.94,
-      "exitTime": "2026-06-05T14:16:56Z",
-      "open": false,
-      "returnPct": -0.38,
-      "qqqReturnPct": -4.8
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "HON",
-      "direction": "LONG",
-      "entryPrice": 232.39,
-      "entryTime": "2026-06-02T15:38:40Z",
-      "exitPrice": 221.91,
-      "exitTime": "2026-06-04T15:37:51Z",
-      "open": false,
-      "returnPct": -4.51,
-      "qqqReturnPct": -0.74
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "XLB",
-      "direction": "LONG",
-      "entryPrice": 51.31,
-      "entryTime": "2026-05-27T15:36:31Z",
-      "exitPrice": 51.76,
-      "exitTime": "2026-06-04T15:37:49Z",
-      "open": false,
-      "returnPct": 0.89,
-      "qqqReturnPct": 1.53
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 377.78,
-      "entryTime": "2026-05-29T15:41:02Z",
-      "exitPrice": 397.8,
-      "exitTime": "2026-06-04T15:37:49Z",
-      "open": false,
-      "returnPct": 5.3,
-      "qqqReturnPct": 0.31
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "TSLA",
-      "direction": "LONG",
-      "entryPrice": 434.45,
-      "entryTime": "2026-05-26T15:39:31Z",
-      "exitPrice": 418.79,
-      "exitTime": "2026-06-04T15:37:48Z",
-      "open": false,
-      "returnPct": -3.6,
-      "qqqReturnPct": 1.41
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "GOOGL",
-      "direction": "LONG",
-      "entryPrice": 358.82,
-      "entryTime": "2026-06-03T15:25:16Z",
-      "exitPrice": 370.1,
-      "exitTime": "2026-06-04T15:24:53Z",
-      "open": false,
-      "returnPct": 3.14,
-      "qqqReturnPct": -0.48
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "GOOGL",
       "direction": "LONG",
@@ -18040,30 +8026,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 3.14,
       "qqqReturnPct": -0.48
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "TFC",
-      "direction": "LONG",
-      "entryPrice": 47.88,
-      "entryTime": "2026-06-02T15:26:23Z",
-      "exitPrice": 48.81,
-      "exitTime": "2026-06-04T15:24:51Z",
-      "open": false,
-      "returnPct": 1.96,
-      "qqqReturnPct": -0.74
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ELV",
-      "direction": "LONG",
-      "entryPrice": 397.28,
-      "entryTime": "2026-06-02T15:26:23Z",
-      "exitPrice": 409.11,
-      "exitTime": "2026-06-04T15:24:51Z",
-      "open": false,
-      "returnPct": 2.98,
-      "qqqReturnPct": -0.74
     },
     {
       "strategy": "Kestrel",
@@ -18090,18 +8052,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.74
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "VZ",
-      "direction": "LONG",
-      "entryPrice": 48.06,
-      "entryTime": "2026-05-28T15:29:33Z",
-      "exitPrice": 45.51,
-      "exitTime": "2026-06-04T15:24:50Z",
-      "open": false,
-      "returnPct": -5.3,
-      "qqqReturnPct": 0.68
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "VZ",
       "direction": "LONG",
@@ -18114,18 +8064,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.68
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "TSLA",
-      "direction": "LONG",
-      "entryPrice": 434.45,
-      "entryTime": "2026-05-26T15:27:08Z",
-      "exitPrice": 420.41,
-      "exitTime": "2026-06-04T15:24:49Z",
-      "open": false,
-      "returnPct": -3.23,
-      "qqqReturnPct": 1.41
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "TSLA",
       "direction": "LONG",
@@ -18136,18 +8074,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -3.23,
       "qqqReturnPct": 1.41
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "IBM",
-      "direction": "SHORT",
-      "entryPrice": 320.46,
-      "entryTime": "2026-06-01T15:25:06Z",
-      "exitPrice": 306.0,
-      "exitTime": "2026-06-04T15:22:36Z",
-      "open": false,
-      "returnPct": 4.51,
-      "qqqReturnPct": -0.29
     },
     {
       "strategy": "Oracle",
@@ -18160,30 +8086,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 4.51,
       "qqqReturnPct": -0.29
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "AAPL",
-      "direction": "SHORT",
-      "entryPrice": 311.87,
-      "entryTime": "2026-05-27T15:22:47Z",
-      "exitPrice": 310.46,
-      "exitTime": "2026-06-04T15:22:34Z",
-      "open": false,
-      "returnPct": 0.45,
-      "qqqReturnPct": 1.53
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LLY",
-      "direction": "SHORT",
-      "entryPrice": 1086.04,
-      "entryTime": "2026-05-27T15:22:47Z",
-      "exitPrice": 1133.33,
-      "exitTime": "2026-06-04T15:22:34Z",
-      "open": false,
-      "returnPct": -4.35,
-      "qqqReturnPct": 1.53
     },
     {
       "strategy": "Oracle",
@@ -18210,18 +8112,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.53
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "MAR",
-      "direction": "SHORT",
-      "entryPrice": 383.7,
-      "entryTime": "2026-05-27T15:22:47Z",
-      "exitPrice": 381.05,
-      "exitTime": "2026-06-04T15:22:33Z",
-      "open": false,
-      "returnPct": 0.69,
-      "qqqReturnPct": 1.53
-    },
-    {
       "strategy": "Oracle",
       "ticker": "MAR",
       "direction": "SHORT",
@@ -18232,90 +8122,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 0.69,
       "qqqReturnPct": 1.53
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "AGI",
-      "direction": "LONG",
-      "entryPrice": 38.41,
-      "entryTime": "2026-05-28T14:17:22Z",
-      "exitPrice": 39.02,
-      "exitTime": "2026-06-04T14:17:35Z",
-      "open": false,
-      "returnPct": 1.6,
-      "qqqReturnPct": 0.68
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "GOOGL",
-      "direction": "LONG",
-      "entryPrice": 367.48,
-      "entryTime": "2026-06-02T14:17:21Z",
-      "exitPrice": 367.41,
-      "exitTime": "2026-06-04T14:17:35Z",
-      "open": false,
-      "returnPct": -0.02,
-      "qqqReturnPct": -0.74
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "AGI",
-      "direction": "LONG",
-      "entryPrice": 38.41,
-      "entryTime": "2026-05-28T14:17:22Z",
-      "exitPrice": 39.02,
-      "exitTime": "2026-06-04T14:17:35Z",
-      "open": false,
-      "returnPct": 1.6,
-      "qqqReturnPct": 0.68
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "GOOGL",
-      "direction": "LONG",
-      "entryPrice": 367.48,
-      "entryTime": "2026-06-02T14:17:21Z",
-      "exitPrice": 367.41,
-      "exitTime": "2026-06-04T14:17:35Z",
-      "open": false,
-      "returnPct": -0.02,
-      "qqqReturnPct": -0.74
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 513.28,
-      "entryTime": "2026-06-01T15:40:11Z",
-      "exitPrice": 537.15,
-      "exitTime": "2026-06-03T15:37:08Z",
-      "open": false,
-      "returnPct": 4.65,
-      "qqqReturnPct": 0.2
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "PM",
-      "direction": "LONG",
-      "entryPrice": 173.21,
-      "entryTime": "2026-06-02T15:26:23Z",
-      "exitPrice": 176.52,
-      "exitTime": "2026-06-03T15:24:11Z",
-      "open": false,
-      "returnPct": 1.91,
-      "qqqReturnPct": -0.26
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "HON",
-      "direction": "LONG",
-      "entryPrice": 232.39,
-      "entryTime": "2026-06-02T15:26:23Z",
-      "exitPrice": 236.68,
-      "exitTime": "2026-06-03T15:24:11Z",
-      "open": false,
-      "returnPct": 1.85,
-      "qqqReturnPct": -0.26
     },
     {
       "strategy": "Kestrel",
@@ -18342,30 +8148,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.26
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 377.78,
-      "entryTime": "2026-05-29T15:29:43Z",
-      "exitPrice": 383.07,
-      "exitTime": "2026-06-03T15:24:10Z",
-      "open": false,
-      "returnPct": 1.4,
-      "qqqReturnPct": 0.8
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMD",
-      "direction": "LONG",
-      "entryPrice": 513.28,
-      "entryTime": "2026-06-01T15:27:32Z",
-      "exitPrice": 531.74,
-      "exitTime": "2026-06-03T15:24:10Z",
-      "open": false,
-      "returnPct": 3.6,
-      "qqqReturnPct": 0.2
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "UNH",
       "direction": "LONG",
@@ -18390,18 +8172,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.2
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "SLB",
-      "direction": "LONG",
-      "entryPrice": 55.65,
-      "entryTime": "2026-05-28T15:29:33Z",
-      "exitPrice": 56.61,
-      "exitTime": "2026-06-03T15:24:09Z",
-      "open": false,
-      "returnPct": 1.73,
-      "qqqReturnPct": 1.17
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "SLB",
       "direction": "LONG",
@@ -18414,18 +8184,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.17
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ARM",
-      "direction": "SHORT",
-      "entryPrice": 415.74,
-      "entryTime": "2026-06-01T15:25:06Z",
-      "exitPrice": 398.95,
-      "exitTime": "2026-06-03T15:21:29Z",
-      "open": false,
-      "returnPct": 4.04,
-      "qqqReturnPct": 0.2
-    },
-    {
       "strategy": "Oracle",
       "ticker": "ARM",
       "direction": "SHORT",
@@ -18438,18 +8196,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.2
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "HCA",
-      "direction": "LONG",
-      "entryPrice": 382.34,
-      "entryTime": "2026-05-29T15:27:42Z",
-      "exitPrice": 364.2,
-      "exitTime": "2026-06-03T15:21:28Z",
-      "open": false,
-      "returnPct": -4.74,
-      "qqqReturnPct": 0.8
-    },
-    {
       "strategy": "Oracle",
       "ticker": "HCA",
       "direction": "LONG",
@@ -18460,30 +8206,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.74,
       "qqqReturnPct": 0.8
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "UBER",
-      "direction": "LONG",
-      "entryPrice": 70.55,
-      "entryTime": "2026-05-26T15:24:45Z",
-      "exitPrice": 70.94,
-      "exitTime": "2026-06-03T15:21:26Z",
-      "open": false,
-      "returnPct": 0.55,
-      "qqqReturnPct": 1.91
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ORLY",
-      "direction": "LONG",
-      "entryPrice": 88.19,
-      "entryTime": "2026-05-26T15:24:45Z",
-      "exitPrice": 86.94,
-      "exitTime": "2026-06-03T15:21:26Z",
-      "open": false,
-      "returnPct": -1.42,
-      "qqqReturnPct": 1.91
     },
     {
       "strategy": "Oracle",
@@ -18510,162 +8232,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.91
     },
     {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "BYD",
-      "direction": "LONG",
-      "entryPrice": 82.25,
-      "entryTime": "2026-05-27T14:16:38Z",
-      "exitPrice": 85.04,
-      "exitTime": "2026-06-03T14:17:15Z",
-      "open": false,
-      "returnPct": 3.39,
-      "qqqReturnPct": 2.02
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "SAP",
-      "direction": "LONG",
-      "entryPrice": 193.4,
-      "entryTime": "2026-06-01T14:17:02Z",
-      "exitPrice": 181.87,
-      "exitTime": "2026-06-03T14:17:15Z",
-      "open": false,
-      "returnPct": -5.96,
-      "qqqReturnPct": 0.2
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "MSFT",
-      "direction": "LONG",
-      "entryPrice": 461.63,
-      "entryTime": "2026-06-01T14:17:02Z",
-      "exitPrice": 432.38,
-      "exitTime": "2026-06-03T14:17:15Z",
-      "open": false,
-      "returnPct": -6.34,
-      "qqqReturnPct": 0.2
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "BYD",
-      "direction": "LONG",
-      "entryPrice": 82.25,
-      "entryTime": "2026-05-27T14:16:38Z",
-      "exitPrice": 85.04,
-      "exitTime": "2026-06-03T14:17:15Z",
-      "open": false,
-      "returnPct": 3.39,
-      "qqqReturnPct": 2.02
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "SAP",
-      "direction": "LONG",
-      "entryPrice": 193.4,
-      "entryTime": "2026-06-01T14:17:02Z",
-      "exitPrice": 181.87,
-      "exitTime": "2026-06-03T14:17:15Z",
-      "open": false,
-      "returnPct": -5.96,
-      "qqqReturnPct": 0.2
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "MSFT",
-      "direction": "LONG",
-      "entryPrice": 461.63,
-      "entryTime": "2026-06-01T14:17:02Z",
-      "exitPrice": 432.38,
-      "exitTime": "2026-06-03T14:17:15Z",
-      "open": false,
-      "returnPct": -6.34,
-      "qqqReturnPct": 0.2
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "MRVL",
-      "direction": "LONG",
-      "entryPrice": 218.14,
-      "entryTime": "2026-06-01T15:40:11Z",
-      "exitPrice": 282.44,
-      "exitTime": "2026-06-02T15:38:39Z",
-      "open": false,
-      "returnPct": 29.48,
-      "qqqReturnPct": 0.46
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AMAT",
-      "direction": "LONG",
-      "entryPrice": 454.72,
-      "entryTime": "2026-06-01T15:40:11Z",
-      "exitPrice": 483.71,
-      "exitTime": "2026-06-02T15:38:39Z",
-      "open": false,
-      "returnPct": 6.38,
-      "qqqReturnPct": 0.46
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "GS",
-      "direction": "LONG",
-      "entryPrice": 990.39,
-      "entryTime": "2026-05-27T15:36:31Z",
-      "exitPrice": 1068.76,
-      "exitTime": "2026-06-02T15:38:37Z",
-      "open": false,
-      "returnPct": 7.91,
-      "qqqReturnPct": 2.29
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "C",
-      "direction": "LONG",
-      "entryPrice": 124.4,
-      "entryTime": "2026-05-28T15:41:03Z",
-      "exitPrice": 131.9,
-      "exitTime": "2026-06-02T15:38:37Z",
-      "open": false,
-      "returnPct": 6.03,
-      "qqqReturnPct": 1.44
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "NVDA",
-      "direction": "LONG",
-      "entryPrice": 214.52,
-      "entryTime": "2026-05-26T15:39:31Z",
-      "exitPrice": 226.74,
-      "exitTime": "2026-06-02T15:38:36Z",
-      "open": false,
-      "returnPct": 5.7,
-      "qqqReturnPct": 2.17
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "SBUX",
-      "direction": "LONG",
-      "entryPrice": 95.75,
-      "entryTime": "2026-06-01T15:27:32Z",
-      "exitPrice": 96.64,
-      "exitTime": "2026-06-02T15:25:19Z",
-      "open": false,
-      "returnPct": 0.93,
-      "qqqReturnPct": 0.46
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "NSC",
-      "direction": "LONG",
-      "entryPrice": 301.82,
-      "entryTime": "2026-06-01T15:27:32Z",
-      "exitPrice": 307.33,
-      "exitTime": "2026-06-02T15:25:19Z",
-      "open": false,
-      "returnPct": 1.83,
-      "qqqReturnPct": 0.46
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "SBUX",
       "direction": "LONG",
@@ -18687,30 +8253,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-02T15:25:19Z",
       "open": false,
       "returnPct": 1.83,
-      "qqqReturnPct": 0.46
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MRVL",
-      "direction": "LONG",
-      "entryPrice": 218.14,
-      "entryTime": "2026-06-01T15:27:32Z",
-      "exitPrice": 280.05,
-      "exitTime": "2026-06-02T15:25:18Z",
-      "open": false,
-      "returnPct": 28.38,
-      "qqqReturnPct": 0.46
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMAT",
-      "direction": "LONG",
-      "entryPrice": 454.72,
-      "entryTime": "2026-06-01T15:27:32Z",
-      "exitPrice": 485.14,
-      "exitTime": "2026-06-02T15:25:18Z",
-      "open": false,
-      "returnPct": 6.69,
       "qqqReturnPct": 0.46
     },
     {
@@ -18738,18 +8280,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.46
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CAT",
-      "direction": "LONG",
-      "entryPrice": 879.91,
-      "entryTime": "2026-05-29T15:29:43Z",
-      "exitPrice": 905.15,
-      "exitTime": "2026-06-02T15:25:17Z",
-      "open": false,
-      "returnPct": 2.87,
-      "qqqReturnPct": 1.06
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "CAT",
       "direction": "LONG",
@@ -18762,18 +8292,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "KLAC",
-      "direction": "LONG",
-      "entryPrice": 1944.99,
-      "entryTime": "2026-05-28T15:29:33Z",
-      "exitPrice": 2024.19,
-      "exitTime": "2026-06-02T15:25:16Z",
-      "open": false,
-      "returnPct": 4.07,
-      "qqqReturnPct": 1.44
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "KLAC",
       "direction": "LONG",
@@ -18784,18 +8302,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 4.07,
       "qqqReturnPct": 1.44
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "OKTA",
-      "direction": "SHORT",
-      "entryPrice": 140.6,
-      "entryTime": "2026-06-01T15:25:06Z",
-      "exitPrice": 133.25,
-      "exitTime": "2026-06-02T15:22:13Z",
-      "open": false,
-      "returnPct": 5.23,
-      "qqqReturnPct": 0.46
     },
     {
       "strategy": "Oracle",
@@ -18807,30 +8313,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-02T15:22:13Z",
       "open": false,
       "returnPct": 5.23,
-      "qqqReturnPct": 0.46
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CME",
-      "direction": "LONG",
-      "entryPrice": 266.23,
-      "entryTime": "2026-06-01T15:25:06Z",
-      "exitPrice": 246.87,
-      "exitTime": "2026-06-02T15:22:12Z",
-      "open": false,
-      "returnPct": -7.27,
-      "qqqReturnPct": 0.46
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "COIN",
-      "direction": "LONG",
-      "entryPrice": 183.53,
-      "entryTime": "2026-06-01T15:25:06Z",
-      "exitPrice": 172.79,
-      "exitTime": "2026-06-02T15:22:12Z",
-      "open": false,
-      "returnPct": -5.85,
       "qqqReturnPct": 0.46
     },
     {
@@ -18858,18 +8340,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.46
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "REGN",
-      "direction": "LONG",
-      "entryPrice": 628.66,
-      "entryTime": "2026-05-27T15:22:47Z",
-      "exitPrice": 598.06,
-      "exitTime": "2026-06-02T15:22:09Z",
-      "open": false,
-      "returnPct": -4.87,
-      "qqqReturnPct": 2.29
-    },
-    {
       "strategy": "Oracle",
       "ticker": "REGN",
       "direction": "LONG",
@@ -18882,102 +8352,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.29
     },
     {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "BBC",
-      "direction": "LONG",
-      "entryPrice": 42.89,
-      "entryTime": "2026-05-26T14:16:50Z",
-      "exitPrice": 43.05,
-      "exitTime": "2026-06-02T14:17:22Z",
-      "open": false,
-      "returnPct": 0.37,
-      "qqqReturnPct": 2.17
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "ZM",
-      "direction": "LONG",
-      "entryPrice": 101.05,
-      "entryTime": "2026-05-29T14:19:22Z",
-      "exitPrice": 113.32,
-      "exitTime": "2026-06-02T14:17:22Z",
-      "open": false,
-      "returnPct": 12.14,
-      "qqqReturnPct": 1.06
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "BBC",
-      "direction": "LONG",
-      "entryPrice": 42.89,
-      "entryTime": "2026-05-26T14:16:50Z",
-      "exitPrice": 43.05,
-      "exitTime": "2026-06-02T14:17:22Z",
-      "open": false,
-      "returnPct": 0.37,
-      "qqqReturnPct": 2.17
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "ZM",
-      "direction": "LONG",
-      "entryPrice": 101.05,
-      "entryTime": "2026-05-29T14:19:22Z",
-      "exitPrice": 113.32,
-      "exitTime": "2026-06-02T14:17:22Z",
-      "open": false,
-      "returnPct": 12.14,
-      "qqqReturnPct": 1.06
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "WMT",
-      "direction": "LONG",
-      "entryPrice": 117.52,
-      "entryTime": "2026-05-28T15:41:03Z",
-      "exitPrice": 113.9,
-      "exitTime": "2026-06-01T15:40:10Z",
-      "open": false,
-      "returnPct": -3.08,
-      "qqqReturnPct": 0.97
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "MRVL",
-      "direction": "LONG",
-      "entryPrice": 197.75,
-      "entryTime": "2026-05-27T15:36:31Z",
-      "exitPrice": 218.23,
-      "exitTime": "2026-06-01T15:40:08Z",
-      "open": false,
-      "returnPct": 10.36,
-      "qqqReturnPct": 1.82
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "MO",
-      "direction": "LONG",
-      "entryPrice": 71.94,
-      "entryTime": "2026-05-26T15:39:31Z",
-      "exitPrice": 68.57,
-      "exitTime": "2026-06-01T15:40:07Z",
-      "open": false,
-      "returnPct": -4.68,
-      "qqqReturnPct": 1.71
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "WMT",
-      "direction": "LONG",
-      "entryPrice": 117.52,
-      "entryTime": "2026-05-28T15:29:33Z",
-      "exitPrice": 113.76,
-      "exitTime": "2026-06-01T15:26:29Z",
-      "open": false,
-      "returnPct": -3.2,
-      "qqqReturnPct": 0.97
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "WMT",
       "direction": "LONG",
@@ -18988,30 +8362,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -3.2,
       "qqqReturnPct": 0.97
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "JPM",
-      "direction": "LONG",
-      "entryPrice": 306.41,
-      "entryTime": "2026-05-26T15:27:08Z",
-      "exitPrice": 296.5,
-      "exitTime": "2026-06-01T15:26:27Z",
-      "open": false,
-      "returnPct": -3.23,
-      "qqqReturnPct": 1.71
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MRVL",
-      "direction": "LONG",
-      "entryPrice": 197.75,
-      "entryTime": "2026-05-27T15:25:08Z",
-      "exitPrice": 218.06,
-      "exitTime": "2026-06-01T15:26:27Z",
-      "open": false,
-      "returnPct": 10.27,
-      "qqqReturnPct": 1.82
     },
     {
       "strategy": "Kestrel",
@@ -19038,18 +8388,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.82
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AAPL",
-      "direction": "LONG",
-      "entryPrice": 303.15,
-      "entryTime": "2026-05-21T15:28:47Z",
-      "exitPrice": 306.64,
-      "exitTime": "2026-06-01T15:26:26Z",
-      "open": false,
-      "returnPct": 1.15,
-      "qqqReturnPct": 3.95
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "AAPL",
       "direction": "LONG",
@@ -19060,42 +8398,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.15,
       "qqqReturnPct": 3.95
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "IBM",
-      "direction": "SHORT",
-      "entryPrice": 290.86,
-      "entryTime": "2026-05-29T15:27:42Z",
-      "exitPrice": 321.76,
-      "exitTime": "2026-06-01T15:23:49Z",
-      "open": false,
-      "returnPct": -10.62,
-      "qqqReturnPct": 0.6
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "DDOG",
-      "direction": "SHORT",
-      "entryPrice": 241.3,
-      "entryTime": "2026-05-29T15:27:42Z",
-      "exitPrice": 272.3,
-      "exitTime": "2026-06-01T15:23:49Z",
-      "open": false,
-      "returnPct": -12.84,
-      "qqqReturnPct": 0.6
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CRWD",
-      "direction": "SHORT",
-      "entryPrice": 715.32,
-      "entryTime": "2026-05-29T15:27:42Z",
-      "exitPrice": 765.7,
-      "exitTime": "2026-06-01T15:23:49Z",
-      "open": false,
-      "returnPct": -7.04,
-      "qqqReturnPct": 0.6
     },
     {
       "strategy": "Oracle",
@@ -19134,18 +8436,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "OKTA",
-      "direction": "SHORT",
-      "entryPrice": 119.63,
-      "entryTime": "2026-05-29T15:27:42Z",
-      "exitPrice": 140.77,
-      "exitTime": "2026-06-01T15:23:48Z",
-      "open": false,
-      "returnPct": -17.67,
-      "qqqReturnPct": 0.6
-    },
-    {
       "strategy": "Oracle",
       "ticker": "OKTA",
       "direction": "SHORT",
@@ -19158,18 +8448,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ARM",
-      "direction": "SHORT",
-      "entryPrice": 345.19,
-      "entryTime": "2026-05-28T15:27:33Z",
-      "exitPrice": 414.38,
-      "exitTime": "2026-06-01T15:23:47Z",
-      "open": false,
-      "returnPct": -20.04,
-      "qqqReturnPct": 0.97
-    },
-    {
       "strategy": "Oracle",
       "ticker": "ARM",
       "direction": "SHORT",
@@ -19179,30 +8457,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-06-01T15:23:47Z",
       "open": false,
       "returnPct": -20.04,
-      "qqqReturnPct": 0.97
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PDD",
-      "direction": "LONG",
-      "entryPrice": 82.38,
-      "entryTime": "2026-05-28T15:27:33Z",
-      "exitPrice": 87.76,
-      "exitTime": "2026-06-01T15:23:46Z",
-      "open": false,
-      "returnPct": 6.53,
-      "qqqReturnPct": 0.97
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "INTU",
-      "direction": "LONG",
-      "entryPrice": 314.45,
-      "entryTime": "2026-05-28T15:27:33Z",
-      "exitPrice": 359.98,
-      "exitTime": "2026-06-01T15:23:46Z",
-      "open": false,
-      "returnPct": 14.48,
       "qqqReturnPct": 0.97
     },
     {
@@ -19230,30 +8484,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.97
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "WMT",
-      "direction": "LONG",
-      "entryPrice": 118.9,
-      "entryTime": "2026-05-26T15:24:45Z",
-      "exitPrice": 113.86,
-      "exitTime": "2026-06-01T15:23:44Z",
-      "open": false,
-      "returnPct": -4.23,
-      "qqqReturnPct": 1.71
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CLSK",
-      "direction": "SHORT",
-      "entryPrice": 17.36,
-      "entryTime": "2026-05-26T15:24:45Z",
-      "exitPrice": 18.65,
-      "exitTime": "2026-06-01T15:23:44Z",
-      "open": false,
-      "returnPct": -7.4,
-      "qqqReturnPct": 1.71
-    },
-    {
       "strategy": "Oracle",
       "ticker": "WMT",
       "direction": "LONG",
@@ -19278,18 +8508,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.71
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "FTNT",
-      "direction": "SHORT",
-      "entryPrice": 132.21,
-      "entryTime": "2026-05-22T15:26:52Z",
-      "exitPrice": 144.65,
-      "exitTime": "2026-06-01T15:23:43Z",
-      "open": false,
-      "returnPct": -9.41,
-      "qqqReturnPct": 3.51
-    },
-    {
       "strategy": "Oracle",
       "ticker": "FTNT",
       "direction": "SHORT",
@@ -19300,186 +8518,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -9.41,
       "qqqReturnPct": 3.51
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "AMC",
-      "direction": "LONG",
-      "entryPrice": 1.6,
-      "entryTime": "2026-05-26T14:16:50Z",
-      "exitPrice": 2.01,
-      "exitTime": "2026-06-01T14:17:04Z",
-      "open": false,
-      "returnPct": 25.62,
-      "qqqReturnPct": 1.71
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "ELAB",
-      "direction": "LONG",
-      "entryPrice": 1.71,
-      "entryTime": "2026-05-29T14:19:22Z",
-      "exitPrice": 1.88,
-      "exitTime": "2026-06-01T14:17:04Z",
-      "open": false,
-      "returnPct": 10.23,
-      "qqqReturnPct": 0.6
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "AMC",
-      "direction": "LONG",
-      "entryPrice": 1.6,
-      "entryTime": "2026-05-26T14:16:50Z",
-      "exitPrice": 2.01,
-      "exitTime": "2026-06-01T14:17:04Z",
-      "open": false,
-      "returnPct": 25.62,
-      "qqqReturnPct": 1.71
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "ELAB",
-      "direction": "LONG",
-      "entryPrice": 1.71,
-      "entryTime": "2026-05-29T14:19:22Z",
-      "exitPrice": 1.88,
-      "exitTime": "2026-06-01T14:17:04Z",
-      "open": false,
-      "returnPct": 10.23,
-      "qqqReturnPct": 0.6
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "HOOD",
-      "direction": "LONG",
-      "entryPrice": 73.68,
-      "entryTime": "2026-05-22T00:00:00Z",
-      "exitPrice": 89.94,
-      "exitTime": "2026-06-01T00:00:00Z",
-      "open": false,
-      "returnPct": 22.06,
-      "qqqReturnPct": 3.51
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "COIN",
-      "direction": "LONG",
-      "entryPrice": 188.07,
-      "entryTime": "2026-05-22T00:00:00Z",
-      "exitPrice": 179.14,
-      "exitTime": "2026-06-01T00:00:00Z",
-      "open": false,
-      "returnPct": -4.75,
-      "qqqReturnPct": 3.51
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "PLTR",
-      "direction": "LONG",
-      "entryPrice": 134.32,
-      "entryTime": "2026-05-22T00:00:00Z",
-      "exitPrice": 159.98,
-      "exitTime": "2026-06-01T00:00:00Z",
-      "open": false,
-      "returnPct": 19.1,
-      "qqqReturnPct": 3.51
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "QUBT",
-      "direction": "LONG",
-      "entryPrice": 11.64,
-      "entryTime": "2026-05-29T00:00:00Z",
-      "exitPrice": 11.68,
-      "exitTime": "2026-06-01T00:00:00Z",
-      "open": false,
-      "returnPct": 0.39,
-      "qqqReturnPct": 0.6
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "CLSK",
-      "direction": "LONG",
-      "entryPrice": 17.25,
-      "entryTime": "2026-05-29T00:00:00Z",
-      "exitPrice": 17.94,
-      "exitTime": "2026-06-01T00:00:00Z",
-      "open": false,
-      "returnPct": 3.99,
-      "qqqReturnPct": 0.6
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "HIMS",
-      "direction": "LONG",
-      "entryPrice": 24.28,
-      "entryTime": "2026-05-29T00:00:00Z",
-      "exitPrice": 26.19,
-      "exitTime": "2026-06-01T00:00:00Z",
-      "open": false,
-      "returnPct": 7.87,
-      "qqqReturnPct": 0.6
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "BBAI",
-      "direction": "LONG",
-      "entryPrice": 4.77,
-      "entryTime": "2026-05-29T00:00:00Z",
-      "exitPrice": 5.17,
-      "exitTime": "2026-06-01T00:00:00Z",
-      "open": false,
-      "returnPct": 8.39,
-      "qqqReturnPct": 0.6
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "IONQ",
-      "direction": "LONG",
-      "entryPrice": 67.95,
-      "entryTime": "2026-05-29T00:00:00Z",
-      "exitPrice": 69.64,
-      "exitTime": "2026-06-01T00:00:00Z",
-      "open": false,
-      "returnPct": 2.5,
-      "qqqReturnPct": 0.6
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "TSLA",
-      "direction": "LONG",
-      "entryPrice": 430.54,
-      "entryTime": "2026-05-29T00:00:00Z",
-      "exitPrice": 427.38,
-      "exitTime": "2026-06-01T00:00:00Z",
-      "open": false,
-      "returnPct": -0.73,
-      "qqqReturnPct": 0.6
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "MARA",
-      "direction": "LONG",
-      "entryPrice": 13.7,
-      "entryTime": "2026-05-29T00:00:00Z",
-      "exitPrice": 14.07,
-      "exitTime": "2026-06-01T00:00:00Z",
-      "open": false,
-      "returnPct": 2.66,
-      "qqqReturnPct": 0.6
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "SNAP",
-      "direction": "LONG",
-      "entryPrice": 5.76,
-      "entryTime": "2026-05-29T00:00:00Z",
-      "exitPrice": 5.79,
-      "exitTime": "2026-06-01T00:00:00Z",
-      "open": false,
-      "returnPct": 0.52,
-      "qqqReturnPct": 0.6
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -19614,66 +8652,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.6
     },
     {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "WDAY",
-      "direction": "LONG",
-      "entryPrice": 126.25,
-      "entryTime": "2026-05-27T15:36:31Z",
-      "exitPrice": 142.55,
-      "exitTime": "2026-05-29T15:41:01Z",
-      "open": false,
-      "returnPct": 12.91,
-      "qqqReturnPct": 1.21
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "INTU",
-      "direction": "LONG",
-      "entryPrice": 312.74,
-      "entryTime": "2026-05-27T15:36:31Z",
-      "exitPrice": 328.61,
-      "exitTime": "2026-05-29T15:41:00Z",
-      "open": false,
-      "returnPct": 5.07,
-      "qqqReturnPct": 1.21
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AAPL",
-      "direction": "LONG",
-      "entryPrice": 303.15,
-      "entryTime": "2026-05-21T15:39:21Z",
-      "exitPrice": 311.94,
-      "exitTime": "2026-05-29T15:40:59Z",
-      "open": false,
-      "returnPct": 2.9,
-      "qqqReturnPct": 3.33
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "HON",
-      "direction": "LONG",
-      "entryPrice": 231.2,
-      "entryTime": "2026-05-28T15:29:33Z",
-      "exitPrice": 236.76,
-      "exitTime": "2026-05-29T15:28:40Z",
-      "open": false,
-      "returnPct": 2.4,
-      "qqqReturnPct": 0.37
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "C",
-      "direction": "LONG",
-      "entryPrice": 124.4,
-      "entryTime": "2026-05-28T15:29:33Z",
-      "exitPrice": 126.69,
-      "exitTime": "2026-05-29T15:28:40Z",
-      "open": false,
-      "returnPct": 1.84,
-      "qqqReturnPct": 0.37
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "HON",
       "direction": "LONG",
@@ -19698,18 +8676,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.37
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "NVDA",
-      "direction": "LONG",
-      "entryPrice": 214.52,
-      "entryTime": "2026-05-26T15:27:08Z",
-      "exitPrice": 215.5,
-      "exitTime": "2026-05-29T15:28:38Z",
-      "open": false,
-      "returnPct": 0.46,
-      "qqqReturnPct": 1.1
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "NVDA",
       "direction": "LONG",
@@ -19722,30 +8688,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.1
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SNOW",
-      "direction": "SHORT",
-      "entryPrice": 237.38,
-      "entryTime": "2026-05-28T15:27:33Z",
-      "exitPrice": 250.88,
-      "exitTime": "2026-05-29T15:26:27Z",
-      "open": false,
-      "returnPct": -5.69,
-      "qqqReturnPct": 0.37
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "OKTA",
-      "direction": "SHORT",
-      "entryPrice": 93.91,
-      "entryTime": "2026-05-28T15:27:33Z",
-      "exitPrice": 119.66,
-      "exitTime": "2026-05-29T15:26:27Z",
-      "open": false,
-      "returnPct": -27.42,
-      "qqqReturnPct": 0.37
-    },
-    {
       "strategy": "Oracle",
       "ticker": "SNOW",
       "direction": "SHORT",
@@ -19768,42 +8710,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -27.42,
       "qqqReturnPct": 0.37
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "COIN",
-      "direction": "LONG",
-      "entryPrice": 177.58,
-      "entryTime": "2026-05-27T15:22:47Z",
-      "exitPrice": 187.28,
-      "exitTime": "2026-05-29T15:26:24Z",
-      "open": false,
-      "returnPct": 5.46,
-      "qqqReturnPct": 1.21
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LI",
-      "direction": "LONG",
-      "entryPrice": 15.74,
-      "entryTime": "2026-05-27T15:22:47Z",
-      "exitPrice": 15.02,
-      "exitTime": "2026-05-29T15:26:24Z",
-      "open": false,
-      "returnPct": -4.57,
-      "qqqReturnPct": 1.21
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ZS",
-      "direction": "LONG",
-      "entryPrice": 126.01,
-      "entryTime": "2026-05-27T15:22:47Z",
-      "exitPrice": 135.92,
-      "exitTime": "2026-05-29T15:26:24Z",
-      "open": false,
-      "returnPct": 7.86,
-      "qqqReturnPct": 1.21
     },
     {
       "strategy": "Oracle",
@@ -19842,138 +8748,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.21
     },
     {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "TTWO",
-      "direction": "LONG",
-      "entryPrice": 224.23,
-      "entryTime": "2026-05-22T14:16:52Z",
-      "exitPrice": 226.26,
-      "exitTime": "2026-05-29T14:19:23Z",
-      "open": false,
-      "returnPct": 0.91,
-      "qqqReturnPct": 2.89
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "HUBC",
-      "direction": "LONG",
-      "entryPrice": 0.12,
-      "entryTime": "2026-05-28T14:17:22Z",
-      "exitPrice": 0.57,
-      "exitTime": "2026-05-29T14:19:23Z",
-      "open": false,
-      "returnPct": 376.47,
-      "qqqReturnPct": 0.37
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "TTWO",
-      "direction": "LONG",
-      "entryPrice": 224.23,
-      "entryTime": "2026-05-22T14:16:52Z",
-      "exitPrice": 226.26,
-      "exitTime": "2026-05-29T14:19:23Z",
-      "open": false,
-      "returnPct": 0.91,
-      "qqqReturnPct": 2.89
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "HUBC",
-      "direction": "LONG",
-      "entryPrice": 0.12,
-      "entryTime": "2026-05-28T14:17:22Z",
-      "exitPrice": 0.57,
-      "exitTime": "2026-05-29T14:19:23Z",
-      "open": false,
-      "returnPct": 376.47,
-      "qqqReturnPct": 0.37
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "ESTC",
-      "direction": "LONG",
-      "entryPrice": 54.51,
-      "entryTime": "2026-05-26T15:39:31Z",
-      "exitPrice": 58.35,
-      "exitTime": "2026-05-28T15:41:01Z",
-      "open": false,
-      "returnPct": 7.03,
-      "qqqReturnPct": 0.73
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "QCOM",
-      "direction": "LONG",
-      "entryPrice": 224.93,
-      "entryTime": "2026-05-27T15:36:31Z",
-      "exitPrice": 244.48,
-      "exitTime": "2026-05-28T15:41:01Z",
-      "open": false,
-      "returnPct": 8.69,
-      "qqqReturnPct": 0.84
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "GOOG",
-      "direction": "LONG",
-      "entryPrice": 384.02,
-      "entryTime": "2026-05-20T15:39:35Z",
-      "exitPrice": 386.29,
-      "exitTime": "2026-05-28T15:40:59Z",
-      "open": false,
-      "returnPct": 0.59,
-      "qqqReturnPct": 3.15
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 386.33,
-      "entryTime": "2026-05-20T15:39:35Z",
-      "exitPrice": 385.7,
-      "exitTime": "2026-05-28T15:40:59Z",
-      "open": false,
-      "returnPct": -0.16,
-      "qqqReturnPct": 3.15
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "GS",
-      "direction": "LONG",
-      "entryPrice": 990.39,
-      "entryTime": "2026-05-27T15:25:08Z",
-      "exitPrice": 999.25,
-      "exitTime": "2026-05-28T15:28:30Z",
-      "open": false,
-      "returnPct": 0.9,
-      "qqqReturnPct": 0.84
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "INTU",
-      "direction": "LONG",
-      "entryPrice": 312.74,
-      "entryTime": "2026-05-27T15:25:08Z",
-      "exitPrice": 314.49,
-      "exitTime": "2026-05-28T15:28:30Z",
-      "open": false,
-      "returnPct": 0.56,
-      "qqqReturnPct": 0.84
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "WDAY",
-      "direction": "LONG",
-      "entryPrice": 126.25,
-      "entryTime": "2026-05-27T15:25:08Z",
-      "exitPrice": 127.16,
-      "exitTime": "2026-05-28T15:28:30Z",
-      "open": false,
-      "returnPct": 0.72,
-      "qqqReturnPct": 0.84
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "GS",
       "direction": "LONG",
@@ -20010,30 +8784,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.84
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ESTC",
-      "direction": "LONG",
-      "entryPrice": 54.51,
-      "entryTime": "2026-05-26T15:27:08Z",
-      "exitPrice": 58.56,
-      "exitTime": "2026-05-28T15:28:29Z",
-      "open": false,
-      "returnPct": 7.41,
-      "qqqReturnPct": 0.73
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "QCOM",
-      "direction": "LONG",
-      "entryPrice": 224.93,
-      "entryTime": "2026-05-27T15:25:08Z",
-      "exitPrice": 245.3,
-      "exitTime": "2026-05-28T15:28:29Z",
-      "open": false,
-      "returnPct": 9.06,
-      "qqqReturnPct": 0.84
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "ESTC",
       "direction": "LONG",
@@ -20058,18 +8808,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.84
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 386.33,
-      "entryTime": "2026-05-20T15:28:46Z",
-      "exitPrice": 385.32,
-      "exitTime": "2026-05-28T15:28:28Z",
-      "open": false,
-      "returnPct": -0.26,
-      "qqqReturnPct": 3.15
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "UNH",
       "direction": "LONG",
@@ -20080,18 +8818,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -0.26,
       "qqqReturnPct": 3.15
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "F",
-      "direction": "SHORT",
-      "entryPrice": 15.9,
-      "entryTime": "2026-05-27T15:22:47Z",
-      "exitPrice": 16.57,
-      "exitTime": "2026-05-28T15:26:19Z",
-      "open": false,
-      "returnPct": -4.22,
-      "qqqReturnPct": 0.84
     },
     {
       "strategy": "Oracle",
@@ -20103,30 +8829,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-05-28T15:26:19Z",
       "open": false,
       "returnPct": -4.22,
-      "qqqReturnPct": 0.84
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ARM",
-      "direction": "SHORT",
-      "entryPrice": 314.96,
-      "entryTime": "2026-05-26T15:24:45Z",
-      "exitPrice": 343.79,
-      "exitTime": "2026-05-28T15:26:17Z",
-      "open": false,
-      "returnPct": -9.15,
-      "qqqReturnPct": 0.73
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PDD",
-      "direction": "LONG",
-      "entryPrice": 86.0,
-      "entryTime": "2026-05-27T15:22:47Z",
-      "exitPrice": 82.36,
-      "exitTime": "2026-05-28T15:26:17Z",
-      "open": false,
-      "returnPct": -4.23,
       "qqqReturnPct": 0.84
     },
     {
@@ -20152,54 +8854,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.23,
       "qqqReturnPct": 0.84
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "DE",
-      "direction": "LONG",
-      "entryPrice": 518.43,
-      "entryTime": "2026-05-21T15:26:11Z",
-      "exitPrice": 535.56,
-      "exitTime": "2026-05-28T15:26:15Z",
-      "open": false,
-      "returnPct": 3.3,
-      "qqqReturnPct": 2.95
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PCAR",
-      "direction": "LONG",
-      "entryPrice": 108.49,
-      "entryTime": "2026-05-21T15:26:11Z",
-      "exitPrice": 112.58,
-      "exitTime": "2026-05-28T15:26:15Z",
-      "open": false,
-      "returnPct": 3.77,
-      "qqqReturnPct": 2.95
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "FSLY",
-      "direction": "LONG",
-      "entryPrice": 16.51,
-      "entryTime": "2026-05-21T15:26:11Z",
-      "exitPrice": 16.88,
-      "exitTime": "2026-05-28T15:26:15Z",
-      "open": false,
-      "returnPct": 2.21,
-      "qqqReturnPct": 2.95
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "S",
-      "direction": "SHORT",
-      "entryPrice": 18.06,
-      "entryTime": "2026-05-21T15:26:11Z",
-      "exitPrice": 17.77,
-      "exitTime": "2026-05-28T15:26:15Z",
-      "open": false,
-      "returnPct": 1.55,
-      "qqqReturnPct": 2.95
     },
     {
       "strategy": "Oracle",
@@ -20247,54 +8901,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-05-28T15:26:15Z",
       "open": false,
       "returnPct": 1.55,
-      "qqqReturnPct": 2.95
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "HCA",
-      "direction": "LONG",
-      "entryPrice": 403.26,
-      "entryTime": "2026-05-20T15:26:01Z",
-      "exitPrice": 387.69,
-      "exitTime": "2026-05-28T15:26:14Z",
-      "open": false,
-      "returnPct": -3.86,
-      "qqqReturnPct": 3.15
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PYPL",
-      "direction": "LONG",
-      "entryPrice": 43.98,
-      "entryTime": "2026-05-20T15:26:01Z",
-      "exitPrice": 44.07,
-      "exitTime": "2026-05-28T15:26:14Z",
-      "open": false,
-      "returnPct": 0.2,
-      "qqqReturnPct": 3.15
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LYFT",
-      "direction": "LONG",
-      "entryPrice": 13.15,
-      "entryTime": "2026-05-20T15:26:01Z",
-      "exitPrice": 13.84,
-      "exitTime": "2026-05-28T15:26:14Z",
-      "open": false,
-      "returnPct": 5.17,
-      "qqqReturnPct": 3.15
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "INTU",
-      "direction": "LONG",
-      "entryPrice": 309.56,
-      "entryTime": "2026-05-21T15:26:11Z",
-      "exitPrice": 314.58,
-      "exitTime": "2026-05-28T15:26:14Z",
-      "open": false,
-      "returnPct": 1.62,
       "qqqReturnPct": 2.95
     },
     {
@@ -20346,78 +8952,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.95
     },
     {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "UBS",
-      "direction": "LONG",
-      "entryPrice": 47.56,
-      "entryTime": "2026-05-26T14:16:50Z",
-      "exitPrice": 46.87,
-      "exitTime": "2026-05-28T14:17:23Z",
-      "open": false,
-      "returnPct": -1.46,
-      "qqqReturnPct": 0.73
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "ZS",
-      "direction": "LONG",
-      "entryPrice": 129.34,
-      "entryTime": "2026-05-27T14:16:38Z",
-      "exitPrice": 123.08,
-      "exitTime": "2026-05-28T14:17:23Z",
-      "open": false,
-      "returnPct": -4.84,
-      "qqqReturnPct": 0.84
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "UBS",
-      "direction": "LONG",
-      "entryPrice": 47.56,
-      "entryTime": "2026-05-26T14:16:50Z",
-      "exitPrice": 46.87,
-      "exitTime": "2026-05-28T14:17:23Z",
-      "open": false,
-      "returnPct": -1.46,
-      "qqqReturnPct": 0.73
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "ZS",
-      "direction": "LONG",
-      "entryPrice": 129.34,
-      "entryTime": "2026-05-27T14:16:38Z",
-      "exitPrice": 123.08,
-      "exitTime": "2026-05-28T14:17:23Z",
-      "open": false,
-      "returnPct": -4.84,
-      "qqqReturnPct": 0.84
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "TEAM",
-      "direction": "LONG",
-      "entryPrice": 84.94,
-      "entryTime": "2026-05-26T15:39:31Z",
-      "exitPrice": 89.35,
-      "exitTime": "2026-05-27T15:36:30Z",
-      "open": false,
-      "returnPct": 5.19,
-      "qqqReturnPct": -0.11
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MO",
-      "direction": "LONG",
-      "entryPrice": 71.94,
-      "entryTime": "2026-05-26T15:27:08Z",
-      "exitPrice": 72.66,
-      "exitTime": "2026-05-27T15:24:08Z",
-      "open": false,
-      "returnPct": 1.0,
-      "qqqReturnPct": -0.11
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "MO",
       "direction": "LONG",
@@ -20427,30 +8961,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-05-27T15:24:08Z",
       "open": false,
       "returnPct": 1.0,
-      "qqqReturnPct": -0.11
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMGN",
-      "direction": "LONG",
-      "entryPrice": 339.15,
-      "entryTime": "2026-05-22T15:29:15Z",
-      "exitPrice": 340.62,
-      "exitTime": "2026-05-27T15:24:07Z",
-      "open": false,
-      "returnPct": 0.43,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "TEAM",
-      "direction": "LONG",
-      "entryPrice": 84.94,
-      "entryTime": "2026-05-26T15:27:08Z",
-      "exitPrice": 88.65,
-      "exitTime": "2026-05-27T15:24:07Z",
-      "open": false,
-      "returnPct": 4.37,
       "qqqReturnPct": -0.11
     },
     {
@@ -20478,30 +8988,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.11
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "GOOG",
-      "direction": "LONG",
-      "entryPrice": 384.02,
-      "entryTime": "2026-05-19T15:26:28Z",
-      "exitPrice": 387.45,
-      "exitTime": "2026-05-27T15:24:06Z",
-      "open": false,
-      "returnPct": 0.89,
-      "qqqReturnPct": 3.98
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AFL",
-      "direction": "LONG",
-      "entryPrice": 117.92,
-      "entryTime": "2026-05-21T15:28:47Z",
-      "exitPrice": 115.33,
-      "exitTime": "2026-05-27T15:24:06Z",
-      "open": false,
-      "returnPct": -2.19,
-      "qqqReturnPct": 2.09
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "GOOG",
       "direction": "LONG",
@@ -20524,18 +9010,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -2.19,
       "qqqReturnPct": 2.09
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "OKTA",
-      "direction": "SHORT",
-      "entryPrice": 95.63,
-      "entryTime": "2026-05-26T15:24:45Z",
-      "exitPrice": 89.9,
-      "exitTime": "2026-05-27T15:21:34Z",
-      "open": false,
-      "returnPct": 5.99,
-      "qqqReturnPct": -0.11
     },
     {
       "strategy": "Oracle",
@@ -20548,42 +9022,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 5.99,
       "qqqReturnPct": -0.11
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NIO",
-      "direction": "LONG",
-      "entryPrice": 5.22,
-      "entryTime": "2026-05-22T15:26:52Z",
-      "exitPrice": 5.7,
-      "exitTime": "2026-05-27T15:21:32Z",
-      "open": false,
-      "returnPct": 9.2,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PDD",
-      "direction": "LONG",
-      "entryPrice": 93.71,
-      "entryTime": "2026-05-22T15:26:52Z",
-      "exitPrice": 85.94,
-      "exitTime": "2026-05-27T15:21:32Z",
-      "open": false,
-      "returnPct": -8.29,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CRWD",
-      "direction": "SHORT",
-      "entryPrice": 670.0,
-      "entryTime": "2026-05-22T15:26:52Z",
-      "exitPrice": 640.44,
-      "exitTime": "2026-05-27T15:21:32Z",
-      "open": false,
-      "returnPct": 4.41,
-      "qqqReturnPct": 1.66
     },
     {
       "strategy": "Oracle",
@@ -20622,30 +9060,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LI",
-      "direction": "LONG",
-      "entryPrice": 16.02,
-      "entryTime": "2026-05-19T15:23:49Z",
-      "exitPrice": 15.74,
-      "exitTime": "2026-05-27T15:21:29Z",
-      "open": false,
-      "returnPct": -1.79,
-      "qqqReturnPct": 3.98
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "HUM",
-      "direction": "SHORT",
-      "entryPrice": 311.69,
-      "entryTime": "2026-05-19T15:23:49Z",
-      "exitPrice": 304.02,
-      "exitTime": "2026-05-27T15:21:29Z",
-      "open": false,
-      "returnPct": 2.46,
-      "qqqReturnPct": 3.98
-    },
-    {
       "strategy": "Oracle",
       "ticker": "LI",
       "direction": "LONG",
@@ -20668,150 +9082,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 2.46,
       "qqqReturnPct": 3.98
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "VTOL",
-      "direction": "LONG",
-      "entryPrice": 42.48,
-      "entryTime": "2026-05-19T14:17:27Z",
-      "exitPrice": 42.43,
-      "exitTime": "2026-05-27T14:16:39Z",
-      "open": false,
-      "returnPct": -0.13,
-      "qqqReturnPct": 3.98
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "CAVA",
-      "direction": "LONG",
-      "entryPrice": 81.33,
-      "entryTime": "2026-05-20T14:16:57Z",
-      "exitPrice": 84.36,
-      "exitTime": "2026-05-27T14:16:39Z",
-      "open": false,
-      "returnPct": 3.72,
-      "qqqReturnPct": 2.29
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "IMAX",
-      "direction": "LONG",
-      "entryPrice": 38.87,
-      "entryTime": "2026-05-22T14:16:52Z",
-      "exitPrice": 40.47,
-      "exitTime": "2026-05-27T14:16:39Z",
-      "open": false,
-      "returnPct": 4.12,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "VTOL",
-      "direction": "LONG",
-      "entryPrice": 42.48,
-      "entryTime": "2026-05-19T14:17:27Z",
-      "exitPrice": 42.43,
-      "exitTime": "2026-05-27T14:16:39Z",
-      "open": false,
-      "returnPct": -0.13,
-      "qqqReturnPct": 3.98
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "CAVA",
-      "direction": "LONG",
-      "entryPrice": 81.33,
-      "entryTime": "2026-05-20T14:16:57Z",
-      "exitPrice": 84.36,
-      "exitTime": "2026-05-27T14:16:39Z",
-      "open": false,
-      "returnPct": 3.72,
-      "qqqReturnPct": 2.29
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "IMAX",
-      "direction": "LONG",
-      "entryPrice": 38.87,
-      "entryTime": "2026-05-22T14:16:52Z",
-      "exitPrice": 40.47,
-      "exitTime": "2026-05-27T14:16:39Z",
-      "open": false,
-      "returnPct": 4.12,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "ABNB",
-      "direction": "LONG",
-      "entryPrice": 130.83,
-      "entryTime": "2026-05-21T15:39:21Z",
-      "exitPrice": 133.68,
-      "exitTime": "2026-05-26T15:39:31Z",
-      "open": false,
-      "returnPct": 2.18,
-      "qqqReturnPct": 2.21
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "ADI",
-      "direction": "LONG",
-      "entryPrice": 387.01,
-      "entryTime": "2026-05-20T15:39:35Z",
-      "exitPrice": 415.88,
-      "exitTime": "2026-05-26T15:39:30Z",
-      "open": false,
-      "returnPct": 7.46,
-      "qqqReturnPct": 2.4
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "CVS",
-      "direction": "LONG",
-      "entryPrice": 94.47,
-      "entryTime": "2026-05-20T15:39:35Z",
-      "exitPrice": 91.92,
-      "exitTime": "2026-05-26T15:39:30Z",
-      "open": false,
-      "returnPct": -2.7,
-      "qqqReturnPct": 2.4
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "AFL",
-      "direction": "LONG",
-      "entryPrice": 117.92,
-      "entryTime": "2026-05-21T15:39:21Z",
-      "exitPrice": 117.39,
-      "exitTime": "2026-05-26T15:39:30Z",
-      "open": false,
-      "returnPct": -0.45,
-      "qqqReturnPct": 2.21
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "GOOGL",
-      "direction": "LONG",
-      "entryPrice": 387.2,
-      "entryTime": "2026-05-20T15:39:35Z",
-      "exitPrice": 386.25,
-      "exitTime": "2026-05-26T15:39:29Z",
-      "open": false,
-      "returnPct": -0.25,
-      "qqqReturnPct": 2.4
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ABNB",
-      "direction": "LONG",
-      "entryPrice": 130.83,
-      "entryTime": "2026-05-21T15:28:47Z",
-      "exitPrice": 133.27,
-      "exitTime": "2026-05-26T15:26:06Z",
-      "open": false,
-      "returnPct": 1.87,
-      "qqqReturnPct": 2.21
     },
     {
       "strategy": "Kestrel",
@@ -20824,30 +9094,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.87,
       "qqqReturnPct": 2.21
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ADI",
-      "direction": "LONG",
-      "entryPrice": 387.01,
-      "entryTime": "2026-05-20T15:28:46Z",
-      "exitPrice": 416.95,
-      "exitTime": "2026-05-26T15:26:05Z",
-      "open": false,
-      "returnPct": 7.74,
-      "qqqReturnPct": 2.4
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CVS",
-      "direction": "LONG",
-      "entryPrice": 94.47,
-      "entryTime": "2026-05-20T15:28:46Z",
-      "exitPrice": 91.72,
-      "exitTime": "2026-05-26T15:26:05Z",
-      "open": false,
-      "returnPct": -2.91,
-      "qqqReturnPct": 2.4
     },
     {
       "strategy": "Kestrel",
@@ -20874,30 +9120,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.4
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CL",
-      "direction": "LONG",
-      "entryPrice": 89.2,
-      "entryTime": "2026-05-14T15:29:05Z",
-      "exitPrice": 90.58,
-      "exitTime": "2026-05-26T15:26:04Z",
-      "open": false,
-      "returnPct": 1.55,
-      "qqqReturnPct": 1.46
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "SLB",
-      "direction": "LONG",
-      "entryPrice": 57.58,
-      "entryTime": "2026-05-18T15:28:42Z",
-      "exitPrice": 58.14,
-      "exitTime": "2026-05-26T15:26:04Z",
-      "open": false,
-      "returnPct": 0.98,
-      "qqqReturnPct": 3.46
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "CL",
       "direction": "LONG",
@@ -20922,18 +9144,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.46
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "EPD",
-      "direction": "LONG",
-      "entryPrice": 38.91,
-      "entryTime": "2026-05-14T15:29:05Z",
-      "exitPrice": 38.7,
-      "exitTime": "2026-05-26T15:26:03Z",
-      "open": false,
-      "returnPct": -0.54,
-      "qqqReturnPct": 1.46
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "EPD",
       "direction": "LONG",
@@ -20944,18 +9154,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -0.54,
       "qqqReturnPct": 1.46
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CLSK",
-      "direction": "SHORT",
-      "entryPrice": 15.83,
-      "entryTime": "2026-05-20T15:26:01Z",
-      "exitPrice": 17.38,
-      "exitTime": "2026-05-26T15:23:28Z",
-      "open": false,
-      "returnPct": -9.79,
-      "qqqReturnPct": 2.4
     },
     {
       "strategy": "Oracle",
@@ -20968,42 +9166,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -9.79,
       "qqqReturnPct": 2.4
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ZS",
-      "direction": "SHORT",
-      "entryPrice": 171.84,
-      "entryTime": "2026-05-18T15:25:56Z",
-      "exitPrice": 187.57,
-      "exitTime": "2026-05-26T15:23:26Z",
-      "open": false,
-      "returnPct": -9.16,
-      "qqqReturnPct": 3.46
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "SOFI",
-      "direction": "LONG",
-      "entryPrice": 14.97,
-      "entryTime": "2026-05-19T15:23:49Z",
-      "exitPrice": 16.16,
-      "exitTime": "2026-05-26T15:23:26Z",
-      "open": false,
-      "returnPct": 8.02,
-      "qqqReturnPct": 4.1
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "EMR",
-      "direction": "LONG",
-      "entryPrice": 129.73,
-      "entryTime": "2026-05-19T15:23:49Z",
-      "exitPrice": 138.46,
-      "exitTime": "2026-05-26T15:23:26Z",
-      "open": false,
-      "returnPct": 6.73,
-      "qqqReturnPct": 4.1
     },
     {
       "strategy": "Oracle",
@@ -21042,42 +9204,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 4.1
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "BNTX",
-      "direction": "LONG",
-      "entryPrice": 87.96,
-      "entryTime": "2026-05-18T15:25:56Z",
-      "exitPrice": 92.2,
-      "exitTime": "2026-05-26T15:23:25Z",
-      "open": false,
-      "returnPct": 4.82,
-      "qqqReturnPct": 3.46
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "REGN",
-      "direction": "LONG",
-      "entryPrice": 625.33,
-      "entryTime": "2026-05-18T15:25:56Z",
-      "exitPrice": 641.0,
-      "exitTime": "2026-05-26T15:23:25Z",
-      "open": false,
-      "returnPct": 2.51,
-      "qqqReturnPct": 3.46
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "XPEV",
-      "direction": "LONG",
-      "entryPrice": 15.02,
-      "entryTime": "2026-05-18T15:25:56Z",
-      "exitPrice": 16.69,
-      "exitTime": "2026-05-26T15:23:25Z",
-      "open": false,
-      "returnPct": 11.16,
-      "qqqReturnPct": 3.46
-    },
-    {
       "strategy": "Oracle",
       "ticker": "BNTX",
       "direction": "LONG",
@@ -21114,90 +9240,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 3.46
     },
     {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "META",
-      "direction": "LONG",
-      "entryPrice": 601.98,
-      "entryTime": "2026-05-20T14:16:57Z",
-      "exitPrice": 609.65,
-      "exitTime": "2026-05-26T14:16:52Z",
-      "open": false,
-      "returnPct": 1.27,
-      "qqqReturnPct": 2.4
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "IBM",
-      "direction": "LONG",
-      "entryPrice": 258.11,
-      "entryTime": "2026-05-22T14:16:52Z",
-      "exitPrice": 247.8,
-      "exitTime": "2026-05-26T14:16:52Z",
-      "open": false,
-      "returnPct": -3.99,
-      "qqqReturnPct": 1.78
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "META",
-      "direction": "LONG",
-      "entryPrice": 601.98,
-      "entryTime": "2026-05-20T14:16:57Z",
-      "exitPrice": 609.65,
-      "exitTime": "2026-05-26T14:16:52Z",
-      "open": false,
-      "returnPct": 1.27,
-      "qqqReturnPct": 2.4
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "IBM",
-      "direction": "LONG",
-      "entryPrice": 258.11,
-      "entryTime": "2026-05-22T14:16:52Z",
-      "exitPrice": 247.8,
-      "exitTime": "2026-05-26T14:16:52Z",
-      "open": false,
-      "returnPct": -3.99,
-      "qqqReturnPct": 1.78
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "TXN",
-      "direction": "LONG",
-      "entryPrice": 295.4,
-      "entryTime": "2026-05-21T15:39:21Z",
-      "exitPrice": 312.7,
-      "exitTime": "2026-05-22T15:39:00Z",
-      "open": false,
-      "returnPct": 5.86,
-      "qqqReturnPct": 0.42
-    },
-    {
-      "strategy": "Output Kestrel Multi Winners",
-      "ticker": "MRK",
-      "direction": "LONG",
-      "entryPrice": 114.61,
-      "entryTime": "2026-05-21T15:39:21Z",
-      "exitPrice": 121.46,
-      "exitTime": "2026-05-22T15:39:00Z",
-      "open": false,
-      "returnPct": 5.98,
-      "qqqReturnPct": 0.42
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MRK",
-      "direction": "LONG",
-      "entryPrice": 114.61,
-      "entryTime": "2026-05-21T15:28:47Z",
-      "exitPrice": 121.5,
-      "exitTime": "2026-05-22T15:28:12Z",
-      "open": false,
-      "returnPct": 6.01,
-      "qqqReturnPct": 0.42
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "MRK",
       "direction": "LONG",
@@ -21205,18 +9247,6 @@ window.V3KR_DATA = {
       "entryTime": "2026-05-21T15:28:47Z",
       "exitPrice": 121.5,
       "exitTime": "2026-05-22T15:28:12Z",
-      "open": false,
-      "returnPct": 6.01,
-      "qqqReturnPct": 0.42
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "TXN",
-      "direction": "LONG",
-      "entryPrice": 295.4,
-      "entryTime": "2026-05-21T15:28:47Z",
-      "exitPrice": 313.15,
-      "exitTime": "2026-05-22T15:28:11Z",
       "open": false,
       "returnPct": 6.01,
       "qqqReturnPct": 0.42
@@ -21231,30 +9261,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-05-22T15:28:11Z",
       "open": false,
       "returnPct": 6.01,
-      "qqqReturnPct": 0.42
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "NIO",
-      "direction": "LONG",
-      "entryPrice": 5.46,
-      "entryTime": "2026-05-21T15:26:11Z",
-      "exitPrice": 5.21,
-      "exitTime": "2026-05-22T15:25:40Z",
-      "open": false,
-      "returnPct": -4.58,
-      "qqqReturnPct": 0.42
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ARM",
-      "direction": "SHORT",
-      "entryPrice": 282.89,
-      "entryTime": "2026-05-21T15:26:11Z",
-      "exitPrice": 308.6,
-      "exitTime": "2026-05-22T15:25:40Z",
-      "open": false,
-      "returnPct": -9.09,
       "qqqReturnPct": 0.42
     },
     {
@@ -21282,18 +9288,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.42
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CRWD",
-      "direction": "SHORT",
-      "entryPrice": 641.74,
-      "entryTime": "2026-05-20T15:26:01Z",
-      "exitPrice": 668.92,
-      "exitTime": "2026-05-22T15:25:38Z",
-      "open": false,
-      "returnPct": -4.23,
-      "qqqReturnPct": 0.62
-    },
-    {
       "strategy": "Oracle",
       "ticker": "CRWD",
       "direction": "SHORT",
@@ -21306,18 +9300,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.62
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "DHI",
-      "direction": "LONG",
-      "entryPrice": 134.76,
-      "entryTime": "2026-05-19T15:23:49Z",
-      "exitPrice": 142.12,
-      "exitTime": "2026-05-22T15:25:36Z",
-      "open": false,
-      "returnPct": 5.47,
-      "qqqReturnPct": 2.28
-    },
-    {
       "strategy": "Oracle",
       "ticker": "DHI",
       "direction": "LONG",
@@ -21328,54 +9310,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 5.47,
       "qqqReturnPct": 2.28
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LULU",
-      "direction": "LONG",
-      "entryPrice": 119.49,
-      "entryTime": "2026-05-18T15:25:56Z",
-      "exitPrice": 125.56,
-      "exitTime": "2026-05-22T15:25:35Z",
-      "open": false,
-      "returnPct": 5.08,
-      "qqqReturnPct": 1.65
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LCID",
-      "direction": "LONG",
-      "entryPrice": 5.68,
-      "entryTime": "2026-05-18T15:25:56Z",
-      "exitPrice": 6.0,
-      "exitTime": "2026-05-22T15:25:35Z",
-      "open": false,
-      "returnPct": 5.54,
-      "qqqReturnPct": 1.65
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "FTNT",
-      "direction": "SHORT",
-      "entryPrice": 124.21,
-      "entryTime": "2026-05-18T15:25:56Z",
-      "exitPrice": 132.32,
-      "exitTime": "2026-05-22T15:25:35Z",
-      "open": false,
-      "returnPct": -6.53,
-      "qqqReturnPct": 1.65
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "PANW",
-      "direction": "SHORT",
-      "entryPrice": 244.82,
-      "entryTime": "2026-05-18T15:25:56Z",
-      "exitPrice": 257.74,
-      "exitTime": "2026-05-22T15:25:35Z",
-      "open": false,
-      "returnPct": -5.28,
-      "qqqReturnPct": 1.65
     },
     {
       "strategy": "Oracle",
@@ -21426,18 +9360,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.65
     },
     {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "RIVN",
-      "direction": "LONG",
-      "entryPrice": 13.26,
-      "entryTime": "2026-05-18T15:25:56Z",
-      "exitPrice": 14.18,
-      "exitTime": "2026-05-22T15:25:34Z",
-      "open": false,
-      "returnPct": 6.98,
-      "qqqReturnPct": 1.65
-    },
-    {
       "strategy": "Oracle",
       "ticker": "RIVN",
       "direction": "LONG",
@@ -21448,102 +9370,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 6.98,
       "qqqReturnPct": 1.65
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "JD",
-      "direction": "LONG",
-      "entryPrice": 32.6,
-      "entryTime": "2026-05-20T14:16:57Z",
-      "exitPrice": 30.84,
-      "exitTime": "2026-05-22T14:16:54Z",
-      "open": false,
-      "returnPct": -5.41,
-      "qqqReturnPct": 0.62
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "SMCI",
-      "direction": "LONG",
-      "entryPrice": 32.74,
-      "entryTime": "2026-05-20T14:16:57Z",
-      "exitPrice": 34.97,
-      "exitTime": "2026-05-22T14:16:54Z",
-      "open": false,
-      "returnPct": 6.81,
-      "qqqReturnPct": 0.62
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "INTU",
-      "direction": "SHORT",
-      "entryPrice": 308.17,
-      "entryTime": "2026-05-21T14:17:14Z",
-      "exitPrice": 309.22,
-      "exitTime": "2026-05-22T14:16:54Z",
-      "open": false,
-      "returnPct": -0.34,
-      "qqqReturnPct": 0.42
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "JD",
-      "direction": "LONG",
-      "entryPrice": 32.6,
-      "entryTime": "2026-05-20T14:16:57Z",
-      "exitPrice": 30.84,
-      "exitTime": "2026-05-22T14:16:54Z",
-      "open": false,
-      "returnPct": -5.41,
-      "qqqReturnPct": 0.62
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "SMCI",
-      "direction": "LONG",
-      "entryPrice": 32.74,
-      "entryTime": "2026-05-20T14:16:57Z",
-      "exitPrice": 34.97,
-      "exitTime": "2026-05-22T14:16:54Z",
-      "open": false,
-      "returnPct": 6.81,
-      "qqqReturnPct": 0.62
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "INTU",
-      "direction": "SHORT",
-      "entryPrice": 308.17,
-      "entryTime": "2026-05-21T14:17:14Z",
-      "exitPrice": 309.22,
-      "exitTime": "2026-05-22T14:16:54Z",
-      "open": false,
-      "returnPct": -0.34,
-      "qqqReturnPct": 0.42
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "PANW",
-      "direction": "LONG",
-      "entryPrice": 247.0,
-      "entryTime": "2026-05-20T15:28:46Z",
-      "exitPrice": 249.75,
-      "exitTime": "2026-05-21T15:27:41Z",
-      "open": false,
-      "returnPct": 1.11,
-      "qqqReturnPct": 0.19
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "OKTA",
-      "direction": "LONG",
-      "entryPrice": 86.86,
-      "entryTime": "2026-05-20T15:28:46Z",
-      "exitPrice": 89.24,
-      "exitTime": "2026-05-21T15:27:41Z",
-      "open": false,
-      "returnPct": 2.74,
-      "qqqReturnPct": 0.19
     },
     {
       "strategy": "Kestrel",
@@ -21570,30 +9396,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.19
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MDB",
-      "direction": "LONG",
-      "entryPrice": 334.61,
-      "entryTime": "2026-05-19T15:26:28Z",
-      "exitPrice": 314.82,
-      "exitTime": "2026-05-21T15:27:40Z",
-      "open": false,
-      "returnPct": -5.92,
-      "qqqReturnPct": 1.85
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "GOOGL",
-      "direction": "LONG",
-      "entryPrice": 387.2,
-      "entryTime": "2026-05-19T15:26:28Z",
-      "exitPrice": 388.92,
-      "exitTime": "2026-05-21T15:27:40Z",
-      "open": false,
-      "returnPct": 0.44,
-      "qqqReturnPct": 1.85
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "MDB",
       "direction": "LONG",
@@ -21616,18 +9418,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 0.44,
       "qqqReturnPct": 1.85
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "ARM",
-      "direction": "SHORT",
-      "entryPrice": 257.33,
-      "entryTime": "2026-05-20T15:26:01Z",
-      "exitPrice": 282.98,
-      "exitTime": "2026-05-21T15:24:53Z",
-      "open": false,
-      "returnPct": -9.97,
-      "qqqReturnPct": 0.19
     },
     {
       "strategy": "Oracle",
@@ -21642,54 +9432,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.19
     },
     {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "DNA",
-      "direction": "LONG",
-      "entryPrice": 7.22,
-      "entryTime": "2026-05-19T14:17:27Z",
-      "exitPrice": 7.86,
-      "exitTime": "2026-05-21T14:17:15Z",
-      "open": false,
-      "returnPct": 8.79,
-      "qqqReturnPct": 1.85
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "DNA",
-      "direction": "LONG",
-      "entryPrice": 7.22,
-      "entryTime": "2026-05-19T14:17:27Z",
-      "exitPrice": 7.86,
-      "exitTime": "2026-05-21T14:17:15Z",
-      "open": false,
-      "returnPct": 8.79,
-      "qqqReturnPct": 1.85
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MRVL",
-      "direction": "LONG",
-      "entryPrice": 172.12,
-      "entryTime": "2026-05-19T15:26:28Z",
-      "exitPrice": 188.88,
-      "exitTime": "2026-05-20T15:27:38Z",
-      "open": false,
-      "returnPct": 9.74,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMZN",
-      "direction": "LONG",
-      "entryPrice": 255.66,
-      "entryTime": "2026-05-19T15:26:28Z",
-      "exitPrice": 264.44,
-      "exitTime": "2026-05-20T15:27:38Z",
-      "open": false,
-      "returnPct": 3.43,
-      "qqqReturnPct": 1.66
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "MRVL",
       "direction": "LONG",
@@ -21711,30 +9453,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-05-20T15:27:38Z",
       "open": false,
       "returnPct": 3.43,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AAPL",
-      "direction": "LONG",
-      "entryPrice": 297.07,
-      "entryTime": "2026-05-19T15:26:28Z",
-      "exitPrice": 299.38,
-      "exitTime": "2026-05-20T15:27:37Z",
-      "open": false,
-      "returnPct": 0.78,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "NVDA",
-      "direction": "LONG",
-      "entryPrice": 220.2,
-      "entryTime": "2026-05-19T15:26:28Z",
-      "exitPrice": 225.41,
-      "exitTime": "2026-05-20T15:27:37Z",
-      "open": false,
-      "returnPct": 2.37,
       "qqqReturnPct": 1.66
     },
     {
@@ -21762,18 +9480,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.66
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CDNS",
-      "direction": "LONG",
-      "entryPrice": 353.45,
-      "entryTime": "2026-05-14T15:29:05Z",
-      "exitPrice": 346.74,
-      "exitTime": "2026-05-20T15:27:36Z",
-      "open": false,
-      "returnPct": -1.9,
-      "qqqReturnPct": -0.92
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "CDNS",
       "direction": "LONG",
@@ -21786,18 +9492,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.92
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "QQQ",
-      "direction": "LONG",
-      "entryPrice": 713.11,
-      "entryTime": "2026-05-11T15:29:16Z",
-      "exitPrice": 710.77,
-      "exitTime": "2026-05-20T15:27:35Z",
-      "open": false,
-      "returnPct": -0.33,
-      "qqqReturnPct": -0.02
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "QQQ",
       "direction": "LONG",
@@ -21808,30 +9502,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -0.33,
       "qqqReturnPct": -0.02
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "FSLY",
-      "direction": "LONG",
-      "entryPrice": 16.48,
-      "entryTime": "2026-05-18T15:25:56Z",
-      "exitPrice": 17.35,
-      "exitTime": "2026-05-20T15:24:38Z",
-      "open": false,
-      "returnPct": 5.28,
-      "qqqReturnPct": 1.03
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "CRWD",
-      "direction": "SHORT",
-      "entryPrice": 604.84,
-      "entryTime": "2026-05-18T15:25:56Z",
-      "exitPrice": 640.87,
-      "exitTime": "2026-05-20T15:24:38Z",
-      "open": false,
-      "returnPct": -5.96,
-      "qqqReturnPct": 1.03
     },
     {
       "strategy": "Oracle",
@@ -21858,90 +9528,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.03
     },
     {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "UAE",
-      "direction": "LONG",
-      "entryPrice": 18.67,
-      "entryTime": "2026-05-18T14:17:07Z",
-      "exitPrice": 18.66,
-      "exitTime": "2026-05-20T14:16:59Z",
-      "open": false,
-      "returnPct": -0.03,
-      "qqqReturnPct": 1.03
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "CRWV",
-      "direction": "LONG",
-      "entryPrice": 95.84,
-      "entryTime": "2026-05-19T14:17:27Z",
-      "exitPrice": 100.92,
-      "exitTime": "2026-05-20T14:16:59Z",
-      "open": false,
-      "returnPct": 5.3,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "SAP",
-      "direction": "LONG",
-      "entryPrice": 184.27,
-      "entryTime": "2026-05-19T14:17:27Z",
-      "exitPrice": 176.4,
-      "exitTime": "2026-05-20T14:16:59Z",
-      "open": false,
-      "returnPct": -4.27,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "UAE",
-      "direction": "LONG",
-      "entryPrice": 18.67,
-      "entryTime": "2026-05-18T14:17:07Z",
-      "exitPrice": 18.66,
-      "exitTime": "2026-05-20T14:16:59Z",
-      "open": false,
-      "returnPct": -0.03,
-      "qqqReturnPct": 1.03
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "CRWV",
-      "direction": "LONG",
-      "entryPrice": 95.84,
-      "entryTime": "2026-05-19T14:17:27Z",
-      "exitPrice": 100.92,
-      "exitTime": "2026-05-20T14:16:59Z",
-      "open": false,
-      "returnPct": 5.3,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "SAP",
-      "direction": "LONG",
-      "entryPrice": 184.27,
-      "entryTime": "2026-05-19T14:17:27Z",
-      "exitPrice": 176.4,
-      "exitTime": "2026-05-20T14:16:59Z",
-      "open": false,
-      "returnPct": -4.27,
-      "qqqReturnPct": 1.66
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "GILD",
-      "direction": "LONG",
-      "entryPrice": 129.24,
-      "entryTime": "2026-05-18T15:28:42Z",
-      "exitPrice": 132.03,
-      "exitTime": "2026-05-19T15:25:22Z",
-      "open": false,
-      "returnPct": 2.16,
-      "qqqReturnPct": -0.62
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "GILD",
       "direction": "LONG",
@@ -21951,30 +9537,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-05-19T15:25:22Z",
       "open": false,
       "returnPct": 2.16,
-      "qqqReturnPct": -0.62
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMGN",
-      "direction": "LONG",
-      "entryPrice": 326.69,
-      "entryTime": "2026-05-15T15:29:26Z",
-      "exitPrice": 331.37,
-      "exitTime": "2026-05-19T15:25:21Z",
-      "open": false,
-      "returnPct": 1.43,
-      "qqqReturnPct": -1.04
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "NFLX",
-      "direction": "LONG",
-      "entryPrice": 89.46,
-      "entryTime": "2026-05-18T15:28:42Z",
-      "exitPrice": 90.19,
-      "exitTime": "2026-05-19T15:25:21Z",
-      "open": false,
-      "returnPct": 0.81,
       "qqqReturnPct": -0.62
     },
     {
@@ -22002,18 +9564,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.62
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "PFE",
-      "direction": "LONG",
-      "entryPrice": 25.76,
-      "entryTime": "2026-05-14T15:29:05Z",
-      "exitPrice": 25.93,
-      "exitTime": "2026-05-19T15:25:20Z",
-      "open": false,
-      "returnPct": 0.68,
-      "qqqReturnPct": -2.54
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "PFE",
       "direction": "LONG",
@@ -22024,30 +9574,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 0.68,
       "qqqReturnPct": -2.54
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "TFC",
-      "direction": "LONG",
-      "entryPrice": 48.21,
-      "entryTime": "2026-05-11T15:29:16Z",
-      "exitPrice": 46.85,
-      "exitTime": "2026-05-19T15:25:19Z",
-      "open": false,
-      "returnPct": -2.81,
-      "qqqReturnPct": -1.65
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CARR",
-      "direction": "LONG",
-      "entryPrice": 66.11,
-      "entryTime": "2026-05-11T15:29:16Z",
-      "exitPrice": 61.96,
-      "exitTime": "2026-05-19T15:25:19Z",
-      "open": false,
-      "returnPct": -6.27,
-      "qqqReturnPct": -1.65
     },
     {
       "strategy": "Kestrel",
@@ -22074,18 +9600,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.65
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "PNC",
-      "direction": "LONG",
-      "entryPrice": 215.07,
-      "entryTime": "2026-05-11T15:29:16Z",
-      "exitPrice": 213.95,
-      "exitTime": "2026-05-19T15:25:18Z",
-      "open": false,
-      "returnPct": -0.52,
-      "qqqReturnPct": -1.65
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "PNC",
       "direction": "LONG",
@@ -22096,18 +9610,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -0.52,
       "qqqReturnPct": -1.65
-    },
-    {
-      "strategy": "Output Oracle Oracle",
-      "ticker": "LI",
-      "direction": "LONG",
-      "entryPrice": 16.7,
-      "entryTime": "2026-05-18T15:25:56Z",
-      "exitPrice": 16.04,
-      "exitTime": "2026-05-19T15:22:27Z",
-      "open": false,
-      "returnPct": -4.01,
-      "qqqReturnPct": -0.62
     },
     {
       "strategy": "Oracle",
@@ -22122,78 +9624,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.62
     },
     {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "AM",
-      "direction": "LONG",
-      "entryPrice": 21.51,
-      "entryTime": "2026-05-13T14:16:56Z",
-      "exitPrice": 22.22,
-      "exitTime": "2026-05-19T14:17:29Z",
-      "open": false,
-      "returnPct": 3.3,
-      "qqqReturnPct": -1.84
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "PLTR",
-      "direction": "LONG",
-      "entryPrice": 133.9,
-      "entryTime": "2026-05-15T14:17:33Z",
-      "exitPrice": 135.52,
-      "exitTime": "2026-05-19T14:17:29Z",
-      "open": false,
-      "returnPct": 1.21,
-      "qqqReturnPct": -1.04
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "AM",
-      "direction": "LONG",
-      "entryPrice": 21.51,
-      "entryTime": "2026-05-13T14:16:56Z",
-      "exitPrice": 22.22,
-      "exitTime": "2026-05-19T14:17:29Z",
-      "open": false,
-      "returnPct": 3.3,
-      "qqqReturnPct": -1.84
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "PLTR",
-      "direction": "LONG",
-      "entryPrice": 133.9,
-      "entryTime": "2026-05-15T14:17:33Z",
-      "exitPrice": 135.52,
-      "exitTime": "2026-05-19T14:17:29Z",
-      "open": false,
-      "returnPct": 1.21,
-      "qqqReturnPct": -1.04
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "MRVL",
-      "direction": "LONG",
-      "entryPrice": 179.95,
-      "entryTime": "2026-05-15T15:29:26Z",
-      "exitPrice": 170.39,
-      "exitTime": "2026-05-18T15:27:31Z",
-      "open": false,
-      "returnPct": -5.31,
-      "qqqReturnPct": -0.43
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CMG",
-      "direction": "LONG",
-      "entryPrice": 32.65,
-      "entryTime": "2026-05-15T15:29:26Z",
-      "exitPrice": 33.21,
-      "exitTime": "2026-05-18T15:27:31Z",
-      "open": false,
-      "returnPct": 1.72,
-      "qqqReturnPct": -0.43
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "MRVL",
       "direction": "LONG",
@@ -22218,18 +9648,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "JD",
-      "direction": "LONG",
-      "entryPrice": 33.04,
-      "entryTime": "2026-05-14T15:29:05Z",
-      "exitPrice": 31.7,
-      "exitTime": "2026-05-18T15:27:30Z",
-      "open": false,
-      "returnPct": -4.04,
-      "qqqReturnPct": -1.93
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "JD",
       "direction": "LONG",
@@ -22240,174 +9658,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -4.04,
       "qqqReturnPct": -1.93
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "EA",
-      "direction": "LONG",
-      "entryPrice": 200.3,
-      "entryTime": "2026-05-11T14:16:42Z",
-      "exitPrice": 201.16,
-      "exitTime": "2026-05-18T14:17:08Z",
-      "open": false,
-      "returnPct": 0.43,
-      "qqqReturnPct": -1.04
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "LULU",
-      "direction": "LONG",
-      "entryPrice": 121.94,
-      "entryTime": "2026-05-14T14:17:22Z",
-      "exitPrice": 121.4,
-      "exitTime": "2026-05-18T14:17:08Z",
-      "open": false,
-      "returnPct": -0.44,
-      "qqqReturnPct": -1.93
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "GCTS",
-      "direction": "LONG",
-      "entryPrice": 1.41,
-      "entryTime": "2026-05-15T14:17:33Z",
-      "exitPrice": 2.46,
-      "exitTime": "2026-05-18T14:17:08Z",
-      "open": false,
-      "returnPct": 74.11,
-      "qqqReturnPct": -0.43
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "EA",
-      "direction": "LONG",
-      "entryPrice": 200.3,
-      "entryTime": "2026-05-11T14:16:42Z",
-      "exitPrice": 201.16,
-      "exitTime": "2026-05-18T14:17:08Z",
-      "open": false,
-      "returnPct": 0.43,
-      "qqqReturnPct": -1.04
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "LULU",
-      "direction": "LONG",
-      "entryPrice": 121.94,
-      "entryTime": "2026-05-14T14:17:22Z",
-      "exitPrice": 121.4,
-      "exitTime": "2026-05-18T14:17:08Z",
-      "open": false,
-      "returnPct": -0.44,
-      "qqqReturnPct": -1.93
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "GCTS",
-      "direction": "LONG",
-      "entryPrice": 1.41,
-      "entryTime": "2026-05-15T14:17:33Z",
-      "exitPrice": 2.46,
-      "exitTime": "2026-05-18T14:17:08Z",
-      "open": false,
-      "returnPct": 74.11,
-      "qqqReturnPct": -0.43
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "IONQ",
-      "direction": "LONG",
-      "entryPrice": 52.26,
-      "entryTime": "2026-05-15T00:00:00Z",
-      "exitPrice": 51.81,
-      "exitTime": "2026-05-18T00:00:00Z",
-      "open": false,
-      "returnPct": -0.86,
-      "qqqReturnPct": -0.43
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "QUBT",
-      "direction": "LONG",
-      "entryPrice": 10.86,
-      "entryTime": "2026-05-15T00:00:00Z",
-      "exitPrice": 10.5,
-      "exitTime": "2026-05-18T00:00:00Z",
-      "open": false,
-      "returnPct": -3.31,
-      "qqqReturnPct": -0.43
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "MARA",
-      "direction": "LONG",
-      "entryPrice": 12.3,
-      "entryTime": "2026-05-15T00:00:00Z",
-      "exitPrice": 12.07,
-      "exitTime": "2026-05-18T00:00:00Z",
-      "open": false,
-      "returnPct": -1.89,
-      "qqqReturnPct": -0.43
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "CLSK",
-      "direction": "LONG",
-      "entryPrice": 13.0,
-      "entryTime": "2026-05-15T00:00:00Z",
-      "exitPrice": 13.68,
-      "exitTime": "2026-05-18T00:00:00Z",
-      "open": false,
-      "returnPct": 5.23,
-      "qqqReturnPct": -0.43
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "COIN",
-      "direction": "LONG",
-      "entryPrice": 199.33,
-      "entryTime": "2026-05-15T00:00:00Z",
-      "exitPrice": 190.48,
-      "exitTime": "2026-05-18T00:00:00Z",
-      "open": false,
-      "returnPct": -4.44,
-      "qqqReturnPct": -0.43
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "SMCI",
-      "direction": "LONG",
-      "entryPrice": 31.12,
-      "entryTime": "2026-05-15T00:00:00Z",
-      "exitPrice": 31.22,
-      "exitTime": "2026-05-18T00:00:00Z",
-      "open": false,
-      "returnPct": 0.31,
-      "qqqReturnPct": -0.43
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "INTC",
-      "direction": "LONG",
-      "entryPrice": 109.84,
-      "entryTime": "2026-05-15T00:00:00Z",
-      "exitPrice": 113.51,
-      "exitTime": "2026-05-18T00:00:00Z",
-      "open": false,
-      "returnPct": 3.34,
-      "qqqReturnPct": -0.43
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "RIOT",
-      "direction": "LONG",
-      "entryPrice": 23.34,
-      "entryTime": "2026-05-15T00:00:00Z",
-      "exitPrice": 23.49,
-      "exitTime": "2026-05-18T00:00:00Z",
-      "open": false,
-      "returnPct": 0.64,
-      "qqqReturnPct": -0.43
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -22506,18 +9756,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.43
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "BA",
-      "direction": "LONG",
-      "entryPrice": 230.93,
-      "entryTime": "2026-05-14T15:29:05Z",
-      "exitPrice": 222.4,
-      "exitTime": "2026-05-15T15:28:17Z",
-      "open": false,
-      "returnPct": -3.69,
-      "qqqReturnPct": -1.51
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "BA",
       "direction": "LONG",
@@ -22527,18 +9765,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-05-15T15:28:17Z",
       "open": false,
       "returnPct": -3.69,
-      "qqqReturnPct": -1.51
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "INTC",
-      "direction": "LONG",
-      "entryPrice": 116.73,
-      "entryTime": "2026-05-14T15:29:05Z",
-      "exitPrice": 108.48,
-      "exitTime": "2026-05-15T15:28:16Z",
-      "open": false,
-      "returnPct": -7.07,
       "qqqReturnPct": -1.51
     },
     {
@@ -22552,78 +9778,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -7.07,
       "qqqReturnPct": -1.51
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "SLV",
-      "direction": "LONG",
-      "entryPrice": 76.9,
-      "entryTime": "2026-05-11T14:16:42Z",
-      "exitPrice": 69.26,
-      "exitTime": "2026-05-15T14:17:34Z",
-      "open": false,
-      "returnPct": -9.93,
-      "qqqReturnPct": -0.61
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "EU",
-      "direction": "LONG",
-      "entryPrice": 1.64,
-      "entryTime": "2026-05-12T14:17:05Z",
-      "exitPrice": 1.56,
-      "exitTime": "2026-05-15T14:17:34Z",
-      "open": false,
-      "returnPct": -4.86,
-      "qqqReturnPct": 0.24
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "SLV",
-      "direction": "LONG",
-      "entryPrice": 76.9,
-      "entryTime": "2026-05-11T14:16:42Z",
-      "exitPrice": 69.26,
-      "exitTime": "2026-05-15T14:17:34Z",
-      "open": false,
-      "returnPct": -9.93,
-      "qqqReturnPct": -0.61
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "EU",
-      "direction": "LONG",
-      "entryPrice": 1.64,
-      "entryTime": "2026-05-12T14:17:05Z",
-      "exitPrice": 1.56,
-      "exitTime": "2026-05-15T14:17:34Z",
-      "open": false,
-      "returnPct": -4.86,
-      "qqqReturnPct": 0.24
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "OKE",
-      "direction": "LONG",
-      "entryPrice": 87.36,
-      "entryTime": "2026-05-13T15:25:25Z",
-      "exitPrice": 90.0,
-      "exitTime": "2026-05-14T15:27:59Z",
-      "open": false,
-      "returnPct": 3.03,
-      "qqqReturnPct": 0.71
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ZS",
-      "direction": "LONG",
-      "entryPrice": 146.07,
-      "entryTime": "2026-05-13T15:25:25Z",
-      "exitPrice": 156.57,
-      "exitTime": "2026-05-14T15:27:59Z",
-      "open": false,
-      "returnPct": 7.19,
-      "qqqReturnPct": 0.71
     },
     {
       "strategy": "Kestrel",
@@ -22647,54 +9801,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-05-14T15:27:59Z",
       "open": false,
       "returnPct": 7.19,
-      "qqqReturnPct": 0.71
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "AMAT",
-      "direction": "LONG",
-      "entryPrice": 417.63,
-      "entryTime": "2026-05-12T15:24:53Z",
-      "exitPrice": 446.26,
-      "exitTime": "2026-05-14T15:27:58Z",
-      "open": false,
-      "returnPct": 6.86,
-      "qqqReturnPct": 1.77
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "PYPL",
-      "direction": "LONG",
-      "entryPrice": 45.17,
-      "entryTime": "2026-05-12T15:24:53Z",
-      "exitPrice": 45.35,
-      "exitTime": "2026-05-14T15:27:58Z",
-      "open": false,
-      "returnPct": 0.42,
-      "qqqReturnPct": 1.77
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "NET",
-      "direction": "LONG",
-      "entryPrice": 188.98,
-      "entryTime": "2026-05-13T15:25:25Z",
-      "exitPrice": 200.44,
-      "exitTime": "2026-05-14T15:27:58Z",
-      "open": false,
-      "returnPct": 6.06,
-      "qqqReturnPct": 0.71
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CB",
-      "direction": "LONG",
-      "entryPrice": 316.49,
-      "entryTime": "2026-05-13T15:25:25Z",
-      "exitPrice": 318.26,
-      "exitTime": "2026-05-14T15:27:58Z",
-      "open": false,
-      "returnPct": 0.56,
       "qqqReturnPct": 0.71
     },
     {
@@ -22746,30 +9852,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.71
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "PANW",
-      "direction": "LONG",
-      "entryPrice": 210.72,
-      "entryTime": "2026-05-11T15:29:16Z",
-      "exitPrice": 238.24,
-      "exitTime": "2026-05-14T15:27:57Z",
-      "open": false,
-      "returnPct": 13.06,
-      "qqqReturnPct": 0.91
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "CRWD",
-      "direction": "LONG",
-      "entryPrice": 532.46,
-      "entryTime": "2026-05-11T15:29:16Z",
-      "exitPrice": 578.27,
-      "exitTime": "2026-05-14T15:27:57Z",
-      "open": false,
-      "returnPct": 8.6,
-      "qqqReturnPct": 0.91
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "PANW",
       "direction": "LONG",
@@ -22792,78 +9874,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 8.6,
       "qqqReturnPct": 0.91
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "META",
-      "direction": "LONG",
-      "entryPrice": 600.71,
-      "entryTime": "2026-05-12T14:17:05Z",
-      "exitPrice": 620.81,
-      "exitTime": "2026-05-14T14:17:23Z",
-      "open": false,
-      "returnPct": 3.35,
-      "qqqReturnPct": 1.77
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "SONY",
-      "direction": "LONG",
-      "entryPrice": 22.94,
-      "entryTime": "2026-05-13T14:16:56Z",
-      "exitPrice": 22.12,
-      "exitTime": "2026-05-14T14:17:23Z",
-      "open": false,
-      "returnPct": -3.53,
-      "qqqReturnPct": 0.71
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "META",
-      "direction": "LONG",
-      "entryPrice": 600.71,
-      "entryTime": "2026-05-12T14:17:05Z",
-      "exitPrice": 620.81,
-      "exitTime": "2026-05-14T14:17:23Z",
-      "open": false,
-      "returnPct": 3.35,
-      "qqqReturnPct": 1.77
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "SONY",
-      "direction": "LONG",
-      "entryPrice": 22.94,
-      "entryTime": "2026-05-13T14:16:56Z",
-      "exitPrice": 22.12,
-      "exitTime": "2026-05-14T14:17:23Z",
-      "open": false,
-      "returnPct": -3.53,
-      "qqqReturnPct": 0.71
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "TXN",
-      "direction": "LONG",
-      "entryPrice": 288.2,
-      "entryTime": "2026-05-12T15:24:53Z",
-      "exitPrice": 305.9,
-      "exitTime": "2026-05-13T15:24:18Z",
-      "open": false,
-      "returnPct": 6.15,
-      "qqqReturnPct": 1.06
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "META",
-      "direction": "LONG",
-      "entryPrice": 600.72,
-      "entryTime": "2026-05-12T15:24:53Z",
-      "exitPrice": 605.53,
-      "exitTime": "2026-05-13T15:24:18Z",
-      "open": false,
-      "returnPct": 0.8,
-      "qqqReturnPct": 1.06
     },
     {
       "strategy": "Kestrel",
@@ -22890,18 +9900,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "GM",
-      "direction": "LONG",
-      "entryPrice": 76.21,
-      "entryTime": "2026-05-11T15:29:16Z",
-      "exitPrice": 77.62,
-      "exitTime": "2026-05-13T15:24:17Z",
-      "open": false,
-      "returnPct": 1.85,
-      "qqqReturnPct": 0.2
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "GM",
       "direction": "LONG",
@@ -22911,18 +9909,6 @@ window.V3KR_DATA = {
       "exitTime": "2026-05-13T15:24:17Z",
       "open": false,
       "returnPct": 1.85,
-      "qqqReturnPct": 0.2
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "JCI",
-      "direction": "LONG",
-      "entryPrice": 142.01,
-      "entryTime": "2026-05-11T15:29:16Z",
-      "exitPrice": 142.64,
-      "exitTime": "2026-05-13T15:24:16Z",
-      "open": false,
-      "returnPct": 0.44,
       "qqqReturnPct": 0.2
     },
     {
@@ -22936,102 +9922,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 0.44,
       "qqqReturnPct": 0.2
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "IP",
-      "direction": "LONG",
-      "entryPrice": 33.23,
-      "entryTime": "2026-05-06T14:13:03Z",
-      "exitPrice": 33.06,
-      "exitTime": "2026-05-13T14:16:57Z",
-      "open": false,
-      "returnPct": -0.5,
-      "qqqReturnPct": 2.72
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "NET",
-      "direction": "LONG",
-      "entryPrice": 200.0,
-      "entryTime": "2026-05-08T14:12:57Z",
-      "exitPrice": 188.55,
-      "exitTime": "2026-05-13T14:16:57Z",
-      "open": false,
-      "returnPct": -5.72,
-      "qqqReturnPct": 0.49
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "TTD",
-      "direction": "LONG",
-      "entryPrice": 22.08,
-      "entryTime": "2026-05-08T14:12:57Z",
-      "exitPrice": 20.26,
-      "exitTime": "2026-05-13T14:16:57Z",
-      "open": false,
-      "returnPct": -8.25,
-      "qqqReturnPct": 0.49
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "IP",
-      "direction": "LONG",
-      "entryPrice": 33.23,
-      "entryTime": "2026-05-06T14:13:03Z",
-      "exitPrice": 33.06,
-      "exitTime": "2026-05-13T14:16:57Z",
-      "open": false,
-      "returnPct": -0.5,
-      "qqqReturnPct": 2.72
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "NET",
-      "direction": "LONG",
-      "entryPrice": 200.0,
-      "entryTime": "2026-05-08T14:12:57Z",
-      "exitPrice": 188.55,
-      "exitTime": "2026-05-13T14:16:57Z",
-      "open": false,
-      "returnPct": -5.72,
-      "qqqReturnPct": 0.49
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "TTD",
-      "direction": "LONG",
-      "entryPrice": 22.08,
-      "entryTime": "2026-05-08T14:12:57Z",
-      "exitPrice": 20.26,
-      "exitTime": "2026-05-13T14:16:57Z",
-      "open": false,
-      "returnPct": -8.25,
-      "qqqReturnPct": 0.49
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "EMR",
-      "direction": "LONG",
-      "entryPrice": 139.31,
-      "entryTime": "2026-05-11T15:29:16Z",
-      "exitPrice": 134.88,
-      "exitTime": "2026-05-12T15:23:49Z",
-      "open": false,
-      "returnPct": -3.18,
-      "qqqReturnPct": -0.85
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "WMT",
-      "direction": "LONG",
-      "entryPrice": 127.7,
-      "entryTime": "2026-05-11T15:29:16Z",
-      "exitPrice": 130.52,
-      "exitTime": "2026-05-12T15:23:49Z",
-      "open": false,
-      "returnPct": 2.21,
-      "qqqReturnPct": -0.85
     },
     {
       "strategy": "Kestrel",
@@ -23058,30 +9948,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.85
     },
     {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "ARM",
-      "direction": "LONG",
-      "entryPrice": 212.95,
-      "entryTime": "2026-05-11T15:29:16Z",
-      "exitPrice": 204.5,
-      "exitTime": "2026-05-12T15:23:48Z",
-      "open": false,
-      "returnPct": -3.97,
-      "qqqReturnPct": -0.85
-    },
-    {
-      "strategy": "Output Kestrel Kestrel",
-      "ticker": "RBLX",
-      "direction": "LONG",
-      "entryPrice": 42.18,
-      "entryTime": "2026-05-11T15:29:16Z",
-      "exitPrice": 42.77,
-      "exitTime": "2026-05-12T15:23:48Z",
-      "open": false,
-      "returnPct": 1.4,
-      "qqqReturnPct": -0.85
-    },
-    {
       "strategy": "Kestrel",
       "ticker": "ARM",
       "direction": "LONG",
@@ -23104,222 +9970,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.4,
       "qqqReturnPct": -0.85
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "BROS",
-      "direction": "LONG",
-      "entryPrice": 53.08,
-      "entryTime": "2026-05-07T14:12:48Z",
-      "exitPrice": 49.92,
-      "exitTime": "2026-05-12T14:17:06Z",
-      "open": false,
-      "returnPct": -5.97,
-      "qqqReturnPct": 1.77
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "USO",
-      "direction": "LONG",
-      "entryPrice": 136.79,
-      "entryTime": "2026-05-11T14:16:42Z",
-      "exitPrice": 143.43,
-      "exitTime": "2026-05-12T14:17:06Z",
-      "open": false,
-      "returnPct": 4.85,
-      "qqqReturnPct": -0.85
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "BROS",
-      "direction": "LONG",
-      "entryPrice": 53.08,
-      "entryTime": "2026-05-07T14:12:48Z",
-      "exitPrice": 49.92,
-      "exitTime": "2026-05-12T14:17:06Z",
-      "open": false,
-      "returnPct": -5.97,
-      "qqqReturnPct": 1.77
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "USO",
-      "direction": "LONG",
-      "entryPrice": 136.79,
-      "entryTime": "2026-05-11T14:16:42Z",
-      "exitPrice": 143.43,
-      "exitTime": "2026-05-12T14:17:06Z",
-      "open": false,
-      "returnPct": 4.85,
-      "qqqReturnPct": -0.85
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "JPM",
-      "direction": "LONG",
-      "entryPrice": 311.07,
-      "entryTime": "2026-05-07T14:12:48Z",
-      "exitPrice": 301.4,
-      "exitTime": "2026-05-11T14:16:43Z",
-      "open": false,
-      "returnPct": -3.11,
-      "qqqReturnPct": 2.64
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "AMPX",
-      "direction": "LONG",
-      "entryPrice": 16.9,
-      "entryTime": "2026-05-07T14:12:48Z",
-      "exitPrice": 18.1,
-      "exitTime": "2026-05-11T14:16:43Z",
-      "open": false,
-      "returnPct": 7.13,
-      "qqqReturnPct": 2.64
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "COIN",
-      "direction": "LONG",
-      "entryPrice": 187.59,
-      "entryTime": "2026-05-08T14:12:57Z",
-      "exitPrice": 206.5,
-      "exitTime": "2026-05-11T14:16:43Z",
-      "open": false,
-      "returnPct": 10.08,
-      "qqqReturnPct": 0.29
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "JPM",
-      "direction": "LONG",
-      "entryPrice": 311.07,
-      "entryTime": "2026-05-07T14:12:48Z",
-      "exitPrice": 301.4,
-      "exitTime": "2026-05-11T14:16:43Z",
-      "open": false,
-      "returnPct": -3.11,
-      "qqqReturnPct": 2.64
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "AMPX",
-      "direction": "LONG",
-      "entryPrice": 16.9,
-      "entryTime": "2026-05-07T14:12:48Z",
-      "exitPrice": 18.1,
-      "exitTime": "2026-05-11T14:16:43Z",
-      "open": false,
-      "returnPct": 7.13,
-      "qqqReturnPct": 2.64
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "COIN",
-      "direction": "LONG",
-      "entryPrice": 187.59,
-      "entryTime": "2026-05-08T14:12:57Z",
-      "exitPrice": 206.5,
-      "exitTime": "2026-05-11T14:16:43Z",
-      "open": false,
-      "returnPct": 10.08,
-      "qqqReturnPct": 0.29
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "SOUN",
-      "direction": "LONG",
-      "entryPrice": 8.68,
-      "entryTime": "2026-05-08T00:00:00Z",
-      "exitPrice": 8.7,
-      "exitTime": "2026-05-11T00:00:00Z",
-      "open": false,
-      "returnPct": 0.26,
-      "qqqReturnPct": 0.29
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "RBLX",
-      "direction": "LONG",
-      "entryPrice": 42.66,
-      "entryTime": "2026-05-08T00:00:00Z",
-      "exitPrice": 41.26,
-      "exitTime": "2026-05-11T00:00:00Z",
-      "open": false,
-      "returnPct": -3.27,
-      "qqqReturnPct": 0.29
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "SNOW",
-      "direction": "LONG",
-      "entryPrice": 147.17,
-      "entryTime": "2026-05-08T00:00:00Z",
-      "exitPrice": 150.16,
-      "exitTime": "2026-05-11T00:00:00Z",
-      "open": false,
-      "returnPct": 2.03,
-      "qqqReturnPct": 0.29
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "CRM",
-      "direction": "LONG",
-      "entryPrice": 178.84,
-      "entryTime": "2026-05-08T00:00:00Z",
-      "exitPrice": 179.9,
-      "exitTime": "2026-05-11T00:00:00Z",
-      "open": false,
-      "returnPct": 0.6,
-      "qqqReturnPct": 0.29
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "NOW",
-      "direction": "LONG",
-      "entryPrice": 89.92,
-      "entryTime": "2026-05-08T00:00:00Z",
-      "exitPrice": 91.04,
-      "exitTime": "2026-05-11T00:00:00Z",
-      "open": false,
-      "returnPct": 1.25,
-      "qqqReturnPct": 0.29
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "DASH",
-      "direction": "LONG",
-      "entryPrice": 165.23,
-      "entryTime": "2026-05-08T00:00:00Z",
-      "exitPrice": 162.34,
-      "exitTime": "2026-05-11T00:00:00Z",
-      "open": false,
-      "returnPct": -1.75,
-      "qqqReturnPct": 0.29
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "PINS",
-      "direction": "LONG",
-      "entryPrice": 20.83,
-      "entryTime": "2026-05-08T00:00:00Z",
-      "exitPrice": 20.95,
-      "exitTime": "2026-05-11T00:00:00Z",
-      "open": false,
-      "returnPct": 0.58,
-      "qqqReturnPct": 0.29
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "ADBE",
-      "direction": "LONG",
-      "entryPrice": 248.62,
-      "entryTime": "2026-05-08T00:00:00Z",
-      "exitPrice": 250.53,
-      "exitTime": "2026-05-11T00:00:00Z",
-      "open": false,
-      "returnPct": 0.77,
-      "qqqReturnPct": 0.29
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -23418,306 +10068,6 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.29
     },
     {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "GOAT",
-      "direction": "LONG",
-      "entryPrice": 39.04,
-      "entryTime": "2026-04-30T15:21:29Z",
-      "exitPrice": 39.04,
-      "exitTime": "2026-05-08T14:12:59Z",
-      "open": false,
-      "returnPct": 0.0,
-      "qqqReturnPct": 6.51
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "BJ",
-      "direction": "LONG",
-      "entryPrice": 93.73,
-      "entryTime": "2026-05-01T14:11:07Z",
-      "exitPrice": 92.56,
-      "exitTime": "2026-05-08T14:12:59Z",
-      "open": false,
-      "returnPct": -1.25,
-      "qqqReturnPct": 5.5
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "RBLX",
-      "direction": "LONG",
-      "entryPrice": 45.14,
-      "entryTime": "2026-05-01T14:11:07Z",
-      "exitPrice": 42.67,
-      "exitTime": "2026-05-08T14:12:59Z",
-      "open": false,
-      "returnPct": -5.48,
-      "qqqReturnPct": 5.5
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "META",
-      "direction": "LONG",
-      "entryPrice": 612.8,
-      "entryTime": "2026-05-06T14:13:03Z",
-      "exitPrice": 615.18,
-      "exitTime": "2026-05-08T14:12:59Z",
-      "open": false,
-      "returnPct": 0.39,
-      "qqqReturnPct": 2.22
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "GOAT",
-      "direction": "LONG",
-      "entryPrice": 39.04,
-      "entryTime": "2026-04-30T15:21:29Z",
-      "exitPrice": 39.04,
-      "exitTime": "2026-05-08T14:12:59Z",
-      "open": false,
-      "returnPct": 0.0,
-      "qqqReturnPct": 6.51
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "BJ",
-      "direction": "LONG",
-      "entryPrice": 93.73,
-      "entryTime": "2026-05-01T14:11:07Z",
-      "exitPrice": 92.56,
-      "exitTime": "2026-05-08T14:12:59Z",
-      "open": false,
-      "returnPct": -1.25,
-      "qqqReturnPct": 5.5
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "RBLX",
-      "direction": "LONG",
-      "entryPrice": 45.14,
-      "entryTime": "2026-05-01T14:11:07Z",
-      "exitPrice": 42.67,
-      "exitTime": "2026-05-08T14:12:59Z",
-      "open": false,
-      "returnPct": -5.48,
-      "qqqReturnPct": 5.5
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "META",
-      "direction": "LONG",
-      "entryPrice": 612.8,
-      "entryTime": "2026-05-06T14:13:03Z",
-      "exitPrice": 615.18,
-      "exitTime": "2026-05-08T14:12:59Z",
-      "open": false,
-      "returnPct": 0.39,
-      "qqqReturnPct": 2.22
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "BP",
-      "direction": "LONG",
-      "entryPrice": 46.56,
-      "entryTime": "2026-04-29T14:32:32Z",
-      "exitPrice": 43.72,
-      "exitTime": "2026-05-07T14:12:50Z",
-      "open": false,
-      "returnPct": -6.1,
-      "qqqReturnPct": 5.04
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "NFLX",
-      "direction": "LONG",
-      "entryPrice": 87.79,
-      "entryTime": "2026-05-06T14:13:03Z",
-      "exitPrice": 88.98,
-      "exitTime": "2026-05-07T14:12:50Z",
-      "open": false,
-      "returnPct": 1.36,
-      "qqqReturnPct": -0.12
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "BP",
-      "direction": "LONG",
-      "entryPrice": 46.56,
-      "entryTime": "2026-04-29T14:32:32Z",
-      "exitPrice": 43.72,
-      "exitTime": "2026-05-07T14:12:50Z",
-      "open": false,
-      "returnPct": -6.1,
-      "qqqReturnPct": 5.04
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "NFLX",
-      "direction": "LONG",
-      "entryPrice": 87.79,
-      "entryTime": "2026-05-06T14:13:03Z",
-      "exitPrice": 88.98,
-      "exitTime": "2026-05-07T14:12:50Z",
-      "open": false,
-      "returnPct": 1.36,
-      "qqqReturnPct": -0.12
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "JEPI",
-      "direction": "LONG",
-      "entryPrice": 57.08,
-      "entryTime": "2026-04-28T14:33:06Z",
-      "exitPrice": 56.52,
-      "exitTime": "2026-05-06T14:13:04Z",
-      "open": false,
-      "returnPct": -0.98,
-      "qqqReturnPct": 5.81
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "UBER",
-      "direction": "LONG",
-      "entryPrice": 74.1,
-      "entryTime": "2026-05-04T14:11:51Z",
-      "exitPrice": 78.01,
-      "exitTime": "2026-05-06T14:13:04Z",
-      "open": false,
-      "returnPct": 5.28,
-      "qqqReturnPct": 3.4
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "UPS",
-      "direction": "LONG",
-      "entryPrice": 98.33,
-      "entryTime": "2026-05-05T14:11:27Z",
-      "exitPrice": 98.94,
-      "exitTime": "2026-05-06T14:13:04Z",
-      "open": false,
-      "returnPct": 0.62,
-      "qqqReturnPct": 2.08
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "JEPI",
-      "direction": "LONG",
-      "entryPrice": 57.08,
-      "entryTime": "2026-04-28T14:33:06Z",
-      "exitPrice": 56.52,
-      "exitTime": "2026-05-06T14:13:04Z",
-      "open": false,
-      "returnPct": -0.98,
-      "qqqReturnPct": 5.81
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "UBER",
-      "direction": "LONG",
-      "entryPrice": 74.1,
-      "entryTime": "2026-05-04T14:11:51Z",
-      "exitPrice": 78.01,
-      "exitTime": "2026-05-06T14:13:04Z",
-      "open": false,
-      "returnPct": 5.28,
-      "qqqReturnPct": 3.4
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "UPS",
-      "direction": "LONG",
-      "entryPrice": 98.33,
-      "entryTime": "2026-05-05T14:11:27Z",
-      "exitPrice": 98.94,
-      "exitTime": "2026-05-06T14:13:04Z",
-      "open": false,
-      "returnPct": 0.62,
-      "qqqReturnPct": 2.08
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "CTO",
-      "direction": "LONG",
-      "entryPrice": 19.62,
-      "entryTime": "2026-04-24T14:32:19Z",
-      "exitPrice": 20.5,
-      "exitTime": "2026-05-04T14:11:51Z",
-      "open": false,
-      "returnPct": 4.43,
-      "qqqReturnPct": 1.36
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "CTO",
-      "direction": "LONG",
-      "entryPrice": 19.62,
-      "entryTime": "2026-04-24T14:32:19Z",
-      "exitPrice": 20.5,
-      "exitTime": "2026-05-04T14:11:51Z",
-      "open": false,
-      "returnPct": 4.43,
-      "qqqReturnPct": 1.36
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "RBLX",
-      "direction": "LONG",
-      "entryPrice": 45.54,
-      "entryTime": "2026-05-01T00:00:00Z",
-      "exitPrice": 44.92,
-      "exitTime": "2026-05-04T00:00:00Z",
-      "open": false,
-      "returnPct": -1.37,
-      "qqqReturnPct": -0.19
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "AMGN",
-      "direction": "LONG",
-      "entryPrice": 330.68,
-      "entryTime": "2026-05-01T00:00:00Z",
-      "exitPrice": 326.1,
-      "exitTime": "2026-05-04T00:00:00Z",
-      "open": false,
-      "returnPct": -1.39,
-      "qqqReturnPct": -0.19
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "QCOM",
-      "direction": "LONG",
-      "entryPrice": 172.22,
-      "entryTime": "2026-05-01T00:00:00Z",
-      "exitPrice": 177.22,
-      "exitTime": "2026-05-04T00:00:00Z",
-      "open": false,
-      "returnPct": 2.9,
-      "qqqReturnPct": -0.19
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "OXY",
-      "direction": "LONG",
-      "entryPrice": 58.31,
-      "entryTime": "2026-05-01T00:00:00Z",
-      "exitPrice": 59.25,
-      "exitTime": "2026-05-04T00:00:00Z",
-      "open": false,
-      "returnPct": 1.61,
-      "qqqReturnPct": -0.19
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "MRNA",
-      "direction": "LONG",
-      "entryPrice": 44.4,
-      "entryTime": "2026-05-01T00:00:00Z",
-      "exitPrice": 45.32,
-      "exitTime": "2026-05-04T00:00:00Z",
-      "open": false,
-      "returnPct": 2.07,
-      "qqqReturnPct": -0.19
-    },
-    {
       "strategy": "Stocks Edge Fridaymon",
       "ticker": "RBLX",
       "direction": "LONG",
@@ -23776,270 +10126,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 2.07,
       "qqqReturnPct": -0.19
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "DEA",
-      "direction": "LONG",
-      "entryPrice": 23.4,
-      "entryTime": "2026-04-23T14:30:08Z",
-      "exitPrice": 23.45,
-      "exitTime": "2026-04-30T15:21:29Z",
-      "open": false,
-      "returnPct": 0.2,
-      "qqqReturnPct": 2.51
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "NFLX",
-      "direction": "LONG",
-      "entryPrice": 92.66,
-      "entryTime": "2026-04-27T14:32:26Z",
-      "exitPrice": 93.08,
-      "exitTime": "2026-04-30T15:21:29Z",
-      "open": false,
-      "returnPct": 0.45,
-      "qqqReturnPct": 0.53
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "OPEN",
-      "direction": "LONG",
-      "entryPrice": 5.46,
-      "entryTime": "2026-04-27T14:32:26Z",
-      "exitPrice": 5.23,
-      "exitTime": "2026-04-30T15:21:29Z",
-      "open": false,
-      "returnPct": -4.12,
-      "qqqReturnPct": 0.53
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "UAE",
-      "direction": "LONG",
-      "entryPrice": 19.48,
-      "entryTime": "2026-04-28T14:33:06Z",
-      "exitPrice": 19.18,
-      "exitTime": "2026-04-30T15:21:29Z",
-      "open": false,
-      "returnPct": -1.54,
-      "qqqReturnPct": 1.55
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "AGI",
-      "direction": "LONG",
-      "entryPrice": 41.86,
-      "entryTime": "2026-04-28T14:33:06Z",
-      "exitPrice": 39.6,
-      "exitTime": "2026-04-30T15:21:29Z",
-      "open": false,
-      "returnPct": -5.4,
-      "qqqReturnPct": 1.55
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "DEA",
-      "direction": "LONG",
-      "entryPrice": 23.4,
-      "entryTime": "2026-04-23T14:30:08Z",
-      "exitPrice": 23.45,
-      "exitTime": "2026-04-30T15:21:29Z",
-      "open": false,
-      "returnPct": 0.2,
-      "qqqReturnPct": 2.51
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "NFLX",
-      "direction": "LONG",
-      "entryPrice": 92.66,
-      "entryTime": "2026-04-27T14:32:26Z",
-      "exitPrice": 93.08,
-      "exitTime": "2026-04-30T15:21:29Z",
-      "open": false,
-      "returnPct": 0.45,
-      "qqqReturnPct": 0.53
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "OPEN",
-      "direction": "LONG",
-      "entryPrice": 5.46,
-      "entryTime": "2026-04-27T14:32:26Z",
-      "exitPrice": 5.23,
-      "exitTime": "2026-04-30T15:21:29Z",
-      "open": false,
-      "returnPct": -4.12,
-      "qqqReturnPct": 0.53
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "UAE",
-      "direction": "LONG",
-      "entryPrice": 19.48,
-      "entryTime": "2026-04-28T14:33:06Z",
-      "exitPrice": 19.18,
-      "exitTime": "2026-04-30T15:21:29Z",
-      "open": false,
-      "returnPct": -1.54,
-      "qqqReturnPct": 1.55
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "AGI",
-      "direction": "LONG",
-      "entryPrice": 41.86,
-      "entryTime": "2026-04-28T14:33:06Z",
-      "exitPrice": 39.6,
-      "exitTime": "2026-04-30T15:21:29Z",
-      "open": false,
-      "returnPct": -5.4,
-      "qqqReturnPct": 1.55
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "MTG",
-      "direction": "LONG",
-      "entryPrice": 28.07,
-      "entryTime": "2026-04-22T14:31:03Z",
-      "exitPrice": 29.23,
-      "exitTime": "2026-04-29T14:32:33Z",
-      "open": false,
-      "returnPct": 4.13,
-      "qqqReturnPct": 0.99
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "MTG",
-      "direction": "LONG",
-      "entryPrice": 28.07,
-      "entryTime": "2026-04-22T14:31:03Z",
-      "exitPrice": 29.23,
-      "exitTime": "2026-04-29T14:32:33Z",
-      "open": false,
-      "returnPct": 4.13,
-      "qqqReturnPct": 0.99
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "MSFT",
-      "direction": "LONG",
-      "entryPrice": 419.59,
-      "entryTime": "2026-04-20T14:31:05Z",
-      "exitPrice": 423.68,
-      "exitTime": "2026-04-27T14:32:27Z",
-      "open": false,
-      "returnPct": 0.97,
-      "qqqReturnPct": 2.7
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "MSFT",
-      "direction": "LONG",
-      "entryPrice": 419.59,
-      "entryTime": "2026-04-20T14:31:05Z",
-      "exitPrice": 423.68,
-      "exitTime": "2026-04-27T14:32:27Z",
-      "open": false,
-      "returnPct": 0.97,
-      "qqqReturnPct": 2.7
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "SNOW",
-      "direction": "LONG",
-      "entryPrice": 135.61,
-      "entryTime": "2026-04-24T00:00:00Z",
-      "exitPrice": 141.24,
-      "exitTime": "2026-04-27T00:00:00Z",
-      "open": false,
-      "returnPct": 4.15,
-      "qqqReturnPct": 0.05
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "LLY",
-      "direction": "LONG",
-      "entryPrice": 873.41,
-      "entryTime": "2026-04-24T00:00:00Z",
-      "exitPrice": 878.13,
-      "exitTime": "2026-04-27T00:00:00Z",
-      "open": false,
-      "returnPct": 0.54,
-      "qqqReturnPct": 0.05
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "RBLX",
-      "direction": "LONG",
-      "entryPrice": 53.25,
-      "entryTime": "2026-04-24T00:00:00Z",
-      "exitPrice": 55.72,
-      "exitTime": "2026-04-27T00:00:00Z",
-      "open": false,
-      "returnPct": 4.65,
-      "qqqReturnPct": 0.05
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "LMT",
-      "direction": "LONG",
-      "entryPrice": 510.62,
-      "entryTime": "2026-04-24T00:00:00Z",
-      "exitPrice": 514.05,
-      "exitTime": "2026-04-27T00:00:00Z",
-      "open": false,
-      "returnPct": 0.67,
-      "qqqReturnPct": 0.05
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "IONQ",
-      "direction": "LONG",
-      "entryPrice": 42.14,
-      "entryTime": "2026-04-24T00:00:00Z",
-      "exitPrice": 42.18,
-      "exitTime": "2026-04-27T00:00:00Z",
-      "open": false,
-      "returnPct": 0.08,
-      "qqqReturnPct": 0.05
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "MARA",
-      "direction": "LONG",
-      "entryPrice": 11.43,
-      "entryTime": "2026-04-24T00:00:00Z",
-      "exitPrice": 11.55,
-      "exitTime": "2026-04-27T00:00:00Z",
-      "open": false,
-      "returnPct": 1.03,
-      "qqqReturnPct": 0.05
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "DE",
-      "direction": "LONG",
-      "entryPrice": 573.5,
-      "entryTime": "2026-04-24T00:00:00Z",
-      "exitPrice": 566.63,
-      "exitTime": "2026-04-27T00:00:00Z",
-      "open": false,
-      "returnPct": -1.2,
-      "qqqReturnPct": 0.05
-    },
-    {
-      "strategy": "Output Stocks Edge Fridaymon",
-      "ticker": "QUBT",
-      "direction": "LONG",
-      "entryPrice": 8.77,
-      "entryTime": "2026-04-24T00:00:00Z",
-      "exitPrice": 8.79,
-      "exitTime": "2026-04-27T00:00:00Z",
-      "open": false,
-      "returnPct": 0.23,
-      "qqqReturnPct": 0.05
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -24136,870 +10222,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 0.23,
       "qqqReturnPct": 0.05
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "LULU",
-      "direction": "LONG",
-      "entryPrice": 144.37,
-      "entryTime": "2026-04-23T14:30:08Z",
-      "exitPrice": 143.14,
-      "exitTime": "2026-04-24T14:32:19Z",
-      "open": false,
-      "returnPct": -0.85,
-      "qqqReturnPct": 1.91
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "HITI",
-      "direction": "LONG",
-      "entryPrice": 2.49,
-      "entryTime": "2026-04-23T14:30:08Z",
-      "exitPrice": 2.39,
-      "exitTime": "2026-04-24T14:32:19Z",
-      "open": false,
-      "returnPct": -4.02,
-      "qqqReturnPct": 1.91
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "LULU",
-      "direction": "LONG",
-      "entryPrice": 144.37,
-      "entryTime": "2026-04-23T14:30:08Z",
-      "exitPrice": 143.14,
-      "exitTime": "2026-04-24T14:32:19Z",
-      "open": false,
-      "returnPct": -0.85,
-      "qqqReturnPct": 1.91
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "HITI",
-      "direction": "LONG",
-      "entryPrice": 2.49,
-      "entryTime": "2026-04-23T14:30:08Z",
-      "exitPrice": 2.39,
-      "exitTime": "2026-04-24T14:32:19Z",
-      "open": false,
-      "returnPct": -4.02,
-      "qqqReturnPct": 1.91
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "MOS",
-      "direction": "LONG",
-      "entryPrice": 24.04,
-      "entryTime": "2026-04-15T14:32:13Z",
-      "exitPrice": 24.4,
-      "exitTime": "2026-04-23T14:30:10Z",
-      "open": false,
-      "returnPct": 1.5,
-      "qqqReturnPct": 2.2
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "MOS",
-      "direction": "LONG",
-      "entryPrice": 24.04,
-      "entryTime": "2026-04-15T14:32:13Z",
-      "exitPrice": 24.4,
-      "exitTime": "2026-04-23T14:30:10Z",
-      "open": false,
-      "returnPct": 1.5,
-      "qqqReturnPct": 2.2
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "GE",
-      "direction": "LONG",
-      "entryPrice": 311.92,
-      "entryTime": "2026-04-17T14:28:11Z",
-      "exitPrice": 291.18,
-      "exitTime": "2026-04-21T14:31:26Z",
-      "open": false,
-      "returnPct": -6.65,
-      "qqqReturnPct": -0.7
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "ASTS",
-      "direction": "LONG",
-      "entryPrice": 78.78,
-      "entryTime": "2026-04-20T14:31:05Z",
-      "exitPrice": 84.54,
-      "exitTime": "2026-04-21T14:31:26Z",
-      "open": false,
-      "returnPct": 7.32,
-      "qqqReturnPct": -0.38
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "GE",
-      "direction": "LONG",
-      "entryPrice": 311.92,
-      "entryTime": "2026-04-17T14:28:11Z",
-      "exitPrice": 291.18,
-      "exitTime": "2026-04-21T14:31:26Z",
-      "open": false,
-      "returnPct": -6.65,
-      "qqqReturnPct": -0.7
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "ASTS",
-      "direction": "LONG",
-      "entryPrice": 78.78,
-      "entryTime": "2026-04-20T14:31:05Z",
-      "exitPrice": 84.54,
-      "exitTime": "2026-04-21T14:31:26Z",
-      "open": false,
-      "returnPct": 7.32,
-      "qqqReturnPct": -0.38
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "FIG",
-      "direction": "LONG",
-      "entryPrice": 18.92,
-      "entryTime": "2026-04-18T14:30:38Z",
-      "exitPrice": 18.82,
-      "exitTime": "2026-04-20T14:31:06Z",
-      "open": false,
-      "returnPct": -0.55,
-      "qqqReturnPct": -0.32
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "ATAI",
-      "direction": "LONG",
-      "entryPrice": 4.03,
-      "entryTime": "2026-04-19T14:31:46Z",
-      "exitPrice": 5.16,
-      "exitTime": "2026-04-20T14:31:06Z",
-      "open": false,
-      "returnPct": 27.92,
-      "qqqReturnPct": -0.32
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "CMPS",
-      "direction": "LONG",
-      "entryPrice": 6.66,
-      "entryTime": "2026-04-19T14:31:46Z",
-      "exitPrice": 9.23,
-      "exitTime": "2026-04-20T14:31:06Z",
-      "open": false,
-      "returnPct": 38.59,
-      "qqqReturnPct": -0.32
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "FIG",
-      "direction": "LONG",
-      "entryPrice": 18.92,
-      "entryTime": "2026-04-18T14:30:38Z",
-      "exitPrice": 18.82,
-      "exitTime": "2026-04-20T14:31:06Z",
-      "open": false,
-      "returnPct": -0.55,
-      "qqqReturnPct": -0.32
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "ATAI",
-      "direction": "LONG",
-      "entryPrice": 4.03,
-      "entryTime": "2026-04-19T14:31:46Z",
-      "exitPrice": 5.16,
-      "exitTime": "2026-04-20T14:31:06Z",
-      "open": false,
-      "returnPct": 27.92,
-      "qqqReturnPct": -0.32
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "CMPS",
-      "direction": "LONG",
-      "entryPrice": 6.66,
-      "entryTime": "2026-04-19T14:31:46Z",
-      "exitPrice": 9.23,
-      "exitTime": "2026-04-20T14:31:06Z",
-      "open": false,
-      "returnPct": 38.59,
-      "qqqReturnPct": -0.32
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "XOM",
-      "direction": "LONG",
-      "entryPrice": 146.44,
-      "entryTime": "2026-04-18T14:30:38Z",
-      "exitPrice": 146.44,
-      "exitTime": "2026-04-19T14:31:46Z",
-      "open": false,
-      "returnPct": 0.0,
-      "qqqReturnPct": 0.0
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "MSFT",
-      "direction": "LONG",
-      "entryPrice": 422.79,
-      "entryTime": "2026-04-18T14:30:38Z",
-      "exitPrice": 422.79,
-      "exitTime": "2026-04-19T14:31:46Z",
-      "open": false,
-      "returnPct": 0.0,
-      "qqqReturnPct": 0.0
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "XOM",
-      "direction": "LONG",
-      "entryPrice": 146.44,
-      "entryTime": "2026-04-18T14:30:38Z",
-      "exitPrice": 146.44,
-      "exitTime": "2026-04-19T14:31:46Z",
-      "open": false,
-      "returnPct": 0.0,
-      "qqqReturnPct": 0.0
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "MSFT",
-      "direction": "LONG",
-      "entryPrice": 422.79,
-      "entryTime": "2026-04-18T14:30:38Z",
-      "exitPrice": 422.79,
-      "exitTime": "2026-04-19T14:31:46Z",
-      "open": false,
-      "returnPct": 0.0,
-      "qqqReturnPct": 0.0
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "ET",
-      "direction": "LONG",
-      "entryPrice": 19.18,
-      "entryTime": "2026-04-13T14:29:52Z",
-      "exitPrice": 18.86,
-      "exitTime": "2026-04-18T14:30:39Z",
-      "open": false,
-      "returnPct": -1.69,
-      "qqqReturnPct": 5.1
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "NFLX",
-      "direction": "LONG",
-      "entryPrice": 97.14,
-      "entryTime": "2026-04-17T14:28:11Z",
-      "exitPrice": 97.31,
-      "exitTime": "2026-04-18T14:30:39Z",
-      "open": false,
-      "returnPct": 0.17,
-      "qqqReturnPct": 0.0
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "ET",
-      "direction": "LONG",
-      "entryPrice": 19.18,
-      "entryTime": "2026-04-13T14:29:52Z",
-      "exitPrice": 18.86,
-      "exitTime": "2026-04-18T14:30:39Z",
-      "open": false,
-      "returnPct": -1.69,
-      "qqqReturnPct": 5.1
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "NFLX",
-      "direction": "LONG",
-      "entryPrice": 97.14,
-      "entryTime": "2026-04-17T14:28:11Z",
-      "exitPrice": 97.31,
-      "exitTime": "2026-04-18T14:30:39Z",
-      "open": false,
-      "returnPct": 0.17,
-      "qqqReturnPct": 0.0
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "CPA",
-      "direction": "LONG",
-      "entryPrice": 119.57,
-      "entryTime": "2026-04-10T14:26:19Z",
-      "exitPrice": 129.28,
-      "exitTime": "2026-04-17T14:28:12Z",
-      "open": false,
-      "returnPct": 8.12,
-      "qqqReturnPct": 6.18
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "HR",
-      "direction": "LONG",
-      "entryPrice": 17.71,
-      "entryTime": "2026-04-10T14:26:19Z",
-      "exitPrice": 18.45,
-      "exitTime": "2026-04-17T14:28:12Z",
-      "open": false,
-      "returnPct": 4.18,
-      "qqqReturnPct": 6.18
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "MSFT",
-      "direction": "LONG",
-      "entryPrice": 406.14,
-      "entryTime": "2026-04-15T14:32:13Z",
-      "exitPrice": 424.87,
-      "exitTime": "2026-04-17T14:28:12Z",
-      "open": false,
-      "returnPct": 4.61,
-      "qqqReturnPct": 1.8
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "CPA",
-      "direction": "LONG",
-      "entryPrice": 119.57,
-      "entryTime": "2026-04-10T14:26:19Z",
-      "exitPrice": 129.28,
-      "exitTime": "2026-04-17T14:28:12Z",
-      "open": false,
-      "returnPct": 8.12,
-      "qqqReturnPct": 6.18
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "HR",
-      "direction": "LONG",
-      "entryPrice": 17.71,
-      "entryTime": "2026-04-10T14:26:19Z",
-      "exitPrice": 18.45,
-      "exitTime": "2026-04-17T14:28:12Z",
-      "open": false,
-      "returnPct": 4.18,
-      "qqqReturnPct": 6.18
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "MSFT",
-      "direction": "LONG",
-      "entryPrice": 406.14,
-      "entryTime": "2026-04-15T14:32:13Z",
-      "exitPrice": 424.87,
-      "exitTime": "2026-04-17T14:28:12Z",
-      "open": false,
-      "returnPct": 4.61,
-      "qqqReturnPct": 1.8
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "HE",
-      "direction": "LONG",
-      "entryPrice": 15.53,
-      "entryTime": "2026-04-08T18:44:43Z",
-      "exitPrice": 15.01,
-      "exitTime": "2026-04-15T14:32:14Z",
-      "open": false,
-      "returnPct": -3.35,
-      "qqqReturnPct": 5.17
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "DJT",
-      "direction": "LONG",
-      "entryPrice": 9.39,
-      "entryTime": "2026-04-11T14:40:40Z",
-      "exitPrice": 10.03,
-      "exitTime": "2026-04-15T14:32:14Z",
-      "open": false,
-      "returnPct": 6.82,
-      "qqqReturnPct": 4.31
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "JD",
-      "direction": "LONG",
-      "entryPrice": 28.93,
-      "entryTime": "2026-04-11T14:40:40Z",
-      "exitPrice": 31.46,
-      "exitTime": "2026-04-15T14:32:14Z",
-      "open": false,
-      "returnPct": 8.76,
-      "qqqReturnPct": 4.31
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "XLE",
-      "direction": "LONG",
-      "entryPrice": 57.2,
-      "entryTime": "2026-04-13T14:29:52Z",
-      "exitPrice": 55.66,
-      "exitTime": "2026-04-15T14:32:14Z",
-      "open": false,
-      "returnPct": -2.69,
-      "qqqReturnPct": 3.24
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "AMZN",
-      "direction": "LONG",
-      "entryPrice": 237.13,
-      "entryTime": "2026-04-13T14:29:52Z",
-      "exitPrice": 248.1,
-      "exitTime": "2026-04-15T14:32:14Z",
-      "open": false,
-      "returnPct": 4.63,
-      "qqqReturnPct": 3.24
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "APP",
-      "direction": "LONG",
-      "entryPrice": 411.3,
-      "entryTime": "2026-04-13T14:29:52Z",
-      "exitPrice": 453.94,
-      "exitTime": "2026-04-15T14:32:14Z",
-      "open": false,
-      "returnPct": 10.37,
-      "qqqReturnPct": 3.24
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "HE",
-      "direction": "LONG",
-      "entryPrice": 15.53,
-      "entryTime": "2026-04-08T18:44:43Z",
-      "exitPrice": 15.01,
-      "exitTime": "2026-04-15T14:32:14Z",
-      "open": false,
-      "returnPct": -3.35,
-      "qqqReturnPct": 5.17
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "DJT",
-      "direction": "LONG",
-      "entryPrice": 9.39,
-      "entryTime": "2026-04-11T14:40:40Z",
-      "exitPrice": 10.03,
-      "exitTime": "2026-04-15T14:32:14Z",
-      "open": false,
-      "returnPct": 6.82,
-      "qqqReturnPct": 4.31
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "JD",
-      "direction": "LONG",
-      "entryPrice": 28.93,
-      "entryTime": "2026-04-11T14:40:40Z",
-      "exitPrice": 31.46,
-      "exitTime": "2026-04-15T14:32:14Z",
-      "open": false,
-      "returnPct": 8.76,
-      "qqqReturnPct": 4.31
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "XLE",
-      "direction": "LONG",
-      "entryPrice": 57.2,
-      "entryTime": "2026-04-13T14:29:52Z",
-      "exitPrice": 55.66,
-      "exitTime": "2026-04-15T14:32:14Z",
-      "open": false,
-      "returnPct": -2.69,
-      "qqqReturnPct": 3.24
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "AMZN",
-      "direction": "LONG",
-      "entryPrice": 237.13,
-      "entryTime": "2026-04-13T14:29:52Z",
-      "exitPrice": 248.1,
-      "exitTime": "2026-04-15T14:32:14Z",
-      "open": false,
-      "returnPct": 4.63,
-      "qqqReturnPct": 3.24
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "APP",
-      "direction": "LONG",
-      "entryPrice": 411.3,
-      "entryTime": "2026-04-13T14:29:52Z",
-      "exitPrice": 453.94,
-      "exitTime": "2026-04-15T14:32:14Z",
-      "open": false,
-      "returnPct": 10.37,
-      "qqqReturnPct": 3.24
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "SOFI",
-      "direction": "LONG",
-      "entryPrice": 15.85,
-      "entryTime": "2026-04-06T04:06:23Z",
-      "exitPrice": 16.7,
-      "exitTime": "2026-04-13T14:29:53Z",
-      "open": false,
-      "returnPct": 5.33,
-      "qqqReturnPct": 4.91
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "MS",
-      "direction": "LONG",
-      "entryPrice": 176.64,
-      "entryTime": "2026-04-10T14:26:19Z",
-      "exitPrice": 178.0,
-      "exitTime": "2026-04-13T14:29:53Z",
-      "open": false,
-      "returnPct": 0.77,
-      "qqqReturnPct": 1.03
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "POET",
-      "direction": "LONG",
-      "entryPrice": 7.04,
-      "entryTime": "2026-04-11T14:40:40Z",
-      "exitPrice": 7.64,
-      "exitTime": "2026-04-13T14:29:53Z",
-      "open": false,
-      "returnPct": 8.45,
-      "qqqReturnPct": 1.03
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "SOFI",
-      "direction": "LONG",
-      "entryPrice": 15.85,
-      "entryTime": "2026-04-06T04:06:23Z",
-      "exitPrice": 16.7,
-      "exitTime": "2026-04-13T14:29:53Z",
-      "open": false,
-      "returnPct": 5.33,
-      "qqqReturnPct": 4.91
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "MS",
-      "direction": "LONG",
-      "entryPrice": 176.64,
-      "entryTime": "2026-04-10T14:26:19Z",
-      "exitPrice": 178.0,
-      "exitTime": "2026-04-13T14:29:53Z",
-      "open": false,
-      "returnPct": 0.77,
-      "qqqReturnPct": 1.03
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "POET",
-      "direction": "LONG",
-      "entryPrice": 7.04,
-      "entryTime": "2026-04-11T14:40:40Z",
-      "exitPrice": 7.64,
-      "exitTime": "2026-04-13T14:29:53Z",
-      "open": false,
-      "returnPct": 8.45,
-      "qqqReturnPct": 1.03
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "LLY",
-      "direction": "LONG",
-      "entryPrice": 930.66,
-      "entryTime": "2026-04-06T14:26:50Z",
-      "exitPrice": 939.47,
-      "exitTime": "2026-04-11T14:40:41Z",
-      "open": false,
-      "returnPct": 0.95,
-      "qqqReturnPct": 3.84
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "MSFT",
-      "direction": "LONG",
-      "entryPrice": 372.74,
-      "entryTime": "2026-04-06T14:26:50Z",
-      "exitPrice": 370.87,
-      "exitTime": "2026-04-11T14:40:41Z",
-      "open": false,
-      "returnPct": -0.5,
-      "qqqReturnPct": 3.84
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "NVO",
-      "direction": "LONG",
-      "entryPrice": 37.07,
-      "entryTime": "2026-04-06T14:26:50Z",
-      "exitPrice": 37.52,
-      "exitTime": "2026-04-11T14:40:41Z",
-      "open": false,
-      "returnPct": 1.21,
-      "qqqReturnPct": 3.84
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "GLP",
-      "direction": "LONG",
-      "entryPrice": 46.94,
-      "entryTime": "2026-04-09T14:25:57Z",
-      "exitPrice": 45.96,
-      "exitTime": "2026-04-11T14:40:41Z",
-      "open": false,
-      "returnPct": -2.09,
-      "qqqReturnPct": 0.14
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "INTU",
-      "direction": "LONG",
-      "entryPrice": 349.0,
-      "entryTime": "2026-04-10T14:26:19Z",
-      "exitPrice": 350.94,
-      "exitTime": "2026-04-11T14:40:41Z",
-      "open": false,
-      "returnPct": 0.56,
-      "qqqReturnPct": 0.0
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "LLY",
-      "direction": "LONG",
-      "entryPrice": 930.66,
-      "entryTime": "2026-04-06T14:26:50Z",
-      "exitPrice": 939.47,
-      "exitTime": "2026-04-11T14:40:41Z",
-      "open": false,
-      "returnPct": 0.95,
-      "qqqReturnPct": 3.84
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "MSFT",
-      "direction": "LONG",
-      "entryPrice": 372.74,
-      "entryTime": "2026-04-06T14:26:50Z",
-      "exitPrice": 370.87,
-      "exitTime": "2026-04-11T14:40:41Z",
-      "open": false,
-      "returnPct": -0.5,
-      "qqqReturnPct": 3.84
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "NVO",
-      "direction": "LONG",
-      "entryPrice": 37.07,
-      "entryTime": "2026-04-06T14:26:50Z",
-      "exitPrice": 37.52,
-      "exitTime": "2026-04-11T14:40:41Z",
-      "open": false,
-      "returnPct": 1.21,
-      "qqqReturnPct": 3.84
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "GLP",
-      "direction": "LONG",
-      "entryPrice": 46.94,
-      "entryTime": "2026-04-09T14:25:57Z",
-      "exitPrice": 45.96,
-      "exitTime": "2026-04-11T14:40:41Z",
-      "open": false,
-      "returnPct": -2.09,
-      "qqqReturnPct": 0.14
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "INTU",
-      "direction": "LONG",
-      "entryPrice": 349.0,
-      "entryTime": "2026-04-10T14:26:19Z",
-      "exitPrice": 350.94,
-      "exitTime": "2026-04-11T14:40:41Z",
-      "open": false,
-      "returnPct": 0.56,
-      "qqqReturnPct": 0.0
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "CL",
-      "direction": "LONG",
-      "entryPrice": 85.29,
-      "entryTime": "2026-04-06T14:26:50Z",
-      "exitPrice": 85.15,
-      "exitTime": "2026-04-10T14:26:20Z",
-      "open": false,
-      "returnPct": -0.16,
-      "qqqReturnPct": 3.84
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "OUT",
-      "direction": "LONG",
-      "entryPrice": 27.35,
-      "entryTime": "2026-04-07T14:27:06Z",
-      "exitPrice": 29.49,
-      "exitTime": "2026-04-10T14:26:20Z",
-      "open": false,
-      "returnPct": 7.82,
-      "qqqReturnPct": 3.82
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "SAFE",
-      "direction": "LONG",
-      "entryPrice": 14.28,
-      "entryTime": "2026-04-08T18:44:43Z",
-      "exitPrice": 14.99,
-      "exitTime": "2026-04-10T14:26:20Z",
-      "open": false,
-      "returnPct": 4.97,
-      "qqqReturnPct": 0.82
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "ARAI",
-      "direction": "LONG",
-      "entryPrice": 1.03,
-      "entryTime": "2026-04-09T14:25:57Z",
-      "exitPrice": 0.91,
-      "exitTime": "2026-04-10T14:26:20Z",
-      "open": false,
-      "returnPct": -11.94,
-      "qqqReturnPct": 0.14
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "CL",
-      "direction": "LONG",
-      "entryPrice": 85.29,
-      "entryTime": "2026-04-06T14:26:50Z",
-      "exitPrice": 85.15,
-      "exitTime": "2026-04-10T14:26:20Z",
-      "open": false,
-      "returnPct": -0.16,
-      "qqqReturnPct": 3.84
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "OUT",
-      "direction": "LONG",
-      "entryPrice": 27.35,
-      "entryTime": "2026-04-07T14:27:06Z",
-      "exitPrice": 29.49,
-      "exitTime": "2026-04-10T14:26:20Z",
-      "open": false,
-      "returnPct": 7.82,
-      "qqqReturnPct": 3.82
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "SAFE",
-      "direction": "LONG",
-      "entryPrice": 14.28,
-      "entryTime": "2026-04-08T18:44:43Z",
-      "exitPrice": 14.99,
-      "exitTime": "2026-04-10T14:26:20Z",
-      "open": false,
-      "returnPct": 4.97,
-      "qqqReturnPct": 0.82
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "ARAI",
-      "direction": "LONG",
-      "entryPrice": 1.03,
-      "entryTime": "2026-04-09T14:25:57Z",
-      "exitPrice": 0.91,
-      "exitTime": "2026-04-10T14:26:20Z",
-      "open": false,
-      "returnPct": -11.94,
-      "qqqReturnPct": 0.14
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "JUST",
-      "direction": "LONG",
-      "entryPrice": 93.41,
-      "entryTime": "2026-04-06T04:06:23Z",
-      "exitPrice": 96.41,
-      "exitTime": "2026-04-09T14:25:57Z",
-      "open": false,
-      "returnPct": 3.21,
-      "qqqReturnPct": 3.69
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "OMEX",
-      "direction": "LONG",
-      "entryPrice": 1.26,
-      "entryTime": "2026-04-08T18:44:43Z",
-      "exitPrice": 1.05,
-      "exitTime": "2026-04-09T14:25:57Z",
-      "open": false,
-      "returnPct": -16.67,
-      "qqqReturnPct": 0.68
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "JUST",
-      "direction": "LONG",
-      "entryPrice": 93.41,
-      "entryTime": "2026-04-06T04:06:23Z",
-      "exitPrice": 96.41,
-      "exitTime": "2026-04-09T14:25:57Z",
-      "open": false,
-      "returnPct": 3.21,
-      "qqqReturnPct": 3.69
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "OMEX",
-      "direction": "LONG",
-      "entryPrice": 1.26,
-      "entryTime": "2026-04-08T18:44:43Z",
-      "exitPrice": 1.05,
-      "exitTime": "2026-04-09T14:25:57Z",
-      "open": false,
-      "returnPct": -16.67,
-      "qqqReturnPct": 0.68
-    },
-    {
-      "strategy": "Output Stocks Sentiment V5 Sentiment V5",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 304.32,
-      "entryTime": "2026-04-07T14:27:06Z",
-      "exitPrice": 305.14,
-      "exitTime": "2026-04-08T18:44:44Z",
-      "open": false,
-      "returnPct": 0.27,
-      "qqqReturnPct": 2.97
-    },
-    {
-      "strategy": "Stocks Sentiment V5",
-      "ticker": "UNH",
-      "direction": "LONG",
-      "entryPrice": 304.32,
-      "entryTime": "2026-04-07T14:27:06Z",
-      "exitPrice": 305.14,
-      "exitTime": "2026-04-08T18:44:44Z",
-      "open": false,
-      "returnPct": 0.27,
-      "qqqReturnPct": 2.97
     }
   ]
 };
