@@ -1,24 +1,43 @@
 {
   "Active": {
-    "Ticker": "AAOI",
+    "Ticker": "AVGO",
     "Direction": "LONG",
-    "EntryPrice": 132.79,
-    "CurrentPrice": 132.79,
+    "EntryPrice": 420.688,
+    "CurrentPrice": 420.688,
     "CurrentReturn": 0.0,
-    "OpenedAt": "2026-08-04T15:29:11.0947468Z",
+    "OpenedAt": "2026-08-11T15:30:42.4096712Z",
     "TargetPct": 3.5,
     "StopPct": 2.0,
     "MaxDays": 7,
-    "EntryRegime": "BULL_HIGH_VOL",
-    "Thesis": "LONG AAOI (OTHER) macro=GREEN regime=BULL_HIGH_VOL score 2.71 from 2 signals",
+    "EntryRegime": "BULL_LOW_VOL",
+    "Thesis": "LONG AVGO (TECH) macro=GREEN regime=BULL_LOW_VOL score 0.91 from 3 signals",
     "SourceScanners": [
-      "QUAD__earnings_gap_d1",
-      "STOCKS_NEWSCANNER__altdata"
+      "KESTREL__kestrel",
+      "SCALPER__scalp",
+      "STOCKS_ONEPERCENT__onepct"
     ],
     "MacroRegimeAtEntry": "GREEN",
     "MacroSizeMult": 1.0
   },
   "History": [
+    {
+      "Ticker": "AAOI",
+      "Direction": "LONG",
+      "EntryPrice": 132.79,
+      "ExitPrice": 134.87,
+      "FinalReturn": 1.57,
+      "OpenedAt": "2026-08-04T15:29:11.0947468Z",
+      "ClosedAt": "2026-08-11T15:30:42.3033366Z",
+      "EntryRegime": "BULL_HIGH_VOL",
+      "Status": "EXPIRED",
+      "Thesis": "LONG AAOI (OTHER) macro=GREEN regime=BULL_HIGH_VOL score 2.71 from 2 signals",
+      "SourceScanners": [
+        "QUAD__earnings_gap_d1",
+        "STOCKS_NEWSCANNER__altdata"
+      ],
+      "MacroRegimeAtEntry": "GREEN",
+      "MacroSizeMult": 1.0
+    },
     {
       "Ticker": "RBLX",
       "Direction": "SHORT",
@@ -327,6 +346,7 @@
     "BAC": "2026-07-20T15:07:28.2392386Z",
     "PLTR": "2026-07-27T15:45:46.2642095Z",
     "KO": "2026-08-04T15:29:27.8772821Z",
-    "RBLX": "2026-08-08T15:30:38.1182765Z"
+    "RBLX": "2026-08-08T15:30:38.1182765Z",
+    "AAOI": "2026-08-16T15:30:42.3034395Z"
   }
 }
