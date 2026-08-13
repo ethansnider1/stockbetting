@@ -1,10 +1,10 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-08-12T15:25:21Z",
-  "totalClosed": 815,
-  "totalOpen": 42,
-  "winRate": 56.4,
-  "avgReturnPct": 0.56,
-  "avgQqqReturnPct": 0.25,
+  "generatedAt": "2026-08-13T15:25:07Z",
+  "totalClosed": 830,
+  "totalOpen": 44,
+  "winRate": 56.3,
+  "avgReturnPct": 0.52,
+  "avgQqqReturnPct": 0.28,
   "strategies": [
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -22,37 +22,37 @@ window.V3KR_DATA = {
     {
       "strategy": "Kestrel",
       "verdict": "KEEP",
-      "closed": 316,
-      "open": 12,
-      "winRate": 58.9,
-      "avgReturnPct": 0.32,
-      "expectancy": 0.32,
-      "returnOnCapital": 7.2,
-      "avgPeakPct": 0.55,
-      "insight": "59% WR, +0.3% avg across 316 trades.",
+      "closed": 325,
+      "open": 11,
+      "winRate": 58.8,
+      "avgReturnPct": 0.31,
+      "expectancy": 0.31,
+      "returnOnCapital": 6.8,
+      "avgPeakPct": 0.56,
+      "insight": "59% WR, +0.3% avg across 325 trades.",
       "insightKind": "plain"
     },
     {
       "strategy": "Oracle",
       "verdict": "KEEP",
-      "closed": 410,
-      "open": 30,
-      "winRate": 53.4,
-      "avgReturnPct": 0.65,
-      "expectancy": 0.65,
-      "returnOnCapital": 6.8,
+      "closed": 416,
+      "open": 33,
+      "winRate": 53.1,
+      "avgReturnPct": 0.58,
+      "expectancy": 0.58,
+      "returnOnCapital": 6.2,
       "avgPeakPct": null,
-      "insight": "LONG book +1.6% (258t) vs SHORT book -1.0% (152t). The SHORT side is the drag — trading LONG-only flips the scanner.",
+      "insight": "LONG book +1.6% (259t) vs SHORT book -1.1% (157t). The SHORT side is the drag — trading LONG-only flips the scanner.",
       "insightKind": "split"
     }
   ],
   "trades": [
     {
       "strategy": "Kestrel",
-      "ticker": "MSFT",
+      "ticker": "TMO",
       "direction": "LONG",
-      "entryPrice": 493.68,
-      "entryTime": "2026-08-12T15:15:28Z",
+      "entryPrice": 601.66,
+      "entryTime": "2026-08-13T15:15:47Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -61,22 +61,250 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Kestrel",
+      "ticker": "NOW",
+      "direction": "LONG",
+      "entryPrice": 123.07,
+      "entryTime": "2026-08-13T15:15:47Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "AMZN",
+      "direction": "LONG",
+      "entryPrice": 266.86,
+      "entryTime": "2026-08-13T15:15:47Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "XOM",
+      "direction": "LONG",
+      "entryPrice": 159.33,
+      "entryTime": "2026-08-13T15:15:47Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "MA",
+      "direction": "LONG",
+      "entryPrice": 559.19,
+      "entryTime": "2026-08-13T15:15:47Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "USB",
+      "direction": "LONG",
+      "entryPrice": 65.01,
+      "entryTime": "2026-08-13T15:15:47Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "ROP",
+      "direction": "LONG",
+      "entryPrice": 391.13,
+      "entryTime": "2026-08-13T15:15:47Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "MRK",
+      "direction": "LONG",
+      "entryPrice": 134.69,
+      "entryTime": "2026-08-13T15:15:47Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "MSFT",
+      "direction": "LONG",
+      "entryPrice": 493.68,
+      "entryTime": "2026-08-12T15:15:28Z",
+      "exitPrice": 495.8,
+      "exitTime": "2026-08-13T15:14:57Z",
+      "open": false,
+      "returnPct": 0.43,
+      "qqqReturnPct": 1.27
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "KO",
+      "direction": "LONG",
+      "entryPrice": 86.26,
+      "entryTime": "2026-08-11T15:19:48Z",
+      "exitPrice": 87.63,
+      "exitTime": "2026-08-13T15:14:56Z",
+      "open": false,
+      "returnPct": 1.59,
+      "qqqReturnPct": 2.01
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "PM",
+      "direction": "LONG",
+      "entryPrice": 185.13,
+      "entryTime": "2026-08-11T15:19:48Z",
+      "exitPrice": 189.88,
+      "exitTime": "2026-08-13T15:14:56Z",
+      "open": false,
+      "returnPct": 2.56,
+      "qqqReturnPct": 2.01
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "GE",
+      "direction": "LONG",
+      "entryPrice": 367.68,
+      "entryTime": "2026-08-10T15:19:14Z",
+      "exitPrice": 360.41,
+      "exitTime": "2026-08-13T15:14:55Z",
+      "open": false,
+      "returnPct": -1.98,
+      "qqqReturnPct": 1.67
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "EPD",
+      "direction": "LONG",
+      "entryPrice": 37.77,
+      "entryTime": "2026-08-10T15:19:14Z",
+      "exitPrice": 38.09,
+      "exitTime": "2026-08-13T15:14:55Z",
+      "open": false,
+      "returnPct": 0.84,
+      "qqqReturnPct": 1.67
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "AVGO",
+      "direction": "LONG",
+      "entryPrice": 425.47,
+      "entryTime": "2026-08-10T15:19:14Z",
+      "exitPrice": 424.02,
+      "exitTime": "2026-08-13T15:14:55Z",
+      "open": false,
+      "returnPct": -0.34,
+      "qqqReturnPct": 1.67
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "XLB",
+      "direction": "LONG",
+      "entryPrice": 52.93,
+      "entryTime": "2026-08-10T15:19:14Z",
+      "exitPrice": 52.5,
+      "exitTime": "2026-08-13T15:14:55Z",
+      "open": false,
+      "returnPct": -0.81,
+      "qqqReturnPct": 1.67
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "SPY",
+      "direction": "LONG",
+      "entryPrice": 767.17,
+      "entryTime": "2026-08-04T15:17:57Z",
+      "exitPrice": 777.09,
+      "exitTime": "2026-08-13T15:14:54Z",
+      "open": false,
+      "returnPct": 1.29,
+      "qqqReturnPct": 1.25
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "CB",
+      "direction": "LONG",
+      "entryPrice": 350.17,
+      "entryTime": "2026-08-10T15:19:14Z",
+      "exitPrice": 343.2,
+      "exitTime": "2026-08-13T15:14:54Z",
+      "open": false,
+      "returnPct": -1.99,
+      "qqqReturnPct": 1.67
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "PDD",
+      "direction": "LONG",
+      "entryPrice": 85.07,
+      "entryTime": "2026-08-13T15:14:05Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "JD",
+      "direction": "LONG",
+      "entryPrice": 29.17,
+      "entryTime": "2026-08-13T15:14:05Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "LULU",
+      "direction": "LONG",
+      "entryPrice": 119.77,
+      "entryTime": "2026-08-13T15:14:05Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "COIN",
+      "direction": "LONG",
+      "entryPrice": 148.51,
+      "entryTime": "2026-08-13T15:14:05Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
       "ticker": "TJX",
       "direction": "LONG",
-      "entryPrice": 160.35,
-      "entryTime": "2026-08-10T15:19:14Z",
-      "exitPrice": 154.24,
-      "exitTime": "2026-08-12T15:14:35Z",
-      "open": false,
-      "returnPct": -3.81,
-      "qqqReturnPct": 0.38
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "MNST",
-      "direction": "LONG",
-      "entryPrice": 45.56,
-      "entryTime": "2026-08-12T15:13:51Z",
+      "entryPrice": 152.07,
+      "entryTime": "2026-08-13T15:14:05Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -85,10 +313,10 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Oracle",
-      "ticker": "BIDU",
+      "ticker": "LI",
       "direction": "LONG",
-      "entryPrice": 103.71,
-      "entryTime": "2026-08-12T15:13:51Z",
+      "entryPrice": 12.27,
+      "entryTime": "2026-08-13T15:14:05Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -97,46 +325,34 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Oracle",
-      "ticker": "LCID",
-      "direction": "LONG",
-      "entryPrice": 6.39,
-      "entryTime": "2026-08-12T15:13:51Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "NKE",
-      "direction": "LONG",
-      "entryPrice": 40.64,
-      "entryTime": "2026-08-12T15:13:51Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "ZTS",
-      "direction": "LONG",
-      "entryPrice": 72.58,
-      "entryTime": "2026-08-12T15:13:51Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "TER",
+      "ticker": "SMCI",
       "direction": "SHORT",
-      "entryPrice": 407.58,
-      "entryTime": "2026-08-12T15:13:51Z",
+      "entryPrice": 41.75,
+      "entryTime": "2026-08-13T15:14:05Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "STX",
+      "direction": "SHORT",
+      "entryPrice": 922.53,
+      "entryTime": "2026-08-13T15:14:05Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "MRVL",
+      "direction": "SHORT",
+      "entryPrice": 230.09,
+      "entryTime": "2026-08-13T15:14:05Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
@@ -149,11 +365,11 @@ window.V3KR_DATA = {
       "direction": "SHORT",
       "entryPrice": 62.28,
       "entryTime": "2026-08-12T15:13:51Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.0,
-      "qqqReturnPct": null
+      "exitPrice": 64.95,
+      "exitTime": "2026-08-13T15:13:02Z",
+      "open": false,
+      "returnPct": -4.29,
+      "qqqReturnPct": 1.27
     },
     {
       "strategy": "Oracle",
@@ -161,10 +377,142 @@ window.V3KR_DATA = {
       "direction": "SHORT",
       "entryPrice": 35.67,
       "entryTime": "2026-08-12T15:13:51Z",
+      "exitPrice": 41.78,
+      "exitTime": "2026-08-13T15:13:02Z",
+      "open": false,
+      "returnPct": -17.11,
+      "qqqReturnPct": 1.27
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "MDB",
+      "direction": "SHORT",
+      "entryPrice": 435.67,
+      "entryTime": "2026-08-11T15:17:46Z",
+      "exitPrice": 457.84,
+      "exitTime": "2026-08-13T15:13:00Z",
+      "open": false,
+      "returnPct": -5.09,
+      "qqqReturnPct": 2.01
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "SRE",
+      "direction": "LONG",
+      "entryPrice": 84.94,
+      "entryTime": "2026-08-05T15:18:17Z",
+      "exitPrice": 86.54,
+      "exitTime": "2026-08-13T15:12:55Z",
+      "open": false,
+      "returnPct": 1.88,
+      "qqqReturnPct": 2.17
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "EMR",
+      "direction": "SHORT",
+      "entryPrice": 163.45,
+      "entryTime": "2026-08-05T15:18:17Z",
+      "exitPrice": 160.6,
+      "exitTime": "2026-08-13T15:12:55Z",
+      "open": false,
+      "returnPct": 1.74,
+      "qqqReturnPct": 2.17
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "ETN",
+      "direction": "SHORT",
+      "entryPrice": 450.4,
+      "entryTime": "2026-08-05T15:18:17Z",
+      "exitPrice": 454.32,
+      "exitTime": "2026-08-13T15:12:55Z",
+      "open": false,
+      "returnPct": -0.87,
+      "qqqReturnPct": 2.17
+    },
+    {
+      "strategy": "Kestrel",
+      "ticker": "TJX",
+      "direction": "LONG",
+      "entryPrice": 160.35,
+      "entryTime": "2026-08-10T15:19:14Z",
+      "exitPrice": 154.24,
+      "exitTime": "2026-08-12T15:14:35Z",
+      "open": false,
+      "returnPct": -3.81,
+      "qqqReturnPct": 0.39
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "MNST",
+      "direction": "LONG",
+      "entryPrice": 45.56,
+      "entryTime": "2026-08-12T15:13:51Z",
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 2.78,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "BIDU",
+      "direction": "LONG",
+      "entryPrice": 103.71,
+      "entryTime": "2026-08-12T15:13:51Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.64,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "LCID",
+      "direction": "LONG",
+      "entryPrice": 6.39,
+      "entryTime": "2026-08-12T15:13:51Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": -0.69,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "NKE",
+      "direction": "LONG",
+      "entryPrice": 40.64,
+      "entryTime": "2026-08-12T15:13:51Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.75,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "ZTS",
+      "direction": "LONG",
+      "entryPrice": 72.58,
+      "entryTime": "2026-08-12T15:13:51Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 1.87,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Oracle",
+      "ticker": "TER",
+      "direction": "SHORT",
+      "entryPrice": 407.58,
+      "entryTime": "2026-08-12T15:13:51Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": -2.33,
       "qqqReturnPct": null
     },
     {
@@ -177,7 +525,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-12T15:12:40Z",
       "open": false,
       "returnPct": -6.24,
-      "qqqReturnPct": 0.38
+      "qqqReturnPct": 0.39
     },
     {
       "strategy": "Kestrel",
@@ -188,31 +536,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.53,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "KO",
-      "direction": "LONG",
-      "entryPrice": 86.26,
-      "entryTime": "2026-08-11T15:19:48Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.41,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "PM",
-      "direction": "LONG",
-      "entryPrice": 185.13,
-      "entryTime": "2026-08-11T15:19:48Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.19,
+      "returnPct": -0.67,
       "qqqReturnPct": null
     },
     {
@@ -224,7 +548,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.66,
+      "returnPct": -0.95,
       "qqqReturnPct": null
     },
     {
@@ -236,7 +560,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.05,
+      "returnPct": 0.23,
       "qqqReturnPct": null
     },
     {
@@ -296,7 +620,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 3.09,
+      "returnPct": 3.16,
       "qqqReturnPct": null
     },
     {
@@ -308,7 +632,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.45,
+      "returnPct": -0.16,
       "qqqReturnPct": null
     },
     {
@@ -320,7 +644,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.28,
+      "returnPct": 0.11,
       "qqqReturnPct": null
     },
     {
@@ -332,7 +656,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -3.36,
+      "returnPct": -1.46,
       "qqqReturnPct": null
     },
     {
@@ -344,7 +668,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.2,
+      "returnPct": -0.45,
       "qqqReturnPct": null
     },
     {
@@ -356,19 +680,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.23,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "MDB",
-      "direction": "SHORT",
-      "entryPrice": 435.67,
-      "entryTime": "2026-08-11T15:17:46Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -0.7,
+      "returnPct": 1.78,
       "qqqReturnPct": null
     },
     {
@@ -380,7 +692,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 1.76,
+      "returnPct": -0.91,
       "qqqReturnPct": null
     },
     {
@@ -392,7 +704,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 2.85,
+      "returnPct": 1.78,
       "qqqReturnPct": null
     },
     {
@@ -490,66 +802,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -1.4,
       "qqqReturnPct": 2.63
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "CB",
-      "direction": "LONG",
-      "entryPrice": 350.17,
-      "entryTime": "2026-08-10T15:19:14Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.09,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "GE",
-      "direction": "LONG",
-      "entryPrice": 367.68,
-      "entryTime": "2026-08-10T15:19:14Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -0.47,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "EPD",
-      "direction": "LONG",
-      "entryPrice": 37.77,
-      "entryTime": "2026-08-10T15:19:14Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.24,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "AVGO",
-      "direction": "LONG",
-      "entryPrice": 425.47,
-      "entryTime": "2026-08-10T15:19:14Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.18,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "XLB",
-      "direction": "LONG",
-      "entryPrice": 52.93,
-      "entryTime": "2026-08-10T15:19:14Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -0.28,
-      "qqqReturnPct": null
     },
     {
       "strategy": "Kestrel",
@@ -716,7 +968,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.09,
+      "returnPct": -2.76,
       "qqqReturnPct": null
     },
     {
@@ -728,7 +980,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 1.56,
+      "returnPct": 0.93,
       "qqqReturnPct": null
     },
     {
@@ -740,7 +992,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.56,
+      "returnPct": 1.91,
       "qqqReturnPct": null
     },
     {
@@ -752,7 +1004,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.91,
+      "returnPct": 2.98,
       "qqqReturnPct": null
     },
     {
@@ -764,7 +1016,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.48,
+      "returnPct": 1.34,
       "qqqReturnPct": null
     },
     {
@@ -776,7 +1028,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -3.21,
+      "returnPct": -1.8,
       "qqqReturnPct": null
     },
     {
@@ -788,7 +1040,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 1.19,
+      "returnPct": -0.09,
       "qqqReturnPct": null
     },
     {
@@ -800,7 +1052,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.33,
+      "returnPct": -0.57,
       "qqqReturnPct": null
     },
     {
@@ -812,7 +1064,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 1.18,
+      "returnPct": 0.8,
       "qqqReturnPct": null
     },
     {
@@ -1028,7 +1280,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.11,
+      "returnPct": -3.42,
       "qqqReturnPct": null
     },
     {
@@ -1129,42 +1381,6 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Oracle",
-      "ticker": "SRE",
-      "direction": "LONG",
-      "entryPrice": 84.94,
-      "entryTime": "2026-08-05T15:18:17Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.84,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "EMR",
-      "direction": "SHORT",
-      "entryPrice": 163.45,
-      "entryTime": "2026-08-05T15:18:17Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.05,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
-      "ticker": "ETN",
-      "direction": "SHORT",
-      "entryPrice": 450.4,
-      "entryTime": "2026-08-05T15:18:17Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -3.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Oracle",
       "ticker": "FSLY",
       "direction": "SHORT",
       "entryPrice": 24.22,
@@ -1222,18 +1438,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.25,
       "qqqReturnPct": 6.19
-    },
-    {
-      "strategy": "Kestrel",
-      "ticker": "SPY",
-      "direction": "LONG",
-      "entryPrice": 767.17,
-      "entryTime": "2026-08-04T15:17:57Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.66,
-      "qqqReturnPct": null
     },
     {
       "strategy": "Kestrel",
