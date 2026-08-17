@@ -1,25 +1,47 @@
 {
   "Active": {
-    "Ticker": "AMD",
+    "Ticker": "MRK",
     "Direction": "LONG",
-    "EntryPrice": 470.0,
-    "CurrentPrice": 470.0,
+    "EntryPrice": 135.93,
+    "CurrentPrice": 135.93,
     "CurrentReturn": 0.0,
-    "OpenedAt": "2026-08-11T15:30:45.1563695Z",
+    "OpenedAt": "2026-08-17T15:34:22.3796823Z",
     "TargetPct": 3.5,
     "StopPct": 2.0,
     "MaxDays": 7,
     "EntryRegime": "BULL_LOW_VOL",
-    "Thesis": "LONG AMD (TECH) macro=GREEN regime=BULL_LOW_VOL score 0.36 from 4 signals",
+    "Thesis": "LONG MRK (HC) macro=GREEN regime=BULL_LOW_VOL score 0.54 from 3 signals",
     "SourceScanners": [
-      "ADAPTIVE__chameleon",
-      "SCALPER__scalp",
+      "KESTREL__kestrel",
       "STC_INVERSE__inverse_stc",
-      "STOCKS_NEWSCANNER__altdata"
+      "SWINGTRIO__leader_pullback"
     ],
     "MacroRegimeAtEntry": "GREEN",
     "MacroSizeMult": 1.0
   },
-  "History": [],
-  "CoolDowns": {}
+  "History": [
+    {
+      "Ticker": "AMD",
+      "Direction": "LONG",
+      "EntryPrice": 470.0,
+      "ExitPrice": 488.2,
+      "FinalReturn": 3.87,
+      "OpenedAt": "2026-08-11T15:30:45.1563695Z",
+      "ClosedAt": "2026-08-12T15:25:08.5487201Z",
+      "EntryRegime": "BULL_LOW_VOL",
+      "Status": "TARGET",
+      "Thesis": "LONG AMD (TECH) macro=GREEN regime=BULL_LOW_VOL score 0.36 from 4 signals",
+      "SourceScanners": [
+        "ADAPTIVE__chameleon",
+        "SCALPER__scalp",
+        "STC_INVERSE__inverse_stc",
+        "STOCKS_NEWSCANNER__altdata"
+      ],
+      "MacroRegimeAtEntry": "GREEN",
+      "MacroSizeMult": 1.0
+    }
+  ],
+  "CoolDowns": {
+    "AMD": "2026-08-17T15:25:08.5490215Z"
+  }
 }
