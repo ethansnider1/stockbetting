@@ -1,25 +1,43 @@
 {
   "Active": {
-    "Ticker": "AMAT",
+    "Ticker": "MRK",
     "Direction": "LONG",
-    "EntryPrice": 536.235,
-    "CurrentPrice": 533.55,
-    "CurrentReturn": -0.5,
-    "PeakReturn": 0.48,
-    "OpenedAt": "2026-08-17T15:34:19.5127471Z",
+    "EntryPrice": 150.215,
+    "CurrentPrice": 150.215,
+    "CurrentReturn": 0.0,
+    "PeakReturn": 0.0,
+    "OpenedAt": "2026-08-19T15:25:09.6568548Z",
     "TargetPct": 3.5,
     "StopPct": 2.0,
     "MaxDays": 7,
     "EntryRegime": "BULL_LOW_VOL",
-    "Thesis": "LONG AMAT (TECH) macro=GREEN regime=BULL_LOW_VOL score 0.54 from 2 signals",
+    "Thesis": "LONG MRK (HC) macro=YELLOW regime=BULL_LOW_VOL score 1.21 from 2 signals",
     "SourceScanners": [
-      "ADAPTIVE__chameleon",
-      "QUAD__earnings_gap_d1"
+      "QUAD__earnings_gap_d1",
+      "SCALPER__scalp"
     ],
-    "MacroRegimeAtEntry": "GREEN",
-    "MacroSizeMult": 1.0
+    "MacroRegimeAtEntry": "YELLOW",
+    "MacroSizeMult": 0.75
   },
   "History": [
+    {
+      "Ticker": "AMAT",
+      "Direction": "LONG",
+      "EntryPrice": 536.235,
+      "ExitPrice": 501.57,
+      "FinalReturn": -6.46,
+      "OpenedAt": "2026-08-17T15:34:19.5127471Z",
+      "ClosedAt": "2026-08-18T15:26:10.1167231Z",
+      "EntryRegime": "BULL_LOW_VOL",
+      "Status": "STOPPED",
+      "Thesis": "LONG AMAT (TECH) macro=GREEN regime=BULL_LOW_VOL score 0.54 from 2 signals",
+      "SourceScanners": [
+        "ADAPTIVE__chameleon",
+        "QUAD__earnings_gap_d1"
+      ],
+      "MacroRegimeAtEntry": "GREEN",
+      "MacroSizeMult": 1.0
+    },
     {
       "Ticker": "GOOGL",
       "Direction": "LONG",
@@ -117,6 +135,7 @@
     "RBLX": "2026-08-05T17:30:02.8817394Z",
     "AAOI": "2026-08-09T19:00:02.9651922Z",
     "LLY": "2026-08-11T15:29:39.2577763Z",
-    "GOOGL": "2026-08-16T17:30:02.9217234Z"
+    "GOOGL": "2026-08-16T17:30:02.9217234Z",
+    "AMAT": "2026-08-23T15:26:10.116835Z"
   }
 }
