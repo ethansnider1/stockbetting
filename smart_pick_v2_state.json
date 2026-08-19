@@ -1,24 +1,42 @@
 {
   "Active": {
-    "Ticker": "AMAT",
+    "Ticker": "MRK",
     "Direction": "LONG",
-    "EntryPrice": 536.235,
-    "CurrentPrice": 536.235,
+    "EntryPrice": 150.22,
+    "CurrentPrice": 150.22,
     "CurrentReturn": 0.0,
-    "OpenedAt": "2026-08-17T15:34:16.5914387Z",
+    "OpenedAt": "2026-08-19T15:25:07.6098694Z",
     "TargetPct": 3.5,
     "StopPct": 2.0,
     "MaxDays": 7,
     "EntryRegime": "BULL_LOW_VOL",
-    "Thesis": "LONG AMAT (TECH) macro=GREEN regime=BULL_LOW_VOL score 0.54 from 2 signals",
+    "Thesis": "LONG MRK (HC) macro=YELLOW regime=BULL_LOW_VOL score 1.21 from 2 signals",
     "SourceScanners": [
-      "ADAPTIVE__chameleon",
-      "QUAD__earnings_gap_d1"
+      "QUAD__earnings_gap_d1",
+      "SCALPER__scalp"
     ],
-    "MacroRegimeAtEntry": "GREEN",
-    "MacroSizeMult": 1.0
+    "MacroRegimeAtEntry": "YELLOW",
+    "MacroSizeMult": 0.75
   },
   "History": [
+    {
+      "Ticker": "AMAT",
+      "Direction": "LONG",
+      "EntryPrice": 536.235,
+      "ExitPrice": 501.57,
+      "FinalReturn": -6.46,
+      "OpenedAt": "2026-08-17T15:34:16.5914387Z",
+      "ClosedAt": "2026-08-18T15:26:09.236199Z",
+      "EntryRegime": "BULL_LOW_VOL",
+      "Status": "STOPPED",
+      "Thesis": "LONG AMAT (TECH) macro=GREEN regime=BULL_LOW_VOL score 0.54 from 2 signals",
+      "SourceScanners": [
+        "ADAPTIVE__chameleon",
+        "QUAD__earnings_gap_d1"
+      ],
+      "MacroRegimeAtEntry": "GREEN",
+      "MacroSizeMult": 1.0
+    },
     {
       "Ticker": "AVGO",
       "Direction": "LONG",
@@ -352,7 +370,7 @@
   "CoolDowns": {
     "NVDA": "2026-06-01T15:36:26.6384547Z",
     "MRVL": "2026-06-06T15:40:03.1277558Z",
-    "AMAT": "2026-06-07T15:38:33.147356Z",
+    "AMAT": "2026-08-23T15:26:09.2363012Z",
     "HP": "2026-06-10T15:40:23.6677076Z",
     "GM": "2026-06-15T15:42:23.2373628Z",
     "AMD": "2026-06-17T15:40:31.6206478Z",
