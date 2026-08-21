@@ -1,25 +1,44 @@
 {
   "Active": {
-    "Ticker": "MRK",
+    "Ticker": "AMAT",
     "Direction": "LONG",
-    "EntryPrice": 135.93,
-    "CurrentPrice": 135.93,
+    "EntryPrice": 487.445,
+    "CurrentPrice": 487.445,
     "CurrentReturn": 0.0,
-    "OpenedAt": "2026-08-17T15:34:22.3796823Z",
+    "OpenedAt": "2026-08-21T15:26:32.955136Z",
     "TargetPct": 3.5,
     "StopPct": 2.0,
     "MaxDays": 7,
     "EntryRegime": "BULL_LOW_VOL",
-    "Thesis": "LONG MRK (HC) macro=GREEN regime=BULL_LOW_VOL score 0.54 from 3 signals",
+    "Thesis": "LONG AMAT (TECH) macro=GREEN regime=BULL_LOW_VOL score 0.32 from 3 signals",
     "SourceScanners": [
-      "KESTREL__kestrel",
-      "STC_INVERSE__inverse_stc",
-      "SWINGTRIO__leader_pullback"
+      "ADAPTIVE__chameleon",
+      "STOCKS_ONEPERCENT__onepct",
+      "STOCKS_ONEPERCENT_V2__onepct"
     ],
     "MacroRegimeAtEntry": "GREEN",
     "MacroSizeMult": 1.0
   },
   "History": [
+    {
+      "Ticker": "MRK",
+      "Direction": "LONG",
+      "EntryPrice": 135.93,
+      "ExitPrice": 150.215,
+      "FinalReturn": 10.51,
+      "OpenedAt": "2026-08-17T15:34:22.3796823Z",
+      "ClosedAt": "2026-08-19T15:25:11.3002786Z",
+      "EntryRegime": "BULL_LOW_VOL",
+      "Status": "TARGET",
+      "Thesis": "LONG MRK (HC) macro=GREEN regime=BULL_LOW_VOL score 0.54 from 3 signals",
+      "SourceScanners": [
+        "KESTREL__kestrel",
+        "STC_INVERSE__inverse_stc",
+        "SWINGTRIO__leader_pullback"
+      ],
+      "MacroRegimeAtEntry": "GREEN",
+      "MacroSizeMult": 1.0
+    },
     {
       "Ticker": "AMD",
       "Direction": "LONG",
@@ -42,6 +61,7 @@
     }
   ],
   "CoolDowns": {
-    "AMD": "2026-08-17T15:25:08.5490215Z"
+    "AMD": "2026-08-17T15:25:08.5490215Z",
+    "MRK": "2026-08-24T15:25:11.3003841Z"
   }
 }
