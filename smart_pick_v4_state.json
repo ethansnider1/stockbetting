@@ -1,26 +1,46 @@
 {
   "Active": {
-    "Ticker": "WMT",
-    "Direction": "SHORT",
-    "EntryPrice": 103.385,
-    "CurrentPrice": 103.275,
-    "CurrentReturn": 0.11,
-    "PeakReturn": 0.83,
-    "OpenedAt": "2026-08-20T15:23:21.7168252Z",
+    "Ticker": "NVDA",
+    "Direction": "LONG",
+    "EntryPrice": 209.36,
+    "CurrentPrice": 209.36,
+    "CurrentReturn": 0.0,
+    "PeakReturn": 0.0,
+    "OpenedAt": "2026-08-24T15:26:39.0451774Z",
     "TargetPct": 3.5,
     "StopPct": 2.0,
     "MaxDays": 7,
     "EntryRegime": "BULL_LOW_VOL",
-    "Thesis": "SHORT WMT (STAPLES) macro=YELLOW regime=BULL_LOW_VOL score 2.24 from 3 signals",
+    "Thesis": "LONG NVDA (TECH) macro=GREEN regime=BULL_LOW_VOL score 0.16 from 4 signals",
     "SourceScanners": [
-      "QUAD__earnings_gap_d1",
+      "KESTREL__kestrel",
       "SCALPER__scalp",
-      "STC_INVERSE__inverse_stc"
+      "STOCKS_ONEPERCENT__onepct",
+      "STOCKS_ONEPERCENT_V2__onepct"
     ],
-    "MacroRegimeAtEntry": "YELLOW",
-    "MacroSizeMult": 0.75
+    "MacroRegimeAtEntry": "GREEN",
+    "MacroSizeMult": 1.0
   },
   "History": [
+    {
+      "Ticker": "WMT",
+      "Direction": "SHORT",
+      "EntryPrice": 103.385,
+      "ExitPrice": 104.65,
+      "FinalReturn": -1.22,
+      "OpenedAt": "2026-08-20T15:23:21.7168252Z",
+      "ClosedAt": "2026-08-24T15:26:38.9695037Z",
+      "EntryRegime": "BULL_LOW_VOL",
+      "Status": "TRAIL_STOP",
+      "Thesis": "SHORT WMT (STAPLES) macro=YELLOW regime=BULL_LOW_VOL score 2.24 from 3 signals",
+      "SourceScanners": [
+        "QUAD__earnings_gap_d1",
+        "SCALPER__scalp",
+        "STC_INVERSE__inverse_stc"
+      ],
+      "MacroRegimeAtEntry": "YELLOW",
+      "MacroSizeMult": 0.75
+    },
     {
       "Ticker": "MRK",
       "Direction": "LONG",
@@ -156,6 +176,7 @@
     "LLY": "2026-08-11T15:29:39.2577763Z",
     "GOOGL": "2026-08-16T17:30:02.9217234Z",
     "AMAT": "2026-08-23T15:26:10.116835Z",
-    "MRK": "2026-08-25T15:23:21.5955013Z"
+    "MRK": "2026-08-25T15:23:21.5955013Z",
+    "WMT": "2026-08-29T15:26:38.9696145Z"
   }
 }
