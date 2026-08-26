@@ -1,27 +1,45 @@
 {
   "Active": {
-    "Ticker": "NVDA",
+    "Ticker": "SNOW",
     "Direction": "LONG",
-    "EntryPrice": 209.36,
-    "CurrentPrice": 212.07,
-    "CurrentReturn": 1.29,
-    "PeakReturn": 1.82,
-    "OpenedAt": "2026-08-24T15:26:39.0451774Z",
+    "EntryPrice": 315.17,
+    "CurrentPrice": 315.17,
+    "CurrentReturn": 0.0,
+    "PeakReturn": 0.0,
+    "OpenedAt": "2026-08-26T15:26:14.7915715Z",
     "TargetPct": 3.5,
     "StopPct": 2.0,
     "MaxDays": 7,
     "EntryRegime": "BULL_LOW_VOL",
-    "Thesis": "LONG NVDA (TECH) macro=GREEN regime=BULL_LOW_VOL score 0.16 from 4 signals",
+    "Thesis": "LONG SNOW (TECH) macro=GREEN regime=BULL_LOW_VOL score 0.75 from 2 signals",
     "SourceScanners": [
-      "KESTREL__kestrel",
       "SCALPER__scalp",
-      "STOCKS_ONEPERCENT__onepct",
-      "STOCKS_ONEPERCENT_V2__onepct"
+      "SWINGTRIO__leader_pullback"
     ],
     "MacroRegimeAtEntry": "GREEN",
     "MacroSizeMult": 1.0
   },
   "History": [
+    {
+      "Ticker": "NVDA",
+      "Direction": "LONG",
+      "EntryPrice": 209.36,
+      "ExitPrice": 210.76,
+      "FinalReturn": 0.67,
+      "OpenedAt": "2026-08-24T15:26:39.0451774Z",
+      "ClosedAt": "2026-08-26T15:26:14.7244512Z",
+      "EntryRegime": "BULL_LOW_VOL",
+      "Status": "TRAIL_STOP",
+      "Thesis": "LONG NVDA (TECH) macro=GREEN regime=BULL_LOW_VOL score 0.16 from 4 signals",
+      "SourceScanners": [
+        "KESTREL__kestrel",
+        "SCALPER__scalp",
+        "STOCKS_ONEPERCENT__onepct",
+        "STOCKS_ONEPERCENT_V2__onepct"
+      ],
+      "MacroRegimeAtEntry": "GREEN",
+      "MacroSizeMult": 1.0
+    },
     {
       "Ticker": "WMT",
       "Direction": "SHORT",
@@ -177,6 +195,7 @@
     "GOOGL": "2026-08-16T17:30:02.9217234Z",
     "AMAT": "2026-08-23T15:26:10.116835Z",
     "MRK": "2026-08-25T15:23:21.5955013Z",
-    "WMT": "2026-08-29T15:26:38.9696145Z"
+    "WMT": "2026-08-29T15:26:38.9696145Z",
+    "NVDA": "2026-08-31T15:26:14.7245716Z"
   }
 }
