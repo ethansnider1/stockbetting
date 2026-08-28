@@ -1,26 +1,45 @@
 {
   "Active": {
-    "Ticker": "CRM",
+    "Ticker": "JNJ",
     "Direction": "LONG",
-    "EntryPrice": 247.59,
-    "CurrentPrice": 252.32,
-    "CurrentReturn": 1.91,
-    "PeakReturn": 1.91,
-    "OpenedAt": "2026-08-27T15:27:54.6857727Z",
+    "EntryPrice": 266.44,
+    "CurrentPrice": 266.44,
+    "CurrentReturn": 0.0,
+    "PeakReturn": 0.0,
+    "OpenedAt": "2026-08-28T15:27:57.9367218Z",
     "TargetPct": 3.5,
     "StopPct": 2.0,
     "MaxDays": 7,
     "EntryRegime": "BULL_LOW_VOL",
-    "Thesis": "LONG CRM (TECH) macro=YELLOW regime=BULL_LOW_VOL score 1.85 from 3 signals",
+    "Thesis": "LONG JNJ (HC) macro=GREEN regime=BULL_LOW_VOL score 0.52 from 3 signals",
     "SourceScanners": [
-      "QUAD__earnings_gap_d1",
-      "SCALPER__scalp",
-      "STOCKS_NEWSCANNER__altdata"
+      "KESTREL__kestrel",
+      "STOCKS_ONEPERCENT__onepct",
+      "SWINGTRIO__leader_pullback"
     ],
-    "MacroRegimeAtEntry": "YELLOW",
-    "MacroSizeMult": 0.75
+    "MacroRegimeAtEntry": "GREEN",
+    "MacroSizeMult": 1.0
   },
   "History": [
+    {
+      "Ticker": "CRM",
+      "Direction": "LONG",
+      "EntryPrice": 247.59,
+      "ExitPrice": 261.55,
+      "FinalReturn": 5.64,
+      "OpenedAt": "2026-08-27T15:27:54.6857727Z",
+      "ClosedAt": "2026-08-28T15:27:57.8203428Z",
+      "EntryRegime": "BULL_LOW_VOL",
+      "Status": "TARGET",
+      "Thesis": "LONG CRM (TECH) macro=YELLOW regime=BULL_LOW_VOL score 1.85 from 3 signals",
+      "SourceScanners": [
+        "QUAD__earnings_gap_d1",
+        "SCALPER__scalp",
+        "STOCKS_NEWSCANNER__altdata"
+      ],
+      "MacroRegimeAtEntry": "YELLOW",
+      "MacroSizeMult": 0.75
+    },
     {
       "Ticker": "SNOW",
       "Direction": "LONG",
@@ -216,6 +235,7 @@
     "MRK": "2026-08-25T15:23:21.5955013Z",
     "WMT": "2026-08-29T15:26:38.9696145Z",
     "NVDA": "2026-08-31T15:26:14.7245716Z",
-    "SNOW": "2026-09-01T15:27:54.6183526Z"
+    "SNOW": "2026-09-01T15:27:54.6183526Z",
+    "CRM": "2026-09-02T15:27:57.8204589Z"
   }
 }
