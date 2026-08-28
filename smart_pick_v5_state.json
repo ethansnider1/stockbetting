@@ -1,18 +1,19 @@
 {
   "Active": {
-    "Ticker": "AMAT",
+    "Ticker": "ABBV",
     "Direction": "LONG",
-    "EntryPrice": 487.445,
-    "CurrentPrice": 487.445,
+    "EntryPrice": 257.535,
+    "CurrentPrice": 257.535,
     "CurrentReturn": 0.0,
-    "OpenedAt": "2026-08-21T15:26:32.955136Z",
+    "OpenedAt": "2026-08-28T15:27:59.7246253Z",
     "TargetPct": 3.5,
     "StopPct": 2.0,
     "MaxDays": 7,
     "EntryRegime": "BULL_LOW_VOL",
-    "Thesis": "LONG AMAT (TECH) macro=GREEN regime=BULL_LOW_VOL score 0.32 from 3 signals",
+    "Thesis": "LONG ABBV (HC) macro=GREEN regime=BULL_LOW_VOL score 0.36 from 4 signals",
     "SourceScanners": [
-      "ADAPTIVE__chameleon",
+      "KESTREL__kestrel",
+      "SCALPER__scalp",
       "STOCKS_ONEPERCENT__onepct",
       "STOCKS_ONEPERCENT_V2__onepct"
     ],
@@ -20,6 +21,25 @@
     "MacroSizeMult": 1.0
   },
   "History": [
+    {
+      "Ticker": "AMAT",
+      "Direction": "LONG",
+      "EntryPrice": 487.445,
+      "ExitPrice": 473.655,
+      "FinalReturn": -2.83,
+      "OpenedAt": "2026-08-21T15:26:32.955136Z",
+      "ClosedAt": "2026-08-27T15:27:56.4469189Z",
+      "EntryRegime": "BULL_LOW_VOL",
+      "Status": "STOPPED",
+      "Thesis": "LONG AMAT (TECH) macro=GREEN regime=BULL_LOW_VOL score 0.32 from 3 signals",
+      "SourceScanners": [
+        "ADAPTIVE__chameleon",
+        "STOCKS_ONEPERCENT__onepct",
+        "STOCKS_ONEPERCENT_V2__onepct"
+      ],
+      "MacroRegimeAtEntry": "GREEN",
+      "MacroSizeMult": 1.0
+    },
     {
       "Ticker": "MRK",
       "Direction": "LONG",
@@ -62,6 +82,7 @@
   ],
   "CoolDowns": {
     "AMD": "2026-08-17T15:25:08.5490215Z",
-    "MRK": "2026-08-24T15:25:11.3003841Z"
+    "MRK": "2026-08-24T15:25:11.3003841Z",
+    "AMAT": "2026-09-01T15:27:56.4470252Z"
   }
 }
