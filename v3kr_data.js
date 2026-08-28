@@ -1,29 +1,42 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-08-27T15:27:59Z",
-  "totalClosed": 488,
-  "totalOpen": 13,
-  "winRate": 58.0,
-  "avgReturnPct": 0.46,
-  "avgQqqReturnPct": 0.39,
+  "generatedAt": "2026-08-28T15:28:04Z",
+  "totalClosed": 536,
+  "totalOpen": 29,
+  "winRate": 57.8,
+  "avgReturnPct": 0.58,
+  "avgQqqReturnPct": 0.45,
   "strategies": [
+    {
+      "strategy": "Leading Electricity",
+      "verdict": "KEEP",
+      "closed": 46,
+      "open": 5,
+      "winRate": 54.3,
+      "avgReturnPct": 1.79,
+      "expectancy": 1.79,
+      "returnOnCapital": 16.5,
+      "avgPeakPct": 5.38,
+      "insight": "Left 3.6% on the table — avg peak +5.4% but exits realize +1.8%. Exits fire too late; a faster profit-take is the lever.",
+      "insightKind": "peak"
+    },
     {
       "strategy": "Stocks Onepercent V2",
       "verdict": "KEEP",
-      "closed": 390,
-      "open": 13,
-      "winRate": 58.2,
-      "avgReturnPct": 0.37,
-      "expectancy": 0.37,
-      "returnOnCapital": 9.7,
+      "closed": 392,
+      "open": 16,
+      "winRate": 58.4,
+      "avgReturnPct": 0.38,
+      "expectancy": 0.38,
+      "returnOnCapital": 9.9,
       "avgPeakPct": null,
-      "insight": "58% WR, +0.4% avg across 390 trades.",
+      "insight": "58% WR, +0.4% avg across 392 trades.",
       "insightKind": "plain"
     },
     {
       "strategy": "Stocks Edge Fridaymon",
       "verdict": "KEEP",
       "closed": 98,
-      "open": 0,
+      "open": 8,
       "winRate": 57.1,
       "avgReturnPct": 0.79,
       "expectancy": 0.79,
@@ -35,6 +48,246 @@ window.V3KR_DATA = {
   ],
   "trades": [
     {
+      "strategy": "Leading Electricity",
+      "ticker": "VST",
+      "direction": "LONG",
+      "entryPrice": 139.06,
+      "entryTime": "2026-08-28T14:18:25Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "CEG",
+      "direction": "LONG",
+      "entryPrice": 280.38,
+      "entryTime": "2026-08-28T14:18:25Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "SMR",
+      "direction": "LONG",
+      "entryPrice": 9.46,
+      "entryTime": "2026-08-28T14:18:25Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "OKLO",
+      "direction": "LONG",
+      "entryPrice": 41.13,
+      "entryTime": "2026-08-28T14:18:25Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "EQIX",
+      "direction": "LONG",
+      "entryPrice": 1065.1,
+      "entryTime": "2026-08-28T14:18:25Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "LYV",
+      "direction": "LONG",
+      "entryPrice": 178.22,
+      "entryTime": "2026-08-28T14:09:38Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "AMGN",
+      "direction": "LONG",
+      "entryPrice": 433.07,
+      "entryTime": "2026-08-28T14:09:38Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "BXP",
+      "direction": "LONG",
+      "entryPrice": 69.68,
+      "entryTime": "2026-08-28T14:09:38Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "CSX",
+      "direction": "LONG",
+      "entryPrice": 51.42,
+      "entryTime": "2026-08-28T14:09:38Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "DLR",
+      "direction": "LONG",
+      "entryPrice": 190.71,
+      "entryTime": "2026-08-28T14:09:38Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "HAL",
+      "direction": "LONG",
+      "entryPrice": 34.72,
+      "entryTime": "2026-08-24T14:09:32Z",
+      "exitPrice": 36.13,
+      "exitTime": "2026-08-28T14:05:19Z",
+      "open": false,
+      "returnPct": 4.06,
+      "qqqReturnPct": 2.41
+    },
+    {
+      "strategy": "Stocks Onepercent V2",
+      "ticker": "LMT",
+      "direction": "LONG",
+      "entryPrice": 560.21,
+      "entryTime": "2026-08-24T14:09:32Z",
+      "exitPrice": 562.06,
+      "exitTime": "2026-08-28T14:05:19Z",
+      "open": false,
+      "returnPct": 0.33,
+      "qqqReturnPct": 2.41
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "PYPL",
+      "direction": "LONG",
+      "entryPrice": 54.29,
+      "entryTime": "2026-08-28T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "MARA",
+      "direction": "LONG",
+      "entryPrice": 10.97,
+      "entryTime": "2026-08-28T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "CLSK",
+      "direction": "LONG",
+      "entryPrice": 12.04,
+      "entryTime": "2026-08-28T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "RIOT",
+      "direction": "LONG",
+      "entryPrice": 19.52,
+      "entryTime": "2026-08-28T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "HIMS",
+      "direction": "LONG",
+      "entryPrice": 29.62,
+      "entryTime": "2026-08-28T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "IONQ",
+      "direction": "LONG",
+      "entryPrice": 39.74,
+      "entryTime": "2026-08-28T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "MRNA",
+      "direction": "LONG",
+      "entryPrice": 134.89,
+      "entryTime": "2026-08-28T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "COIN",
+      "direction": "LONG",
+      "entryPrice": 182.22,
+      "entryTime": "2026-08-28T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "ABBV",
       "direction": "LONG",
@@ -43,7 +296,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -0.1,
       "qqqReturnPct": null
     },
     {
@@ -55,7 +308,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -0.71,
       "qqqReturnPct": null
     },
     {
@@ -67,7 +320,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -3.93,
       "qqqReturnPct": null
     },
     {
@@ -79,7 +332,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 0.85,
       "qqqReturnPct": null
     },
     {
@@ -91,7 +344,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": 1.02,
       "qqqReturnPct": null
     },
     {
@@ -104,7 +357,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-08-27T14:05:10Z",
       "open": false,
       "returnPct": -4.03,
-      "qqqReturnPct": 1.09
+      "qqqReturnPct": 1.46
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -115,7 +368,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.77,
+      "returnPct": -0.63,
       "qqqReturnPct": null
     },
     {
@@ -127,7 +380,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.32,
+      "returnPct": 0.04,
       "qqqReturnPct": null
     },
     {
@@ -139,7 +392,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.5,
+      "returnPct": -1.19,
       "qqqReturnPct": null
     },
     {
@@ -151,7 +404,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.75,
+      "returnPct": -0.24,
       "qqqReturnPct": null
     },
     {
@@ -187,7 +440,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.57,
+      "returnPct": -1.04,
       "qqqReturnPct": null
     },
     {
@@ -199,7 +452,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.15,
+      "returnPct": -1.65,
       "qqqReturnPct": null
     },
     {
@@ -261,30 +514,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -1.58,
       "qqqReturnPct": -0.38
-    },
-    {
-      "strategy": "Stocks Onepercent V2",
-      "ticker": "HAL",
-      "direction": "LONG",
-      "entryPrice": 34.72,
-      "entryTime": "2026-08-24T14:09:32Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -1.66,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Stocks Onepercent V2",
-      "ticker": "LMT",
-      "direction": "LONG",
-      "entryPrice": 560.21,
-      "entryTime": "2026-08-24T14:09:32Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.16,
-      "qqqReturnPct": null
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -443,6 +672,30 @@ window.V3KR_DATA = {
       "qqqReturnPct": -2.25
     },
     {
+      "strategy": "Leading Electricity",
+      "ticker": "EQIX",
+      "direction": "LONG",
+      "entryPrice": 1020.14,
+      "entryTime": "2026-07-29T14:19:32Z",
+      "exitPrice": 1079.72,
+      "exitTime": "2026-08-20T14:17:08Z",
+      "open": false,
+      "returnPct": 5.84,
+      "qqqReturnPct": 7.44
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "VST",
+      "direction": "LONG",
+      "entryPrice": 144.75,
+      "entryTime": "2026-07-29T14:19:31Z",
+      "exitPrice": 140.23,
+      "exitTime": "2026-08-20T14:17:07Z",
+      "open": false,
+      "returnPct": -3.12,
+      "qqqReturnPct": 7.44
+    },
+    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "CFG",
       "direction": "LONG",
@@ -537,6 +790,18 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 2.66,
       "qqqReturnPct": -0.2
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "SMR",
+      "direction": "LONG",
+      "entryPrice": 9.57,
+      "entryTime": "2026-08-06T14:19:12Z",
+      "exitPrice": 8.8,
+      "exitTime": "2026-08-18T14:17:35Z",
+      "open": false,
+      "returnPct": -8.15,
+      "qqqReturnPct": 0.4
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -791,6 +1056,18 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.16
     },
     {
+      "strategy": "Leading Electricity",
+      "ticker": "OKLO",
+      "direction": "LONG",
+      "entryPrice": 42.82,
+      "entryTime": "2026-08-06T14:19:12Z",
+      "exitPrice": 46.8,
+      "exitTime": "2026-08-14T14:18:08Z",
+      "open": false,
+      "returnPct": 9.29,
+      "qqqReturnPct": 2.3
+    },
+    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "OXY",
       "direction": "LONG",
@@ -921,6 +1198,18 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 2.47,
       "qqqReturnPct": 1.55
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "CEG",
+      "direction": "LONG",
+      "entryPrice": 260.12,
+      "entryTime": "2026-07-29T14:19:32Z",
+      "exitPrice": 282.46,
+      "exitTime": "2026-08-12T14:18:04Z",
+      "open": false,
+      "returnPct": 8.59,
+      "qqqReturnPct": 9.36
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -1149,6 +1438,30 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 3.45,
       "qqqReturnPct": 2.46
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "SMR",
+      "direction": "LONG",
+      "entryPrice": 8.12,
+      "entryTime": "2026-07-29T14:19:32Z",
+      "exitPrice": 9.31,
+      "exitTime": "2026-08-04T14:19:15Z",
+      "open": false,
+      "returnPct": 14.73,
+      "qqqReturnPct": 9.39
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "OKLO",
+      "direction": "LONG",
+      "entryPrice": 38.66,
+      "entryTime": "2026-07-29T14:19:32Z",
+      "exitPrice": 42.23,
+      "exitTime": "2026-08-04T14:19:15Z",
+      "open": false,
+      "returnPct": 9.25,
+      "qqqReturnPct": 9.39
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -1835,6 +2148,54 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.59
     },
     {
+      "strategy": "Leading Electricity",
+      "ticker": "CEG",
+      "direction": "LONG",
+      "entryPrice": 251.51,
+      "entryTime": "2026-07-16T16:29:57Z",
+      "exitPrice": 272.0,
+      "exitTime": "2026-07-22T14:27:19Z",
+      "open": false,
+      "returnPct": 8.15,
+      "qqqReturnPct": -0.08
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "OKLO",
+      "direction": "LONG",
+      "entryPrice": 41.27,
+      "entryTime": "2026-07-16T16:29:57Z",
+      "exitPrice": 46.05,
+      "exitTime": "2026-07-22T14:27:19Z",
+      "open": false,
+      "returnPct": 11.58,
+      "qqqReturnPct": -0.08
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "VST",
+      "direction": "LONG",
+      "entryPrice": 156.63,
+      "entryTime": "2026-07-01T14:26:25Z",
+      "exitPrice": 167.45,
+      "exitTime": "2026-07-22T14:27:18Z",
+      "open": false,
+      "returnPct": 6.91,
+      "qqqReturnPct": -2.73
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "EQIX",
+      "direction": "LONG",
+      "entryPrice": 1026.27,
+      "entryTime": "2026-07-01T14:26:25Z",
+      "exitPrice": 1032.8,
+      "exitTime": "2026-07-22T14:27:18Z",
+      "open": false,
+      "returnPct": 0.64,
+      "qqqReturnPct": -2.73
+    },
+    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "CNP",
       "direction": "LONG",
@@ -1893,6 +2254,18 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.47,
       "qqqReturnPct": -0.51
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "SMR",
+      "direction": "LONG",
+      "entryPrice": 7.58,
+      "entryTime": "2026-07-16T16:29:57Z",
+      "exitPrice": 8.38,
+      "exitTime": "2026-07-21T14:25:08Z",
+      "open": false,
+      "returnPct": 10.49,
+      "qqqReturnPct": 0.43
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -2265,6 +2638,18 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 2.96,
       "qqqReturnPct": 0.84
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "CEG",
+      "direction": "LONG",
+      "entryPrice": 238.26,
+      "entryTime": "2026-07-01T14:26:25Z",
+      "exitPrice": 264.5,
+      "exitTime": "2026-07-14T14:26:44Z",
+      "open": false,
+      "returnPct": 11.01,
+      "qqqReturnPct": -0.76
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -2663,6 +3048,18 @@ window.V3KR_DATA = {
       "qqqReturnPct": -1.57
     },
     {
+      "strategy": "Leading Electricity",
+      "ticker": "OKLO",
+      "direction": "LONG",
+      "entryPrice": 53.76,
+      "entryTime": "2026-07-01T14:26:25Z",
+      "exitPrice": 47.08,
+      "exitTime": "2026-07-07T14:26:17Z",
+      "open": false,
+      "returnPct": -12.43,
+      "qqqReturnPct": -2.17
+    },
+    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "CNC",
       "direction": "LONG",
@@ -2685,6 +3082,18 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 0.36,
       "qqqReturnPct": -1.85
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "SMR",
+      "direction": "LONG",
+      "entryPrice": 10.46,
+      "entryTime": "2026-07-01T14:26:25Z",
+      "exitPrice": 9.86,
+      "exitTime": "2026-07-06T14:25:33Z",
+      "open": false,
+      "returnPct": -5.74,
+      "qqqReturnPct": -0.32
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -3215,6 +3624,18 @@ window.V3KR_DATA = {
       "qqqReturnPct": -3.29
     },
     {
+      "strategy": "Leading Electricity",
+      "ticker": "EQIX",
+      "direction": "LONG",
+      "entryPrice": 1071.11,
+      "entryTime": "2026-05-28T14:30:07Z",
+      "exitPrice": 1111.21,
+      "exitTime": "2026-06-22T14:25:16Z",
+      "open": false,
+      "returnPct": 3.74,
+      "qqqReturnPct": 0.32
+    },
+    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "CAH",
       "direction": "LONG",
@@ -3419,6 +3840,30 @@ window.V3KR_DATA = {
       "qqqReturnPct": -0.45
     },
     {
+      "strategy": "Leading Electricity",
+      "ticker": "VST",
+      "direction": "LONG",
+      "entryPrice": 143.96,
+      "entryTime": "2026-06-11T14:28:46Z",
+      "exitPrice": 159.44,
+      "exitTime": "2026-06-16T14:25:11Z",
+      "open": false,
+      "returnPct": 10.75,
+      "qqqReturnPct": 1.78
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "CEG",
+      "direction": "LONG",
+      "entryPrice": 246.74,
+      "entryTime": "2026-06-11T14:28:46Z",
+      "exitPrice": 271.18,
+      "exitTime": "2026-06-16T14:25:11Z",
+      "open": false,
+      "returnPct": 9.9,
+      "qqqReturnPct": 1.78
+    },
+    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "FSLR",
       "direction": "LONG",
@@ -3465,6 +3910,30 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -1.63,
       "qqqReturnPct": 1.18
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "OKLO",
+      "direction": "LONG",
+      "entryPrice": 55.3,
+      "entryTime": "2026-06-11T14:28:47Z",
+      "exitPrice": 60.16,
+      "exitTime": "2026-06-15T14:28:32Z",
+      "open": false,
+      "returnPct": 8.78,
+      "qqqReturnPct": 3.75
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "SMR",
+      "direction": "LONG",
+      "entryPrice": 9.41,
+      "entryTime": "2026-06-11T14:28:47Z",
+      "exitPrice": 10.77,
+      "exitTime": "2026-06-15T14:28:31Z",
+      "open": false,
+      "returnPct": 14.39,
+      "qqqReturnPct": 3.75
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -3743,6 +4212,30 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.31
     },
     {
+      "strategy": "Leading Electricity",
+      "ticker": "CEG",
+      "direction": "LONG",
+      "entryPrice": 262.73,
+      "entryTime": "2026-06-04T14:28:25Z",
+      "exitPrice": 244.94,
+      "exitTime": "2026-06-10T14:29:00Z",
+      "open": false,
+      "returnPct": -6.77,
+      "qqqReturnPct": -6.34
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "VST",
+      "direction": "LONG",
+      "entryPrice": 151.61,
+      "entryTime": "2026-06-04T14:28:25Z",
+      "exitPrice": 141.64,
+      "exitTime": "2026-06-10T14:28:59Z",
+      "open": false,
+      "returnPct": -6.58,
+      "qqqReturnPct": -6.34
+    },
+    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "ABBV",
       "direction": "LONG",
@@ -3765,6 +4258,30 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.3,
       "qqqReturnPct": -2.0
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "SMR",
+      "direction": "LONG",
+      "entryPrice": 11.12,
+      "entryTime": "2026-06-05T14:28:16Z",
+      "exitPrice": 10.46,
+      "exitTime": "2026-06-09T14:27:59Z",
+      "open": false,
+      "returnPct": -5.98,
+      "qqqReturnPct": 0.39
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "OKLO",
+      "direction": "LONG",
+      "entryPrice": 60.62,
+      "entryTime": "2026-06-05T14:28:16Z",
+      "exitPrice": 57.54,
+      "exitTime": "2026-06-09T14:27:59Z",
+      "open": false,
+      "returnPct": -5.07,
+      "qqqReturnPct": 0.39
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -4031,6 +4548,30 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.56
     },
     {
+      "strategy": "Leading Electricity",
+      "ticker": "OKLO",
+      "direction": "LONG",
+      "entryPrice": 64.39,
+      "entryTime": "2026-06-04T14:28:25Z",
+      "exitPrice": 60.62,
+      "exitTime": "2026-06-05T14:28:15Z",
+      "open": false,
+      "returnPct": -5.86,
+      "qqqReturnPct": -4.8
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "SMR",
+      "direction": "LONG",
+      "entryPrice": 12.06,
+      "entryTime": "2026-06-04T14:28:25Z",
+      "exitPrice": 11.12,
+      "exitTime": "2026-06-05T14:28:14Z",
+      "open": false,
+      "returnPct": -7.76,
+      "qqqReturnPct": -4.8
+    },
+    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "DLR",
       "direction": "LONG",
@@ -4065,6 +4606,30 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -1.68,
       "qqqReturnPct": -5.07
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "VST",
+      "direction": "LONG",
+      "entryPrice": 161.28,
+      "entryTime": "2026-05-28T14:30:07Z",
+      "exitPrice": 151.61,
+      "exitTime": "2026-06-04T14:28:23Z",
+      "open": false,
+      "returnPct": -6.0,
+      "qqqReturnPct": 0.68
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "OKLO",
+      "direction": "LONG",
+      "entryPrice": 68.05,
+      "entryTime": "2026-05-28T14:30:07Z",
+      "exitPrice": 64.39,
+      "exitTime": "2026-06-04T14:28:23Z",
+      "open": false,
+      "returnPct": -5.37,
+      "qqqReturnPct": 0.68
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -4139,6 +4704,18 @@ window.V3KR_DATA = {
       "qqqReturnPct": 0.2
     },
     {
+      "strategy": "Leading Electricity",
+      "ticker": "SMR",
+      "direction": "LONG",
+      "entryPrice": 11.86,
+      "entryTime": "2026-05-28T14:30:07Z",
+      "exitPrice": 12.92,
+      "exitTime": "2026-06-02T14:28:41Z",
+      "open": false,
+      "returnPct": 8.94,
+      "qqqReturnPct": 1.44
+    },
+    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "WELL",
       "direction": "LONG",
@@ -4173,6 +4750,18 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 0.67,
       "qqqReturnPct": 1.06
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "CEG",
+      "direction": "LONG",
+      "entryPrice": 287.34,
+      "entryTime": "2026-05-21T14:30:31Z",
+      "exitPrice": 268.62,
+      "exitTime": "2026-06-01T14:28:20Z",
+      "open": false,
+      "returnPct": -6.51,
+      "qqqReturnPct": 3.95
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -4463,6 +5052,18 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.1
     },
     {
+      "strategy": "Leading Electricity",
+      "ticker": "EQIX",
+      "direction": "LONG",
+      "entryPrice": 1069.88,
+      "entryTime": "2026-05-07T14:19:31Z",
+      "exitPrice": 1071.11,
+      "exitTime": "2026-05-28T14:29:58Z",
+      "open": false,
+      "returnPct": 0.12,
+      "qqqReturnPct": 5.85
+    },
+    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "CINF",
       "direction": "LONG",
@@ -4473,6 +5074,18 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -2.46,
       "qqqReturnPct": 0.84
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "VST",
+      "direction": "LONG",
+      "entryPrice": 148.43,
+      "entryTime": "2026-05-21T14:30:31Z",
+      "exitPrice": 165.54,
+      "exitTime": "2026-05-26T14:29:30Z",
+      "open": false,
+      "returnPct": 11.53,
+      "qqqReturnPct": 2.21
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -4607,6 +5220,30 @@ window.V3KR_DATA = {
       "qqqReturnPct": 2.4
     },
     {
+      "strategy": "Leading Electricity",
+      "ticker": "SMR",
+      "direction": "LONG",
+      "entryPrice": 10.71,
+      "entryTime": "2026-05-21T14:30:31Z",
+      "exitPrice": 11.58,
+      "exitTime": "2026-05-22T14:31:14Z",
+      "open": false,
+      "returnPct": 8.12,
+      "qqqReturnPct": 0.42
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "OKLO",
+      "direction": "LONG",
+      "entryPrice": 59.82,
+      "entryTime": "2026-05-20T14:29:41Z",
+      "exitPrice": 66.7,
+      "exitTime": "2026-05-22T14:31:13Z",
+      "open": false,
+      "returnPct": 11.5,
+      "qqqReturnPct": 0.62
+    },
+    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "ADI",
       "direction": "LONG",
@@ -4667,6 +5304,42 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.65
     },
     {
+      "strategy": "Leading Electricity",
+      "ticker": "SMR",
+      "direction": "LONG",
+      "entryPrice": 9.78,
+      "entryTime": "2026-05-19T14:28:04Z",
+      "exitPrice": 10.71,
+      "exitTime": "2026-05-21T14:30:29Z",
+      "open": false,
+      "returnPct": 9.57,
+      "qqqReturnPct": 1.85
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "VST",
+      "direction": "LONG",
+      "entryPrice": 133.58,
+      "entryTime": "2026-05-19T14:28:04Z",
+      "exitPrice": 148.43,
+      "exitTime": "2026-05-21T14:30:28Z",
+      "open": false,
+      "returnPct": 11.12,
+      "qqqReturnPct": 1.85
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "CEG",
+      "direction": "LONG",
+      "entryPrice": 257.2,
+      "entryTime": "2026-05-19T14:28:04Z",
+      "exitPrice": 287.34,
+      "exitTime": "2026-05-21T14:30:28Z",
+      "open": false,
+      "returnPct": 11.72,
+      "qqqReturnPct": 1.85
+    },
+    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "NUE",
       "direction": "LONG",
@@ -4715,6 +5388,18 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.22
     },
     {
+      "strategy": "Leading Electricity",
+      "ticker": "OKLO",
+      "direction": "LONG",
+      "entryPrice": 55.02,
+      "entryTime": "2026-05-19T14:28:04Z",
+      "exitPrice": 59.82,
+      "exitTime": "2026-05-20T14:29:40Z",
+      "open": false,
+      "returnPct": 8.72,
+      "qqqReturnPct": 1.66
+    },
+    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "MPWR",
       "direction": "LONG",
@@ -4737,6 +5422,30 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 1.6,
       "qqqReturnPct": 1.03
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "VST",
+      "direction": "LONG",
+      "entryPrice": 141.18,
+      "entryTime": "2026-05-14T14:30:32Z",
+      "exitPrice": 133.58,
+      "exitTime": "2026-05-19T14:28:03Z",
+      "open": false,
+      "returnPct": -5.38,
+      "qqqReturnPct": -2.54
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "CEG",
+      "direction": "LONG",
+      "entryPrice": 276.76,
+      "entryTime": "2026-05-14T14:30:33Z",
+      "exitPrice": 257.2,
+      "exitTime": "2026-05-19T14:28:03Z",
+      "open": false,
+      "returnPct": -7.07,
+      "qqqReturnPct": -2.54
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -4797,6 +5506,30 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -1.07,
       "qqqReturnPct": -1.04
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "SMR",
+      "direction": "LONG",
+      "entryPrice": 11.6,
+      "entryTime": "2026-05-14T14:30:33Z",
+      "exitPrice": 10.65,
+      "exitTime": "2026-05-18T14:29:54Z",
+      "open": false,
+      "returnPct": -8.19,
+      "qqqReturnPct": -1.93
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "OKLO",
+      "direction": "LONG",
+      "entryPrice": 65.1,
+      "entryTime": "2026-05-14T14:30:33Z",
+      "exitPrice": 59.04,
+      "exitTime": "2026-05-18T14:29:54Z",
+      "open": false,
+      "returnPct": -9.32,
+      "qqqReturnPct": -1.93
     },
     {
       "strategy": "Stocks Onepercent V2",
@@ -5099,6 +5832,18 @@ window.V3KR_DATA = {
       "qqqReturnPct": 1.06
     },
     {
+      "strategy": "Leading Electricity",
+      "ticker": "CEG",
+      "direction": "LONG",
+      "entryPrice": 318.69,
+      "entryTime": "2026-05-07T14:19:30Z",
+      "exitPrice": 294.23,
+      "exitTime": "2026-05-12T14:27:23Z",
+      "open": false,
+      "returnPct": -7.68,
+      "qqqReturnPct": 1.77
+    },
+    {
       "strategy": "Stocks Onepercent V2",
       "ticker": "COST",
       "direction": "LONG",
@@ -5313,6 +6058,42 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": 0.77,
       "qqqReturnPct": 0.29
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "SMR",
+      "direction": "LONG",
+      "entryPrice": 12.97,
+      "entryTime": "2026-05-07T14:19:30Z",
+      "exitPrice": 12.0,
+      "exitTime": "2026-05-08T14:20:02Z",
+      "open": false,
+      "returnPct": -7.48,
+      "qqqReturnPct": 2.34
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "OKLO",
+      "direction": "LONG",
+      "entryPrice": 77.93,
+      "entryTime": "2026-05-07T14:19:31Z",
+      "exitPrice": 72.66,
+      "exitTime": "2026-05-08T14:20:02Z",
+      "open": false,
+      "returnPct": -6.76,
+      "qqqReturnPct": 2.34
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "VST",
+      "direction": "LONG",
+      "entryPrice": 159.21,
+      "entryTime": "2026-05-07T14:19:30Z",
+      "exitPrice": 150.04,
+      "exitTime": "2026-05-08T14:20:01Z",
+      "open": false,
+      "returnPct": -5.76,
+      "qqqReturnPct": 2.34
     },
     {
       "strategy": "Stocks Onepercent V2",
