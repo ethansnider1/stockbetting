@@ -1,7 +1,7 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-09-01T15:32:20Z",
+  "generatedAt": "2026-09-03T15:29:11Z",
   "totalClosed": 153,
-  "totalOpen": 4,
+  "totalOpen": 5,
   "winRate": 52.9,
   "avgReturnPct": 0.88,
   "avgQqqReturnPct": 0.64,
@@ -10,7 +10,7 @@ window.V3KR_DATA = {
       "strategy": "Leading Electricity",
       "verdict": "KEEP",
       "closed": 47,
-      "open": 4,
+      "open": 5,
       "winRate": 53.2,
       "avgReturnPct": 1.62,
       "expectancy": 1.62,
@@ -38,13 +38,25 @@ window.V3KR_DATA = {
       "strategy": "Leading Electricity",
       "ticker": "OKLO",
       "direction": "LONG",
+      "entryPrice": 40.0,
+      "entryTime": "2026-09-03T14:18:25Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "OKLO",
+      "direction": "LONG",
       "entryPrice": 41.13,
       "entryTime": "2026-08-28T14:18:25Z",
       "exitPrice": 38.52,
       "exitTime": "2026-09-01T14:18:23Z",
       "open": false,
       "returnPct": -6.36,
-      "qqqReturnPct": -0.85
+      "qqqReturnPct": -1.23
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -151,7 +163,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.29,
+      "returnPct": 3.28,
       "qqqReturnPct": null
     },
     {
@@ -163,7 +175,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -1.83,
+      "returnPct": 2.53,
       "qqqReturnPct": null
     },
     {
@@ -175,7 +187,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -3.49,
+      "returnPct": 3.75,
       "qqqReturnPct": null
     },
     {
@@ -187,7 +199,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -3.01,
+      "returnPct": -4.32,
       "qqqReturnPct": null
     },
     {
