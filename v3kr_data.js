@@ -1,7 +1,7 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-09-03T15:29:11Z",
+  "generatedAt": "2026-09-04T15:34:53Z",
   "totalClosed": 153,
-  "totalOpen": 5,
+  "totalOpen": 13,
   "winRate": 52.9,
   "avgReturnPct": 0.88,
   "avgQqqReturnPct": 0.64,
@@ -23,7 +23,7 @@ window.V3KR_DATA = {
       "strategy": "Stocks Edge Fridaymon",
       "verdict": "KEEP",
       "closed": 106,
-      "open": 0,
+      "open": 8,
       "winRate": 52.8,
       "avgReturnPct": 0.55,
       "expectancy": 0.55,
@@ -35,6 +35,102 @@ window.V3KR_DATA = {
   ],
   "trades": [
     {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "ADBE",
+      "direction": "LONG",
+      "entryPrice": 266.1,
+      "entryTime": "2026-09-04T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "TSLA",
+      "direction": "LONG",
+      "entryPrice": 353.94,
+      "entryTime": "2026-09-04T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "COIN",
+      "direction": "LONG",
+      "entryPrice": 184.33,
+      "entryTime": "2026-09-04T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "PLTR",
+      "direction": "LONG",
+      "entryPrice": 176.26,
+      "entryTime": "2026-09-04T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "PYPL",
+      "direction": "LONG",
+      "entryPrice": 55.08,
+      "entryTime": "2026-09-04T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "DASH",
+      "direction": "LONG",
+      "entryPrice": 215.34,
+      "entryTime": "2026-09-04T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "MRNA",
+      "direction": "LONG",
+      "entryPrice": 144.73,
+      "entryTime": "2026-09-04T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Stocks Edge Fridaymon",
+      "ticker": "SNOW",
+      "direction": "LONG",
+      "entryPrice": 346.8,
+      "entryTime": "2026-09-04T00:00:00Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
       "strategy": "Leading Electricity",
       "ticker": "OKLO",
       "direction": "LONG",
@@ -43,7 +139,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 0.0,
+      "returnPct": -0.18,
       "qqqReturnPct": null
     },
     {
@@ -163,7 +259,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 3.28,
+      "returnPct": 6.01,
       "qqqReturnPct": null
     },
     {
@@ -175,7 +271,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 2.53,
+      "returnPct": 3.6,
       "qqqReturnPct": null
     },
     {
@@ -187,7 +283,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 3.75,
+      "returnPct": 0.74,
       "qqqReturnPct": null
     },
     {
@@ -199,7 +295,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -4.32,
+      "returnPct": -2.16,
       "qqqReturnPct": null
     },
     {
