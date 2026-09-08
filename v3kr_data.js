@@ -1,22 +1,22 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-09-04T15:34:53Z",
-  "totalClosed": 153,
-  "totalOpen": 13,
-  "winRate": 52.9,
-  "avgReturnPct": 0.88,
-  "avgQqqReturnPct": 0.64,
+  "generatedAt": "2026-09-08T15:30:57Z",
+  "totalClosed": 156,
+  "totalOpen": 10,
+  "winRate": 53.8,
+  "avgReturnPct": 1.08,
+  "avgQqqReturnPct": 0.63,
   "strategies": [
     {
       "strategy": "Leading Electricity",
       "verdict": "KEEP",
-      "closed": 47,
-      "open": 5,
-      "winRate": 53.2,
-      "avgReturnPct": 1.62,
-      "expectancy": 1.62,
-      "returnOnCapital": 15.2,
-      "avgPeakPct": 5.26,
-      "insight": "Left 3.6% on the table — avg peak +5.3% but exits realize +1.6%. Exits fire too late; a faster profit-take is the lever.",
+      "closed": 50,
+      "open": 2,
+      "winRate": 56.0,
+      "avgReturnPct": 2.21,
+      "expectancy": 2.21,
+      "returnOnCapital": 22.1,
+      "avgPeakPct": 5.63,
+      "insight": "Left 3.4% on the table — avg peak +5.6% but exits realize +2.2%. Exits fire too late; a faster profit-take is the lever.",
       "insightKind": "peak"
     },
     {
@@ -34,6 +34,42 @@ window.V3KR_DATA = {
     }
   ],
   "trades": [
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "OKLO",
+      "direction": "LONG",
+      "entryPrice": 40.0,
+      "entryTime": "2026-09-03T14:18:25Z",
+      "exitPrice": 43.87,
+      "exitTime": "2026-09-08T14:18:19Z",
+      "open": false,
+      "returnPct": 9.67,
+      "qqqReturnPct": 0.35
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "VST",
+      "direction": "LONG",
+      "entryPrice": 139.06,
+      "entryTime": "2026-08-28T14:18:25Z",
+      "exitPrice": 152.82,
+      "exitTime": "2026-09-08T14:18:18Z",
+      "open": false,
+      "returnPct": 9.9,
+      "qqqReturnPct": 0.52
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "SMR",
+      "direction": "LONG",
+      "entryPrice": 9.46,
+      "entryTime": "2026-08-28T14:18:25Z",
+      "exitPrice": 10.84,
+      "exitTime": "2026-09-08T14:18:18Z",
+      "open": false,
+      "returnPct": 14.65,
+      "qqqReturnPct": 0.52
+    },
     {
       "strategy": "Stocks Edge Fridaymon",
       "ticker": "ADBE",
@@ -128,18 +164,6 @@ window.V3KR_DATA = {
       "exitTime": null,
       "open": true,
       "returnPct": 0.0,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Leading Electricity",
-      "ticker": "OKLO",
-      "direction": "LONG",
-      "entryPrice": 40.0,
-      "entryTime": "2026-09-03T14:18:25Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -0.18,
       "qqqReturnPct": null
     },
     {
@@ -252,18 +276,6 @@ window.V3KR_DATA = {
     },
     {
       "strategy": "Leading Electricity",
-      "ticker": "VST",
-      "direction": "LONG",
-      "entryPrice": 139.06,
-      "entryTime": "2026-08-28T14:18:25Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 6.01,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Leading Electricity",
       "ticker": "CEG",
       "direction": "LONG",
       "entryPrice": 280.38,
@@ -271,19 +283,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 3.6,
-      "qqqReturnPct": null
-    },
-    {
-      "strategy": "Leading Electricity",
-      "ticker": "SMR",
-      "direction": "LONG",
-      "entryPrice": 9.46,
-      "entryTime": "2026-08-28T14:18:25Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": 0.74,
+      "returnPct": 7.3,
       "qqqReturnPct": null
     },
     {
@@ -295,7 +295,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.16,
+      "returnPct": -2.08,
       "qqqReturnPct": null
     },
     {
