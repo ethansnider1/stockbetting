@@ -1,5 +1,5 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-09-08T15:30:57Z",
+  "generatedAt": "2026-09-09T15:32:10Z",
   "totalClosed": 156,
   "totalOpen": 10,
   "winRate": 53.8,
@@ -44,7 +44,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-09-08T14:18:19Z",
       "open": false,
       "returnPct": 9.67,
-      "qqqReturnPct": 0.35
+      "qqqReturnPct": 0.1
     },
     {
       "strategy": "Leading Electricity",
@@ -56,7 +56,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-09-08T14:18:18Z",
       "open": false,
       "returnPct": 9.9,
-      "qqqReturnPct": 0.52
+      "qqqReturnPct": 0.27
     },
     {
       "strategy": "Leading Electricity",
@@ -68,7 +68,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-09-08T14:18:18Z",
       "open": false,
       "returnPct": 14.65,
-      "qqqReturnPct": 0.52
+      "qqqReturnPct": 0.27
     },
     {
       "strategy": "Stocks Edge Fridaymon",
@@ -283,7 +283,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 7.3,
+      "returnPct": 5.92,
       "qqqReturnPct": null
     },
     {
@@ -295,7 +295,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.08,
+      "returnPct": -2.6,
       "qqqReturnPct": null
     },
     {
