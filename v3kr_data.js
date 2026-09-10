@@ -1,5 +1,5 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-09-09T15:32:10Z",
+  "generatedAt": "2026-09-10T15:32:35Z",
   "totalClosed": 156,
   "totalOpen": 10,
   "winRate": 53.8,
@@ -283,7 +283,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 5.92,
+      "returnPct": 2.95,
       "qqqReturnPct": null
     },
     {
@@ -295,7 +295,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.6,
+      "returnPct": -2.61,
       "qqqReturnPct": null
     },
     {
