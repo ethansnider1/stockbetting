@@ -1,7 +1,7 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-09-10T15:32:35Z",
+  "generatedAt": "2026-09-11T15:34:34Z",
   "totalClosed": 156,
-  "totalOpen": 10,
+  "totalOpen": 13,
   "winRate": 53.8,
   "avgReturnPct": 1.08,
   "avgQqqReturnPct": 0.63,
@@ -10,7 +10,7 @@ window.V3KR_DATA = {
       "strategy": "Leading Electricity",
       "verdict": "KEEP",
       "closed": 50,
-      "open": 2,
+      "open": 5,
       "winRate": 56.0,
       "avgReturnPct": 2.21,
       "expectancy": 2.21,
@@ -34,6 +34,42 @@ window.V3KR_DATA = {
     }
   ],
   "trades": [
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "VST",
+      "direction": "LONG",
+      "entryPrice": 147.99,
+      "entryTime": "2026-09-11T14:20:39Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "SMR",
+      "direction": "LONG",
+      "entryPrice": 9.34,
+      "entryTime": "2026-09-11T14:20:39Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "OKLO",
+      "direction": "LONG",
+      "entryPrice": 37.67,
+      "entryTime": "2026-09-11T14:20:39Z",
+      "exitPrice": null,
+      "exitTime": null,
+      "open": true,
+      "returnPct": 0.0,
+      "qqqReturnPct": null
+    },
     {
       "strategy": "Leading Electricity",
       "ticker": "OKLO",
@@ -283,7 +319,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 2.95,
+      "returnPct": 3.12,
       "qqqReturnPct": null
     },
     {
@@ -295,7 +331,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -2.61,
+      "returnPct": -2.36,
       "qqqReturnPct": null
     },
     {
