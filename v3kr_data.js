@@ -1,26 +1,38 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-09-14T15:33:49Z",
-  "totalClosed": 52,
-  "totalOpen": 3,
-  "winRate": 53.8,
-  "avgReturnPct": 1.83,
-  "avgQqqReturnPct": 0.91,
+  "generatedAt": "2026-09-15T15:31:35Z",
+  "totalClosed": 53,
+  "totalOpen": 2,
+  "winRate": 52.8,
+  "avgReturnPct": 1.67,
+  "avgQqqReturnPct": 0.87,
   "strategies": [
     {
       "strategy": "Leading Electricity",
       "verdict": "KEEP",
-      "closed": 52,
-      "open": 3,
-      "winRate": 53.8,
-      "avgReturnPct": 1.83,
-      "expectancy": 1.83,
-      "returnOnCapital": 19.0,
-      "avgPeakPct": 5.42,
-      "insight": "Left 3.6% on the table — avg peak +5.4% but exits realize +1.8%. Exits fire too late; a faster profit-take is the lever.",
+      "closed": 53,
+      "open": 2,
+      "winRate": 52.8,
+      "avgReturnPct": 1.67,
+      "expectancy": 1.67,
+      "returnOnCapital": 17.8,
+      "avgPeakPct": 5.45,
+      "insight": "Left 3.8% on the table — avg peak +5.5% but exits realize +1.7%. Exits fire too late; a faster profit-take is the lever.",
       "insightKind": "peak"
     }
   ],
   "trades": [
+    {
+      "strategy": "Leading Electricity",
+      "ticker": "CEG",
+      "direction": "LONG",
+      "entryPrice": 280.38,
+      "entryTime": "2026-08-28T14:18:25Z",
+      "exitPrice": 262.95,
+      "exitTime": "2026-09-15T14:18:07Z",
+      "open": false,
+      "returnPct": -6.22,
+      "qqqReturnPct": -1.53
+    },
     {
       "strategy": "Leading Electricity",
       "ticker": "SMR",
@@ -31,7 +43,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-09-14T14:18:22Z",
       "open": false,
       "returnPct": -10.19,
-      "qqqReturnPct": -0.85
+      "qqqReturnPct": -0.8
     },
     {
       "strategy": "Leading Electricity",
@@ -43,7 +55,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-09-14T14:18:21Z",
       "open": false,
       "returnPct": -5.1,
-      "qqqReturnPct": -1.07
+      "qqqReturnPct": -1.01
     },
     {
       "strategy": "Leading Electricity",
@@ -54,7 +66,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -3.71,
+      "returnPct": -4.03,
       "qqqReturnPct": null
     },
     {
@@ -66,7 +78,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -3.33,
+      "returnPct": -4.74,
       "qqqReturnPct": null
     },
     {
@@ -116,18 +128,6 @@ window.V3KR_DATA = {
       "open": false,
       "returnPct": -6.36,
       "qqqReturnPct": -1.23
-    },
-    {
-      "strategy": "Leading Electricity",
-      "ticker": "CEG",
-      "direction": "LONG",
-      "entryPrice": 280.38,
-      "entryTime": "2026-08-28T14:18:25Z",
-      "exitPrice": null,
-      "exitTime": null,
-      "open": true,
-      "returnPct": -4.72,
-      "qqqReturnPct": null
     },
     {
       "strategy": "Leading Electricity",
