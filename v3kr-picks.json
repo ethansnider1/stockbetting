@@ -67,61 +67,61 @@
       {
         "t": "EURN",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "date": "2026-03-26"
       },
       {
         "t": "VIX",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "date": "2026-04-10"
       },
       {
         "t": "MOC",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "date": "2026-04-14"
       },
       {
         "t": "CCF",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "date": "2026-05-06"
       },
       {
         "t": "DXY",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "date": "2026-06-02"
       },
       {
         "t": "EURN",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "date": "2026-06-03"
       },
       {
         "t": "HES",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "date": "2026-04-03"
       },
       {
         "t": "SAVE",
         "side": "short",
-        "entry": 0,
+        "entry": null,
         "date": "2026-04-05"
       },
       {
         "t": "EURN",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "date": "2026-04-08"
       },
       {
         "t": "NBLX",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "date": "2026-06-04"
       }
     ],
@@ -1927,37 +1927,37 @@
       {
         "t": "KAMAD",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "date": "2026-04-18"
       },
       {
         "t": "KAMN",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "date": "2026-04-20"
       },
       {
         "t": "KAMDA",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "date": "2026-04-21"
       },
       {
         "t": "VICOR",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "date": "2026-05-18"
       },
       {
         "t": "FVGPY",
         "side": "short",
-        "entry": 0,
+        "entry": null,
         "date": "2026-04-07"
       },
       {
         "t": "DTC",
         "side": "short",
-        "entry": 0,
+        "entry": null,
         "date": "2026-05-21"
       }
     ],
@@ -7171,19 +7171,19 @@
       {
         "t": "EB",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "date": "2026-05-12"
       },
       {
         "t": "GPS",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "date": "2026-05-21"
       },
       {
         "t": "ZS",
         "side": "short",
-        "entry": 0,
+        "entry": null,
         "date": "2026-05-27"
       }
     ],
@@ -7191,7 +7191,7 @@
       {
         "t": "EB",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "date": "2026-05-12"
       }
     ],
@@ -16589,7 +16589,7 @@
       {
         "t": "GPS",
         "side": "long",
-        "entry": 0,
+        "entry": null,
         "exit": null,
         "date": "2026-05-21",
         "exitDate": "2026-06-30",
