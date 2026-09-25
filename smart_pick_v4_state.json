@@ -1,25 +1,24 @@
 {
-  "Active": {
-    "Ticker": "CSCO",
-    "Direction": "LONG",
-    "EntryPrice": 105.275,
-    "CurrentPrice": 107.18,
-    "CurrentReturn": 1.81,
-    "PeakReturn": 2.37,
-    "OpenedAt": "2026-09-24T15:26:12.8935827Z",
-    "TargetPct": 3.5,
-    "StopPct": 2.0,
-    "MaxDays": 7,
-    "EntryRegime": "BULL_HIGH_VOL",
-    "Thesis": "LONG CSCO (TECH) macro=YELLOW regime=BULL_HIGH_VOL score 1.23 from 2 signals",
-    "SourceScanners": [
-      "ADAPTIVE__chameleon",
-      "SCALPER__scalp"
-    ],
-    "MacroRegimeAtEntry": "YELLOW",
-    "MacroSizeMult": 0.75
-  },
+  "Active": null,
   "History": [
+    {
+      "Ticker": "CSCO",
+      "Direction": "LONG",
+      "EntryPrice": 105.275,
+      "ExitPrice": 106.84,
+      "FinalReturn": 1.49,
+      "OpenedAt": "2026-09-24T15:26:12.8935827Z",
+      "ClosedAt": "2026-09-25T19:00:02.3917887Z",
+      "EntryRegime": "BULL_HIGH_VOL",
+      "Status": "TRAIL_STOP",
+      "Thesis": "LONG CSCO (TECH) macro=YELLOW regime=BULL_HIGH_VOL score 1.23 from 2 signals",
+      "SourceScanners": [
+        "ADAPTIVE__chameleon",
+        "SCALPER__scalp"
+      ],
+      "MacroRegimeAtEntry": "YELLOW",
+      "MacroSizeMult": 0.75
+    },
     {
       "Ticker": "MNST",
       "Direction": "LONG",
@@ -274,6 +273,7 @@
     "SNOW": "2026-09-01T15:27:54.6183526Z",
     "CRM": "2026-09-02T15:27:57.8204589Z",
     "JNJ": "2026-09-08T15:29:07.1589711Z",
-    "MNST": "2026-09-19T15:33:44.9057349Z"
+    "MNST": "2026-09-19T15:33:44.9057349Z",
+    "CSCO": "2026-09-30T19:00:02.3919581Z"
   }
 }
