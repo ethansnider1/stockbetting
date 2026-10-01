@@ -27,7 +27,7 @@
   "kestrel_connors_r3": "HUM",
   "kestrel_connors_tps": "AMD",
   "kestrel_ibs_mean_rev": "ARM",
-  "macro": "XLC:short",
+  "macro": "XLE:short",
   "multi_winners_connor": "AAPL",
   "multi_winners_ibs_me": "MO",
   "multi_winners_nr7_br": "EOG",
@@ -44,7 +44,7 @@
   "previral": "CRWD",
   "riskreversal": "INTC",
   "scalp": "SBUX:short",
-  "scalp_inverse": "XLF:short",
+  "scalp_inverse": "JPM:short",
   "scalp_v3": "MSFT",
   "sentiment": "EB",
   "sentiment_v5": "EB",
@@ -57,7 +57,7 @@
   "threedown": "AMD",
   "vulture": "SOUN:short",
   "weather": "ALL:short",
-  "wiki": "META:short",
+  "wiki": "GOOGL:short",
   "winnersonly": "TENB",
   "swing": {
     "ai": [
