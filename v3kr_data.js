@@ -1,10 +1,10 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-10-06T15:27:44Z",
+  "generatedAt": "2026-10-07T15:24:58Z",
   "totalClosed": 57,
   "totalOpen": 3,
   "winRate": 52.6,
   "avgReturnPct": 1.89,
-  "avgQqqReturnPct": 0.94,
+  "avgQqqReturnPct": 0.93,
   "strategies": [
     {
       "strategy": "Leading Electricity",
@@ -31,7 +31,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-10-06T14:17:00Z",
       "open": false,
       "returnPct": 14.2,
-      "qqqReturnPct": 2.76
+      "qqqReturnPct": 2.38
     },
     {
       "strategy": "Leading Electricity",
@@ -43,7 +43,7 @@ window.V3KR_DATA = {
       "exitTime": "2026-10-06T14:17:00Z",
       "open": false,
       "returnPct": 15.4,
-      "qqqReturnPct": 2.76
+      "qqqReturnPct": 2.38
     },
     {
       "strategy": "Leading Electricity",
@@ -54,7 +54,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 3.61,
+      "returnPct": -4.96,
       "qqqReturnPct": null
     },
     {
@@ -66,7 +66,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 4.9,
+      "returnPct": -0.24,
       "qqqReturnPct": null
     },
     {
@@ -78,7 +78,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 3.96,
+      "returnPct": 3.42,
       "qqqReturnPct": null
     },
     {
