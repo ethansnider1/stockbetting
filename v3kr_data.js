@@ -1,5 +1,5 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-10-07T15:24:58Z",
+  "generatedAt": "2026-10-08T15:25:57Z",
   "totalClosed": 57,
   "totalOpen": 3,
   "winRate": 52.6,
@@ -54,7 +54,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -4.96,
+      "returnPct": -4.88,
       "qqqReturnPct": null
     },
     {
@@ -66,7 +66,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": -0.24,
+      "returnPct": -2.78,
       "qqqReturnPct": null
     },
     {
@@ -78,7 +78,7 @@ window.V3KR_DATA = {
       "exitPrice": null,
       "exitTime": null,
       "open": true,
-      "returnPct": 3.42,
+      "returnPct": 1.27,
       "qqqReturnPct": null
     },
     {
