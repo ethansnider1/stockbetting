@@ -48,7 +48,7 @@
   "sss": "TXRH:short",
   "stc": "APP:short",
   "ta": "SPGI",
-  "tariff_impact": "NHTC:short",
+  "tariff_impact": "HUBB:short",
   "threedown": "IBM",
   "vulture": "KLAC:short",
   "weather": "EQT",
