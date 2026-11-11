@@ -1,5 +1,24 @@
 {
-  "Active": null,
+  "Active": {
+    "Ticker": "ISRG",
+    "Direction": "LONG",
+    "EntryPrice": 448.08,
+    "CurrentPrice": 448.08,
+    "CurrentReturn": 0.0,
+    "PeakReturn": 0.0,
+    "OpenedAt": "2026-11-11T15:35:43.5455039Z",
+    "TargetPct": 3.5,
+    "StopPct": 2.0,
+    "MaxDays": 7,
+    "EntryRegime": "SIDEWAYS",
+    "Thesis": "LONG ISRG (HC) macro=GREEN regime=SIDEWAYS score 0.36 from 2 signals",
+    "SourceScanners": [
+      "ADAPTIVE__chameleon",
+      "STOCKS_ONEPERCENT__onepct"
+    ],
+    "MacroRegimeAtEntry": "GREEN",
+    "MacroSizeMult": 1.0
+  },
   "History": [
     {
       "Ticker": "CSCO",
