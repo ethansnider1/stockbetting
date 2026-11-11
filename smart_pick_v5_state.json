@@ -1,26 +1,48 @@
 {
   "Active": {
-    "Ticker": "ABBV",
+    "Ticker": "MSFT",
     "Direction": "LONG",
-    "EntryPrice": 257.535,
-    "CurrentPrice": 257.535,
+    "EntryPrice": 520.35,
+    "CurrentPrice": 520.35,
     "CurrentReturn": 0.0,
-    "OpenedAt": "2026-08-28T15:27:59.7246253Z",
+    "OpenedAt": "2026-11-11T15:35:48.6283441Z",
     "TargetPct": 3.5,
     "StopPct": 2.0,
     "MaxDays": 7,
-    "EntryRegime": "BULL_LOW_VOL",
-    "Thesis": "LONG ABBV (HC) macro=GREEN regime=BULL_LOW_VOL score 0.36 from 4 signals",
+    "EntryRegime": "SIDEWAYS",
+    "Thesis": "LONG MSFT (TECH) macro=GREEN regime=SIDEWAYS score 0.15 from 6 signals",
     "SourceScanners": [
+      "ADAPTIVE__chameleon",
       "KESTREL__kestrel",
       "SCALPER__scalp",
+      "STOCKS_NEWSCANNER__altdata",
       "STOCKS_ONEPERCENT__onepct",
-      "STOCKS_ONEPERCENT_V2__onepct"
+      "STOCKS_SENTIMENT_V5__sentiment_v5"
     ],
     "MacroRegimeAtEntry": "GREEN",
     "MacroSizeMult": 1.0
   },
   "History": [
+    {
+      "Ticker": "ABBV",
+      "Direction": "LONG",
+      "EntryPrice": 257.535,
+      "ExitPrice": 257.37,
+      "FinalReturn": -0.06,
+      "OpenedAt": "2026-08-28T15:27:59.7246253Z",
+      "ClosedAt": "2026-09-04T15:34:49.6662611Z",
+      "EntryRegime": "BULL_LOW_VOL",
+      "Status": "EXPIRED",
+      "Thesis": "LONG ABBV (HC) macro=GREEN regime=BULL_LOW_VOL score 0.36 from 4 signals",
+      "SourceScanners": [
+        "KESTREL__kestrel",
+        "SCALPER__scalp",
+        "STOCKS_ONEPERCENT__onepct",
+        "STOCKS_ONEPERCENT_V2__onepct"
+      ],
+      "MacroRegimeAtEntry": "GREEN",
+      "MacroSizeMult": 1.0
+    },
     {
       "Ticker": "AMAT",
       "Direction": "LONG",
@@ -83,6 +105,7 @@
   "CoolDowns": {
     "AMD": "2026-08-17T15:25:08.5490215Z",
     "MRK": "2026-08-24T15:25:11.3003841Z",
-    "AMAT": "2026-09-01T15:27:56.4470252Z"
+    "AMAT": "2026-09-01T15:27:56.4470252Z",
+    "ABBV": "2026-09-09T15:34:49.6663622Z"
   }
 }
