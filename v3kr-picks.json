@@ -3,56 +3,56 @@
   "ai": "EURN",
   "ai_2": "HES",
   "altdata": "KO",
-  "buyback_timing": "MFP",
-  "cassandra": "GOOGL:short",
-  "ceo_linkedin": "CSAI:short",
-  "chameleon": "ABNB",
-  "cobra": "MU:short",
+  "buyback_timing": "SARO",
+  "cassandra": "BA:short",
+  "ceo_linkedin": "UPST:short",
+  "chameleon": "NOW:short",
+  "cobra": "NFLX:short",
   "coiled": "MET",
   "daily": "AMZN",
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "earnings__whisper": "TGT",
   "electricity": "EQIX",
   "elite": "PFE",
-  "fda_calendar": "UNCY",
-  "gapfill": "UNH",
-  "golden_stack": "TXN",
+  "fda_calendar": "BBIO",
+  "gapfill": "HD",
+  "golden_stack": "AMZN",
   "household": "PHM",
-  "inverse_stc": "MU:short",
+  "ichimoku": "BKNG:short",
+  "inverse_stc": "HUBS:short",
   "kestrel_connors_tps": "HD",
-  "kestrel_ibs_mean_rev": "SPGI",
+  "kestrel_ibs_mean_rev": "TJX:short",
   "kestrel_nr7_breakout": "CB",
-  "kestrel_oops_reversa": "SHW",
-  "macro": "XLK:short",
+  "kestrel_oops_reversa": "GILD",
+  "macro": "XLE:short",
   "multi_winners_connor": "PG",
   "multi_winners_ibs_me": "UPS",
   "multi_winners_nr7_br": "EOG",
   "multi_winners_oops_r": "LLY",
-  "onepct": "ICE",
-  "onepct_2": "ICE",
-  "onepct_v3": "ACHC",
-  "onepct_v3_2": "PGNY",
-  "onepct_v3_ascendent": "BB",
-  "options_flow": "BABA:short",
-  "options_flow_v2": "ARM:short",
-  "oracle": "TMUS:short",
+  "onepct": "ABBV",
+  "onepct_2": "AIZ",
+  "onepct_v3": "SGRY",
+  "onepct_v3_2": "SIRI",
+  "onepct_v3_ascendent": "ABBV",
+  "options_flow": "CRM:short",
+  "options_flow_v2": "DKNG:short",
+  "oracle": "MAR:short",
   "pead": "GOOGL:short",
-  "previral": "COST",
+  "previral": "OUT",
   "riskreversal": "AMD",
   "scalp": "CSCO:short",
-  "scalp_inverse": "PLTR:short",
+  "scalp_inverse": "SHOP:short",
   "scalp_v3": "AMZN",
   "sentiment": "ZS:short",
   "sentiment_v5": "EB",
   "squeeze": "AMC",
   "sss": "EAT:short",
-  "stc": "NEM:short",
-  "ta": "UPS",
-  "tariff_impact": "VTIX:short",
-  "threedown": "AMC",
+  "stc": "FICO:short",
+  "ta": "FICO:short",
+  "tariff_impact": "AXTI:short",
+  "threedown": "ABBV",
   "vulture": "DKNG:short",
-  "weather": "XLU",
-  "weird": "DRI",
+  "weather": "UNG",
   "wiki": "NVDA:short",
   "winnersonly": "ULCC",
   "swing": {
@@ -128,33 +128,9 @@
     ],
     "altdata": [
       {
-        "t": "NBIS",
-        "side": "long",
-        "entry": 107.83,
-        "date": "2026-11-16"
-      },
-      {
         "t": "GOOGL",
         "side": "long",
         "entry": 287.817,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "CRWV",
-        "side": "long",
-        "entry": 50.23,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "IQ",
-        "side": "long",
-        "entry": 0.7236,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "AM",
-        "side": "long",
-        "entry": 20.325,
         "date": "2026-11-16"
       },
       {
@@ -164,16 +140,22 @@
         "date": "2026-11-17"
       },
       {
-        "t": "ASTS",
-        "side": "long",
-        "entry": 29.147,
-        "date": "2026-11-17"
-      },
-      {
         "t": "KO",
         "side": "long",
         "entry": 99.05,
         "date": "2026-11-17"
+      },
+      {
+        "t": "TTWO",
+        "side": "long",
+        "entry": 219.79,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "AAOI",
+        "side": "long",
+        "entry": 39.85,
+        "date": "2026-11-18"
       }
     ],
     "buyback_timing": [
@@ -218,6 +200,30 @@
         "side": "long",
         "entry": 281.63,
         "date": "2026-11-17"
+      },
+      {
+        "t": "TXT",
+        "side": "long",
+        "entry": 82.76,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ARMK",
+        "side": "long",
+        "entry": 56.11,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "NVDA",
+        "side": "long",
+        "entry": 154.54,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "FLEX",
+        "side": "long",
+        "entry": 74.431,
+        "date": "2026-11-18"
       }
     ],
     "cassandra": [
@@ -304,50 +310,20 @@
         "side": "short",
         "entry": 166.16000366210938,
         "date": "2026-11-17"
+      },
+      {
+        "t": "MS",
+        "side": "short",
+        "entry": 180.68499755859375,
+        "date": "2026-11-18"
       }
     ],
     "ceo_linkedin": [
-      {
-        "t": "LKQ",
-        "side": "short",
-        "entry": 20.32,
-        "date": "2026-11-09"
-      },
       {
         "t": "VSTS",
         "side": "short",
         "entry": 14.36,
         "date": "2026-11-10"
-      },
-      {
-        "t": "PRIM",
-        "side": "short",
-        "entry": 72.12,
-        "date": "2026-11-10"
-      },
-      {
-        "t": "GNW",
-        "side": "short",
-        "entry": 8.755,
-        "date": "2026-11-10"
-      },
-      {
-        "t": "LKQ",
-        "side": "long",
-        "entry": 19.665,
-        "date": "2026-11-11"
-      },
-      {
-        "t": "GNW",
-        "side": "long",
-        "entry": 8.64,
-        "date": "2026-11-11"
-      },
-      {
-        "t": "SON",
-        "side": "long",
-        "entry": 49.44,
-        "date": "2026-11-11"
       },
       {
         "t": "RDN",
@@ -374,12 +350,6 @@
         "date": "2026-11-16"
       },
       {
-        "t": "GBLI",
-        "side": "short",
-        "entry": 22.38,
-        "date": "2026-11-16"
-      },
-      {
         "t": "WY",
         "side": "short",
         "entry": 20.55,
@@ -392,31 +362,31 @@
         "date": "2026-11-17"
       },
       {
-        "t": "MNTK",
+        "t": "JACK",
         "side": "short",
-        "entry": 1.19,
-        "date": "2026-11-17"
+        "entry": 13.72,
+        "date": "2026-11-18"
       },
       {
-        "t": "CSAI",
+        "t": "SSII",
         "side": "short",
-        "entry": 0.91,
-        "date": "2026-11-17"
+        "entry": 1.355,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "CVLT",
+        "side": "short",
+        "entry": 146.49,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "XTIA",
+        "side": "short",
+        "entry": 0.913,
+        "date": "2026-11-18"
       }
     ],
     "chameleon": [
-      {
-        "t": "PM",
-        "side": "long",
-        "entry": 195.0399932861328,
-        "date": "2026-11-10"
-      },
-      {
-        "t": "ABNB",
-        "side": "long",
-        "entry": 183.47999572753906,
-        "date": "2026-11-13"
-      },
       {
         "t": "PANW",
         "side": "long",
@@ -442,24 +412,6 @@
         "date": "2026-11-16"
       },
       {
-        "t": "TXN",
-        "side": "long",
-        "entry": 293.75,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "DE",
-        "side": "long",
-        "entry": 667.0599975585938,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "ADI",
-        "side": "long",
-        "entry": 383.5350036621094,
-        "date": "2026-11-16"
-      },
-      {
         "t": "LMT",
         "side": "long",
         "entry": 590.6203002929688,
@@ -482,6 +434,48 @@
         "side": "long",
         "entry": 509.1000061035156,
         "date": "2026-11-17"
+      },
+      {
+        "t": "INTC",
+        "side": "short",
+        "entry": 54.290000915527344,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "LRCX",
+        "side": "short",
+        "entry": 211.58999633789062,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "CAT",
+        "side": "short",
+        "entry": 557.5,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "NOW",
+        "side": "short",
+        "entry": 90.66000366210938,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "NVDA",
+        "side": "short",
+        "entry": 152.92999267578125,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "BRK-B",
+        "side": "long",
+        "entry": 581.1300048828125,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "LLY",
+        "side": "long",
+        "entry": 1399.7650146484375,
+        "date": "2026-11-18"
       }
     ],
     "cobra": [
@@ -508,6 +502,12 @@
         "side": "short",
         "entry": 687.3,
         "date": "2026-11-17"
+      },
+      {
+        "t": "NFLX",
+        "side": "short",
+        "entry": 59.815,
+        "date": "2026-11-18"
       }
     ],
     "coiled": [
@@ -532,28 +532,40 @@
     ],
     "desk_rule": [
       {
-        "t": "GD",
-        "side": "long",
-        "entry": 361.1650085449219,
-        "date": "2026-11-13"
-      },
-      {
-        "t": "AMC",
-        "side": "long",
-        "entry": 3.280100107192993,
-        "date": "2026-11-13"
-      },
-      {
-        "t": "VRTX",
-        "side": "long",
-        "entry": 530.5349731445312,
-        "date": "2026-11-17"
-      },
-      {
         "t": "MRNA",
         "side": "long",
         "entry": 208.4149932861328,
         "date": "2026-11-17"
+      },
+      {
+        "t": "BRK-B",
+        "side": "long",
+        "entry": 579.5800170898438,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "TMO",
+        "side": "long",
+        "entry": 685.2100219726562,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "LIN",
+        "side": "long",
+        "entry": 508.6000061035156,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ABNB",
+        "side": "long",
+        "entry": 180.7100067138672,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ISRG",
+        "side": "long",
+        "entry": 429.3949890136719,
+        "date": "2026-11-18"
       },
       {
         "t": "SHW",
@@ -572,18 +584,6 @@
         "side": "long",
         "entry": 1044.39,
         "date": "2026-10-29"
-      },
-      {
-        "t": "OXY",
-        "side": "long",
-        "entry": 61.63999938964844,
-        "date": "2026-11-02"
-      },
-      {
-        "t": "COP",
-        "side": "short",
-        "entry": 149.09500122070312,
-        "date": "2026-11-02"
       },
       {
         "t": "DVN",
@@ -836,6 +836,30 @@
         "side": "short",
         "entry": 354.2200012207031,
         "date": "2026-11-16"
+      },
+      {
+        "t": "OXY",
+        "side": "long",
+        "entry": 54.619998931884766,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "XLE",
+        "side": "short",
+        "entry": 62.209999084472656,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "OXY",
+        "side": "long",
+        "entry": 54.619998931884766,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "COP",
+        "side": "short",
+        "entry": 137.06500244140625,
+        "date": "2026-11-18"
       }
     ],
     "earnings__whisper": [
@@ -870,28 +894,10 @@
     ],
     "fda_calendar": [
       {
-        "t": "HRMY",
-        "side": "long",
-        "entry": 33.78,
-        "date": "2026-11-04"
-      },
-      {
-        "t": "AQST",
-        "side": "long",
-        "entry": 3.589,
-        "date": "2026-11-10"
-      },
-      {
         "t": "BBIO",
         "side": "long",
         "entry": 78.24,
         "date": "2026-11-11"
-      },
-      {
-        "t": "APMD",
-        "side": "long",
-        "entry": 15.86,
-        "date": "2026-11-16"
       },
       {
         "t": "UNCY",
@@ -910,32 +916,32 @@
         "side": "long",
         "entry": 6.691,
         "date": "2026-11-17"
+      },
+      {
+        "t": "COGT",
+        "side": "long",
+        "entry": 28.59,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "URGN",
+        "side": "long",
+        "entry": 28.735,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "PVLA",
+        "side": "long",
+        "entry": 147.26,
+        "date": "2026-11-18"
       }
     ],
     "flow_fade": [
-      {
-        "t": "CVX",
-        "side": "short",
-        "entry": 218.47,
-        "date": "2026-11-13"
-      },
       {
         "t": "COST",
         "side": "short",
         "entry": 1107.02,
         "date": "2026-11-13"
-      },
-      {
-        "t": "RIOT",
-        "side": "short",
-        "entry": 16.78,
-        "date": "2026-11-13"
-      },
-      {
-        "t": "AVGO",
-        "side": "short",
-        "entry": 329.495,
-        "date": "2026-11-16"
       },
       {
         "t": "MSFT",
@@ -970,28 +976,16 @@
     ],
     "gapfill": [
       {
+        "t": "LOW",
+        "side": "long",
+        "entry": 212.07000732421875,
+        "date": "2026-11-18"
+      },
+      {
         "t": "HD",
         "side": "long",
-        "entry": 335.07000732421875,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "UNH",
-        "side": "long",
-        "entry": 399.2300109863281,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "CRM",
-        "side": "long",
-        "entry": 209.00999450683594,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "AMGN",
-        "side": "long",
-        "entry": 453.0320129394531,
-        "date": "2026-11-17"
+        "entry": 331.2449951171875,
+        "date": "2026-11-18"
       }
     ],
     "golden_stack": [
@@ -1024,12 +1018,6 @@
         "side": "long",
         "entry": 505.57000732421875,
         "date": "2026-11-17"
-      },
-      {
-        "t": "PANW",
-        "side": "long",
-        "entry": 305.29998779296875,
-        "date": "2026-11-17"
       }
     ],
     "household": [
@@ -1046,13 +1034,33 @@
         "date": "2026-11-02"
       }
     ],
-    "inverse_stc": [
+    "ichimoku": [
       {
-        "t": "MDT",
-        "side": "long",
-        "entry": 100.79000091552734,
-        "date": "2026-11-11"
+        "t": "BKNG",
+        "side": "short",
+        "entry": 154.47000122070312,
+        "date": "2026-11-18"
       },
+      {
+        "t": "MS",
+        "side": "short",
+        "entry": 180.7449951171875,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "F",
+        "side": "short",
+        "entry": 11.305000305175781,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "SOFI",
+        "side": "short",
+        "entry": 14.28499984741211,
+        "date": "2026-11-18"
+      }
+    ],
+    "inverse_stc": [
       {
         "t": "BSX",
         "side": "short",
@@ -1063,12 +1071,6 @@
         "t": "BX",
         "side": "short",
         "entry": 119.94999694824219,
-        "date": "2026-11-12"
-      },
-      {
-        "t": "F",
-        "side": "short",
-        "entry": 12.010000228881836,
         "date": "2026-11-12"
       },
       {
@@ -1090,12 +1092,6 @@
         "date": "2026-11-16"
       },
       {
-        "t": "WFC",
-        "side": "long",
-        "entry": 85.44000244140625,
-        "date": "2026-11-16"
-      },
-      {
         "t": "XLY",
         "side": "long",
         "entry": 118.7699966430664,
@@ -1111,12 +1107,6 @@
         "t": "ORCL",
         "side": "short",
         "entry": 119.40799713134766,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "MU",
-        "side": "short",
-        "entry": 723.6199951171875,
         "date": "2026-11-16"
       },
       {
@@ -1144,12 +1134,6 @@
         "date": "2026-11-17"
       },
       {
-        "t": "TGT",
-        "side": "long",
-        "entry": 158.6300048828125,
-        "date": "2026-11-17"
-      },
-      {
         "t": "HUBS",
         "side": "short",
         "entry": 217.69500732421875,
@@ -1166,15 +1150,57 @@
         "side": "long",
         "entry": 59.79499816894531,
         "date": "2026-11-17"
+      },
+      {
+        "t": "KO",
+        "side": "long",
+        "entry": 97.48799896240234,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "TMUS",
+        "side": "long",
+        "entry": 163.01499938964844,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "CL",
+        "side": "long",
+        "entry": 98.19999694824219,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "PG",
+        "side": "long",
+        "entry": 170.1199951171875,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "BDX",
+        "side": "long",
+        "entry": 215.7899932861328,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ADP",
+        "side": "long",
+        "entry": 307.5799865722656,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "HCA",
+        "side": "long",
+        "entry": 492.6199951171875,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "XYZ",
+        "side": "long",
+        "entry": 78.8550033569336,
+        "date": "2026-11-18"
       }
     ],
     "kestrel": [
-      {
-        "t": "EOG",
-        "side": "long",
-        "entry": 155.3300018310547,
-        "date": "2026-11-12"
-      },
       {
         "t": "TMO",
         "side": "long",
@@ -1185,12 +1211,6 @@
         "t": "DE",
         "side": "long",
         "entry": 665.719970703125,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "SPGI",
-        "side": "long",
-        "entry": 471.25,
         "date": "2026-11-16"
       },
       {
@@ -1240,15 +1260,15 @@
         "side": "long",
         "entry": 341.635009765625,
         "date": "2026-11-17"
+      },
+      {
+        "t": "TJX",
+        "side": "short",
+        "entry": 143.4149932861328,
+        "date": "2026-11-18"
       }
     ],
     "leader_pullback": [
-      {
-        "t": "CB",
-        "side": "long",
-        "entry": 364.69000244140625,
-        "date": "2026-11-10"
-      },
       {
         "t": "ABBV",
         "side": "long",
@@ -1266,30 +1286,6 @@
         "side": "long",
         "entry": 539.6900024414062,
         "date": "2026-11-13"
-      },
-      {
-        "t": "GM",
-        "side": "long",
-        "entry": 86.63500213623047,
-        "date": "2026-11-13"
-      },
-      {
-        "t": "CVX",
-        "side": "long",
-        "entry": 218.77969360351562,
-        "date": "2026-11-13"
-      },
-      {
-        "t": "COP",
-        "side": "long",
-        "entry": 142.19000244140625,
-        "date": "2026-11-13"
-      },
-      {
-        "t": "CI",
-        "side": "long",
-        "entry": 301.80499267578125,
-        "date": "2026-11-16"
       },
       {
         "t": "MET",
@@ -1490,12 +1486,6 @@
         "date": "2026-11-16"
       },
       {
-        "t": "ICE",
-        "side": "long",
-        "entry": 176.2100067138672,
-        "date": "2026-11-17"
-      },
-      {
         "t": "ABBV",
         "side": "long",
         "entry": 291,
@@ -1518,6 +1508,30 @@
         "side": "long",
         "entry": 142.36000061035156,
         "date": "2026-11-17"
+      },
+      {
+        "t": "CME",
+        "side": "long",
+        "entry": 306.0199890136719,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ICE",
+        "side": "long",
+        "entry": 169.8000030517578,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "JNJ",
+        "side": "long",
+        "entry": 276.44000244140625,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "KO",
+        "side": "long",
+        "entry": 97.66000366210938,
+        "date": "2026-11-18"
       },
       {
         "t": "ETR",
@@ -1556,28 +1570,34 @@
         "date": "2026-11-17"
       },
       {
-        "t": "AMT",
-        "side": "long",
-        "entry": 189.47999572753906,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "CCI",
-        "side": "long",
-        "entry": 88.47000122070312,
-        "date": "2026-11-17"
-      },
-      {
         "t": "CSX",
         "side": "long",
         "entry": 51.564998626708984,
         "date": "2026-11-17"
       },
       {
-        "t": "ICE",
+        "t": "ACGL",
         "side": "long",
-        "entry": 176.32000732421875,
-        "date": "2026-11-17"
+        "entry": 107.88999938964844,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "AFL",
+        "side": "long",
+        "entry": 125.26000213623047,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "AIG",
+        "side": "long",
+        "entry": 80.88999938964844,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "AIZ",
+        "side": "long",
+        "entry": 318.1524963378906,
+        "date": "2026-11-18"
       }
     ],
     "onepct_v3": [
@@ -2180,36 +2200,6 @@
     ],
     "options_flow": [
       {
-        "t": "PFE",
-        "side": "short",
-        "entry": 29.185,
-        "date": "2026-11-12"
-      },
-      {
-        "t": "XOM",
-        "side": "short",
-        "entry": 167.84,
-        "date": "2026-11-12"
-      },
-      {
-        "t": "WMT",
-        "side": "short",
-        "entry": 126.47,
-        "date": "2026-11-12"
-      },
-      {
-        "t": "COST",
-        "side": "short",
-        "entry": 1098.51,
-        "date": "2026-11-12"
-      },
-      {
-        "t": "ABBV",
-        "side": "long",
-        "entry": 296.17,
-        "date": "2026-11-13"
-      },
-      {
         "t": "UBER",
         "side": "short",
         "entry": 69.35,
@@ -2252,57 +2242,9 @@
         "date": "2026-11-16"
       },
       {
-        "t": "AVGO",
-        "side": "long",
-        "entry": 329.84,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "ORCL",
-        "side": "short",
-        "entry": 119.045,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "JPM",
-        "side": "short",
-        "entry": 342.72,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "BAC",
-        "side": "long",
-        "entry": 50.36,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "COIN",
-        "side": "long",
-        "entry": 118.095,
-        "date": "2026-11-16"
-      },
-      {
         "t": "PYPL",
         "side": "short",
         "entry": 59.32,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "MRK",
-        "side": "short",
-        "entry": 148.42,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "CVX",
-        "side": "short",
-        "entry": 217.69,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "BA",
-        "side": "long",
-        "entry": 167.045,
         "date": "2026-11-16"
       },
       {
@@ -2348,12 +2290,6 @@
         "date": "2026-11-17"
       },
       {
-        "t": "CRM",
-        "side": "long",
-        "entry": 197.3,
-        "date": "2026-11-17"
-      },
-      {
         "t": "INTC",
         "side": "long",
         "entry": 54.114,
@@ -2372,18 +2308,6 @@
         "date": "2026-11-17"
       },
       {
-        "t": "XYZ",
-        "side": "long",
-        "entry": 81.604,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "UNH",
-        "side": "short",
-        "entry": 396.88,
-        "date": "2026-11-17"
-      },
-      {
         "t": "LLY",
         "side": "short",
         "entry": 1431.06,
@@ -2396,21 +2320,9 @@
         "date": "2026-11-17"
       },
       {
-        "t": "NKE",
-        "side": "short",
-        "entry": 39.075,
-        "date": "2026-11-17"
-      },
-      {
         "t": "DKNG",
         "side": "long",
         "entry": 18.33,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "ARM",
-        "side": "long",
-        "entry": 179.03,
         "date": "2026-11-17"
       },
       {
@@ -2432,65 +2344,119 @@
         "date": "2026-11-17"
       },
       {
-        "t": "RIOT",
+        "t": "CRM",
         "side": "short",
-        "entry": 17.05,
-        "date": "2026-11-17"
-      }
-    ],
-    "options_flow_v2": [
-      {
-        "t": "LLY",
-        "side": "short",
-        "entry": 1446.13,
-        "date": "2026-11-12"
+        "entry": 189.055,
+        "date": "2026-11-18"
       },
       {
-        "t": "PFE",
+        "t": "AVGO",
         "side": "short",
-        "entry": 29.165,
-        "date": "2026-11-12"
+        "entry": 352.16,
+        "date": "2026-11-18"
       },
       {
-        "t": "MRK",
+        "t": "ORCL",
         "side": "short",
-        "entry": 147.885,
-        "date": "2026-11-12"
+        "entry": 114.8,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "MA",
+        "side": "short",
+        "entry": 639.74,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "COIN",
+        "side": "short",
+        "entry": 112,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "XYZ",
+        "side": "short",
+        "entry": 78.72,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "UNH",
+        "side": "long",
+        "entry": 369.495,
+        "date": "2026-11-18"
       },
       {
         "t": "ABBV",
         "side": "short",
-        "entry": 297.675,
-        "date": "2026-11-12"
-      },
-      {
-        "t": "XOM",
-        "side": "short",
-        "entry": 167.91,
-        "date": "2026-11-12"
-      },
-      {
-        "t": "WMT",
-        "side": "short",
-        "entry": 126.47,
-        "date": "2026-11-12"
+        "entry": 288.248,
+        "date": "2026-11-18"
       },
       {
         "t": "CVX",
-        "side": "long",
-        "entry": 218.47,
-        "date": "2026-11-13"
+        "side": "short",
+        "entry": 208.6,
+        "date": "2026-11-18"
       },
+      {
+        "t": "BA",
+        "side": "long",
+        "entry": 162.1,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "COST",
+        "side": "short",
+        "entry": 1106.29,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "NKE",
+        "side": "short",
+        "entry": 36.105,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "SMCI",
+        "side": "short",
+        "entry": 24.38,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "NET",
+        "side": "long",
+        "entry": 295.73,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "CRWD",
+        "side": "short",
+        "entry": 231.525,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "TSM",
+        "side": "long",
+        "entry": 363.015,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "MARA",
+        "side": "short",
+        "entry": 6.465,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "RIOT",
+        "side": "short",
+        "entry": 17.88,
+        "date": "2026-11-18"
+      }
+    ],
+    "options_flow_v2": [
       {
         "t": "COST",
         "side": "long",
         "entry": 1107.02,
-        "date": "2026-11-13"
-      },
-      {
-        "t": "RIOT",
-        "side": "long",
-        "entry": 16.78,
         "date": "2026-11-13"
       },
       {
@@ -2530,21 +2496,9 @@
         "date": "2026-11-16"
       },
       {
-        "t": "AVGO",
-        "side": "long",
-        "entry": 329.495,
-        "date": "2026-11-16"
-      },
-      {
         "t": "INTC",
         "side": "short",
         "entry": 55.53,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "ORCL",
-        "side": "short",
-        "entry": 118.932,
         "date": "2026-11-16"
       },
       {
@@ -2560,45 +2514,9 @@
         "date": "2026-11-16"
       },
       {
-        "t": "V",
-        "side": "short",
-        "entry": 430.09,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "MA",
-        "side": "short",
-        "entry": 666.935,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "COIN",
-        "side": "short",
-        "entry": 117.99,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "SOFI",
-        "side": "short",
-        "entry": 14.79,
-        "date": "2026-11-16"
-      },
-      {
         "t": "PYPL",
         "side": "short",
         "entry": 59.35,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "XYZ",
-        "side": "short",
-        "entry": 83.425,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "BA",
-        "side": "long",
-        "entry": 166.92,
         "date": "2026-11-16"
       },
       {
@@ -2638,12 +2556,6 @@
         "date": "2026-11-16"
       },
       {
-        "t": "CRWD",
-        "side": "short",
-        "entry": 219.455,
-        "date": "2026-11-16"
-      },
-      {
         "t": "MARA",
         "side": "short",
         "entry": 6.425,
@@ -2674,12 +2586,6 @@
         "date": "2026-11-17"
       },
       {
-        "t": "CRM",
-        "side": "long",
-        "entry": 196.8,
-        "date": "2026-11-17"
-      },
-      {
         "t": "JPM",
         "side": "short",
         "entry": 333.55,
@@ -2689,12 +2595,6 @@
         "t": "HOOD",
         "side": "short",
         "entry": 69.535,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "UNH",
-        "side": "short",
-        "entry": 396.4901,
         "date": "2026-11-17"
       },
       {
@@ -2710,42 +2610,6 @@
         "date": "2026-11-17"
       },
       {
-        "t": "NKE",
-        "side": "short",
-        "entry": 39.0902,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "SMCI",
-        "side": "short",
-        "entry": 23.825,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "ARM",
-        "side": "short",
-        "entry": 178.6892,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "NET",
-        "side": "short",
-        "entry": 279,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "PANW",
-        "side": "short",
-        "entry": 304.19,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "MU",
-        "side": "short",
-        "entry": 687.64,
-        "date": "2026-11-17"
-      },
-      {
         "t": "TSM",
         "side": "short",
         "entry": 360.09,
@@ -2756,37 +2620,163 @@
         "side": "short",
         "entry": 87.45,
         "date": "2026-11-17"
+      },
+      {
+        "t": "CRM",
+        "side": "short",
+        "entry": 189,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "AVGO",
+        "side": "short",
+        "entry": 352.01,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ORCL",
+        "side": "short",
+        "entry": 114.87,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "V",
+        "side": "short",
+        "entry": 414.59,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "MA",
+        "side": "short",
+        "entry": 639.85,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "COIN",
+        "side": "short",
+        "entry": 112.03,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "SOFI",
+        "side": "short",
+        "entry": 14.3099,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "XYZ",
+        "side": "short",
+        "entry": 78.67,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "UNH",
+        "side": "short",
+        "entry": 368.745,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "LLY",
+        "side": "short",
+        "entry": 1399.39,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "PFE",
+        "side": "short",
+        "entry": 28.265,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "MRK",
+        "side": "short",
+        "entry": 140.3314,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ABBV",
+        "side": "short",
+        "entry": 288.22,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "CVX",
+        "side": "short",
+        "entry": 208.585,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "XOM",
+        "side": "short",
+        "entry": 163.74,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "BA",
+        "side": "short",
+        "entry": 162.11,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "WMT",
+        "side": "short",
+        "entry": 126.825,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "NKE",
+        "side": "short",
+        "entry": 36.11,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "SMCI",
+        "side": "short",
+        "entry": 24.395,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ARM",
+        "side": "short",
+        "entry": 187.565,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "NET",
+        "side": "short",
+        "entry": 295.485,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "CRWD",
+        "side": "short",
+        "entry": 231.53,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "PANW",
+        "side": "short",
+        "entry": 325.815,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "MU",
+        "side": "long",
+        "entry": 707.8187,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "RIOT",
+        "side": "short",
+        "entry": 17.915,
+        "date": "2026-11-18"
       }
     ],
     "oracle": [
       {
-        "t": "MELI",
-        "side": "long",
-        "entry": 1511.7900390625,
-        "date": "2026-11-10"
-      },
-      {
-        "t": "PINS",
-        "side": "long",
-        "entry": 18.78499984741211,
-        "date": "2026-11-10"
-      },
-      {
-        "t": "CMG",
-        "side": "short",
-        "entry": 35.834999084472656,
-        "date": "2026-11-10"
-      },
-      {
         "t": "SRE",
         "side": "long",
         "entry": 78.30000305175781,
-        "date": "2026-11-11"
-      },
-      {
-        "t": "ICE",
-        "side": "short",
-        "entry": 178.1300048828125,
         "date": "2026-11-11"
       },
       {
@@ -2832,27 +2822,9 @@
         "date": "2026-11-16"
       },
       {
-        "t": "COIN",
-        "side": "long",
-        "entry": 117.70500183105469,
-        "date": "2026-11-16"
-      },
-      {
         "t": "SLV",
         "side": "long",
         "entry": 42.08000183105469,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "FCX",
-        "side": "long",
-        "entry": 56.13990020751953,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "HUM",
-        "side": "short",
-        "entry": 458.27520751953125,
         "date": "2026-11-16"
       },
       {
@@ -2862,21 +2834,9 @@
         "date": "2026-11-16"
       },
       {
-        "t": "PLUG",
-        "side": "long",
-        "entry": 1.024999976158142,
-        "date": "2026-11-17"
-      },
-      {
         "t": "AI",
         "side": "long",
         "entry": 9.954999923706055,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "CRM",
-        "side": "long",
-        "entry": 197.77049255371094,
         "date": "2026-11-17"
       },
       {
@@ -2904,31 +2864,73 @@
         "date": "2026-11-17"
       },
       {
-        "t": "TMUS",
-        "side": "short",
-        "entry": 173.52499389648438,
-        "date": "2026-11-17"
-      },
-      {
         "t": "PG",
         "side": "short",
         "entry": 172.90499877929688,
         "date": "2026-11-17"
+      },
+      {
+        "t": "GLD",
+        "side": "long",
+        "entry": 343.9200134277344,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "PNC",
+        "side": "long",
+        "entry": 221.64999389648438,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "UNH",
+        "side": "long",
+        "entry": 371.5299987792969,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "PLD",
+        "side": "long",
+        "entry": 124.95999908447266,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "BIDU",
+        "side": "long",
+        "entry": 70.51000213623047,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "CRM",
+        "side": "long",
+        "entry": 187.9949951171875,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "FROG",
+        "side": "short",
+        "entry": 111.43499755859375,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "TGT",
+        "side": "short",
+        "entry": 168.72999572753906,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "PENN",
+        "side": "short",
+        "entry": 18.3700008392334,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "AVGO",
+        "side": "short",
+        "entry": 353.7442932128906,
+        "date": "2026-11-18"
       }
     ],
     "pairtrader": [
-      {
-        "t": "OXY",
-        "side": "long",
-        "entry": 61.63999938964844,
-        "date": "2026-11-02"
-      },
-      {
-        "t": "COP",
-        "side": "short",
-        "entry": 149.09500122070312,
-        "date": "2026-11-02"
-      },
       {
         "t": "DVN",
         "side": "long",
@@ -3180,6 +3182,30 @@
         "side": "short",
         "entry": 354.2200012207031,
         "date": "2026-11-16"
+      },
+      {
+        "t": "OXY",
+        "side": "long",
+        "entry": 54.619998931884766,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "XLE",
+        "side": "short",
+        "entry": 62.209999084472656,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "OXY",
+        "side": "long",
+        "entry": 54.619998931884766,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "COP",
+        "side": "short",
+        "entry": 137.06500244140625,
+        "date": "2026-11-18"
       }
     ],
     "pead": [
@@ -3194,12 +3220,6 @@
         "side": "long",
         "entry": 1388.84,
         "date": "2026-10-29"
-      },
-      {
-        "t": "MRK",
-        "side": "long",
-        "entry": 149.335,
-        "date": "2026-10-30"
       },
       {
         "t": "TFC",
@@ -3232,12 +3252,6 @@
         "date": "2026-11-06"
       },
       {
-        "t": "BILL",
-        "side": "long",
-        "entry": 53.42,
-        "date": "2026-11-06"
-      },
-      {
         "t": "PSX",
         "side": "long",
         "entry": 245.71,
@@ -3266,18 +3280,6 @@
         "side": "long",
         "entry": 216.245,
         "date": "2026-11-12"
-      },
-      {
-        "t": "RUN",
-        "side": "long",
-        "entry": 8.439,
-        "date": "2026-11-13"
-      },
-      {
-        "t": "ENPH",
-        "side": "short",
-        "entry": 25.61,
-        "date": "2026-11-13"
       }
     ],
     "previral": [
@@ -3320,31 +3322,11 @@
         "date": "2026-11-17"
       }
     ],
-    "rs_new_leader": [
-      {
-        "t": "LMT",
-        "side": "long",
-        "entry": 607.989990234375,
-        "date": "2026-11-11"
-      }
-    ],
     "scalp": [
       {
         "t": "AMZN",
         "side": "long",
         "entry": 260.7449951171875,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "ABBV",
-        "side": "short",
-        "entry": 297.9750061035156,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "COP",
-        "side": "long",
-        "entry": 140.11500549316406,
         "date": "2026-11-16"
       },
       {
@@ -3354,87 +3336,15 @@
         "date": "2026-11-17"
       },
       {
-        "t": "AMD",
-        "side": "long",
-        "entry": 497.0299987792969,
-        "date": "2026-11-17"
-      },
-      {
         "t": "CSCO",
         "side": "short",
         "entry": 94.58989715576172,
         "date": "2026-11-17"
       },
       {
-        "t": "JPM",
-        "side": "long",
-        "entry": 333.6000061035156,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "WFC",
-        "side": "long",
-        "entry": 83.95500183105469,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "BLK",
-        "side": "long",
-        "entry": 1194.6099853515625,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "JNJ",
-        "side": "long",
-        "entry": 281.6600036621094,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "LLY",
-        "side": "long",
-        "entry": 1430.3900146484375,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "PFE",
-        "side": "long",
-        "entry": 28.6299991607666,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "MRK",
-        "side": "long",
-        "entry": 144.57000732421875,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "ABT",
-        "side": "long",
-        "entry": 107.375,
-        "date": "2026-11-17"
-      },
-      {
         "t": "HD",
         "side": "long",
         "entry": 341.7499084472656,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "LOW",
-        "side": "long",
-        "entry": 223.97000122070312,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "TGT",
-        "side": "long",
-        "entry": 158.67999267578125,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "NKE",
-        "side": "short",
-        "entry": 39.05500030517578,
         "date": "2026-11-17"
       },
       {
@@ -3450,71 +3360,185 @@
         "date": "2026-11-17"
       },
       {
-        "t": "XYZ",
-        "side": "long",
-        "entry": 81.61499786376953,
-        "date": "2026-11-17"
-      },
-      {
         "t": "PLTR",
         "side": "long",
         "entry": 157.81649780273438,
         "date": "2026-11-17"
       },
       {
-        "t": "SNOW",
-        "side": "long",
-        "entry": 267.3949890136719,
-        "date": "2026-11-17"
+        "t": "NVDA",
+        "side": "short",
+        "entry": 153.30499267578125,
+        "date": "2026-11-18"
       },
       {
-        "t": "NET",
-        "side": "long",
-        "entry": 280.6099853515625,
-        "date": "2026-11-17"
+        "t": "TSLA",
+        "side": "short",
+        "entry": 380.9599914550781,
+        "date": "2026-11-18"
       },
       {
-        "t": "CRWD",
-        "side": "long",
-        "entry": 216.43499755859375,
-        "date": "2026-11-17"
+        "t": "AVGO",
+        "side": "short",
+        "entry": 352.1650085449219,
+        "date": "2026-11-18"
       },
       {
-        "t": "PANW",
+        "t": "JPM",
         "side": "long",
-        "entry": 305.9700012207031,
-        "date": "2026-11-17"
+        "entry": 326.92999267578125,
+        "date": "2026-11-18"
       },
       {
-        "t": "ZS",
+        "t": "V",
         "side": "long",
-        "entry": 181.9499969482422,
-        "date": "2026-11-17"
+        "entry": 414.4100036621094,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "MA",
+        "side": "long",
+        "entry": 639.5449829101562,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "BLK",
+        "side": "long",
+        "entry": 1174.989990234375,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "JNJ",
+        "side": "long",
+        "entry": 275.4700012207031,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "UNH",
+        "side": "long",
+        "entry": 369.4649963378906,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "LLY",
+        "side": "long",
+        "entry": 1398.93994140625,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "PFE",
+        "side": "long",
+        "entry": 28.235000610351562,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "MRK",
+        "side": "long",
+        "entry": 140.23500061035156,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ABBV",
+        "side": "long",
+        "entry": 288.1700134277344,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ABT",
+        "side": "long",
+        "entry": 104.44000244140625,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "CVX",
+        "side": "long",
+        "entry": 208.64999389648438,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "COP",
+        "side": "long",
+        "entry": 137.0800018310547,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "LOW",
+        "side": "long",
+        "entry": 220.13999938964844,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "COST",
+        "side": "long",
+        "entry": 1106.8499755859375,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "WMT",
+        "side": "long",
+        "entry": 126.9749984741211,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "CMG",
+        "side": "long",
+        "entry": 36.8849983215332,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "SHOP",
+        "side": "long",
+        "entry": 141.01400756835938,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "XYZ",
+        "side": "long",
+        "entry": 78.7925033569336,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "PYPL",
+        "side": "long",
+        "entry": 57.880001068115234,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ARM",
+        "side": "short",
+        "entry": 186.8300018310547,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "FTNT",
+        "side": "short",
+        "entry": 128.7550048828125,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "XLE",
+        "side": "long",
+        "entry": 62.20500183105469,
+        "date": "2026-11-18"
       },
       {
         "t": "XLF",
         "side": "long",
-        "entry": 57.69499969482422,
-        "date": "2026-11-17"
+        "entry": 56.52000045776367,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "SMH",
+        "side": "short",
+        "entry": 459.8800048828125,
+        "date": "2026-11-18"
       }
     ],
     "scalp_inverse": [
       {
-        "t": "AMZN",
-        "side": "short",
-        "entry": 260.6600036621094,
-        "date": "2026-11-16"
-      },
-      {
         "t": "AMD",
         "side": "short",
         "entry": 504.6781921386719,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "CRWD",
-        "side": "short",
-        "entry": 219.19000244140625,
         "date": "2026-11-16"
       },
       {
@@ -3530,33 +3554,9 @@
         "date": "2026-11-17"
       },
       {
-        "t": "JPM",
-        "side": "short",
-        "entry": 333.7149963378906,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "WFC",
-        "side": "short",
-        "entry": 84.0447006225586,
-        "date": "2026-11-17"
-      },
-      {
         "t": "BLK",
         "side": "short",
         "entry": 1195.217529296875,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "JNJ",
-        "side": "short",
-        "entry": 281.6700134277344,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "LLY",
-        "side": "short",
-        "entry": 1431.68994140625,
         "date": "2026-11-17"
       },
       {
@@ -3566,45 +3566,9 @@
         "date": "2026-11-17"
       },
       {
-        "t": "ABBV",
-        "side": "short",
-        "entry": 293.7799987792969,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "ABT",
-        "side": "short",
-        "entry": 107.39199829101562,
-        "date": "2026-11-17"
-      },
-      {
         "t": "HD",
         "side": "short",
         "entry": 341.5899963378906,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "LOW",
-        "side": "short",
-        "entry": 224.3000030517578,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "TGT",
-        "side": "short",
-        "entry": 158.81500244140625,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "NKE",
-        "side": "long",
-        "entry": 39.09000015258789,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "MCD",
-        "side": "long",
-        "entry": 278.8800048828125,
         "date": "2026-11-17"
       },
       {
@@ -3614,46 +3578,160 @@
         "date": "2026-11-17"
       },
       {
-        "t": "XYZ",
-        "side": "short",
-        "entry": 81.70999908447266,
-        "date": "2026-11-17"
-      },
-      {
         "t": "PLTR",
         "side": "short",
         "entry": 157.85000610351562,
         "date": "2026-11-17"
       },
       {
-        "t": "SNOW",
-        "side": "short",
-        "entry": 267.2799987792969,
-        "date": "2026-11-17"
+        "t": "NVDA",
+        "side": "long",
+        "entry": 153.71560668945312,
+        "date": "2026-11-18"
       },
       {
-        "t": "NET",
-        "side": "short",
-        "entry": 279.82000732421875,
-        "date": "2026-11-17"
+        "t": "TSLA",
+        "side": "long",
+        "entry": 381.67999267578125,
+        "date": "2026-11-18"
       },
       {
-        "t": "PANW",
-        "side": "short",
-        "entry": 305.32000732421875,
-        "date": "2026-11-17"
+        "t": "AVGO",
+        "side": "long",
+        "entry": 352.5299987792969,
+        "date": "2026-11-18"
       },
       {
-        "t": "ZS",
+        "t": "JPM",
         "side": "short",
-        "entry": 182.16000366210938,
-        "date": "2026-11-17"
+        "entry": 326.9649963378906,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "V",
+        "side": "short",
+        "entry": 414.4800109863281,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "MA",
+        "side": "short",
+        "entry": 639.60498046875,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "JNJ",
+        "side": "short",
+        "entry": 275.4700012207031,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "UNH",
+        "side": "short",
+        "entry": 369.6400146484375,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "LLY",
+        "side": "short",
+        "entry": 1399.31005859375,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "MRK",
+        "side": "short",
+        "entry": 140.32000732421875,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ABBV",
+        "side": "short",
+        "entry": 288.1400146484375,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ABT",
+        "side": "short",
+        "entry": 104.44499969482422,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "CVX",
+        "side": "short",
+        "entry": 208.5800018310547,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "COP",
+        "side": "short",
+        "entry": 137.10000610351562,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "LOW",
+        "side": "short",
+        "entry": 220.0399932861328,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "COST",
+        "side": "short",
+        "entry": 1106.6700439453125,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "WMT",
+        "side": "short",
+        "entry": 126.91999816894531,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "CMG",
+        "side": "short",
+        "entry": 36.889801025390625,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "SHOP",
+        "side": "short",
+        "entry": 141.0500030517578,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "XYZ",
+        "side": "short",
+        "entry": 78.72000122070312,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "PYPL",
+        "side": "short",
+        "entry": 57.91019821166992,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ARM",
+        "side": "long",
+        "entry": 187.3300018310547,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "FTNT",
+        "side": "long",
+        "entry": 128.89999389648438,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "XLE",
+        "side": "short",
+        "entry": 62.189998626708984,
+        "date": "2026-11-18"
       },
       {
         "t": "XLF",
         "side": "short",
-        "entry": 57.68000030517578,
-        "date": "2026-11-17"
+        "entry": 56.51499938964844,
+        "date": "2026-11-18"
       }
     ],
     "scalp_v3": [
@@ -3668,6 +3746,12 @@
         "side": "long",
         "entry": 260.6499938964844,
         "date": "2026-11-16"
+      },
+      {
+        "t": "CVX",
+        "side": "long",
+        "entry": 208.40499877929688,
+        "date": "2026-11-18"
       }
     ],
     "sentiment": [
@@ -3710,12 +3794,6 @@
         "date": "2026-11-16"
       },
       {
-        "t": "ASTS",
-        "side": "long",
-        "entry": 28.98,
-        "date": "2026-11-17"
-      },
-      {
         "t": "HSBC",
         "side": "long",
         "entry": 87.75,
@@ -3726,6 +3804,12 @@
         "side": "long",
         "entry": 334.81,
         "date": "2026-11-17"
+      },
+      {
+        "t": "TTWO",
+        "side": "long",
+        "entry": 213.633,
+        "date": "2026-11-18"
       }
     ],
     "squeeze": [
@@ -3734,12 +3818,6 @@
         "side": "long",
         "entry": 3.241499900817871,
         "date": "2026-11-12"
-      },
-      {
-        "t": "TTOO",
-        "side": "long",
-        "entry": 0.009999999776482582,
-        "date": "2026-11-16"
       }
     ],
     "sss": [
@@ -3763,48 +3841,6 @@
       }
     ],
     "stc": [
-      {
-        "t": "AXP",
-        "side": "short",
-        "entry": 326.51251220703125,
-        "date": "2026-11-10"
-      },
-      {
-        "t": "USB",
-        "side": "short",
-        "entry": 60.79499816894531,
-        "date": "2026-11-10"
-      },
-      {
-        "t": "MPC",
-        "side": "long",
-        "entry": 385.95001220703125,
-        "date": "2026-11-10"
-      },
-      {
-        "t": "VST",
-        "side": "long",
-        "entry": 133.52000427246094,
-        "date": "2026-11-10"
-      },
-      {
-        "t": "HYG",
-        "side": "short",
-        "entry": 77.23500061035156,
-        "date": "2026-11-10"
-      },
-      {
-        "t": "FAS",
-        "side": "short",
-        "entry": 176.27000427246094,
-        "date": "2026-11-10"
-      },
-      {
-        "t": "NAIL",
-        "side": "short",
-        "entry": 36.220001220703125,
-        "date": "2026-11-10"
-      },
       {
         "t": "ECL",
         "side": "short",
@@ -3848,12 +3884,6 @@
         "date": "2026-11-11"
       },
       {
-        "t": "OXY",
-        "side": "long",
-        "entry": 57.275001525878906,
-        "date": "2026-11-11"
-      },
-      {
         "t": "DVN",
         "side": "long",
         "entry": 44.2599983215332,
@@ -3863,12 +3893,6 @@
         "t": "NVDA",
         "side": "long",
         "entry": 160.5050048828125,
-        "date": "2026-11-12"
-      },
-      {
-        "t": "WFC",
-        "side": "short",
-        "entry": 86.25499725341797,
         "date": "2026-11-12"
       },
       {
@@ -3932,12 +3956,6 @@
         "date": "2026-11-12"
       },
       {
-        "t": "NEM",
-        "side": "short",
-        "entry": 114.13500213623047,
-        "date": "2026-11-12"
-      },
-      {
         "t": "TSLA",
         "side": "long",
         "entry": 387.5451965332031,
@@ -3998,39 +4016,9 @@
         "date": "2026-11-13"
       },
       {
-        "t": "ACHR",
-        "side": "short",
-        "entry": 4.164999961853027,
-        "date": "2026-11-13"
-      },
-      {
-        "t": "ADBE",
-        "side": "long",
-        "entry": 240.60499572753906,
-        "date": "2026-11-13"
-      },
-      {
-        "t": "CLF",
-        "side": "long",
-        "entry": 12.619999885559082,
-        "date": "2026-11-13"
-      },
-      {
-        "t": "JPM",
-        "side": "short",
-        "entry": 344.2699890136719,
-        "date": "2026-11-13"
-      },
-      {
         "t": "HD",
         "side": "short",
         "entry": 349.05499267578125,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "SPGI",
-        "side": "short",
-        "entry": 473.7650146484375,
         "date": "2026-11-16"
       },
       {
@@ -4046,12 +4034,6 @@
         "date": "2026-11-16"
       },
       {
-        "t": "FCX",
-        "side": "long",
-        "entry": 56.50379943847656,
-        "date": "2026-11-16"
-      },
-      {
         "t": "USO",
         "side": "long",
         "entry": 141.9550018310547,
@@ -4061,12 +4043,6 @@
         "t": "TECL",
         "side": "long",
         "entry": 129.97109985351562,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "CURE",
-        "side": "short",
-        "entry": 182.0198974609375,
         "date": "2026-11-16"
       },
       {
@@ -4109,18 +4085,6 @@
         "t": "LLY",
         "side": "short",
         "entry": 1428.4300537109375,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "VLO",
-        "side": "long",
-        "entry": 369.5050048828125,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "PSX",
-        "side": "long",
-        "entry": 258.79998779296875,
         "date": "2026-11-17"
       },
       {
@@ -4194,15 +4158,93 @@
         "side": "long",
         "entry": 700.9749755859375,
         "date": "2026-11-17"
-      }
-    ],
-    "ta": [
+      },
+      {
+        "t": "PG",
+        "side": "short",
+        "entry": 170.5749969482422,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "NOW",
+        "side": "long",
+        "entry": 91.3843002319336,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "MPC",
+        "side": "long",
+        "entry": 381.06500244140625,
+        "date": "2026-11-18"
+      },
       {
         "t": "VLO",
         "side": "long",
-        "entry": 358.92498779296875,
-        "date": "2026-11-11"
+        "entry": 347.69000244140625,
+        "date": "2026-11-18"
       },
+      {
+        "t": "PSX",
+        "side": "long",
+        "entry": 248.7449951171875,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "FCX",
+        "side": "long",
+        "entry": 51.2599983215332,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "CLF",
+        "side": "long",
+        "entry": 11.717499732971191,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "HUT",
+        "side": "short",
+        "entry": 56.279998779296875,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ADBE",
+        "side": "long",
+        "entry": 230.35000610351562,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "AMD",
+        "side": "short",
+        "entry": 514.0599975585938,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "AVGO",
+        "side": "short",
+        "entry": 348.9800109863281,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "FSLR",
+        "side": "long",
+        "entry": 154.8249969482422,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "XLB",
+        "side": "long",
+        "entry": 50.36000061035156,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "CLSK",
+        "side": "short",
+        "entry": 6.215000152587891,
+        "date": "2026-11-18"
+      }
+    ],
+    "ta": [
       {
         "t": "FICO",
         "side": "short",
@@ -4228,33 +4270,9 @@
         "date": "2026-11-16"
       },
       {
-        "t": "CRWD",
-        "side": "long",
-        "entry": 221.4199981689453,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "PLTR",
-        "side": "long",
-        "entry": 163.02000427246094,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "DE",
-        "side": "long",
-        "entry": 666.260009765625,
-        "date": "2026-11-16"
-      },
-      {
         "t": "EMR",
         "side": "long",
         "entry": 161.8699951171875,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "CLF",
-        "side": "long",
-        "entry": 12.4399995803833,
         "date": "2026-11-16"
       },
       {
@@ -4267,12 +4285,6 @@
         "t": "XLY",
         "side": "long",
         "entry": 118.5999984741211,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "XLB",
-        "side": "long",
-        "entry": 52.060001373291016,
         "date": "2026-11-16"
       },
       {
@@ -4336,45 +4348,15 @@
         "date": "2026-11-17"
       },
       {
-        "t": "CRM",
-        "side": "long",
-        "entry": 199.5,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "PANW",
-        "side": "long",
-        "entry": 304.79998779296875,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "ZS",
-        "side": "long",
-        "entry": 182.6999969482422,
-        "date": "2026-11-17"
-      },
-      {
         "t": "SNOW",
         "side": "long",
         "entry": 269.69000244140625,
         "date": "2026-11-17"
       },
       {
-        "t": "WFC",
-        "side": "long",
-        "entry": 84.0999984741211,
-        "date": "2026-11-17"
-      },
-      {
         "t": "BLK",
         "side": "long",
         "entry": 1195.68505859375,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "SPGI",
-        "side": "long",
-        "entry": 458.9100036621094,
         "date": "2026-11-17"
       },
       {
@@ -4396,10 +4378,124 @@
         "date": "2026-11-17"
       },
       {
+        "t": "SPGI",
+        "side": "long",
+        "entry": 442.2850036621094,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "PWR",
+        "side": "short",
+        "entry": 604.8250122070312,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "V",
+        "side": "long",
+        "entry": 412.19000244140625,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "UNH",
+        "side": "long",
+        "entry": 373.260009765625,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "MA",
+        "side": "long",
+        "entry": 637.4099731445312,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "PG",
+        "side": "long",
+        "entry": 170.47000122070312,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "COST",
+        "side": "long",
+        "entry": 1104.59423828125,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "SPGI",
+        "side": "long",
+        "entry": 442.2850036621094,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "FDX",
+        "side": "long",
+        "entry": 318.3800048828125,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "DE",
+        "side": "long",
+        "entry": 641.9450073242188,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "CVX",
+        "side": "long",
+        "entry": 209.7449951171875,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "COP",
+        "side": "long",
+        "entry": 137.32000732421875,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "EOG",
+        "side": "long",
+        "entry": 152.38999938964844,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "MPC",
+        "side": "long",
+        "entry": 381.2550048828125,
+        "date": "2026-11-18"
+      },
+      {
         "t": "VLO",
         "side": "long",
-        "entry": 369.1400146484375,
-        "date": "2026-11-17"
+        "entry": 348.2149963378906,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "PSX",
+        "side": "long",
+        "entry": 249.02499389648438,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "LIN",
+        "side": "long",
+        "entry": 509.3900146484375,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "APD",
+        "side": "long",
+        "entry": 306.010009765625,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "CLF",
+        "side": "long",
+        "entry": 11.654999732971191,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "XLF",
+        "side": "long",
+        "entry": 56.404998779296875,
+        "date": "2026-11-18"
       }
     ],
     "tariff_impact": [
@@ -4422,42 +4518,6 @@
         "date": "2026-11-10"
       },
       {
-        "t": "KAI",
-        "side": "short",
-        "entry": 298.75,
-        "date": "2026-11-11"
-      },
-      {
-        "t": "SHOO",
-        "side": "short",
-        "entry": 42.27,
-        "date": "2026-11-11"
-      },
-      {
-        "t": "GRWG",
-        "side": "short",
-        "entry": 1.278,
-        "date": "2026-11-11"
-      },
-      {
-        "t": "UI",
-        "side": "short",
-        "entry": 689.385,
-        "date": "2026-11-11"
-      },
-      {
-        "t": "ENTG",
-        "side": "short",
-        "entry": 145.17,
-        "date": "2026-11-11"
-      },
-      {
-        "t": "ATMU",
-        "side": "short",
-        "entry": 56.21,
-        "date": "2026-11-11"
-      },
-      {
         "t": "TLF",
         "side": "short",
         "entry": 2.24,
@@ -4468,18 +4528,6 @@
         "side": "short",
         "entry": 1.5005,
         "date": "2026-11-13"
-      },
-      {
-        "t": "UG",
-        "side": "short",
-        "entry": 8.703,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "TRT",
-        "side": "short",
-        "entry": 5.1,
-        "date": "2026-11-16"
       },
       {
         "t": "NPK",
@@ -4518,101 +4566,47 @@
         "date": "2026-11-17"
       },
       {
-        "t": "STXS",
-        "side": "short",
-        "entry": 0.8202,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "GTEC",
-        "side": "short",
-        "entry": 0.4797,
-        "date": "2026-11-17"
-      },
-      {
         "t": "TACT",
         "side": "short",
         "entry": 4.584,
         "date": "2026-11-17"
       },
       {
-        "t": "VTIX",
+        "t": "NRGV",
         "side": "short",
-        "entry": 0.48,
-        "date": "2026-11-17"
+        "entry": 3.685,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "QVCG",
+        "side": "short",
+        "entry": 9.51,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ASPI",
+        "side": "short",
+        "entry": 1.38,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "BCAB",
+        "side": "short",
+        "entry": 1.8,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "COOK",
+        "side": "short",
+        "entry": 56.47,
+        "date": "2026-11-18"
       }
     ],
     "threedown": [
       {
-        "t": "TMO",
-        "side": "long",
-        "entry": 699.1099853515625,
-        "date": "2026-11-12"
-      },
-      {
-        "t": "USB",
-        "side": "long",
-        "entry": 60.375,
-        "date": "2026-11-12"
-      },
-      {
-        "t": "ZS",
-        "side": "long",
-        "entry": 188.22999572753906,
-        "date": "2026-11-12"
-      },
-      {
-        "t": "DHR",
-        "side": "long",
-        "entry": 230.38999938964844,
-        "date": "2026-11-13"
-      },
-      {
-        "t": "GD",
-        "side": "long",
-        "entry": 361.1650085449219,
-        "date": "2026-11-13"
-      },
-      {
-        "t": "AMC",
-        "side": "long",
-        "entry": 3.280100107192993,
-        "date": "2026-11-13"
-      },
-      {
-        "t": "DE",
-        "side": "long",
-        "entry": 667.4400024414062,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "PANW",
-        "side": "long",
-        "entry": 313.4371032714844,
-        "date": "2026-11-16"
-      },
-      {
-        "t": "PLTR",
-        "side": "long",
-        "entry": 161.41000366210938,
-        "date": "2026-11-16"
-      },
-      {
         "t": "AMGN",
         "side": "long",
         "entry": 458.6199951171875,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "VRTX",
-        "side": "long",
-        "entry": 530.5349731445312,
-        "date": "2026-11-17"
-      },
-      {
-        "t": "CSX",
-        "side": "long",
-        "entry": 51.40010070800781,
         "date": "2026-11-17"
       },
       {
@@ -4622,67 +4616,79 @@
         "date": "2026-11-17"
       },
       {
-        "t": "CRWD",
+        "t": "BRK-B",
         "side": "long",
-        "entry": 217.58999633789062,
-        "date": "2026-11-17"
+        "entry": 579.5800170898438,
+        "date": "2026-11-18"
       },
       {
-        "t": "SNOW",
+        "t": "LLY",
         "side": "long",
-        "entry": 269.9200134277344,
-        "date": "2026-11-17"
+        "entry": 1395.18994140625,
+        "date": "2026-11-18"
       },
       {
-        "t": "NET",
+        "t": "JNJ",
         "side": "long",
-        "entry": 284.3999938964844,
-        "date": "2026-11-17"
+        "entry": 275.45001220703125,
+        "date": "2026-11-18"
       },
       {
-        "t": "CHPT",
+        "t": "HD",
         "side": "long",
-        "entry": 9.71500015258789,
-        "date": "2026-11-17"
+        "entry": 337.9200134277344,
+        "date": "2026-11-18"
       },
       {
-        "t": "AMD",
+        "t": "ABBV",
         "side": "long",
-        "entry": 502.44219970703125,
-        "date": "2026-11-17"
+        "entry": 288,
+        "date": "2026-11-18"
       },
       {
-        "t": "TEAM",
+        "t": "TMO",
         "side": "long",
-        "entry": 142.39999389648438,
-        "date": "2026-11-17"
+        "entry": 685.2100219726562,
+        "date": "2026-11-18"
       },
       {
-        "t": "S",
+        "t": "ABT",
         "side": "long",
-        "entry": 20.8799991607666,
-        "date": "2026-11-17"
+        "entry": 104.33000183105469,
+        "date": "2026-11-18"
       },
       {
-        "t": "ESTC",
+        "t": "ACN",
         "side": "long",
-        "entry": 81.43000030517578,
-        "date": "2026-11-17"
+        "entry": 232.8800048828125,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "LIN",
+        "side": "long",
+        "entry": 508.6000061035156,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ABNB",
+        "side": "long",
+        "entry": 180.7100067138672,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ISRG",
+        "side": "long",
+        "entry": 429.3949890136719,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "BLK",
+        "side": "long",
+        "entry": 1175.7449951171875,
+        "date": "2026-11-18"
       }
     ],
     "vulture": [
-      {
-        "t": "SHOP",
-        "side": "short",
-        "entry": 143.77999877929688,
-        "date": "2026-11-03"
-      },
-      {
-        "t": "TEAM",
-        "side": "short",
-        "entry": 152.99000549316406,
-        "date": "2026-11-06"
-      },
       {
         "t": "COP",
         "side": "short",
@@ -4696,16 +4702,22 @@
         "date": "2026-11-12"
       },
       {
-        "t": "ZS",
-        "side": "short",
-        "entry": 181.3699951171875,
-        "date": "2026-11-17"
-      },
-      {
         "t": "SOFI",
         "side": "short",
         "entry": 14.574999809265137,
         "date": "2026-11-17"
+      },
+      {
+        "t": "MRNA",
+        "side": "short",
+        "entry": 203.46319580078125,
+        "date": "2026-11-18"
+      },
+      {
+        "t": "ZS",
+        "side": "short",
+        "entry": 192.4499969482422,
+        "date": "2026-11-18"
       }
     ],
     "weather": [
@@ -4770,21 +4782,7 @@
         "date": "2026-06-11"
       }
     ],
-    "weird": [
-      {
-        "t": "DRI",
-        "side": "long",
-        "entry": 219.07,
-        "date": "2026-10-29"
-      }
-    ],
     "wiki": [
-      {
-        "t": "GM",
-        "side": "short",
-        "entry": 88.77,
-        "date": "2026-11-03"
-      },
       {
         "t": "SBUX",
         "side": "short",
@@ -4796,6 +4794,12 @@
         "side": "short",
         "entry": 160.785,
         "date": "2026-11-13"
+      },
+      {
+        "t": "UBER",
+        "side": "short",
+        "entry": 69.035,
+        "date": "2026-11-18"
       }
     ],
     "winnersonly": [
@@ -4828,11 +4832,11 @@
   "swingRecords": {
     "aggregator": "71-71",
     "ai": "167-170",
-    "altdata": "233-336",
+    "altdata": "234-340",
     "buyback_timing": "170-160",
     "cassandra": "121-170",
-    "ceo_linkedin": "168-205",
-    "chameleon": "195-241",
+    "ceo_linkedin": "168-214",
+    "chameleon": "196-245",
     "chaos": "57-75",
     "cobra": "10-32",
     "coiled": "22-37",
@@ -4842,64 +4846,64 @@
     "crash_inverse_shadow": "10-6",
     "crash_winners": "2-2",
     "darkpool": "1-1",
-    "desk_rule": "53-46",
+    "desk_rule": "55-48",
     "disagreement": "5-7",
-    "divcap": "25-36",
+    "divcap": "24-37",
     "donchian": "8-9",
     "dualmomentum": "0-1",
     "earnings__whisper": "101-94",
     "earnings_gap_d1": "123-129",
     "electricity": "34-42",
-    "fda_calendar": "52-91",
+    "fda_calendar": "54-92",
     "filing": "68-78",
-    "flow_fade": "44-42",
+    "flow_fade": "45-44",
     "fridaymon": "84-87",
-    "gapfill": "226-231",
-    "golden_stack": "49-78",
+    "gapfill": "227-234",
+    "golden_stack": "50-78",
     "household": "19-26",
     "ichimoku": "70-97",
-    "inverse_stc": "377-491",
+    "inverse_stc": "380-493",
     "kalshi_winners": "10-6",
-    "kestrel": "370-304",
+    "kestrel": "370-306",
     "kestrel_elite": "55-82",
-    "leader_pullback": "85-141",
+    "leader_pullback": "86-145",
     "macro": "6-6",
     "momentum": "24-15",
     "multi_winners": "79-68",
-    "onepct": "678-521",
+    "onepct": "678-525",
     "onepct_v2_winners": "12-9",
     "onepct_v3": "1512-1160",
     "onepct_v3_ascendent": "885-887",
-    "options_flow": "1166-1343",
-    "options_flow_v2": "1203-1421",
-    "oracle": "487-451",
-    "pairtrader": "97-74",
-    "pead": "56-88",
+    "options_flow": "1176-1352",
+    "options_flow_v2": "1218-1431",
+    "oracle": "491-457",
+    "pairtrader": "97-75",
+    "pead": "58-90",
     "post_fomc": "5-7",
     "previral": "294-341",
     "riskreversal": "52-65",
-    "rs_new_leader": "15-18",
-    "scalp": "1198-1262",
-    "scalp_inverse": "1166-1246",
+    "rs_new_leader": "15-19",
+    "scalp": "1207-1274",
+    "scalp_inverse": "1175-1255",
     "scalp_v3": "164-139",
     "sentiment": "95-90",
     "sentiment_v4": "8-15",
     "sentiment_v4_winners": "3-2",
-    "sentiment_v5": "76-70",
+    "sentiment_v5": "76-71",
     "sentiment_winners": "6-8",
     "shipping": "3-4",
-    "squeeze": "63-109",
+    "squeeze": "63-110",
     "sss": "17-32",
-    "stc": "805-1073",
+    "stc": "816-1081",
     "supertrend": "3-8",
-    "ta": "1023-1191",
-    "tariff_impact": "194-168",
-    "threedown": "559-475",
+    "ta": "1026-1200",
+    "tariff_impact": "196-177",
+    "threedown": "571-482",
     "v3_winners": "10-9",
-    "vulture": "69-88",
+    "vulture": "71-89",
     "weekend": "5-2",
-    "weird": "12-6",
-    "wiki": "8-10",
+    "weird": "13-6",
+    "wiki": "9-10",
     "winnersonly": "16-18",
     "witching": "21-11"
   },
@@ -8158,6 +8162,51 @@
     ],
     "chameleon": [
       {
+        "t": "PM",
+        "side": "long",
+        "entry": 195.0399932861328,
+        "exit": 191.475,
+        "date": "2026-11-10",
+        "exitDate": "2026-11-18",
+        "pct": -1.83
+      },
+      {
+        "t": "ABNB",
+        "side": "long",
+        "entry": 183.47999572753906,
+        "exit": 180.69,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": -1.52
+      },
+      {
+        "t": "TXN",
+        "side": "long",
+        "entry": 293.75,
+        "exit": 293.705,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -0.02
+      },
+      {
+        "t": "DE",
+        "side": "long",
+        "entry": 667.0599975585938,
+        "exit": 646.93,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -3.02
+      },
+      {
+        "t": "ADI",
+        "side": "long",
+        "entry": 383.5350036621094,
+        "exit": 384.99,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 0.38
+      },
+      {
         "t": "MNST",
         "side": "long",
         "entry": 44.94499969482422,
@@ -8651,51 +8700,6 @@
         "date": "2026-10-28",
         "exitDate": "2026-11-02",
         "pct": 3.63
-      },
-      {
-        "t": "FTNT",
-        "side": "long",
-        "entry": 135.3314971923828,
-        "exit": 129.975,
-        "date": "2026-10-29",
-        "exitDate": "2026-11-02",
-        "pct": -3.96
-      },
-      {
-        "t": "ADP",
-        "side": "long",
-        "entry": 283.9599914550781,
-        "exit": 298.98,
-        "date": "2026-10-29",
-        "exitDate": "2026-11-02",
-        "pct": 5.29
-      },
-      {
-        "t": "ADSK",
-        "side": "long",
-        "entry": 238.01499938964844,
-        "exit": 258.19,
-        "date": "2026-10-29",
-        "exitDate": "2026-11-02",
-        "pct": 8.48
-      },
-      {
-        "t": "ELV",
-        "side": "long",
-        "entry": 418.57000732421875,
-        "exit": 409.09,
-        "date": "2026-10-29",
-        "exitDate": "2026-11-02",
-        "pct": -2.26
-      },
-      {
-        "t": "CI",
-        "side": "long",
-        "entry": 297.1000061035156,
-        "exit": 293.82,
-        "date": "2026-10-29",
-        "exitDate": "2026-11-02",
-        "pct": -1.1
       }
     ],
     "chaos": [
@@ -10319,6 +10323,33 @@
     ],
     "corrbreak": [
       {
+        "t": "LMT",
+        "side": "long",
+        "entry": 598.845,
+        "exit": 578.1,
+        "date": "2026-11-10",
+        "exitDate": "2026-11-18",
+        "pct": -3.46
+      },
+      {
+        "t": "VLO",
+        "side": "long",
+        "entry": 370.18,
+        "exit": 345.89,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": -6.56
+      },
+      {
+        "t": "MSTR",
+        "side": "long",
+        "entry": 102.315,
+        "exit": 93.66,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -8.46
+      },
+      {
         "t": "MSTR",
         "side": "long",
         "entry": 109.97,
@@ -10830,33 +10861,6 @@
         "date": "2026-07-20",
         "exitDate": "2026-07-21",
         "pct": 14.2
-      },
-      {
-        "t": "XOM",
-        "side": "long",
-        "entry": 142.76,
-        "exit": 146.5,
-        "date": "2026-07-13",
-        "exitDate": "2026-07-16",
-        "pct": 2.62
-      },
-      {
-        "t": "MSTR",
-        "side": "long",
-        "entry": 91.7,
-        "exit": 96.81,
-        "date": "2026-07-13",
-        "exitDate": "2026-07-14",
-        "pct": 5.57
-      },
-      {
-        "t": "XOM",
-        "side": "long",
-        "entry": 138.535,
-        "exit": 142.76,
-        "date": "2026-07-09",
-        "exitDate": "2026-07-13",
-        "pct": 3.05
       }
     ],
     "crash": [
@@ -11562,6 +11566,42 @@
     ],
     "desk_rule": [
       {
+        "t": "GD",
+        "side": "long",
+        "entry": null,
+        "exit": null,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": -3.32
+      },
+      {
+        "t": "AMC",
+        "side": "long",
+        "entry": null,
+        "exit": null,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": 0.61
+      },
+      {
+        "t": "VRTX",
+        "side": "long",
+        "entry": null,
+        "exit": null,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 0.97
+      },
+      {
+        "t": "COP/OXY",
+        "side": "pair",
+        "entry": null,
+        "exit": null,
+        "date": "2026-11-02",
+        "exitDate": "2026-11-18",
+        "pct": -1.67
+      },
+      {
         "t": "PENN",
         "side": "long",
         "entry": null,
@@ -12064,42 +12104,6 @@
         "date": "2026-10-27",
         "exitDate": "2026-10-30",
         "pct": 0.19
-      },
-      {
-        "t": "DE",
-        "side": "long",
-        "entry": null,
-        "exit": null,
-        "date": "2026-10-29",
-        "exitDate": "2026-10-30",
-        "pct": 2.08
-      },
-      {
-        "t": "OKE",
-        "side": "long",
-        "entry": null,
-        "exit": null,
-        "date": "2026-10-29",
-        "exitDate": "2026-10-30",
-        "pct": 2.97
-      },
-      {
-        "t": "OKLO",
-        "side": "long",
-        "entry": null,
-        "exit": null,
-        "date": "2026-10-29",
-        "exitDate": "2026-10-30",
-        "pct": -7.29
-      },
-      {
-        "t": "COP/XOP",
-        "side": "pair",
-        "entry": null,
-        "exit": null,
-        "date": "2026-10-15",
-        "exitDate": "2026-10-30",
-        "pct": -2.1
       }
     ],
     "disagreement": [
@@ -15632,6 +15636,33 @@
     ],
     "flow_fade": [
       {
+        "t": "CVX",
+        "side": "short",
+        "entry": null,
+        "exit": null,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": 4.52
+      },
+      {
+        "t": "RIOT",
+        "side": "short",
+        "entry": null,
+        "exit": null,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": -6.44
+      },
+      {
+        "t": "AVGO",
+        "side": "short",
+        "entry": null,
+        "exit": null,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -6.83
+      },
+      {
         "t": "NVDA",
         "side": "long",
         "entry": null,
@@ -16143,33 +16174,6 @@
         "date": "2026-10-23",
         "exitDate": "2026-10-26",
         "pct": -5.41
-      },
-      {
-        "t": "NET",
-        "side": "short",
-        "entry": null,
-        "exit": null,
-        "date": "2026-10-23",
-        "exitDate": "2026-10-26",
-        "pct": -3.18
-      },
-      {
-        "t": "CRWD",
-        "side": "short",
-        "entry": null,
-        "exit": null,
-        "date": "2026-10-23",
-        "exitDate": "2026-10-26",
-        "pct": -5.15
-      },
-      {
-        "t": "PANW",
-        "side": "short",
-        "entry": null,
-        "exit": null,
-        "date": "2026-10-23",
-        "exitDate": "2026-10-26",
-        "pct": -3.98
       }
     ],
     "fridaymon": [
@@ -16716,6 +16720,42 @@
     ],
     "gapfill": [
       {
+        "t": "HD",
+        "side": "long",
+        "entry": 335.07000732421875,
+        "exit": 335.95,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 0.26
+      },
+      {
+        "t": "UNH",
+        "side": "long",
+        "entry": 399.2300109863281,
+        "exit": 371.74,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -6.89
+      },
+      {
+        "t": "CRM",
+        "side": "long",
+        "entry": 209.00999450683594,
+        "exit": 189.44,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -9.36
+      },
+      {
+        "t": "AMGN",
+        "side": "long",
+        "entry": 453.0320129394531,
+        "exit": 450.81,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -0.49
+      },
+      {
         "t": "AMD",
         "side": "long",
         "entry": 566.6699829101562,
@@ -17218,45 +17258,18 @@
         "date": "2026-10-28",
         "exitDate": "2026-10-29",
         "pct": 2.28
-      },
-      {
-        "t": "COIN",
-        "side": "long",
-        "entry": 156.63999938964844,
-        "exit": 161.85,
-        "date": "2026-10-28",
-        "exitDate": "2026-10-29",
-        "pct": 3.33
-      },
-      {
-        "t": "NOW",
-        "side": "long",
-        "entry": 151.60000610351562,
-        "exit": 113.485,
-        "date": "2026-10-28",
-        "exitDate": "2026-10-29",
-        "pct": -25.14
-      },
-      {
-        "t": "MRNA",
-        "side": "long",
-        "entry": 193,
-        "exit": 213.502,
-        "date": "2026-10-27",
-        "exitDate": "2026-10-28",
-        "pct": 10.62
-      },
-      {
-        "t": "BA",
-        "side": "long",
-        "entry": 183.5,
-        "exit": 166.6,
-        "date": "2026-10-27",
-        "exitDate": "2026-10-28",
-        "pct": -9.21
       }
     ],
     "golden_stack": [
+      {
+        "t": "PANW",
+        "side": "long",
+        "entry": 305.29998779296875,
+        "exit": 325.989990234375,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 6.78
+      },
       {
         "t": "PANW",
         "side": "long",
@@ -17787,15 +17800,6 @@
         "date": "2026-09-01",
         "exitDate": "2026-09-04",
         "pct": -0.12
-      },
-      {
-        "t": "AMZN",
-        "side": "long",
-        "entry": 254.97999572753906,
-        "exit": 255.89990234375,
-        "date": "2026-09-01",
-        "exitDate": "2026-09-04",
-        "pct": 0.36
       }
     ],
     "household": [
@@ -18749,6 +18753,51 @@
     ],
     "inverse_stc": [
       {
+        "t": "MDT",
+        "side": "long",
+        "entry": 100.79000091552734,
+        "exit": 100.48,
+        "date": "2026-11-11",
+        "exitDate": "2026-11-18",
+        "pct": -0.31
+      },
+      {
+        "t": "F",
+        "side": "short",
+        "entry": 12.010000228881836,
+        "exit": 11.325,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": 5.7
+      },
+      {
+        "t": "WFC",
+        "side": "long",
+        "entry": 85.44000244140625,
+        "exit": 81.45,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -4.67
+      },
+      {
+        "t": "MU",
+        "side": "short",
+        "entry": 723.6199951171875,
+        "exit": 710.78,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 1.77
+      },
+      {
+        "t": "TGT",
+        "side": "long",
+        "entry": 158.6300048828125,
+        "exit": 168.845,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 6.44
+      },
+      {
         "t": "ELV",
         "side": "long",
         "entry": 429.7449951171875,
@@ -19242,51 +19291,6 @@
         "date": "2026-11-04",
         "exitDate": "2026-11-06",
         "pct": -2.59
-      },
-      {
-        "t": "NET",
-        "side": "short",
-        "entry": 275.5799865722656,
-        "exit": 242.04,
-        "date": "2026-11-02",
-        "exitDate": "2026-11-05",
-        "pct": 12.17
-      },
-      {
-        "t": "PM",
-        "side": "long",
-        "entry": 207.60000610351562,
-        "exit": 208.23,
-        "date": "2026-11-02",
-        "exitDate": "2026-11-05",
-        "pct": 0.3
-      },
-      {
-        "t": "TGT",
-        "side": "short",
-        "entry": 153.89999389648438,
-        "exit": 161.12,
-        "date": "2026-11-03",
-        "exitDate": "2026-11-05",
-        "pct": -4.69
-      },
-      {
-        "t": "IBM",
-        "side": "long",
-        "entry": 249.8300018310547,
-        "exit": 252.64,
-        "date": "2026-11-03",
-        "exitDate": "2026-11-05",
-        "pct": 1.12
-      },
-      {
-        "t": "ZS",
-        "side": "long",
-        "entry": 227.47999572753906,
-        "exit": 210.865,
-        "date": "2026-11-03",
-        "exitDate": "2026-11-05",
-        "pct": -7.3
       }
     ],
     "kalshi_winners": [
@@ -19436,6 +19440,24 @@
       }
     ],
     "kestrel": [
+      {
+        "t": "EOG",
+        "side": "long",
+        "entry": 155.3300018310547,
+        "exit": 152.30499267578125,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": -1.95
+      },
+      {
+        "t": "SPGI",
+        "side": "long",
+        "entry": 471.25,
+        "exit": 445.0400085449219,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -5.56
+      },
       {
         "t": "SMH",
         "side": "long",
@@ -19957,24 +19979,6 @@
         "date": "2026-10-30",
         "exitDate": "2026-11-02",
         "pct": -2.72
-      },
-      {
-        "t": "ITW",
-        "side": "long",
-        "entry": 279.189208984375,
-        "exit": 279.7101135253906,
-        "date": "2026-10-27",
-        "exitDate": "2026-10-30",
-        "pct": 0.19
-      },
-      {
-        "t": "XLK",
-        "side": "long",
-        "entry": 189.2100067138672,
-        "exit": 180.60000610351562,
-        "date": "2026-10-27",
-        "exitDate": "2026-10-30",
-        "pct": -4.55
       }
     ],
     "kestrel_elite": [
@@ -20521,6 +20525,51 @@
     ],
     "leader_pullback": [
       {
+        "t": "CB",
+        "side": "long",
+        "entry": 364.69000244140625,
+        "exit": 371.195,
+        "date": "2026-11-10",
+        "exitDate": "2026-11-18",
+        "pct": 1.78
+      },
+      {
+        "t": "GM",
+        "side": "long",
+        "entry": 86.63500213623047,
+        "exit": 83.82,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": -3.25
+      },
+      {
+        "t": "CVX",
+        "side": "long",
+        "entry": 218.77969360351562,
+        "exit": 208.63,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": -4.64
+      },
+      {
+        "t": "COP",
+        "side": "long",
+        "entry": 142.19000244140625,
+        "exit": 137.19,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": -3.52
+      },
+      {
+        "t": "CI",
+        "side": "long",
+        "entry": 301.80499267578125,
+        "exit": 287.54,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -4.73
+      },
+      {
         "t": "ELV",
         "side": "long",
         "entry": 425.4949951171875,
@@ -21014,51 +21063,6 @@
         "date": "2026-09-09",
         "exitDate": "2026-09-15",
         "pct": -2.48
-      },
-      {
-        "t": "TMO",
-        "side": "long",
-        "entry": 601.1099853515625,
-        "exit": 633.67,
-        "date": "2026-09-10",
-        "exitDate": "2026-09-15",
-        "pct": 5.42
-      },
-      {
-        "t": "TGT",
-        "side": "long",
-        "entry": 158.8000030517578,
-        "exit": 154.47,
-        "date": "2026-09-14",
-        "exitDate": "2026-09-15",
-        "pct": -2.73
-      },
-      {
-        "t": "TGT",
-        "side": "long",
-        "entry": 157.69000244140625,
-        "exit": 156.34,
-        "date": "2026-09-10",
-        "exitDate": "2026-09-11",
-        "pct": -0.86
-      },
-      {
-        "t": "FTNT",
-        "side": "long",
-        "entry": 160.67999267578125,
-        "exit": 156.17,
-        "date": "2026-09-10",
-        "exitDate": "2026-09-11",
-        "pct": -2.81
-      },
-      {
-        "t": "TMO",
-        "side": "long",
-        "entry": 614.0399780273438,
-        "exit": 601.11,
-        "date": "2026-08-31",
-        "exitDate": "2026-09-10",
-        "pct": -2.11
       }
     ],
     "macro": [
@@ -22068,6 +22072,42 @@
     ],
     "onepct": [
       {
+        "t": "ICE",
+        "side": "long",
+        "entry": 176.2100067138672,
+        "exit": 169.64,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -3.73
+      },
+      {
+        "t": "AMT",
+        "side": "long",
+        "entry": 189.47999572753906,
+        "exit": 180.665,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -4.65
+      },
+      {
+        "t": "CCI",
+        "side": "long",
+        "entry": 88.47000122070312,
+        "exit": 82.16,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -7.13
+      },
+      {
+        "t": "ICE",
+        "side": "long",
+        "entry": 176.32000732421875,
+        "exit": 169.66,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -3.78
+      },
+      {
         "t": "TMO",
         "side": "long",
         "entry": 691.8800048828125,
@@ -22570,42 +22610,6 @@
         "date": "2026-11-05",
         "exitDate": "2026-11-06",
         "pct": -7.14
-      },
-      {
-        "t": "PNW",
-        "side": "long",
-        "entry": 105.00499725341797,
-        "exit": 102.45,
-        "date": "2026-11-02",
-        "exitDate": "2026-11-06",
-        "pct": -2.43
-      },
-      {
-        "t": "NDSN",
-        "side": "long",
-        "entry": 326.9800109863281,
-        "exit": 312.15,
-        "date": "2026-11-05",
-        "exitDate": "2026-11-06",
-        "pct": -4.54
-      },
-      {
-        "t": "ADI",
-        "side": "long",
-        "entry": 390.44000244140625,
-        "exit": 362.47,
-        "date": "2026-11-05",
-        "exitDate": "2026-11-06",
-        "pct": -7.16
-      },
-      {
-        "t": "EXPD",
-        "side": "long",
-        "entry": 196.08999633789062,
-        "exit": 188.041,
-        "date": "2026-11-05",
-        "exitDate": "2026-11-06",
-        "pct": -4.1
       }
     ],
     "onepct_v2_winners": [
@@ -23885,6 +23889,177 @@
     ],
     "options_flow": [
       {
+        "t": "PFE",
+        "side": "short",
+        "entry": 29.185,
+        "exit": 28.26,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": 3.17
+      },
+      {
+        "t": "XOM",
+        "side": "short",
+        "entry": 167.84,
+        "exit": 163.79,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": 2.41
+      },
+      {
+        "t": "WMT",
+        "side": "short",
+        "entry": 126.47,
+        "exit": 126.905,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": -0.34
+      },
+      {
+        "t": "COST",
+        "side": "short",
+        "entry": 1098.51,
+        "exit": 1106.29,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": -0.71
+      },
+      {
+        "t": "ABBV",
+        "side": "long",
+        "entry": 296.17,
+        "exit": 288.248,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": -2.67
+      },
+      {
+        "t": "AVGO",
+        "side": "long",
+        "entry": 329.84,
+        "exit": 352.16,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 6.77
+      },
+      {
+        "t": "ORCL",
+        "side": "short",
+        "entry": 119.045,
+        "exit": 114.8,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 3.57
+      },
+      {
+        "t": "JPM",
+        "side": "short",
+        "entry": 342.72,
+        "exit": 326.8,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 4.65
+      },
+      {
+        "t": "BAC",
+        "side": "long",
+        "entry": 50.36,
+        "exit": 48.925,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -2.85
+      },
+      {
+        "t": "COIN",
+        "side": "long",
+        "entry": 118.095,
+        "exit": 112,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -5.16
+      },
+      {
+        "t": "MRK",
+        "side": "short",
+        "entry": 148.42,
+        "exit": 140.33,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 5.45
+      },
+      {
+        "t": "CVX",
+        "side": "short",
+        "entry": 217.69,
+        "exit": 208.6,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 4.18
+      },
+      {
+        "t": "BA",
+        "side": "long",
+        "entry": 167.045,
+        "exit": 162.1,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -2.96
+      },
+      {
+        "t": "CRM",
+        "side": "long",
+        "entry": 197.3,
+        "exit": 189.055,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -4.18
+      },
+      {
+        "t": "XYZ",
+        "side": "long",
+        "entry": 81.604,
+        "exit": 78.72,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -3.53
+      },
+      {
+        "t": "UNH",
+        "side": "short",
+        "entry": 396.88,
+        "exit": 369.495,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 6.9
+      },
+      {
+        "t": "NKE",
+        "side": "short",
+        "entry": 39.075,
+        "exit": 36.105,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 7.6
+      },
+      {
+        "t": "ARM",
+        "side": "long",
+        "entry": 179.03,
+        "exit": 187.385,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 4.67
+      },
+      {
+        "t": "RIOT",
+        "side": "short",
+        "entry": 17.05,
+        "exit": 17.88,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -4.87
+      },
+      {
         "t": "AAPL",
         "side": "short",
         "entry": 357.48,
@@ -24252,180 +24427,234 @@
         "date": "2026-11-13",
         "exitDate": "2026-11-16",
         "pct": 3.85
-      },
+      }
+    ],
+    "options_flow_v2": [
       {
-        "t": "NET",
+        "t": "LLY",
         "side": "short",
-        "entry": 306.64,
-        "exit": 290.845,
-        "date": "2026-11-13",
-        "exitDate": "2026-11-16",
-        "pct": 5.15
-      },
-      {
-        "t": "TSM",
-        "side": "short",
-        "entry": 393.7,
-        "exit": 372.695,
-        "date": "2026-11-13",
-        "exitDate": "2026-11-16",
-        "pct": 5.34
-      },
-      {
-        "t": "GME",
-        "side": "short",
-        "entry": 25.265,
-        "exit": 26.285,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-13",
-        "pct": -4.04
-      },
-      {
-        "t": "INTC",
-        "side": "short",
-        "entry": 61.953,
-        "exit": 57.235,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": 7.62
-      },
-      {
-        "t": "ARM",
-        "side": "short",
-        "entry": 197.405,
-        "exit": 185,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": 6.28
-      },
-      {
-        "t": "NET",
-        "side": "short",
-        "entry": 319.41,
-        "exit": 306.64,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": 4
-      },
-      {
-        "t": "TSM",
-        "side": "long",
-        "entry": 409.5,
-        "exit": 393.7,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": -3.86
-      },
-      {
-        "t": "AMD",
-        "side": "long",
-        "entry": 560.185,
-        "exit": 528.205,
+        "entry": 1446.13,
+        "exit": 1399.52,
         "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": -5.71
-      },
-      {
-        "t": "AVGO",
-        "side": "short",
-        "entry": 361.08,
-        "exit": 340.745,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": 5.63
-      },
-      {
-        "t": "COIN",
-        "side": "short",
-        "entry": 130.18,
-        "exit": 126.01,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": 3.2
-      },
-      {
-        "t": "MARA",
-        "side": "short",
-        "entry": 7.08,
-        "exit": 6.705,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": 5.3
-      },
-      {
-        "t": "RIOT",
-        "side": "short",
-        "entry": 17.585,
-        "exit": 16.78,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": 4.58
-      },
-      {
-        "t": "AAPL",
-        "side": "long",
-        "entry": 343.225,
-        "exit": 357.48,
-        "date": "2026-11-06",
-        "exitDate": "2026-11-12",
-        "pct": 4.15
-      },
-      {
-        "t": "NFLX",
-        "side": "short",
-        "entry": 63.945,
-        "exit": 63.265,
-        "date": "2026-11-06",
-        "exitDate": "2026-11-12",
-        "pct": 1.06
-      },
-      {
-        "t": "CRM",
-        "side": "long",
-        "entry": 211.635,
-        "exit": 215.084,
-        "date": "2026-11-06",
-        "exitDate": "2026-11-12",
-        "pct": 1.63
-      },
-      {
-        "t": "ADBE",
-        "side": "short",
-        "entry": 239.23,
-        "exit": 236.97,
-        "date": "2026-11-06",
-        "exitDate": "2026-11-12",
-        "pct": 0.94
-      },
-      {
-        "t": "COIN",
-        "side": "short",
-        "entry": 134.7,
-        "exit": 130.18,
-        "date": "2026-11-06",
-        "exitDate": "2026-11-12",
-        "pct": 3.36
-      },
-      {
-        "t": "UNH",
-        "side": "short",
-        "entry": 392.27,
-        "exit": 403.46,
-        "date": "2026-11-06",
-        "exitDate": "2026-11-12",
-        "pct": -2.85
+        "exitDate": "2026-11-18",
+        "pct": 3.22
       },
       {
         "t": "PFE",
         "side": "short",
-        "entry": 29.29,
-        "exit": 29.185,
-        "date": "2026-11-06",
-        "exitDate": "2026-11-12",
-        "pct": 0.36
-      }
-    ],
-    "options_flow_v2": [
+        "entry": 29.165,
+        "exit": 28.265,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": 3.09
+      },
+      {
+        "t": "MRK",
+        "side": "short",
+        "entry": 147.885,
+        "exit": 140.3,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": 5.13
+      },
+      {
+        "t": "ABBV",
+        "side": "short",
+        "entry": 297.675,
+        "exit": 288.22,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": 3.18
+      },
+      {
+        "t": "XOM",
+        "side": "short",
+        "entry": 167.91,
+        "exit": 163.73,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": 2.49
+      },
+      {
+        "t": "WMT",
+        "side": "short",
+        "entry": 126.47,
+        "exit": 126.89,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": -0.33
+      },
+      {
+        "t": "CVX",
+        "side": "long",
+        "entry": 218.47,
+        "exit": 208.585,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": -4.52
+      },
+      {
+        "t": "RIOT",
+        "side": "long",
+        "entry": 16.78,
+        "exit": 17.86,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": 6.44
+      },
+      {
+        "t": "AVGO",
+        "side": "long",
+        "entry": 329.495,
+        "exit": 352,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 6.83
+      },
+      {
+        "t": "ORCL",
+        "side": "short",
+        "entry": 118.932,
+        "exit": 114.82,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 3.46
+      },
+      {
+        "t": "V",
+        "side": "short",
+        "entry": 430.09,
+        "exit": 414.53,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 3.62
+      },
+      {
+        "t": "MA",
+        "side": "short",
+        "entry": 666.935,
+        "exit": 639.67,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 4.09
+      },
+      {
+        "t": "COIN",
+        "side": "short",
+        "entry": 117.99,
+        "exit": 112.04,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 5.04
+      },
+      {
+        "t": "SOFI",
+        "side": "short",
+        "entry": 14.79,
+        "exit": 14.305,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 3.28
+      },
+      {
+        "t": "XYZ",
+        "side": "short",
+        "entry": 83.425,
+        "exit": 78.67,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 5.7
+      },
+      {
+        "t": "BA",
+        "side": "long",
+        "entry": 166.92,
+        "exit": 162.05,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -2.92
+      },
+      {
+        "t": "CRWD",
+        "side": "short",
+        "entry": 219.455,
+        "exit": 231.525,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -5.5
+      },
+      {
+        "t": "CRM",
+        "side": "long",
+        "entry": 196.8,
+        "exit": 189,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -3.96
+      },
+      {
+        "t": "UNH",
+        "side": "short",
+        "entry": 396.4901,
+        "exit": 368.88,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 6.96
+      },
+      {
+        "t": "NKE",
+        "side": "short",
+        "entry": 39.0902,
+        "exit": 36.1,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 7.65
+      },
+      {
+        "t": "SMCI",
+        "side": "short",
+        "entry": 23.825,
+        "exit": 24.375,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -2.31
+      },
+      {
+        "t": "ARM",
+        "side": "short",
+        "entry": 178.6892,
+        "exit": 187.41,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -4.88
+      },
+      {
+        "t": "NET",
+        "side": "short",
+        "entry": 279,
+        "exit": 295.75,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -6
+      },
+      {
+        "t": "PANW",
+        "side": "short",
+        "entry": 304.19,
+        "exit": 325.8,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -7.1
+      },
+      {
+        "t": "MU",
+        "side": "short",
+        "entry": 687.64,
+        "exit": 707.37,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -2.87
+      },
       {
         "t": "AAPL",
         "side": "short",
@@ -24740,234 +24969,99 @@
         "date": "2026-11-11",
         "exitDate": "2026-11-16",
         "pct": -0.46
-      },
+      }
+    ],
+    "oracle": [
       {
-        "t": "ADBE",
-        "side": "short",
-        "entry": 236.87,
-        "exit": 247.53,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-16",
-        "pct": -4.5
-      },
-      {
-        "t": "UNH",
-        "side": "short",
-        "entry": 403.585,
-        "exit": 412.415,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-16",
-        "pct": -2.19
-      },
-      {
-        "t": "DKNG",
+        "t": "MELI",
         "side": "long",
-        "entry": 18.82,
-        "exit": 17.967,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-16",
-        "pct": -4.53
+        "entry": 1511.7900390625,
+        "exit": 1433.7,
+        "date": "2026-11-10",
+        "exitDate": "2026-11-18",
+        "pct": -5.17
       },
       {
-        "t": "BABA",
+        "t": "PINS",
         "side": "long",
-        "entry": 94.725,
-        "exit": 91.65,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-16",
-        "pct": -3.25
+        "entry": 18.78499984741211,
+        "exit": 18.005,
+        "date": "2026-11-10",
+        "exitDate": "2026-11-18",
+        "pct": -4.15
       },
       {
-        "t": "AMD",
+        "t": "CMG",
         "side": "short",
-        "entry": 527.7,
-        "exit": 502.635,
-        "date": "2026-11-13",
-        "exitDate": "2026-11-16",
-        "pct": 4.75
+        "entry": 35.834999084472656,
+        "exit": 36.645,
+        "date": "2026-11-10",
+        "exitDate": "2026-11-18",
+        "pct": -2.26
       },
       {
-        "t": "AVGO",
+        "t": "ICE",
         "side": "short",
-        "entry": 340.92,
-        "exit": 329.39,
-        "date": "2026-11-13",
-        "exitDate": "2026-11-16",
-        "pct": 3.38
-      },
-      {
-        "t": "INTC",
-        "side": "long",
-        "entry": 57.27,
-        "exit": 55.51,
-        "date": "2026-11-13",
-        "exitDate": "2026-11-16",
-        "pct": -3.07
+        "entry": 178.1300048828125,
+        "exit": 170.145,
+        "date": "2026-11-11",
+        "exitDate": "2026-11-18",
+        "pct": 4.48
       },
       {
         "t": "COIN",
         "side": "long",
-        "entry": 126.05,
-        "exit": 118,
-        "date": "2026-11-13",
-        "exitDate": "2026-11-16",
-        "pct": -6.39
+        "entry": 117.70500183105469,
+        "exit": 112.186,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -4.69
       },
       {
-        "t": "HOOD",
-        "side": "short",
-        "entry": 77.13,
-        "exit": 73.245,
-        "date": "2026-11-13",
-        "exitDate": "2026-11-16",
-        "pct": 5.04
-      },
-      {
-        "t": "SOFI",
-        "side": "short",
-        "entry": 15.2685,
-        "exit": 14.785,
-        "date": "2026-11-13",
-        "exitDate": "2026-11-16",
-        "pct": 3.17
-      },
-      {
-        "t": "SMCI",
-        "side": "short",
-        "entry": 26.22,
-        "exit": 25.175,
-        "date": "2026-11-13",
-        "exitDate": "2026-11-16",
-        "pct": 3.99
-      },
-      {
-        "t": "PLTR",
+        "t": "FCX",
         "side": "long",
-        "entry": 165.2,
-        "exit": 160.99,
-        "date": "2026-11-13",
-        "exitDate": "2026-11-16",
-        "pct": -2.55
+        "entry": 56.13990020751953,
+        "exit": 51.34,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -8.55
       },
       {
-        "t": "NET",
+        "t": "HUM",
+        "side": "short",
+        "entry": 458.27520751953125,
+        "exit": 426.198,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 7
+      },
+      {
+        "t": "PLUG",
         "side": "long",
-        "entry": 305.995,
-        "exit": 290.36,
-        "date": "2026-11-13",
-        "exitDate": "2026-11-16",
-        "pct": -5.11
+        "entry": 1.024999976158142,
+        "exit": 1.121,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 9.37
       },
       {
-        "t": "MU",
+        "t": "CRM",
         "side": "long",
-        "entry": 758.255,
-        "exit": 720.7,
-        "date": "2026-11-13",
-        "exitDate": "2026-11-16",
-        "pct": -4.95
+        "entry": 197.77049255371094,
+        "exit": 187.76,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -5.06
       },
       {
-        "t": "TSM",
+        "t": "TMUS",
         "side": "short",
-        "entry": 393.71,
-        "exit": 372.56,
-        "date": "2026-11-13",
-        "exitDate": "2026-11-16",
-        "pct": 5.37
+        "entry": 173.52499389648438,
+        "exit": 162.835,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 6.16
       },
-      {
-        "t": "SOFI",
-        "side": "short",
-        "entry": 16.235,
-        "exit": 15.28,
-        "date": "2026-11-10",
-        "exitDate": "2026-11-13",
-        "pct": 5.88
-      },
-      {
-        "t": "GME",
-        "side": "short",
-        "entry": 25.42,
-        "exit": 26.26,
-        "date": "2026-11-10",
-        "exitDate": "2026-11-13",
-        "pct": -3.3
-      },
-      {
-        "t": "INTC",
-        "side": "short",
-        "entry": 61.95,
-        "exit": 57.29,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": 7.52
-      },
-      {
-        "t": "COST",
-        "side": "short",
-        "entry": 1078.8801,
-        "exit": 1106.99,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": -2.61
-      },
-      {
-        "t": "ARM",
-        "side": "short",
-        "entry": 197.6748,
-        "exit": 185.15,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": 6.34
-      },
-      {
-        "t": "PLTR",
-        "side": "short",
-        "entry": 172.545,
-        "exit": 165.15,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": 4.29
-      },
-      {
-        "t": "NET",
-        "side": "short",
-        "entry": 319.12,
-        "exit": 306.255,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": 4.03
-      },
-      {
-        "t": "TSM",
-        "side": "short",
-        "entry": 409.7547,
-        "exit": 393.7,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": 3.92
-      },
-      {
-        "t": "AMD",
-        "side": "short",
-        "entry": 559.86,
-        "exit": 528.455,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": 5.61
-      },
-      {
-        "t": "AVGO",
-        "side": "short",
-        "entry": 361.292,
-        "exit": 340.88,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": 5.65
-      }
-    ],
-    "oracle": [
       {
         "t": "NVDA",
         "side": "long",
@@ -25417,99 +25511,18 @@
         "date": "2026-10-30",
         "exitDate": "2026-11-06",
         "pct": 3.01
-      },
-      {
-        "t": "LLY",
-        "side": "short",
-        "entry": 1431.3199462890625,
-        "exit": 1364.51,
-        "date": "2026-10-30",
-        "exitDate": "2026-11-06",
-        "pct": 4.67
-      },
-      {
-        "t": "REGN",
-        "side": "short",
-        "entry": 961.8353271484375,
-        "exit": 905.285,
-        "date": "2026-11-02",
-        "exitDate": "2026-11-06",
-        "pct": 5.88
-      },
-      {
-        "t": "FTNT",
-        "side": "long",
-        "entry": 128.7100067138672,
-        "exit": 120.59,
-        "date": "2026-11-03",
-        "exitDate": "2026-11-06",
-        "pct": -6.31
-      },
-      {
-        "t": "CHPT",
-        "side": "short",
-        "entry": 10.664999961853027,
-        "exit": 11.915,
-        "date": "2026-11-03",
-        "exitDate": "2026-11-06",
-        "pct": -11.72
-      },
-      {
-        "t": "ZTS",
-        "side": "long",
-        "entry": 86.56999969482422,
-        "exit": 79.26,
-        "date": "2026-11-04",
-        "exitDate": "2026-11-06",
-        "pct": -8.44
-      },
-      {
-        "t": "STX",
-        "side": "long",
-        "entry": 479.18499755859375,
-        "exit": 459.56,
-        "date": "2026-11-05",
-        "exitDate": "2026-11-06",
-        "pct": -4.1
-      },
-      {
-        "t": "ROP",
-        "side": "short",
-        "entry": 504.55999755859375,
-        "exit": 475.505,
-        "date": "2026-11-05",
-        "exitDate": "2026-11-06",
-        "pct": 5.76
-      },
-      {
-        "t": "ABT",
-        "side": "short",
-        "entry": 116.45999908447266,
-        "exit": 111.45,
-        "date": "2026-11-05",
-        "exitDate": "2026-11-06",
-        "pct": 4.3
-      },
-      {
-        "t": "GOOG",
-        "side": "short",
-        "entry": 284.0472106933594,
-        "exit": 282.6,
-        "date": "2026-10-29",
-        "exitDate": "2026-11-05",
-        "pct": 0.51
-      },
-      {
-        "t": "GOOGL",
-        "side": "short",
-        "entry": 286.43499755859375,
-        "exit": 284.17,
-        "date": "2026-10-29",
-        "exitDate": "2026-11-05",
-        "pct": 0.79
       }
     ],
     "pairtrader": [
+      {
+        "t": "COP/OXY",
+        "side": "pair",
+        "entry": null,
+        "exit": null,
+        "date": "2026-11-02",
+        "exitDate": "2026-11-18",
+        "pct": -1.67
+      },
       {
         "t": "COP/XOP",
         "side": "pair",
@@ -26040,18 +26053,45 @@
         "date": "2026-08-20",
         "exitDate": "2026-09-04",
         "pct": 0.39
-      },
-      {
-        "t": "COP/XLE",
-        "side": "pair",
-        "entry": null,
-        "exit": null,
-        "date": "2026-08-20",
-        "exitDate": "2026-09-04",
-        "pct": -0.04
       }
     ],
     "pead": [
+      {
+        "t": "MRK",
+        "side": "long",
+        "entry": 149.335,
+        "exit": 140.65,
+        "date": "2026-10-30",
+        "exitDate": "2026-11-18",
+        "pct": -5.82
+      },
+      {
+        "t": "BILL",
+        "side": "long",
+        "entry": 53.42,
+        "exit": 65.26,
+        "date": "2026-11-06",
+        "exitDate": "2026-11-18",
+        "pct": 22.16
+      },
+      {
+        "t": "RUN",
+        "side": "long",
+        "entry": 8.439,
+        "exit": 7.605,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": -9.88
+      },
+      {
+        "t": "ENPH",
+        "side": "short",
+        "entry": 25.61,
+        "exit": 23.355,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": 8.81
+      },
       {
         "t": "DDOG",
         "side": "long",
@@ -26555,42 +26595,6 @@
         "date": "2026-07-31",
         "exitDate": "2026-08-31",
         "pct": -3.2
-      },
-      {
-        "t": "XPO",
-        "side": "long",
-        "entry": 199.34,
-        "exit": 192.28,
-        "date": "2026-07-31",
-        "exitDate": "2026-08-31",
-        "pct": -3.54
-      },
-      {
-        "t": "MPC",
-        "side": "long",
-        "entry": 341.118,
-        "exit": 370.07,
-        "date": "2026-08-12",
-        "exitDate": "2026-08-31",
-        "pct": 8.49
-      },
-      {
-        "t": "GS",
-        "side": "long",
-        "entry": 1025.06,
-        "exit": 1039.28,
-        "date": "2026-07-28",
-        "exitDate": "2026-08-28",
-        "pct": 1.39
-      },
-      {
-        "t": "LVS",
-        "side": "short",
-        "entry": 48.045,
-        "exit": 45.165,
-        "date": "2026-07-28",
-        "exitDate": "2026-08-28",
-        "pct": 5.99
       }
     ],
     "post_fomc": [
@@ -27789,6 +27793,15 @@
     ],
     "rs_new_leader": [
       {
+        "t": "LMT",
+        "side": "long",
+        "entry": 607.989990234375,
+        "exit": 578.005,
+        "date": "2026-11-11",
+        "exitDate": "2026-11-18",
+        "pct": -4.93
+      },
+      {
         "t": "XYZ",
         "side": "long",
         "entry": 85.73500061035156,
@@ -28087,6 +28100,195 @@
       }
     ],
     "scalp": [
+      {
+        "t": "ABBV",
+        "side": "short",
+        "entry": 297.9750061035156,
+        "exit": 287.95,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 3.36
+      },
+      {
+        "t": "COP",
+        "side": "long",
+        "entry": 140.11500549316406,
+        "exit": 137.21,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -2.07
+      },
+      {
+        "t": "AMD",
+        "side": "long",
+        "entry": 497.0299987792969,
+        "exit": 509.36,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 2.48
+      },
+      {
+        "t": "JPM",
+        "side": "long",
+        "entry": 333.6000061035156,
+        "exit": 326.895,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -2.01
+      },
+      {
+        "t": "WFC",
+        "side": "long",
+        "entry": 83.95500183105469,
+        "exit": 81.28,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -3.19
+      },
+      {
+        "t": "BLK",
+        "side": "long",
+        "entry": 1194.6099853515625,
+        "exit": 1175.135,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -1.63
+      },
+      {
+        "t": "JNJ",
+        "side": "long",
+        "entry": 281.6600036621094,
+        "exit": 275.4,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -2.22
+      },
+      {
+        "t": "LLY",
+        "side": "long",
+        "entry": 1430.3900146484375,
+        "exit": 1398.32,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -2.24
+      },
+      {
+        "t": "PFE",
+        "side": "long",
+        "entry": 28.6299991607666,
+        "exit": 28.24,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -1.36
+      },
+      {
+        "t": "MRK",
+        "side": "long",
+        "entry": 144.57000732421875,
+        "exit": 140.19,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -3.03
+      },
+      {
+        "t": "ABT",
+        "side": "long",
+        "entry": 107.375,
+        "exit": 104.475,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -2.7
+      },
+      {
+        "t": "LOW",
+        "side": "long",
+        "entry": 223.97000122070312,
+        "exit": 220.075,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -1.74
+      },
+      {
+        "t": "TGT",
+        "side": "long",
+        "entry": 158.67999267578125,
+        "exit": 169.135,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 6.59
+      },
+      {
+        "t": "NKE",
+        "side": "short",
+        "entry": 39.05500030517578,
+        "exit": 36.105,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 7.55
+      },
+      {
+        "t": "XYZ",
+        "side": "long",
+        "entry": 81.61499786376953,
+        "exit": 78.78,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -3.47
+      },
+      {
+        "t": "SNOW",
+        "side": "long",
+        "entry": 267.3949890136719,
+        "exit": 274.62,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 2.7
+      },
+      {
+        "t": "NET",
+        "side": "long",
+        "entry": 280.6099853515625,
+        "exit": 294.73,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 5.03
+      },
+      {
+        "t": "CRWD",
+        "side": "long",
+        "entry": 216.43499755859375,
+        "exit": 229.87,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 6.21
+      },
+      {
+        "t": "PANW",
+        "side": "long",
+        "entry": 305.9700012207031,
+        "exit": 323.77,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 5.82
+      },
+      {
+        "t": "ZS",
+        "side": "long",
+        "entry": 181.9499969482422,
+        "exit": 191.39,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 5.19
+      },
+      {
+        "t": "XLF",
+        "side": "long",
+        "entry": 57.69499969482422,
+        "exit": 56.53,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -2.02
+      },
       {
         "t": "AMD",
         "side": "long",
@@ -28437,198 +28639,171 @@
         "date": "2026-11-11",
         "exitDate": "2026-11-13",
         "pct": 0.51
-      },
-      {
-        "t": "TGT",
-        "side": "long",
-        "entry": 161.46499633789062,
-        "exit": 159.871,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": -0.99
-      },
-      {
-        "t": "SHOP",
-        "side": "short",
-        "entry": 147.60000610351562,
-        "exit": 146.81,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": 0.54
-      },
-      {
-        "t": "PYPL",
-        "side": "long",
-        "entry": 58.84000015258789,
-        "exit": 59.145,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": 0.52
-      },
-      {
-        "t": "PLTR",
-        "side": "short",
-        "entry": 172.2899932861328,
-        "exit": 165.25,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": 4.09
-      },
-      {
-        "t": "TSM",
-        "side": "short",
-        "entry": 409.4700012207031,
-        "exit": 395.305,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": 3.46
-      },
-      {
-        "t": "NVDA",
-        "side": "long",
-        "entry": 163.6649932861328,
-        "exit": 160.01,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": -2.23
-      },
-      {
-        "t": "AMD",
-        "side": "short",
-        "entry": 559.6900024414062,
-        "exit": 530.14,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": 5.28
-      },
-      {
-        "t": "AVGO",
-        "side": "short",
-        "entry": 360.8450012207031,
-        "exit": 341.865,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": 5.26
-      },
-      {
-        "t": "ORCL",
-        "side": "long",
-        "entry": 125.14649963378906,
-        "exit": 123.38,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": -1.41
-      },
-      {
-        "t": "LOW",
-        "side": "long",
-        "entry": 231.27000427246094,
-        "exit": 225.94,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": -2.3
-      },
-      {
-        "t": "SBUX",
-        "side": "long",
-        "entry": 109.27999877929688,
-        "exit": 107,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": -2.09
-      },
-      {
-        "t": "SMCI",
-        "side": "long",
-        "entry": 27.915000915527344,
-        "exit": 26.27,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": -5.89
-      },
-      {
-        "t": "ARM",
-        "side": "long",
-        "entry": 197.8300018310547,
-        "exit": 185.43,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": -6.27
-      },
-      {
-        "t": "XLK",
-        "side": "long",
-        "entry": 172.27999877929688,
-        "exit": 168.51,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": -2.19
-      },
-      {
-        "t": "SMH",
-        "side": "long",
-        "entry": 496.5799865722656,
-        "exit": 478.335,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": -3.67
-      },
-      {
-        "t": "GOOGL",
-        "side": "short",
-        "entry": 294.04949951171875,
-        "exit": 295.165,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": -0.38
-      },
-      {
-        "t": "V",
-        "side": "long",
-        "entry": 420.3699951171875,
-        "exit": 426.235,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": 1.4
-      },
-      {
-        "t": "PFE",
-        "side": "long",
-        "entry": 29.145000457763672,
-        "exit": 29.19,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": 0.15
-      },
-      {
-        "t": "ABT",
-        "side": "long",
-        "entry": 109.27999877929688,
-        "exit": 108.63,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": -0.59
-      },
-      {
-        "t": "CVX",
-        "side": "long",
-        "entry": 211.15499877929688,
-        "exit": 214.45,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": 1.56
-      },
-      {
-        "t": "SLB",
-        "side": "short",
-        "entry": 50.44499969482422,
-        "exit": 50.24,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": 0.41
       }
     ],
     "scalp_inverse": [
+      {
+        "t": "AMZN",
+        "side": "short",
+        "entry": 260.6600036621094,
+        "exit": 264.42,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -1.44
+      },
+      {
+        "t": "CRWD",
+        "side": "short",
+        "entry": 219.19000244140625,
+        "exit": 231.08,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -5.42
+      },
+      {
+        "t": "JPM",
+        "side": "short",
+        "entry": 333.7149963378906,
+        "exit": 326.885,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 2.05
+      },
+      {
+        "t": "WFC",
+        "side": "short",
+        "entry": 84.0447006225586,
+        "exit": 81.285,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 3.28
+      },
+      {
+        "t": "JNJ",
+        "side": "short",
+        "entry": 281.6700134277344,
+        "exit": 275.465,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 2.2
+      },
+      {
+        "t": "LLY",
+        "side": "short",
+        "entry": 1431.68994140625,
+        "exit": 1398.92,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 2.29
+      },
+      {
+        "t": "ABBV",
+        "side": "short",
+        "entry": 293.7799987792969,
+        "exit": 288.05,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 1.95
+      },
+      {
+        "t": "ABT",
+        "side": "short",
+        "entry": 107.39199829101562,
+        "exit": 104.42,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 2.77
+      },
+      {
+        "t": "LOW",
+        "side": "short",
+        "entry": 224.3000030517578,
+        "exit": 220.035,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 1.9
+      },
+      {
+        "t": "TGT",
+        "side": "short",
+        "entry": 158.81500244140625,
+        "exit": 169.27,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -6.58
+      },
+      {
+        "t": "NKE",
+        "side": "long",
+        "entry": 39.09000015258789,
+        "exit": 36.125,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -7.59
+      },
+      {
+        "t": "MCD",
+        "side": "long",
+        "entry": 278.8800048828125,
+        "exit": 274.37,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -1.62
+      },
+      {
+        "t": "XYZ",
+        "side": "short",
+        "entry": 81.70999908447266,
+        "exit": 78.74,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 3.63
+      },
+      {
+        "t": "SNOW",
+        "side": "short",
+        "entry": 267.2799987792969,
+        "exit": 275.06,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -2.91
+      },
+      {
+        "t": "NET",
+        "side": "short",
+        "entry": 279.82000732421875,
+        "exit": 295.6,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -5.64
+      },
+      {
+        "t": "PANW",
+        "side": "short",
+        "entry": 305.32000732421875,
+        "exit": 326.49,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -6.93
+      },
+      {
+        "t": "ZS",
+        "side": "short",
+        "entry": 182.16000366210938,
+        "exit": 192.19,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -5.51
+      },
+      {
+        "t": "XLF",
+        "side": "short",
+        "entry": 57.68000030517578,
+        "exit": 56.541,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 1.97
+      },
       {
         "t": "ADBE",
         "side": "long",
@@ -29006,168 +29181,6 @@
         "date": "2026-11-12",
         "exitDate": "2026-11-13",
         "pct": -5.74
-      },
-      {
-        "t": "AVGO",
-        "side": "long",
-        "entry": 361.2900085449219,
-        "exit": 341.24,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": -5.55
-      },
-      {
-        "t": "LOW",
-        "side": "short",
-        "entry": 231.27000427246094,
-        "exit": 225.9,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": 2.32
-      },
-      {
-        "t": "SBUX",
-        "side": "short",
-        "entry": 109.2699966430664,
-        "exit": 107.09,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": 2
-      },
-      {
-        "t": "SMCI",
-        "side": "short",
-        "entry": 27.90999984741211,
-        "exit": 26.23,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": 6.02
-      },
-      {
-        "t": "ARM",
-        "side": "short",
-        "entry": 198.2449951171875,
-        "exit": 185.19,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": 6.59
-      },
-      {
-        "t": "XLK",
-        "side": "short",
-        "entry": 172.19000244140625,
-        "exit": 168.185,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": 2.33
-      },
-      {
-        "t": "SMH",
-        "side": "short",
-        "entry": 496.3599853515625,
-        "exit": 476.71,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": 3.96
-      },
-      {
-        "t": "V",
-        "side": "short",
-        "entry": 420.5,
-        "exit": 426.29,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": -1.38
-      },
-      {
-        "t": "PFE",
-        "side": "short",
-        "entry": 29.145000457763672,
-        "exit": 29.175,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": -0.1
-      },
-      {
-        "t": "ABT",
-        "side": "short",
-        "entry": 109.33000183105469,
-        "exit": 108.6,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": 0.67
-      },
-      {
-        "t": "CVX",
-        "side": "short",
-        "entry": 210.9824981689453,
-        "exit": 214.575,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": -1.7
-      },
-      {
-        "t": "SLB",
-        "side": "long",
-        "entry": 50.41999816894531,
-        "exit": 50.265,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": -0.31
-      },
-      {
-        "t": "LOW",
-        "side": "long",
-        "entry": 227.74000549316406,
-        "exit": 231.27,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": 1.55
-      },
-      {
-        "t": "WMT",
-        "side": "short",
-        "entry": 124.08000183105469,
-        "exit": 126.53,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": -1.97
-      },
-      {
-        "t": "SPOT",
-        "side": "short",
-        "entry": 594.5900268554688,
-        "exit": 605.04,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": -1.76
-      },
-      {
-        "t": "XLF",
-        "side": "short",
-        "entry": 57.625,
-        "exit": 58.605,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": -1.7
-      },
-      {
-        "t": "GOOGL",
-        "side": "long",
-        "entry": 290.04998779296875,
-        "exit": 295.43,
-        "date": "2026-11-10",
-        "exitDate": "2026-11-12",
-        "pct": 1.85
-      },
-      {
-        "t": "CRM",
-        "side": "short",
-        "entry": 213.75999450683594,
-        "exit": 215.264,
-        "date": "2026-11-10",
-        "exitDate": "2026-11-12",
-        "pct": -0.7
       }
     ],
     "scalp_v3": [
@@ -30512,6 +30525,15 @@
     ],
     "sentiment_v5": [
       {
+        "t": "ASTS",
+        "side": "long",
+        "entry": 28.98,
+        "exit": 27.014,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -6.78
+      },
+      {
         "t": "PR",
         "side": "long",
         "entry": 22.49,
@@ -31041,15 +31063,6 @@
         "date": "2026-05-29",
         "exitDate": "2026-06-01",
         "pct": 10.23
-      },
-      {
-        "t": "TTWO",
-        "side": "long",
-        "entry": 224.23,
-        "exit": 226.26,
-        "date": "2026-05-22",
-        "exitDate": "2026-05-29",
-        "pct": 0.91
       }
     ],
     "sentiment_winners": [
@@ -31246,6 +31259,15 @@
       }
     ],
     "squeeze": [
+      {
+        "t": "TTOO",
+        "side": "long",
+        "entry": 0.009999999776482582,
+        "exit": 0.0004,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -96
+      },
       {
         "t": "TTOO",
         "side": "long",
@@ -31776,15 +31798,6 @@
         "date": "2026-08-21",
         "exitDate": "2026-08-28",
         "pct": -4.29
-      },
-      {
-        "t": "EOLS",
-        "side": "long",
-        "entry": 8.217300415039062,
-        "exit": 8.85,
-        "date": "2026-08-17",
-        "exitDate": "2026-08-25",
-        "pct": 7.7
       }
     ],
     "sss": [
@@ -32232,6 +32245,177 @@
     ],
     "stc": [
       {
+        "t": "AXP",
+        "side": "short",
+        "entry": 326.51251220703125,
+        "exit": 314.215,
+        "date": "2026-11-10",
+        "exitDate": "2026-11-18",
+        "pct": 3.77
+      },
+      {
+        "t": "USB",
+        "side": "short",
+        "entry": 60.79499816894531,
+        "exit": 58.54,
+        "date": "2026-11-10",
+        "exitDate": "2026-11-18",
+        "pct": 3.71
+      },
+      {
+        "t": "MPC",
+        "side": "long",
+        "entry": 385.95001220703125,
+        "exit": 381.575,
+        "date": "2026-11-10",
+        "exitDate": "2026-11-18",
+        "pct": -1.13
+      },
+      {
+        "t": "VST",
+        "side": "long",
+        "entry": 133.52000427246094,
+        "exit": 127.655,
+        "date": "2026-11-10",
+        "exitDate": "2026-11-18",
+        "pct": -4.39
+      },
+      {
+        "t": "HYG",
+        "side": "short",
+        "entry": 77.23500061035156,
+        "exit": 76.684,
+        "date": "2026-11-10",
+        "exitDate": "2026-11-18",
+        "pct": 0.71
+      },
+      {
+        "t": "FAS",
+        "side": "short",
+        "entry": 176.27000427246094,
+        "exit": 162.386,
+        "date": "2026-11-10",
+        "exitDate": "2026-11-18",
+        "pct": 7.88
+      },
+      {
+        "t": "NAIL",
+        "side": "short",
+        "entry": 36.220001220703125,
+        "exit": 31.157,
+        "date": "2026-11-10",
+        "exitDate": "2026-11-18",
+        "pct": 13.98
+      },
+      {
+        "t": "OXY",
+        "side": "long",
+        "entry": 57.275001525878906,
+        "exit": 54.595,
+        "date": "2026-11-11",
+        "exitDate": "2026-11-18",
+        "pct": -4.68
+      },
+      {
+        "t": "WFC",
+        "side": "short",
+        "entry": 86.25499725341797,
+        "exit": 81.6,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": 5.4
+      },
+      {
+        "t": "NEM",
+        "side": "short",
+        "entry": 114.13500213623047,
+        "exit": 104.59,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": 8.36
+      },
+      {
+        "t": "ACHR",
+        "side": "short",
+        "entry": 4.164999961853027,
+        "exit": 3.465,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": 16.81
+      },
+      {
+        "t": "ADBE",
+        "side": "long",
+        "entry": 240.60499572753906,
+        "exit": 230.86,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": -4.05
+      },
+      {
+        "t": "CLF",
+        "side": "long",
+        "entry": 12.619999885559082,
+        "exit": 11.685,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": -7.41
+      },
+      {
+        "t": "JPM",
+        "side": "short",
+        "entry": 344.2699890136719,
+        "exit": 327.54,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": 4.86
+      },
+      {
+        "t": "SPGI",
+        "side": "short",
+        "entry": 473.7650146484375,
+        "exit": 443.58,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 6.37
+      },
+      {
+        "t": "FCX",
+        "side": "long",
+        "entry": 56.50379943847656,
+        "exit": 51.105,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -9.55
+      },
+      {
+        "t": "CURE",
+        "side": "short",
+        "entry": 182.0198974609375,
+        "exit": 163.11,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 10.39
+      },
+      {
+        "t": "VLO",
+        "side": "long",
+        "entry": 369.5050048828125,
+        "exit": 347.47,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -5.96
+      },
+      {
+        "t": "PSX",
+        "side": "long",
+        "entry": 258.79998779296875,
+        "exit": 248.995,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -3.79
+      },
+      {
         "t": "GOOGL",
         "side": "long",
         "entry": 294.0950012207031,
@@ -32599,177 +32783,6 @@
         "date": "2026-11-04",
         "exitDate": "2026-11-12",
         "pct": 0.2
-      },
-      {
-        "t": "MAR",
-        "side": "short",
-        "entry": 416.5,
-        "exit": 430.33,
-        "date": "2026-11-04",
-        "exitDate": "2026-11-12",
-        "pct": -3.32
-      },
-      {
-        "t": "MGM",
-        "side": "short",
-        "entry": 32.75,
-        "exit": 33.145,
-        "date": "2026-11-04",
-        "exitDate": "2026-11-12",
-        "pct": -1.21
-      },
-      {
-        "t": "SLV",
-        "side": "long",
-        "entry": 46.9900016784668,
-        "exit": 44.915,
-        "date": "2026-11-04",
-        "exitDate": "2026-11-12",
-        "pct": -4.42
-      },
-      {
-        "t": "MSTR",
-        "side": "long",
-        "entry": 126.73999786376953,
-        "exit": 113.68,
-        "date": "2026-11-06",
-        "exitDate": "2026-11-12",
-        "pct": -10.3
-      },
-      {
-        "t": "NVDA",
-        "side": "long",
-        "entry": 178.2725067138672,
-        "exit": 160.87,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": -9.76
-      },
-      {
-        "t": "COST",
-        "side": "short",
-        "entry": 1060.780029296875,
-        "exit": 1096.285,
-        "date": "2026-11-10",
-        "exitDate": "2026-11-12",
-        "pct": -3.35
-      },
-      {
-        "t": "GS",
-        "side": "short",
-        "entry": 897.510009765625,
-        "exit": 923.36,
-        "date": "2026-11-03",
-        "exitDate": "2026-11-11",
-        "pct": -2.88
-      },
-      {
-        "t": "UNP",
-        "side": "short",
-        "entry": 302.9949951171875,
-        "exit": 300.33,
-        "date": "2026-11-03",
-        "exitDate": "2026-11-11",
-        "pct": 0.88
-      },
-      {
-        "t": "ECL",
-        "side": "short",
-        "entry": 305.7900085449219,
-        "exit": 305.355,
-        "date": "2026-11-03",
-        "exitDate": "2026-11-11",
-        "pct": 0.14
-      },
-      {
-        "t": "ARM",
-        "side": "long",
-        "entry": 169.75,
-        "exit": 194.155,
-        "date": "2026-11-05",
-        "exitDate": "2026-11-11",
-        "pct": 14.38
-      },
-      {
-        "t": "PLTR",
-        "side": "long",
-        "entry": 156.4716033935547,
-        "exit": 171.775,
-        "date": "2026-11-05",
-        "exitDate": "2026-11-11",
-        "pct": 9.78
-      },
-      {
-        "t": "FSLR",
-        "side": "short",
-        "entry": 194.38999938964844,
-        "exit": 177.3,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-11",
-        "pct": 8.79
-      },
-      {
-        "t": "ACHR",
-        "side": "short",
-        "entry": 4.579999923706055,
-        "exit": 4.87,
-        "date": "2026-11-10",
-        "exitDate": "2026-11-11",
-        "pct": -6.33
-      },
-      {
-        "t": "JPM",
-        "side": "short",
-        "entry": 341.43499755859375,
-        "exit": 343.22,
-        "date": "2026-11-02",
-        "exitDate": "2026-11-10",
-        "pct": -0.52
-      },
-      {
-        "t": "AXP",
-        "side": "short",
-        "entry": 327.31500244140625,
-        "exit": 326.66,
-        "date": "2026-11-02",
-        "exitDate": "2026-11-10",
-        "pct": 0.2
-      },
-      {
-        "t": "USB",
-        "side": "short",
-        "entry": 60.349998474121094,
-        "exit": 60.76,
-        "date": "2026-11-02",
-        "exitDate": "2026-11-10",
-        "pct": -0.68
-      },
-      {
-        "t": "CCL",
-        "side": "short",
-        "entry": 30.0049991607666,
-        "exit": 30.675,
-        "date": "2026-11-02",
-        "exitDate": "2026-11-10",
-        "pct": -2.23
-      },
-      {
-        "t": "LRCX",
-        "side": "long",
-        "entry": 199.41000366210938,
-        "exit": 227.38,
-        "date": "2026-11-05",
-        "exitDate": "2026-11-10",
-        "pct": 14.03
-      },
-      {
-        "t": "LLY",
-        "side": "short",
-        "entry": 1371.1402587890625,
-        "exit": 1418.935,
-        "date": "2026-11-06",
-        "exitDate": "2026-11-10",
-        "pct": -3.49
       }
     ],
     "supertrend": [
@@ -32874,6 +32887,114 @@
       }
     ],
     "ta": [
+      {
+        "t": "VLO",
+        "side": "long",
+        "entry": 358.92498779296875,
+        "exit": 347.658,
+        "date": "2026-11-11",
+        "exitDate": "2026-11-18",
+        "pct": -3.14
+      },
+      {
+        "t": "CRWD",
+        "side": "long",
+        "entry": 221.4199981689453,
+        "exit": 228.535,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 3.21
+      },
+      {
+        "t": "PLTR",
+        "side": "long",
+        "entry": 163.02000427246094,
+        "exit": 157.25,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -3.54
+      },
+      {
+        "t": "DE",
+        "side": "long",
+        "entry": 666.260009765625,
+        "exit": 641.945,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -3.65
+      },
+      {
+        "t": "CLF",
+        "side": "long",
+        "entry": 12.4399995803833,
+        "exit": 11.725,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -5.75
+      },
+      {
+        "t": "XLB",
+        "side": "long",
+        "entry": 52.060001373291016,
+        "exit": 50.37,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -3.25
+      },
+      {
+        "t": "CRM",
+        "side": "long",
+        "entry": 199.5,
+        "exit": 188.525,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -5.5
+      },
+      {
+        "t": "PANW",
+        "side": "long",
+        "entry": 304.79998779296875,
+        "exit": 328.56,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 7.8
+      },
+      {
+        "t": "ZS",
+        "side": "long",
+        "entry": 182.6999969482422,
+        "exit": 190.904,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 4.49
+      },
+      {
+        "t": "WFC",
+        "side": "long",
+        "entry": 84.0999984741211,
+        "exit": 81.415,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -3.19
+      },
+      {
+        "t": "SPGI",
+        "side": "long",
+        "entry": 458.9100036621094,
+        "exit": 442.42,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -3.59
+      },
+      {
+        "t": "VLO",
+        "side": "long",
+        "entry": 369.1400146484375,
+        "exit": 348.86,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -5.49
+      },
       {
         "t": "CVX",
         "side": "long",
@@ -33305,114 +33426,6 @@
         "date": "2026-11-11",
         "exitDate": "2026-11-13",
         "pct": 3.02
-      },
-      {
-        "t": "HD",
-        "side": "long",
-        "entry": 346.3900146484375,
-        "exit": 344.985,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": -0.41
-      },
-      {
-        "t": "MRK",
-        "side": "long",
-        "entry": 145.875,
-        "exit": 145.975,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-13",
-        "pct": 0.07
-      },
-      {
-        "t": "UAL",
-        "side": "long",
-        "entry": 115.11000061035156,
-        "exit": 111.2,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": -3.4
-      },
-      {
-        "t": "RCL",
-        "side": "long",
-        "entry": 332.7699890136719,
-        "exit": 319.045,
-        "date": "2026-11-12",
-        "exitDate": "2026-11-13",
-        "pct": -4.12
-      },
-      {
-        "t": "PANW",
-        "side": "long",
-        "entry": 317.375,
-        "exit": 318,
-        "date": "2026-11-05",
-        "exitDate": "2026-11-12",
-        "pct": 0.2
-      },
-      {
-        "t": "CRWD",
-        "side": "long",
-        "entry": 217.2899932861328,
-        "exit": 224.055,
-        "date": "2026-11-05",
-        "exitDate": "2026-11-12",
-        "pct": 3.11
-      },
-      {
-        "t": "ABBV",
-        "side": "long",
-        "entry": 287.5299987792969,
-        "exit": 297.185,
-        "date": "2026-11-06",
-        "exitDate": "2026-11-12",
-        "pct": 3.36
-      },
-      {
-        "t": "EOG",
-        "side": "long",
-        "entry": 146.77000427246094,
-        "exit": 155.2,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": 5.74
-      },
-      {
-        "t": "COST",
-        "side": "long",
-        "entry": 1052.1500244140625,
-        "exit": 1096.52,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": 4.22
-      },
-      {
-        "t": "USO",
-        "side": "long",
-        "entry": 143.9199981689453,
-        "exit": 142.73,
-        "date": "2026-11-09",
-        "exitDate": "2026-11-12",
-        "pct": -0.83
-      },
-      {
-        "t": "NEM",
-        "side": "long",
-        "entry": 119.30000305175781,
-        "exit": 114.17,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-12",
-        "pct": -4.3
-      },
-      {
-        "t": "ZS",
-        "side": "long",
-        "entry": 198.76499938964844,
-        "exit": 188.845,
-        "date": "2026-11-11",
-        "exitDate": "2026-11-12",
-        "pct": -4.99
       }
     ],
     "tariff_impact": [
@@ -33959,6 +33972,177 @@
     ],
     "threedown": [
       {
+        "t": "TMO",
+        "side": "long",
+        "entry": 699.1099853515625,
+        "exit": 685.2000122070312,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": -1.99
+      },
+      {
+        "t": "USB",
+        "side": "long",
+        "entry": 60.375,
+        "exit": 58.67499923706055,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": -2.82
+      },
+      {
+        "t": "ZS",
+        "side": "long",
+        "entry": 188.22999572753906,
+        "exit": 191.625,
+        "date": "2026-11-12",
+        "exitDate": "2026-11-18",
+        "pct": 1.8
+      },
+      {
+        "t": "DHR",
+        "side": "long",
+        "entry": 230.38999938964844,
+        "exit": 226.31500244140625,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": -1.77
+      },
+      {
+        "t": "GD",
+        "side": "long",
+        "entry": 361.1650085449219,
+        "exit": 349.1724853515625,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": -3.32
+      },
+      {
+        "t": "AMC",
+        "side": "long",
+        "entry": 3.280100107192993,
+        "exit": 3.299999952316284,
+        "date": "2026-11-13",
+        "exitDate": "2026-11-18",
+        "pct": 0.61
+      },
+      {
+        "t": "DE",
+        "side": "long",
+        "entry": 667.4400024414062,
+        "exit": 646.6799926757812,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -3.11
+      },
+      {
+        "t": "PANW",
+        "side": "long",
+        "entry": 313.4371032714844,
+        "exit": 329.0050048828125,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": 4.97
+      },
+      {
+        "t": "PLTR",
+        "side": "long",
+        "entry": 161.41000366210938,
+        "exit": 157.0749969482422,
+        "date": "2026-11-16",
+        "exitDate": "2026-11-18",
+        "pct": -2.69
+      },
+      {
+        "t": "VRTX",
+        "side": "long",
+        "entry": 530.5349731445312,
+        "exit": 535.6699829101562,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 0.97
+      },
+      {
+        "t": "CSX",
+        "side": "long",
+        "entry": 51.40010070800781,
+        "exit": 51.45000076293945,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 0.1
+      },
+      {
+        "t": "CRWD",
+        "side": "long",
+        "entry": 217.58999633789062,
+        "exit": 229.57000732421875,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 5.51
+      },
+      {
+        "t": "SNOW",
+        "side": "long",
+        "entry": 269.9200134277344,
+        "exit": 277.37249755859375,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 2.76
+      },
+      {
+        "t": "NET",
+        "side": "long",
+        "entry": 284.3999938964844,
+        "exit": 297.1099853515625,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 4.47
+      },
+      {
+        "t": "CHPT",
+        "side": "long",
+        "entry": 9.71500015258789,
+        "exit": 10.09000015258789,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 3.86
+      },
+      {
+        "t": "AMD",
+        "side": "long",
+        "entry": 502.44219970703125,
+        "exit": 513.7849731445312,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 2.26
+      },
+      {
+        "t": "TEAM",
+        "side": "long",
+        "entry": 142.39999389648438,
+        "exit": 136.2550048828125,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -4.32
+      },
+      {
+        "t": "S",
+        "side": "long",
+        "entry": 20.8799991607666,
+        "exit": 22.6299991607666,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 8.38
+      },
+      {
+        "t": "ESTC",
+        "side": "long",
+        "entry": 81.43000030517578,
+        "exit": 82.05999755859375,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": 0.77
+      },
+      {
         "t": "PENN",
         "side": "long",
         "entry": 17.770000457763672,
@@ -34326,177 +34510,6 @@
         "date": "2026-11-09",
         "exitDate": "2026-11-10",
         "pct": 0.76
-      },
-      {
-        "t": "REGN",
-        "side": "long",
-        "entry": 902.6400146484375,
-        "exit": 906.760009765625,
-        "date": "2026-11-06",
-        "exitDate": "2026-11-09",
-        "pct": 0.46
-      },
-      {
-        "t": "LMT",
-        "side": "long",
-        "entry": 569.5,
-        "exit": 578.9299926757812,
-        "date": "2026-11-06",
-        "exitDate": "2026-11-09",
-        "pct": 1.66
-      },
-      {
-        "t": "TXN",
-        "side": "long",
-        "entry": 276.82501220703125,
-        "exit": 288.4200134277344,
-        "date": "2026-11-06",
-        "exitDate": "2026-11-09",
-        "pct": 4.19
-      },
-      {
-        "t": "TEAM",
-        "side": "long",
-        "entry": 156.22999572753906,
-        "exit": 150.4550018310547,
-        "date": "2026-11-06",
-        "exitDate": "2026-11-09",
-        "pct": -3.7
-      },
-      {
-        "t": "DE",
-        "side": "long",
-        "entry": 659.1400146484375,
-        "exit": 674.989990234375,
-        "date": "2026-11-04",
-        "exitDate": "2026-11-06",
-        "pct": 2.4
-      },
-      {
-        "t": "PANW",
-        "side": "long",
-        "entry": 320.4700012207031,
-        "exit": 321.7250061035156,
-        "date": "2026-11-05",
-        "exitDate": "2026-11-06",
-        "pct": 0.39
-      },
-      {
-        "t": "ESTC",
-        "side": "long",
-        "entry": 84.80000305175781,
-        "exit": 86.31500244140625,
-        "date": "2026-11-05",
-        "exitDate": "2026-11-06",
-        "pct": 1.79
-      },
-      {
-        "t": "PLTR",
-        "side": "long",
-        "entry": 155.875,
-        "exit": 162.0500030517578,
-        "date": "2026-11-05",
-        "exitDate": "2026-11-06",
-        "pct": 3.96
-      },
-      {
-        "t": "CSX",
-        "side": "long",
-        "entry": 51.150001525878906,
-        "exit": 52.290000915527344,
-        "date": "2026-11-03",
-        "exitDate": "2026-11-05",
-        "pct": 2.23
-      },
-      {
-        "t": "ABBV",
-        "side": "long",
-        "entry": 284.8500061035156,
-        "exit": 301.3699951171875,
-        "date": "2026-11-04",
-        "exitDate": "2026-11-05",
-        "pct": 5.8
-      },
-      {
-        "t": "CVX",
-        "side": "long",
-        "entry": 219.75,
-        "exit": 220.25999450683594,
-        "date": "2026-11-04",
-        "exitDate": "2026-11-05",
-        "pct": 0.23
-      },
-      {
-        "t": "XOM",
-        "side": "long",
-        "entry": 172.25999450683594,
-        "exit": 171.71499633789062,
-        "date": "2026-11-04",
-        "exitDate": "2026-11-05",
-        "pct": -0.32
-      },
-      {
-        "t": "COP",
-        "side": "long",
-        "entry": 140.31500244140625,
-        "exit": 139.72500610351562,
-        "date": "2026-11-04",
-        "exitDate": "2026-11-05",
-        "pct": -0.42
-      },
-      {
-        "t": "EOG",
-        "side": "long",
-        "entry": 150.48500061035156,
-        "exit": 150.0601043701172,
-        "date": "2026-11-04",
-        "exitDate": "2026-11-05",
-        "pct": -0.28
-      },
-      {
-        "t": "PD",
-        "side": "long",
-        "entry": 16.889999389648438,
-        "exit": 17.299999237060547,
-        "date": "2026-11-02",
-        "exitDate": "2026-11-04",
-        "pct": 2.43
-      },
-      {
-        "t": "PATH",
-        "side": "long",
-        "entry": 13.609999656677246,
-        "exit": 13.765000343322754,
-        "date": "2026-11-02",
-        "exitDate": "2026-11-04",
-        "pct": 1.14
-      },
-      {
-        "t": "ZM",
-        "side": "long",
-        "entry": 93.79000091552734,
-        "exit": 95.6500015258789,
-        "date": "2026-11-02",
-        "exitDate": "2026-11-04",
-        "pct": 1.98
-      },
-      {
-        "t": "JNJ",
-        "side": "long",
-        "entry": 269.614990234375,
-        "exit": 268.5400085449219,
-        "date": "2026-11-03",
-        "exitDate": "2026-11-04",
-        "pct": -0.4
-      },
-      {
-        "t": "IBM",
-        "side": "long",
-        "entry": 249.63999938964844,
-        "exit": 256.57000732421875,
-        "date": "2026-11-03",
-        "exitDate": "2026-11-04",
-        "pct": 2.78
       }
     ],
     "v3_winners": [
@@ -34673,6 +34686,33 @@
       }
     ],
     "vulture": [
+      {
+        "t": "SHOP",
+        "side": "short",
+        "entry": 143.77999877929688,
+        "exit": 141.07,
+        "date": "2026-11-03",
+        "exitDate": "2026-11-18",
+        "pct": 1.88
+      },
+      {
+        "t": "TEAM",
+        "side": "short",
+        "entry": 152.99000549316406,
+        "exit": 136.29,
+        "date": "2026-11-06",
+        "exitDate": "2026-11-18",
+        "pct": 10.92
+      },
+      {
+        "t": "ZS",
+        "side": "short",
+        "entry": 181.3699951171875,
+        "exit": 192.48,
+        "date": "2026-11-17",
+        "exitDate": "2026-11-18",
+        "pct": -6.13
+      },
       {
         "t": "SNAP",
         "side": "short",
@@ -35185,33 +35225,6 @@
         "date": "2026-09-09",
         "exitDate": "2026-09-15",
         "pct": -5.55
-      },
-      {
-        "t": "META",
-        "side": "short",
-        "entry": 587.5349731445312,
-        "exit": 543.6,
-        "date": "2026-08-05",
-        "exitDate": "2026-08-20",
-        "pct": 7.48
-      },
-      {
-        "t": "COIN",
-        "side": "short",
-        "entry": 149.97999572753906,
-        "exit": 160.385,
-        "date": "2026-08-05",
-        "exitDate": "2026-08-19",
-        "pct": -6.94
-      },
-      {
-        "t": "MRNA",
-        "side": "short",
-        "entry": 56.97999954223633,
-        "exit": 60.22,
-        "date": "2026-07-23",
-        "exitDate": "2026-08-10",
-        "pct": -5.69
       }
     ],
     "weekend": [
@@ -35434,6 +35447,15 @@
         "pct": -7.14
       },
       {
+        "t": "DRI",
+        "side": "long",
+        "entry": 219.07,
+        "exit": null,
+        "date": "2026-10-29",
+        "exitDate": "",
+        "pct": 7.17
+      },
+      {
         "t": "BJRI",
         "side": "long",
         "entry": 61.385,
@@ -35444,6 +35466,15 @@
       }
     ],
     "wiki": [
+      {
+        "t": "GM",
+        "side": "short",
+        "entry": 88.77,
+        "exit": 83.56,
+        "date": "2026-11-03",
+        "exitDate": "2026-11-18",
+        "pct": 5.87
+      },
       {
         "t": "COST",
         "side": "short",
@@ -36207,59 +36238,59 @@
     ]
   },
   "swingAnalysis": {
-    "asOf": "2026-11-18",
-    "trades": 31483,
+    "asOf": "2026-11-19",
+    "trades": 31700,
     "house": {
-      "n": 31483,
-      "w": 15271,
-      "l": 16212,
+      "n": 31700,
+      "w": 15364,
+      "l": 16336,
       "avg": 0.1,
-      "avgWin": 4.73,
-      "avgLoss": -4.26,
-      "pf": 1.05
+      "avgWin": 4.74,
+      "avgLoss": -4.27,
+      "pf": 1.04
     },
     "medHold": 3,
     "bySide": {
       "long": {
-        "n": 21363,
-        "w": 10501,
-        "l": 10862,
-        "avg": 0.23,
+        "n": 21487,
+        "w": 10539,
+        "l": 10948,
+        "avg": 0.22,
         "avgWin": 4.8,
-        "avgLoss": -4.18,
-        "pf": 1.11
+        "avgLoss": -4.19,
+        "pf": 1.1
       },
       "short": {
-        "n": 9922,
-        "w": 4665,
-        "l": 5257,
-        "avg": -0.18,
-        "avgWin": 4.65,
-        "avgLoss": -4.46,
-        "pf": 0.92
+        "n": 10013,
+        "w": 4720,
+        "l": 5293,
+        "avg": -0.17,
+        "avgWin": 4.66,
+        "avgLoss": -4.47,
+        "pf": 0.93
       }
     },
     "byExit": [
       {
         "k": "TARGET",
         "a": {
-          "n": 9560,
-          "w": 9338,
-          "l": 222,
-          "avg": 5.65,
-          "avgWin": 6.05,
-          "avgLoss": -11.21,
-          "pf": 22.7
+          "n": 9647,
+          "w": 9415,
+          "l": 232,
+          "avg": 5.63,
+          "avgWin": 6.04,
+          "avgLoss": -11.14,
+          "pf": 22.02
         }
       },
       {
         "k": "STOPPED",
         "a": {
-          "n": 9533,
-          "w": 255,
-          "l": 9278,
+          "n": 9610,
+          "w": 257,
+          "l": 9353,
           "avg": -4.96,
-          "avgWin": 12.34,
+          "avgWin": 12.32,
           "avgLoss": -5.43,
           "pf": 0.06
         }
@@ -36267,13 +36298,13 @@
       {
         "k": "EXPIRED",
         "a": {
-          "n": 6344,
-          "w": 3409,
-          "l": 2935,
+          "n": 6368,
+          "w": 3416,
+          "l": 2952,
           "avg": 0.23,
           "avgWin": 1.71,
-          "avgLoss": -1.48,
-          "pf": 1.34
+          "avgLoss": -1.49,
+          "pf": 1.33
         }
       },
       {
@@ -36291,48 +36322,48 @@
       {
         "k": "TRAIL_STOP",
         "a": {
-          "n": 1049,
-          "w": 505,
-          "l": 544,
+          "n": 1060,
+          "w": 509,
+          "l": 551,
           "avg": -0.14,
           "avgWin": 1.26,
           "avgLoss": -1.44,
-          "pf": 0.82
+          "pf": 0.81
         }
       },
       {
         "k": "(none)",
         "a": {
-          "n": 986,
+          "n": 990,
           "w": 479,
-          "l": 507,
-          "avg": -0.36,
-          "avgWin": 3.58,
-          "avgLoss": -4.08,
-          "pf": 0.83
+          "l": 511,
+          "avg": -0.39,
+          "avgWin": 3.57,
+          "avgLoss": -4.11,
+          "pf": 0.82
         }
       },
       {
         "k": "FIRST_UP",
         "a": {
-          "n": 471,
+          "n": 473,
           "w": 269,
-          "l": 202,
-          "avg": 0.48,
+          "l": 204,
+          "avg": 0.47,
           "avgWin": 1.55,
-          "avgLoss": -0.94,
-          "pf": 2.18
+          "avgLoss": -0.96,
+          "pf": 2.13
         }
       },
       {
         "k": "STOP",
         "a": {
-          "n": 390,
+          "n": 394,
           "w": 32,
-          "l": 358,
+          "l": 362,
           "avg": -4.73,
           "avgWin": 8.16,
-          "avgLoss": -5.88,
+          "avgLoss": -5.87,
           "pf": 0.12
         }
       }
@@ -36341,12 +36372,12 @@
       {
         "k": "BULL_HIGH_VOL",
         "a": {
-          "n": 4963,
-          "w": 2317,
-          "l": 2646,
+          "n": 4968,
+          "w": 2319,
+          "l": 2649,
           "avg": -0.19,
-          "avgWin": 4.13,
-          "avgLoss": -3.98,
+          "avgWin": 4.14,
+          "avgLoss": -3.97,
           "pf": 0.91
         }
       },
@@ -36365,13 +36396,13 @@
       {
         "k": "SIDEWAYS",
         "a": {
-          "n": 852,
-          "w": 413,
-          "l": 439,
-          "avg": -0.17,
+          "n": 916,
+          "w": 445,
+          "l": 471,
+          "avg": -0.13,
           "avgWin": 4.37,
-          "avgLoss": -4.44,
-          "pf": 0.92
+          "avgLoss": -4.39,
+          "pf": 0.94
         }
       },
       {
@@ -36389,13 +36420,13 @@
       {
         "k": "CHOPPY",
         "a": {
-          "n": 266,
-          "w": 152,
-          "l": 114,
-          "avg": 1.64,
+          "n": 276,
+          "w": 156,
+          "l": 120,
+          "avg": 1.57,
           "avgWin": 6.86,
-          "avgLoss": -5.33,
-          "pf": 1.72
+          "avgLoss": -5.32,
+          "pf": 1.68
         }
       }
     ],
@@ -36403,46 +36434,46 @@
       {
         "k": "Mon",
         "a": {
-          "n": 6733,
-          "w": 3187,
-          "l": 3546,
-          "avg": -0.13,
+          "n": 6786,
+          "w": 3208,
+          "l": 3578,
+          "avg": -0.15,
           "avgWin": 4.68,
-          "avgLoss": -4.45,
-          "pf": 0.95
+          "avgLoss": -4.48,
+          "pf": 0.94
         }
       },
       {
         "k": "Tue",
         "a": {
-          "n": 6324,
-          "w": 3012,
-          "l": 3312,
+          "n": 6429,
+          "w": 3061,
+          "l": 3368,
           "avg": -0.17,
-          "avgWin": 4.46,
-          "avgLoss": -4.38,
+          "avgWin": 4.47,
+          "avgLoss": -4.39,
           "pf": 0.93
         }
       },
       {
         "k": "Wed",
         "a": {
-          "n": 5833,
-          "w": 2927,
-          "l": 2906,
-          "avg": 0.1,
+          "n": 5848,
+          "w": 2928,
+          "l": 2920,
+          "avg": 0.09,
           "avgWin": 4.57,
           "avgLoss": -4.4,
-          "pf": 1.05
+          "pf": 1.04
         }
       },
       {
         "k": "Thu",
         "a": {
-          "n": 6623,
-          "w": 3268,
-          "l": 3355,
-          "avg": 0.06,
+          "n": 6641,
+          "w": 3280,
+          "l": 3361,
+          "avg": 0.07,
           "avgWin": 4.41,
           "avgLoss": -4.18,
           "pf": 1.03
@@ -36451,11 +36482,11 @@
       {
         "k": "Fri",
         "a": {
-          "n": 5636,
-          "w": 2709,
-          "l": 2927,
+          "n": 5655,
+          "w": 2716,
+          "l": 2939,
           "avg": 0.71,
-          "avgWin": 5.66,
+          "avgWin": 5.68,
           "avgLoss": -3.87,
           "pf": 1.35
         }
@@ -36465,35 +36496,35 @@
       {
         "k": "\u003C=1d",
         "a": {
-          "n": 7027,
-          "w": 3514,
-          "l": 3513,
+          "n": 7109,
+          "w": 3552,
+          "l": 3557,
           "avg": -0.01,
-          "avgWin": 5.04,
-          "avgLoss": -5.05,
+          "avgWin": 5.03,
+          "avgLoss": -5.04,
           "pf": 1
         }
       },
       {
         "k": "1-3d",
         "a": {
-          "n": 8617,
-          "w": 3937,
-          "l": 4680,
-          "avg": -0.3,
+          "n": 8661,
+          "w": 3957,
+          "l": 4704,
+          "avg": -0.31,
           "avgWin": 4.19,
-          "avgLoss": -4.08,
+          "avgLoss": -4.1,
           "pf": 0.86
         }
       },
       {
         "k": "3-10d",
         "a": {
-          "n": 12829,
-          "w": 6378,
-          "l": 6451,
+          "n": 12881,
+          "w": 6401,
+          "l": 6480,
           "avg": 0.07,
-          "avgWin": 3.93,
+          "avgWin": 3.94,
           "avgLoss": -3.74,
           "pf": 1.04
         }
@@ -36501,13 +36532,13 @@
       {
         "k": "\u003E10d",
         "a": {
-          "n": 975,
-          "w": 485,
-          "l": 490,
-          "avg": 0.33,
-          "avgWin": 4.2,
+          "n": 981,
+          "w": 489,
+          "l": 492,
+          "avg": 0.36,
+          "avgWin": 4.24,
           "avgLoss": -3.5,
-          "pf": 1.19
+          "pf": 1.2
         }
       }
     ],
@@ -36515,24 +36546,24 @@
       {
         "t": "AMD",
         "a": {
-          "n": 481,
-          "w": 222,
+          "n": 483,
+          "w": 224,
           "l": 259,
-          "avg": -0.08,
-          "avgWin": 6.15,
+          "avg": -0.07,
+          "avgWin": 6.11,
           "avgLoss": -5.41,
-          "pf": 0.97
+          "pf": 0.98
         }
       },
       {
         "t": "MU",
         "a": {
-          "n": 475,
-          "w": 232,
-          "l": 243,
-          "avg": 0.14,
-          "avgWin": 6.11,
-          "avgLoss": -5.56,
+          "n": 477,
+          "w": 233,
+          "l": 244,
+          "avg": 0.13,
+          "avgWin": 6.09,
+          "avgLoss": -5.55,
           "pf": 1.05
         }
       },
@@ -36551,11 +36582,11 @@
       {
         "t": "ARM",
         "a": {
-          "n": 451,
-          "w": 199,
-          "l": 252,
+          "n": 453,
+          "w": 200,
+          "l": 253,
           "avg": -0.2,
-          "avgWin": 7.19,
+          "avgWin": 7.18,
           "avgLoss": -6.04,
           "pf": 0.94
         }
@@ -36563,49 +36594,61 @@
       {
         "t": "SMCI",
         "a": {
-          "n": 375,
+          "n": 376,
           "w": 173,
-          "l": 202,
-          "avg": -0.74,
+          "l": 203,
+          "avg": -0.75,
           "avgWin": 6.81,
-          "avgLoss": -7.22,
+          "avgLoss": -7.19,
           "pf": 0.81
         }
       },
       {
         "t": "CRM",
         "a": {
-          "n": 368,
+          "n": 373,
           "w": 185,
-          "l": 183,
-          "avg": 0.52,
+          "l": 188,
+          "avg": 0.44,
           "avgWin": 4.66,
-          "avgLoss": -3.67,
-          "pf": 1.28
+          "avgLoss": -3.72,
+          "pf": 1.23
         }
       },
       {
         "t": "PLTR",
         "a": {
-          "n": 352,
+          "n": 354,
           "w": 171,
-          "l": 181,
-          "avg": 0.16,
+          "l": 183,
+          "avg": 0.14,
           "avgWin": 5.26,
-          "avgLoss": -4.66,
-          "pf": 1.07
+          "avgLoss": -4.64,
+          "pf": 1.06
         }
       },
       {
         "t": "COIN",
         "a": {
-          "n": 341,
-          "w": 163,
-          "l": 178,
-          "avg": -0.1,
+          "n": 344,
+          "w": 164,
+          "l": 180,
+          "avg": -0.11,
           "avgWin": 5.06,
           "avgLoss": -4.83,
-          "pf": 0.96
+          "pf": 0.95
+        }
+      },
+      {
+        "t": "CRWD",
+        "a": {
+          "n": 341,
+          "w": 159,
+          "l": 182,
+          "avg": -0.89,
+          "avgWin": 5.12,
+          "avgLoss": -6.13,
+          "pf": 0.73
         }
       },
       {
@@ -36618,18 +36661,6 @@
           "avgWin": 3.02,
           "avgLoss": -3.48,
           "pf": 0.79
-        }
-      },
-      {
-        "t": "AMZN",
-        "a": {
-          "n": 336,
-          "w": 149,
-          "l": 187,
-          "avg": -0.42,
-          "avgWin": 2.44,
-          "avgLoss": -2.7,
-          "pf": 0.72
         }
       }
     ],
@@ -36661,25 +36692,25 @@
       {
         "k": "sentiment_v5",
         "a": {
-          "n": 146,
+          "n": 147,
           "w": 76,
-          "l": 70,
-          "avg": 3.09,
+          "l": 71,
+          "avg": 3.03,
           "avgWin": 10.72,
-          "avgLoss": -5.19,
-          "pf": 2.24
+          "avgLoss": -5.21,
+          "pf": 2.2
         }
       },
       {
         "k": "ceo_linkedin",
         "a": {
-          "n": 373,
+          "n": 382,
           "w": 168,
-          "l": 205,
-          "avg": 1.49,
+          "l": 214,
+          "avg": 1.28,
           "avgWin": 13.1,
-          "avgLoss": -8.02,
-          "pf": 1.34
+          "avgLoss": -8,
+          "pf": 1.29
         }
       },
       {
@@ -36709,6 +36740,30 @@
     ],
     "worst": [
       {
+        "k": "pead",
+        "a": {
+          "n": 148,
+          "w": 58,
+          "l": 90,
+          "avg": -0.57,
+          "avgWin": 9.18,
+          "avgLoss": -6.86,
+          "pf": 0.86
+        }
+      },
+      {
+        "k": "fda_calendar",
+        "a": {
+          "n": 146,
+          "w": 54,
+          "l": 92,
+          "avg": -0.6,
+          "avgWin": 11.17,
+          "avgLoss": -7.5,
+          "pf": 0.87
+        }
+      },
+      {
         "k": "cassandra",
         "a": {
           "n": 291,
@@ -36721,39 +36776,15 @@
         }
       },
       {
-        "k": "pead",
-        "a": {
-          "n": 144,
-          "w": 56,
-          "l": 88,
-          "avg": -0.7,
-          "avgWin": 8.95,
-          "avgLoss": -6.84,
-          "pf": 0.83
-        }
-      },
-      {
-        "k": "fda_calendar",
-        "a": {
-          "n": 143,
-          "w": 52,
-          "l": 91,
-          "avg": -0.78,
-          "avgWin": 11.11,
-          "avgLoss": -7.57,
-          "pf": 0.84
-        }
-      },
-      {
         "k": "vulture",
         "a": {
-          "n": 157,
-          "w": 69,
-          "l": 88,
-          "avg": -0.82,
-          "avgWin": 7.98,
-          "avgLoss": -7.72,
-          "pf": 0.81
+          "n": 160,
+          "w": 71,
+          "l": 89,
+          "avg": -0.76,
+          "avgWin": 7.94,
+          "avgLoss": -7.7,
+          "pf": 0.82
         }
       },
       {
@@ -36783,72 +36814,72 @@
     ]
   },
   "records": {
-    "aggregator": "3-2",
-    "altdata": "21-20",
-    "buyback_timing": "15-24",
-    "cassandra": "18-23",
-    "ceo_linkedin": "20-21",
-    "chameleon": "22-19",
-    "cobra": "5-11",
-    "coiled": "14-27",
+    "aggregator": "4-2",
+    "altdata": "21-21",
+    "buyback_timing": "16-24",
+    "cassandra": "19-23",
+    "ceo_linkedin": "21-21",
+    "chameleon": "23-19",
+    "cobra": "6-11",
+    "coiled": "14-28",
     "corrbreak": "7-4",
-    "daily": "18-23",
+    "daily": "18-24",
     "darkpool": "9-2",
     "divcap": "5-5",
     "donchian": "0-2",
     "dualmomentum": "17-15",
-    "earnings__whisper": "21-20",
-    "electricity": "17-12",
-    "elite": "20-21",
-    "fda_calendar": "17-24",
-    "filing": "3-3",
+    "earnings__whisper": "21-21",
+    "electricity": "17-13",
+    "elite": "20-22",
+    "fda_calendar": "17-25",
+    "filing": "3-4",
     "fridaymon": "10-7",
     "gapfill": "21-15",
-    "golden_stack": "13-13",
-    "household": "22-19",
+    "golden_stack": "13-14",
+    "household": "22-20",
     "ichimoku": "18-17",
-    "inverse_stc": "20-21",
+    "inverse_stc": "21-21",
     "kestrel_connors_r3": "6-10",
     "kestrel_connors_tps": "16-21",
-    "kestrel_ibs_mean_rev": "21-20",
-    "kestrel_nr7_breakout": "7-19",
+    "kestrel_ibs_mean_rev": "21-21",
+    "kestrel_nr7_breakout": "7-20",
     "kestrel_oops_reversa": "16-11",
     "leader_pullback": "1-1",
-    "macro": "20-21",
+    "macro": "20-22",
     "momentum": "4-3",
-    "multi_winners_connor": "18-23",
-    "multi_winners_ibs_me": "22-19",
-    "multi_winners_nr7_br": "23-18",
-    "multi_winners_oops_r": "24-17",
-    "onepct": "20-21",
-    "onepct_2": "25-16",
-    "onepct_v3": "22-19",
-    "onepct_v3_2": "17-24",
-    "onepct_v3_ascendent": "19-23",
-    "options_flow": "19-22",
-    "options_flow_v2": "20-21",
-    "oracle": "20-21",
-    "pead": "18-21",
+    "multi_winners_connor": "19-23",
+    "multi_winners_ibs_me": "22-20",
+    "multi_winners_nr7_br": "23-19",
+    "multi_winners_oops_r": "24-18",
+    "onepct": "21-21",
+    "onepct_2": "25-17",
+    "onepct_v3": "23-19",
+    "onepct_v3_2": "17-25",
+    "onepct_v3_ascendent": "19-24",
+    "options_flow": "20-22",
+    "options_flow_v2": "21-21",
+    "oracle": "21-21",
+    "pead": "19-21",
     "previral": "21-17",
-    "riskreversal": "24-17",
-    "scalp": "16-25",
-    "scalp_inverse": "18-23",
-    "scalp_v3": "16-23",
-    "sentiment": "4-10",
+    "riskreversal": "24-18",
+    "scalp": "16-26",
+    "scalp_inverse": "19-23",
+    "scalp_v3": "17-23",
+    "sentiment": "5-10",
     "sentiment_v5": "3-2",
     "shipping": "5-7",
-    "squeeze": "22-19",
-    "sss": "23-17",
-    "stc": "23-18",
+    "squeeze": "22-20",
+    "sss": "23-18",
+    "stc": "24-18",
     "supertrend": "2-4",
-    "ta": "19-22",
-    "tariff_impact": "20-18",
-    "threedown": "23-18",
-    "vulture": "22-15",
-    "weather": "20-21",
-    "weird": "9-12",
-    "wiki": "15-15",
-    "winnersonly": "23-18",
+    "ta": "20-22",
+    "tariff_impact": "20-19",
+    "threedown": "23-19",
+    "vulture": "23-15",
+    "weather": "20-22",
+    "weird": "10-12",
+    "wiki": "16-15",
+    "winnersonly": "23-19",
     "witching": "2-1"
   }
 }
