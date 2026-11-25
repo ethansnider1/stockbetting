@@ -1,5 +1,5 @@
 window.V3KR_DATA = {
-  "generatedAt": "2026-11-24T15:34:45Z",
+  "generatedAt": "2026-11-25T15:29:24Z",
   "totalClosed": 0,
   "totalOpen": 0,
   "winRate": 0.0,
